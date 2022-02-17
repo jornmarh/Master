@@ -1,0 +1,207 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{HEA2016}{book}{}
+      \name{author}{4}{}{%
+        {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=2e597f8bcdace90df7c5f040b49b110d}{%
+           family={Liaw},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima K},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{fullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \strng{bibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{authorbibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{authornamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{authorfullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{High-Entropy Alloys}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-27013-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-27013-5
+      \endverb
+    \endentry
+    \entry{mcsqs2013}{article}{}
+      \name{author}{10}{}{%
+        {{hash=936059e3394c7c1de6994c9fc9390009}{%
+           family={{van de Walle}},
+           familyi={v\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e6af497eb5e7220554076a8575eac35b}{%
+           family={Tiwary},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=db0c7080d29c5ff573b342e34bdda593}{%
+           family={{de Jong}},
+           familyi={d\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=79941eb389b34bbf1456f6411124c3b8}{%
+           family={Olmsted},
+           familyi={O\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=622dd7e67b7b92e9a086884d3c37386a}{%
+           family={Asta},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3fefd851967bfbd5391b2014f00a8652}{%
+           family={Dick},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=108e5df81e3ab26dd5a60071fa737a9c}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4b485cf50e318be408aaade759d720f8}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={L.-Q.},
+           giveni={L\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=7f55fb51839e6688e959d53782e802c4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.-K.},
+           giveni={Z\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{fullhash}{22c948c9c6769350030718b176711762}
+      \strng{bibnamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{authorbibnamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{authornamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{authorfullhash}{22c948c9c6769350030718b176711762}
+      \field{sortinit}{v}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a new algorithm to generate Special Quasirandom Structures (SQS), i.e., best periodic supercell approximations to the true disordered state for a given number of atoms per supercell. The method is based on a Monte Carlo simulated annealing loop with an objective function that seeks to perfectly match the maximum number of correlation functions (as opposed to merely minimizing the distance between the SQS correlation and the disordered state correlations for a pre-specified set of correlations). The proposed method optimizes the shape of the supercell jointly with the occupation of the atomic sites, thus ensuring that the configurational space searched is exhaustive and not biased by a pre-specified supercell shape. The method has been implemented in the “mcsqs” code of the Alloy Theoretic Automated Toolkit (ATAT) in the most general framework of multicomponent multisublattice systems and in a way that minimizes the amount of input information the user needs to specify and that allows for efficient parallelization.}
+      \field{issn}{0364-5916}
+      \field{journaltitle}{Calphad}
+      \field{title}{Efficient stochastic generation of special quasirandom structures}
+      \field{volume}{42}
+      \field{year}{2013}
+      \field{pages}{13\bibrangedash 18}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.calphad.2013.06.006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0364591613000540
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0364591613000540
+      \endverb
+      \keyw{Special quasirandom structures,Monte Carlo,Alloy theory,Ab initio methods,Disordered state,Solid solution}
+    \endentry
+    \entry{sqsfull}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e65013f62834bd993331961fe0467231}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={S.-H.},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=2715ebd871a97e00072582f4a5c048a2}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=f5bf1c124fce049dd5285fd30a5ab198}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4731eeb587695ea77704fc49ebd64436}{%
+           family={Zunger},
+           familyi={Z\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ddc39dbd7b995c4b26f37b085406b9f8}
+      \strng{fullhash}{e118246b66f61d7c08d68ea3484bc96a}
+      \strng{bibnamehash}{ddc39dbd7b995c4b26f37b085406b9f8}
+      \strng{authorbibnamehash}{ddc39dbd7b995c4b26f37b085406b9f8}
+      \strng{authornamehash}{ddc39dbd7b995c4b26f37b085406b9f8}
+      \strng{authorfullhash}{e118246b66f61d7c08d68ea3484bc96a}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{11}
+      \field{title}{Electronic properties of random alloys: Special quasirandom structures}
+      \field{volume}{42}
+      \field{year}{1990}
+      \field{pages}{9622\bibrangedash 9649}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.42.9622
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.42.9622
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.42.9622
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

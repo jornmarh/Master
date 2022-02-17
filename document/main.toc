@@ -1,0 +1,70 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {UKenglish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{I\hspace {1em}Theory}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}High-Entropy alloys}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Fundamentals}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Core effects}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Physical properties}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Special quasi-random Structures}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}The concept and fundamentals of SQS - Write proper later}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Mathematical formulation: Might need to expand on the definition and meaning behind terms such as clusters, figures, correlation functions etc (Add in post!)}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Results and Advances in SQS and application to high-entropy alloys}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Density-Functional Theory}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Fundamentals of DFT}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Short-comings of DFT}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Extensions of DFT}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}GGA}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}SCAN}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Hybrid Functionals}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{II\hspace {1em}Methodology and Implementation}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Applied DFT}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Introduction to VASP}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Work-flow}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}SQS implementation - TDEP}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Parameters}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Convergence}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Material}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}welcome the new high-entropy slilicides}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Fe2Si, FeSi2, MnSi175, Cr2Si etc}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}The alloys}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{III\hspace {1em}Results and Discussion}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Results of SQS}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Something}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Band gap results}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Compare and anlayze band gaps}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IV\hspace {1em}Conclusion}{20}%

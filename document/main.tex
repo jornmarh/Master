@@ -11,6 +11,9 @@
 \usepackage{textgreek}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{chemformula}
+\usepackage{cleveref}
+
 
 \raggedbottom %%reduces the gaps between the paragraphs
 
@@ -23,11 +26,13 @@
 
 \includeonly
 {
-    chapter/chapter_1,
     chapter/chapter_2,
     chapter/chapter_3,
     chapter/chapter_4,
-    chapter/chapter_5
+    chapter/chapter_5,
+    chapter/chapter_6,
+    chapter/chapter_7,
+    chapter/chapter_8
 }
 
 
@@ -37,7 +42,7 @@
   program={Master's Program Name <change at main.tex>},  %% ... or your programme
   long]                                        %% ... or long
 
-\frontmatter{}
+\frontmatter{}  
 \chapter*{Abstract}                   %% ... or Sammendrag or Samandrag
 
 \tableofcontents{}
@@ -49,19 +54,32 @@
 \mainmatter{}
 
 \chapter{Introduction}                  %% ... or Bakgrunn
+The technological revolution the last decades have been based largely on the discovery and application of new materials and alloys. Alloying materials reach back into the old civilization. But the difference today is the method of which we can apply to research and produce materials. One of which is high-entropy alloys, a novel class of materials based on alloying multiple components as opposed to the more traditional binary alloys. This offers many new possibilities, and recently there have been discovered HEA with unexpected and superior properties from the original components, such as increased strength and tear resistance \textbf{cite}. Along with the recent advancements in material informatics and numerical methods such as density functional theory, this makes for a promising foundation for researching this new class of materials. \textbf{More on the use of DFT and developments in the field.} 
+
+In this thesis, we will mainly look at the physical and electrical properties of high-entropy alloys. The primary goal of this thesis could be formulated as a search for semiconducting high-entropy alloys. Semiconductors have w wide range of applications in today's world, ranging from optical and electrical devices to renewable energy sources such as solar and thermoelectricity. Given the economic and sustainable factors concerning silicon, in addition to its role in relevant applications such as microelectronics and solar power. Silicon emerges as a natural selection to build our alloys around \textbf{Point to Mari's master and the article on HEA silicide}. Furthermore, the development and research on both high entropy alloys and metal silcides have been heavily centered around 3d transition metals. Keeping in line with the economic and environmental properties of silicon, we will thus continue this direction in this study by focusing on high entropy stabilized 3d metal silicides. Adding to this, the alloys will be based on the well known and researched silicides CrSi2, FeSi2, Fe2Si and MnSi175, as these offer a decent range of different starting properties, such as band gap, crystal structure and metal to silicon ratios. 
+
+An additional point is that most of the recent progress and studies on high-entropy alloys have been solely directed at the mechanical properties, while the physical landscape is mostly left unexplored. Building on this idea comes the overarching philosophy behind this thesis, as an attempt to employ the technology and methods we have developed today to explore the unknown, and in that image, explore materials that does not fall under any known material class. 
+
+Another key aspect of this thesis, will be to trial the ability and progress of ab inito and other numerical methods to perform qualitative studies of such complex materials. This is a key contributor to why high-entropy alloys have only emerged the last decade or so, without the aid of computational methods, would make the research of complex disordered structures very challenging. Mainly, we will observe the applicability of DFT to perform accurate measure of the band gap and structure, which historically have been a shortcoming of this theory. In addition we will apply a method called special quasi-random structures, an algorithm based on Monte Carlo simulations, to correctly model these disordered materials. And evaluate both the accuracy, reliability and the computational feasibility of this method and ab initio simulations in general.  
+
+\textbf{Something on the structure of the project and what topics will be covered.}
+\textbf{Write in particular, that this thesis will assume the reader is somewhat familiar with materials science and semiconductor physics, thus not include it in the theory section. I think? Maybe I will add it later}
+\textbf{More on recent research and findings in both silicides and HEA, as well DFT based studies, basically just the introduction of many articles placed here! Also mention the use of VASP and the term "composistional complex alloys", as this make the latter sections mores sensible} 
 
 
 \part{Theory}                    %% ... or ??
 
-\include{chapter/chapter_1}
 \include{chapter/chapter_2}
 \include{chapter/chapter_3}
+\include{chapter/chapter_4}
 
 \part{Methodology and Implementation}
-\include{chapter/chapter_4}
 \include{chapter/chapter_5}
+\include{chapter/chapter_6}
 
 \part{Results and Discussion}
+\include{chapter/chapter_7}
+\include{chapter/chapter_8}
 
 \part{Conclusion}
 
