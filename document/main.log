@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.30)  17 FEB 2022 09:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  18 FEB 2022 07:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -70,9 +70,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language37) on input line 105.
+(babel)             (\language15) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language37) on input line 108.
+(babel)             (\language15) on input line 108.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -1548,8 +1548,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  27190 strings out of 481239
- 543811 string characters out of 5920377
- 1170193 words of memory out of 5000000
+ 543811 string characters out of 5920378
+ 1170191 words of memory out of 5000000
  41900 multiletter control sequences out of 15000+600000
  582034 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
