@@ -1,12 +1,14 @@
 \chapter{Density-Functional Theory}
 \label{sec:DFT}
 
-\section{Overview of Quantum Mechanics}
+\section{Review of Quantum Mechanics}
+
+\subsection{The Shr\"{o}dinger equation}
 The Schr\"{o}dinger equation composed of the wavefunction $\Psi(\vec{r},t)$ and Hamiltonian $\hat{H}(\vec{r},t)$ where $\vec{r}$ and $t$ is the spatial position and time respectfully.
 \begin{equation}
     i\hbar\frac{\partial}{\partial t}\Psi(\vec{r}, t) = \hat{H}(\vec{r},t)\Psi(\vec{r}, t)
 \end{equation}
-The time-independent shr\"{0}dinger equation for the eigenvalues $E_k$ of the $k$-th eigenstate $\psi_k(\vec{r}$
+The time-independent shr\"{0}dinger equation for the eigenvalues $E_k$ of the $k$-th eigenvalue $\psi_k(\vec{r}$
 \begin{equation}
     \hat{H}\psi_k(\vec{r}) = E_k \psi_k(\vec{r})
 \end{equation}
@@ -18,17 +20,22 @@ Extending to a system comprised of multiple particles, we have the many-particle
     &+ \frac{1}{4\pi\epsilon_0}\sum_{\alpha=1}^{N_n}\sum_{\alpha' < \alpha}\frac{q^2Z_\alpha Z_{\alpha'}}{R_\alpha - R_{\alpha'}} - \frac{1}{4\pi\epsilon_0}\sum_{j=1}^{N_e}\sum_{\alpha=1}^{N_n}\frac{q^2Z_\alpha}{|r_j - R_\alpha|}
     \end{split}
 \end{align} 
-Challenges with solving many-particle Shr\"{o}dinger equation is i) computationally expensive, ii) need to know how $\Psi$ depends on single particle wave functions $\psi_k$. To solve this complex problem, we need approximations. Particularly Born-Oppenheimer and Harte-Fock approximations. The first makes the cleaver and reasonable assumption that since the electron mass is negligibly small in comparison to that of a nuclei, we can treat the nuclei as point charges, enabling us to divide the eigenfunction into a separate electronic and nuclear part, ie
+
+\subsection{Simplifications and approximations to solve the many-electron Shr\"{o}dinger equation}
+
+\subsubsection{Born-Oppenheimer}
+Challenges with solving many-particle Shr\"{o}dinger equation is i) computationally expensive, ii) need to know how $\Psi$ depends on single particle wavefunctions $\psi_k$. To solve this complex problem, we need approximations. Particularly Born-Oppenheimer and Harte-Fock approximations. The first makes the cleaver and reasonable assumption that since the electron mass is negligibly small in comparison to that of a nuclei, we can treat the nuclei as point charges, enabling us to divide the eigenfunction into a separate electronic and nuclear part, ie
 \begin{equation}
     \Psi_{k}^{en}(\vec{r}, \vec{R}) \approx \Psi_k(\vec{r}, \vec{R}) \Theta_k(\vec{R})
 \end{equation}
-whee we have written the complete wavefunction in terms of an electronic part $\Psi_k(\vec{r}, \vec{R})$ and nuclear part $\Theta_k(\vec{R})$. The dependencies come from the fact that electrons can respond instantaneously to new positions of the nuclei, therefore the $\vec{R}$ dependence. Writing this in terms of the Hamiltonian we get
+where we have written the complete wavefunction in terms of an electronic part $\Psi_k(\vec{r}, \vec{R})$ and nuclear part $\Theta_k(\vec{R})$. The dependencies come from the fact that electrons can respond instantaneously to new positions of the nuclei, therefore the $\vec{R}$ dependence. Writing this in terms of the Hamiltonian we get
 \begin{align}
     &\left( T_{e} + U_{ee} + U_{en} \right) \Psi_k(\vec{r}, \vec{R}) = E_k(\vec{R})\Psi_k(\vec{r}, \vec{R}) \\
     &\left( T_{n} + U_{nn} + E_k(\vec{R}) \right) \Theta(\vec{R}) = E_{k}^{en}(\vec{R})\Theta_k(\vec{r}, \vec{R}).
 \end{align}
-The two sections are interrelated through the electronic energy eigenvalue $E_k(\vec{R})$. Furthermore, the left hand side of the nuclear part can be simplified to $U_{nn} + E_k(\vec{R})$, assuming that the kinetic energy of poit charges is zero. This simplified expression for the nuclear left hand side is called for the potential energy surface (EPS).
+The two sections are interrelated through the electronic energy eigenvalue $E_k(\vec{R})$. Furthermore, the left hand side of the nuclear part can be simplified to $U_{nn} + E_k(\vec{R})$, assuming that the kinetic energy of point charges is zero. This simplified expression for the nuclear left hand side is called for the potential energy surface (EPS).
 
+\subsubsection{Hartree-Fock}
 The next step in line is to find a wavefunction that can describe all electrons in a system. This was originally done by Hartree, which assumed that electrons can be described independently and suggested the ansatz for a two-electron wavefunction
 \begin{equation}
     \Psi_k(\vec{r_1}, \vec{r_2}) = A \cdot \psi_1(\vec{r_1}) \psi_2(\vec{r_2}),
@@ -37,14 +44,95 @@ where A is the normalization constant. However this approximation does not accou
 \begin{equation}
     \Psi_k(\vec{r_1}, \vec{r_2}) = \frac{1}{\sqrt{2}} \Big( \psi_1(\vec{r_1}) \psi_2(\vec{r_2}) - \psi_1(\vec{r_2})\psi_2(\vec{r_1}) \Big)
 \end{equation}
-The variational principle states that the energy of any trial wavefunction will always be higher than the ground-state energy $E_0$, ie
+
+The Hartree-Fock (HF) approximation makes the electrons distinguishable and hence obey the Pauli exclusion principle, this means that the exchange energy is accounted for. On the other side, HF is not a complete description as it fails to model the electron correlations. 
+
+\subsubsection{The Variational principle}
+In materials science, the overarching concern is the ground-state properties of a system. This can be found efficiently and easy by whats known as the variational principle. This states that the energy of any trial wavefunction will always be higher than the ground-state energy $E_0$, ie
 \begin{equation}
     E_0 = \langle\psi_0|H|\psi_0\rangle \leq \langle\psi|H|\psi\rangle = E
 \end{equation}
 This enable us to find the ground state energy and corresponding wavefunction by a minimization technique. Next, we will present the basics of the density functional theory for how these equations can be solved numerically and efficiently in order to study real materials and systems.
 
-\section{DFT}
+\section{Fundamentals of Density-Functional Theory}
+The density functional theory was developed by Hohenberg and Kohn in 1964 and revolved around the fact that the ground-state density can be expressed in terms of the ground-state wavefunction. We have
+\begin{equation}
+    n_0(r) = |\Psi_0(r)|,
+\end{equation}
+furthermore the theorem states that all ground-state physical properties can be found as unique functionals of the ground-state density. The biggest upside of this, is that instead of trying to solve the many-body Shr\"{o}dinger equation to obtain the ground-state wavefunction, we have reduced the computational complexity from $3N_e$ to $3$. Thus, the Hohenberg and Kohn density functional theory makes for a promising and effective method to obtain the ground-state properties of a system, given that the exact electron density functional is known. However, this is still 60 years later unknown. 
 
-\subsection{Fundamentals}
-\subsection{Results and shortcomings of DFT}
-\subsection{Extensions/advancements of DFT}
+The density functional theory build on two specific theories, called the Hohenberg-Kohn theorems. They are:
+\begin{enumerate}
+    \item For any system of interacting particles in an external potential $V_{ext}$, the density is uniquely determined.
+    \item There exists a variational principle for the energy density functional such that, if $n$ is not the electron density of the ground-state, them $E[n_0] < E[n]$.
+\end{enumerate}
+The proof behind both theorems can be found in appendix .. A direct result of the second theorem is the energy can be described as a function of the density
+\begin{equation}
+    E[n] = T[n] + U_{ee}[n] + U_{en}[n],
+\end{equation}
+where the first two terms $T[n]$ and $U_{ee}[n]$ make up the Hohenberg-Kohn functional. 
+
+We know move on to the Kohn-Sham equations, in which Kohn and Sham expressed the exact ground-state density from Hartree type wavefunctions. 
+\begin{equation}
+    \Psi(\vec{r}_1, \vec{r}_2 , .., \vec{r}{N_e}) = \psi_1^{KS}(\vec{r}_1)\psi_2^{KS}(\vec{r}_2)...\psi_{N_e}^{KS}(\vec{r}_{N_e})
+\end{equation}
+In which, $\psi_j^{KS}$ are auxiliary independent single-particle wavefunctions. We know modify the equation for total energy as a function of density defined by the second theorem, to include the single auxiliary wavefunctions and their corresponding kinetic energy and interaction energy. We get:
+\begin{equation}
+    E[n] = T_s[n] + U_s[n] + U_{en}[n] + (T[n] - T_s[n]) + (U_{ee}[n] - U_s[n]).
+\end{equation}
+with the s subscript denoting the single particle wavefunctions. The latter two terms are known as the exchange-correlation energy $E_{xc}$
+\begin{equation}
+    E_{xc}[n] = \Delta T + \Delta U
+\end{equation}
+
+This term is responsible for the many-electron interaction. The complete total energy functional can now be expressed as
+\begin{equation}
+    \begin{split}
+    E[n] &= \overbrace{\sum_j \int \psi_j^{KS*}\frac{-\hbar^2 \nabla^2}{2m}\psi_j^{KS}d\vec{r}}^{T_s[n]} + \overbrace{\frac{1}{2}\frac{1}{4\pi \epsilon_0} \int \int q^2 \frac{n(\vec{r})n(\vec{r}')}{|\vec{r} - \vec{r}'|}d\vec{r}\vec{r}'}^{U_s[n]} \\ 
+        &+ \underbrace{\int V_{en}(\vec{r}n(\vec{r})d\vec{r}}_{U_en[n]} + \underbrace{(T[n] - T_s[n]) + (U_{ee}[n] - U_s[n])}_{E_{xc}[n]}
+    \end{split}
+\end{equation}
+
+Finally we write the complete expression for the Kohn-Sham single-electron equations given an exact exchange-correlation energy and utilizing the variational principle described previously
+\begin{equation}
+    \bigg\{ -\frac{\hbar^2}{2m_e}\nabla^2_s + v_H(\vec{r}) + V_{en}(\vec{r}) + V_{xc}(\vec{r} \bigg\}\psi_s^{KS}(\vec{r}) = \epsilon_s^{KS}(\vec{r})\psi_s^{KS}(\vec{r}),
+\end{equation}
+Define $V_H$ and $V_{xc}$ and mention that the former include self interaction that can be accounted for in XC functional. Finally, the total energy of the many-electron system is defined as
+\begin{equation}
+    E[n] = \sum_j \epsilon_j^{KS} - \frac{1}{2}\frac{1}{4\pi\epsilon_0} \int \int q^2 \frac{n(\vec{r})n(\vec{r}')}{|\vec{r} - \vec{r}'|}d\vec{r}d\vec{r}' + E_{xc}[n] - \int V_{xc}(\vec{r})n(\vec{r})d\vec{r}.
+\end{equation}
+This is the fundamental working principle of the density functional theory and Kohn-Sham equations.
+
+
+\section{The exchange-correlation energy}
+\textbf{Add references and other fixes later}
+If we can find an expression for $E_{xc}[n]$ as a functional of the density, we have all the tools required to calculate the total energy of any material. Given that the physical properties of a material is strongly related to the electronic density of said material, the precision of DFT is very dependent on the type of approximation to the density is used. However there exist a compromise here, as a more precise density model is significantly more complex and costly from a computational perspective. In this section we will discuss the extensions of DFT since the original formulation in 1960, and the different approximations one can apply to the electronic density. Thereafter we will discuss the application of DFT, therein the pros and cons, successes and failures.
+
+
+The exchange-correlation functional is only exactly known for a homogeneous electron gas, however this is of limited use in real materials with a high degree of variation in the electron concentration. An improvement on this is the local density approximation (LDA), in which the electronic density is set at each position according to the homogeneous electron gas at that position, ie
+\begin{equation}
+    V_{xc}(\vec{r}) = V_{xc}^{\text{e gas}}[n(\vec{r}]
+\end{equation}
+This is seen as a successful approximation for the exchange-correlation energy in bulk materials, given that typically the electron density does not vary tremendously. However this method is not without flaws, most notably is the presence/degree of self-interaction induced from this method, from that the self-interaction term does not completely cancel out by only including the local environment of given positions. This may lead to artificial contributions to $V_{xc}$ and an overall inaccurately high electron density. The success behind this method most reliably lies in the low computational cost. 
+
+The generalized gradient approximation (GGA) extends on the concept of LDA by also including the gradient of the electron density. 
+\begin{equation}
+    V_{xc}^{GGA}(\vec{r}) = V_{xc}[n(\vec{r}), \nabla n(\vec{r})].
+\end{equation}
+GGA is good for materials with a slowly varying density, but fails with large gradients. The GGA functional is implemented in two different methods, Perdew-Wang 91 (PW91) and Perdew-Burke-Ernzerhof (PBE). 
+
+Both methods underestimate the band gap and wrongly predict the charge localization in cases of narrow bands or lattice distortion. A large part of this comes from the self-interaction of the Hartee potential. By combining the correlations and exchange of LDA/GGA with the exact exchange of the Hartree-Fock approximation, we can obtain much more precise calculations. This method was proposed by Becke and proposed as hybrid functionals, since the functional is a hybrid between the two. This method is superior in describing localized states, but comes at a significant larger computational cost. In order to reduce this cost, Heyd al et. split the Hartree-Fock exchange into short-range and long-range parts, in which calculations can adapt exact Hartree-Fock exchange for short-range (SL) and non-exact for long-range (LR). By introducing the parameter $\omega$ to adjust the order parameter of the method, we can express this method, called HSE (Heyd-Scuseria-Ernzerhof) by
+\begin{equation}
+    E_{xc}^{HSE} = \alpha E_{x}^{HF,SR}(\omega) + (1-\alpha)E_{x}^{PBE, SR}(\omega) + E_x^{PBE,LR}(\omega) + E_{c}^{PBE}
+\end{equation}
+\begin{itemize}
+    \item Explain what the different notations mean, and the success + limitations of HSE compared to LDA and GGA.
+    \item Write a paragraph on meta-GGA, such as SCAN and perhaps MBJ.
+\end{itemize}
+
+\section{Success and limitation of DFT}
+\begin{itemize}
+    \item Local minima method
+    \item Not exact $V_{xc}$, means we must compromise between accuracy and cost, and choose between the different methods for specific application. There is no one best overall method that is superior for all purposes. 
+\end{itemize}
+

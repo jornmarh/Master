@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  18 FEB 2022 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.30)  22 FEB 2022 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -70,9 +70,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language15) on input line 105.
+(babel)             (\language37) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language15) on input line 108.
+(babel)             (\language37) on input line 108.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -1493,7 +1493,7 @@ Chapter 4.
 
 
 
-]) [14] [15
+] [14] [15] [16] [17]) [18] [19
 
 
 ]
@@ -1501,7 +1501,7 @@ Chapter 4.
 
  (./chapter/chapter_5.tex
 Chapter 5.
-) [16
+) [20
 
 
 ]
@@ -1509,11 +1509,11 @@ Chapter 5.
 
  (./chapter/chapter_6.tex
 Chapter 6.
-) [17
+) [21
 
 
 
-] [18
+] [22
 
 
 ]
@@ -1521,7 +1521,7 @@ Chapter 6.
 
  (./chapter/chapter_7.tex
 Chapter 7.
-) [19
+) [23
 
 
 ]
@@ -1529,34 +1529,31 @@ Chapter 7.
 
  (./chapter/chapter_8.tex
 Chapter 8.
-) [20
+) [24
 
 
 
-] [21
+] [25
 
 
-] [22
+] [26
 
 
 ] (./main.aux (./chapter/chapter_2.aux) (./chapter/chapter_3.aux) (./chapter/ch
 apter_4.aux) (./chapter/chapter_5.aux) (./chapter/chapter_6.aux) (./chapter/cha
 pter_7.aux) (./chapter/chapter_8.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27194 strings out of 481239
- 543834 string characters out of 5920378
- 1174192 words of memory out of 5000000
- 41901 multiletter control sequences out of 15000+600000
+ 27195 strings out of 481239
+ 543847 string characters out of 5920377
+ 1175194 words of memory out of 5000000
+ 41902 multiletter control sequences out of 15000+600000
  582832 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,16n,69p,1907b,2203s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,24n,69p,1907b,2203s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1570,10 +1567,10 @@ s/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (32 pages, 222771 bytes).
+Output written on main.pdf (36 pages, 235632 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 180 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
