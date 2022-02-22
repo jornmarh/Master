@@ -1,20 +1,50 @@
 \chapter{Density-Functional Theory}
 \label{sec:DFT}
 
+\section{Overview of Quantum Mechanics}
+The Schr\"{o}dinger equation composed of the wavefunction $\Psi(\vec{r},t)$ and Hamiltonian $\hat{H}(\vec{r},t)$ where $\vec{r}$ and $t$ is the spatial position and time respectfully.
+\begin{equation}
+    i\hbar\frac{\partial}{\partial t}\Psi(\vec{r}, t) = \hat{H}(\vec{r},t)\Psi(\vec{r}, t)
+\end{equation}
+The time-independent shr\"{0}dinger equation for the eigenvalues $E_k$ of the $k$-th eigenstate $\psi_k(\vec{r}$
+\begin{equation}
+    \hat{H}\psi_k(\vec{r}) = E_k \psi_k(\vec{r})
+\end{equation}
+Extending to a system comprised of multiple particles, we have the many-particle Shr\"{o}dinger equation, involving the many-body Hamiltonian. This quantity is composed of the kinetic energy of $N_e$ electrons $T_e$, the interaction energy between electrons $U_{ee}$, the kinetic energy of $N_n$ nuclei, the coulomb interaction between nuclei $U_{nn}$, and finally the attractive interaction between nuclei and electrons $U_{en}$. In the equation bellow for the may-body equation, we use the following symbols and notation: $m_e$ = electron mass, $m_n$ = nuclei mass, $\epsilon_0$ = permittivity in vacuum, $q$ = particle charge, $\alpha$ = nuclei number, $Z_a$ = atom number of nuclei $\alpha$, $r$ = position of electron, $R$ = position of nuclei.
+\begin{align}
+    \hat{H} &= T_e + T_n + U_{ee} + U_{nn} + U_{en} \\
+    \begin{split}
+        &= -\sum_{j=1}^{N_e}\frac{\hbar^2\nabla_j}{2m_e} - \sum_{\alpha=1}^{N_n}\frac{\hbar^2 \nabla_\alpha}{2m_n} + \frac{1}{4\pi \epsilon_0}\sum_{j=1}^{N_e}\sum_{j'<j}\frac{q^2}{|r_j - r_{j'}|} \\
+    &+ \frac{1}{4\pi\epsilon_0}\sum_{\alpha=1}^{N_n}\sum_{\alpha' < \alpha}\frac{q^2Z_\alpha Z_{\alpha'}}{R_\alpha - R_{\alpha'}} - \frac{1}{4\pi\epsilon_0}\sum_{j=1}^{N_e}\sum_{\alpha=1}^{N_n}\frac{q^2Z_\alpha}{|r_j - R_\alpha|}
+    \end{split}
+\end{align} 
+Challenges with solving many-particle Shr\"{o}dinger equation is i) computationally expensive, ii) need to know how $\Psi$ depends on single particle wave functions $\psi_k$. To solve this complex problem, we need approximations. Particularly Born-Oppenheimer and Harte-Fock approximations. The first makes the cleaver and reasonable assumption that since the electron mass is negligibly small in comparison to that of a nuclei, we can treat the nuclei as point charges, enabling us to divide the eigenfunction into a separate electronic and nuclear part, ie
+\begin{equation}
+    \Psi_{k}^{en}(\vec{r}, \vec{R}) \approx \Psi_k(\vec{r}, \vec{R}) \Theta_k(\vec{R})
+\end{equation}
+whee we have written the complete wavefunction in terms of an electronic part $\Psi_k(\vec{r}, \vec{R})$ and nuclear part $\Theta_k(\vec{R})$. The dependencies come from the fact that electrons can respond instantaneously to new positions of the nuclei, therefore the $\vec{R}$ dependence. Writing this in terms of the Hamiltonian we get
+\begin{align}
+    &\left( T_{e} + U_{ee} + U_{en} \right) \Psi_k(\vec{r}, \vec{R}) = E_k(\vec{R})\Psi_k(\vec{r}, \vec{R}) \\
+    &\left( T_{n} + U_{nn} + E_k(\vec{R}) \right) \Theta(\vec{R}) = E_{k}^{en}(\vec{R})\Theta_k(\vec{r}, \vec{R}).
+\end{align}
+The two sections are interrelated through the electronic energy eigenvalue $E_k(\vec{R})$. Furthermore, the left hand side of the nuclear part can be simplified to $U_{nn} + E_k(\vec{R})$, assuming that the kinetic energy of poit charges is zero. This simplified expression for the nuclear left hand side is called for the potential energy surface (EPS).
 
-\section{Brief review of Quantum mechanics}
-\textbf{Begin by single particle function and derive the time independent equation or simply begin there. Then move on the many particle equation and introduce the Bloch theorems and such} 
+The next step in line is to find a wavefunction that can describe all electrons in a system. This was originally done by Hartree, which assumed that electrons can be described independently and suggested the ansatz for a two-electron wavefunction
+\begin{equation}
+    \Psi_k(\vec{r_1}, \vec{r_2}) = A \cdot \psi_1(\vec{r_1}) \psi_2(\vec{r_2}),
+\end{equation}
+where A is the normalization constant. However this approximation does not account for the fact that electrons are indistinguishable and hence does not obey the Pauli exclusion principle for ferminons. This was overcome with the Hartree-Fock approximation that implement an anti-symmetric wavefunction. The full expression is given bellow
+\begin{equation}
+    \Psi_k(\vec{r_1}, \vec{r_2}) = \frac{1}{\sqrt{2}} \Big( \psi_1(\vec{r_1}) \psi_2(\vec{r_2}) - \psi_1(\vec{r_2})\psi_2(\vec{r_1}) \Big)
+\end{equation}
+The variational principle states that the energy of any trial wavefunction will always be higher than the ground-state energy $E_0$, ie
+\begin{equation}
+    E_0 = \langle\psi_0|H|\psi_0\rangle \leq \langle\psi|H|\psi\rangle = E
+\end{equation}
+This enable us to find the ground state energy and corresponding wavefunction by a minimization technique. Next, we will present the basics of the density functional theory for how these equations can be solved numerically and efficiently in order to study real materials and systems.
 
-\section{Fundamentals of DFT}
+\section{DFT}
 
-
-\section{Short-comings of DFT}
-
-
-\section{Extensions of DFT}
-
-\subsection{GGA}
-\subsection{SCAN}
-\subsection{Hybrid Functionals}
-
-
+\subsection{Fundamentals}
+\subsection{Results and shortcomings of DFT}
+\subsection{Extensions/advancements of DFT}

@@ -23,48 +23,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Density-Functional Theory}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Fundamentals of DFT}{13}%
+\contentsline {section}{\numberline {4.1}Overview of Quantum Mechanics}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Short-comings of DFT}{13}%
+\contentsline {section}{\numberline {4.2}DFT}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Extensions of DFT}{13}%
+\contentsline {subsection}{\numberline {4.2.1}Fundamentals}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}GGA}{13}%
+\contentsline {subsection}{\numberline {4.2.2}Results and shortcomings of DFT}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}SCAN}{13}%
+\contentsline {subsection}{\numberline {4.2.3}Extensions/advancements of DFT}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Hybrid Functionals}{13}%
+\contentsline {part}{II\hspace {1em}Methodology and Implementation}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Methodology and Implementation}{14}%
+\contentsline {chapter}{\numberline {5}Applied DFT}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Applied DFT}{15}%
+\contentsline {section}{\numberline {5.1}Introduction to VASP}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction to VASP}{15}%
+\contentsline {subsection}{\numberline {5.1.1}Work-flow}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Work-flow}{15}%
+\contentsline {section}{\numberline {5.2}SQS implementation - TDEP}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}SQS implementation - TDEP}{15}%
+\contentsline {section}{\numberline {5.3}Parameters}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Parameters}{15}%
+\contentsline {subsection}{\numberline {5.3.1}Convergence}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Convergence}{15}%
+\contentsline {chapter}{\numberline {6}Material}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Material}{16}%
+\contentsline {section}{\numberline {6.1}welcome the new high-entropy slilicides}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}welcome the new high-entropy slilicides}{16}%
+\contentsline {subsection}{\numberline {6.1.1}Fe2Si, FeSi2, MnSi175, Cr2Si etc}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Fe2Si, FeSi2, MnSi175, Cr2Si etc}{16}%
+\contentsline {subsection}{\numberline {6.1.2}The alloys}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}The alloys}{16}%
+\contentsline {part}{III\hspace {1em}Results and Discussion}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Results and Discussion}{17}%
+\contentsline {chapter}{\numberline {7}Results of SQS}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Results of SQS}{18}%
+\contentsline {section}{\numberline {7.1}Something}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Something}{18}%
+\contentsline {chapter}{\numberline {8}Band gap results}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Band gap results}{19}%
+\contentsline {section}{\numberline {8.1}Compare and anlayze band gaps}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Compare and anlayze band gaps}{19}%
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{20}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{21}%
