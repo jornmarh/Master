@@ -19,12 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{HEA2016}{book}{}
+    \entry{hea2016_ch10}{inbook}{}
       \name{author}{4}{}{%
         {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
            family={Gao},
            familyi={G\bibinitperiod},
-           given={Michael\bibnamedelima C},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4a0c2a8bb25e25fc004730334f3cfa99}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Changning},
+           giveni={C\bibinitperiod}}}%
+        {{hash=475a29202ef1689f2543d747390a55b0}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2d153ab334f7c3592bf992c9d113335d}{%
+           family={Irving},
+           familyi={I\bibinitperiod},
+           given={Douglas\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima C.},
            giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
         {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
            family={Yeh},
@@ -34,7 +56,7 @@
         {{hash=2e597f8bcdace90df7c5f040b49b110d}{%
            family={Liaw},
            familyi={L\bibinitperiod},
-           given={Peter\bibnamedelima K},
+           given={Peter\bibnamedelima K.},
            giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
         {{hash=2c81656c924858824dfb10d50423b77a}{%
            family={Zhang},
@@ -42,27 +64,40 @@
            given={Yong},
            giveni={Y\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Cham}%
+      }
       \list{publisher}{1}{%
-        {Springer, Cham}%
+        {Springer International Publishing}%
       }
       \strng{namehash}{bfaaf61add9a0ade52e6de6999859c68}
-      \strng{fullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \strng{fullhash}{b9a786109120c636de63ee4392f5f5c4}
       \strng{bibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
       \strng{authorbibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
       \strng{authornamehash}{bfaaf61add9a0ade52e6de6999859c68}
-      \strng{authorfullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \strng{authorfullhash}{b9a786109120c636de63ee4392f5f5c4}
+      \strng{editorbibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editornamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editorfullhash}{4265da1cb727346967d5507a0db4a8b2}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{1}
-      \field{title}{High-Entropy Alloys}
+      \field{abstract}{Special quasi-random structures (SQSs) are an important tool in modeling disordered alloys with atomic resolution. This chapter first presents the framework and the tools available to generate SQS for high-entropy alloys (HEAs). Examples of SQS in 4- and 5-component equiatomic alloys with face-centered cubic (FCC), hexagonal close-packed (HCP), and body-centered cubic (BCC) crystal structures, which are central to HEAs, are provided with different SQS cell sizes. Using SQS, the phase stability of known single-phase HEAs is examined, and the vibrational, electronic, and mechanical properties are predicted. Finally, the chapter compares the strength and limitations of SQS with hybrid Monte Carlo/molecular dynamics (MC/MD) simulations and coherent potential approximation (CPA) as introduced in prior chapters. First-principles calculations on selected single-phase HEAs show that the vibrational entropy of mixing is small, and the electronic entropy of mixing is truly negligible. Excellent agreement in the electronic density of states of HEAs was observed using SQS versus MC/MD. The accuracy of these SQS models is sensitive to the size of the cell, and larger cells produce more reliable results.}
+      \field{booktitle}{High-Entropy Alloys: Fundamentals and Applications}
+      \field{isbn}{978-3-319-27013-5}
+      \field{title}{Applications of Special Quasi-random Structures to High-Entropy Alloys}
       \field{year}{2016}
+      \field{pages}{333\bibrangedash 368}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1007/978-3-319-27013-5_10
+      \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1007/978-3-319-27013-5
+      \verb https://doi.org/10.1007/978-3-319-27013-5_10
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1007/978-3-319-27013-5
+      \verb https://doi.org/10.1007/978-3-319-27013-5_10
       \endverb
     \endentry
     \entry{owen_jones_2018}{article}{}
@@ -100,6 +135,40 @@
       \range{pages}{16}
       \verb{doi}
       \verb 10.1557/jmr.2018.322
+      \endverb
+    \endentry
+    \entry{sqsIntro}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f345f102223a46c407a459d97566a60b}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Fuyang},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f345f102223a46c407a459d97566a60b}
+      \strng{fullhash}{f345f102223a46c407a459d97566a60b}
+      \strng{bibnamehash}{f345f102223a46c407a459d97566a60b}
+      \strng{authorbibnamehash}{f345f102223a46c407a459d97566a60b}
+      \strng{authornamehash}{f345f102223a46c407a459d97566a60b}
+      \strng{authorfullhash}{f345f102223a46c407a459d97566a60b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Similar to the importance of XRD in experiments, ab initio calculations, as a powerful tool, have been applied to predict the new potential materials and investigate the intrinsic properties of materials in theory. As a typical solid-solution material, the large degree of uncertainty of high-entropy alloys (HEAs) results in the difficulty of ab initio calculations application to HEAs. The present review focuses on the available ab initio based solid-solution models (virtual lattice approximation, coherent potential approximation, special quasirandom structure, similar local atomic environment, maximum-entropy method, and hybrid Monte Carlo/molecular dynamics) and their applications and limits in single phase HEAs.}
+      \field{issn}{2296-8016}
+      \field{journaltitle}{Frontiers in Materials}
+      \field{title}{A Review of Solid-Solution Models of High-Entropy Alloys Based on Ab Initio Calculations}
+      \field{volume}{4}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.3389/fmats.2017.00036
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/article/10.3389/fmats.2017.00036
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/article/10.3389/fmats.2017.00036
       \endverb
     \endentry
     \entry{mcsqs2013}{article}{}
@@ -238,7 +307,309 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.42.9622
       \endverb
     \endentry
+    \entry{hea2016_ch1}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=2e597f8bcdace90df7c5f040b49b110d}{%
+           family={Liaw},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{fullhash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{bibnamehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{authorbibnamehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{authornamehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{authorfullhash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{editorbibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editornamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editorfullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \field{extraname}{1}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alloys have evolved from simple to complex compositions depending on the ability of mankind to develop the materials. The resulting improved functions and performances of alloys enable advancements in civilizations. In the last century, significant evolution and progress have led to the invention of special alloys, such as stainless steels, high-speed steels, and superalloys. Although alloys composed of multiple elements have higher mixing entropy than pure metals, the improved properties are mostly due to mixing enthalpy that allows the addition of suitable alloying elements to increase the strength and improve physical and/or chemical properties. Since the turn of the century, more complex compositions with higher mixing entropies have been introduced. Such complex compositions do not necessarily guarantee a complex structure and microstructure, or the accompanied brittleness. Conversely, significantly higher mixing entropy from complex compositions could simplify the structure and microstructure and impart attractive properties to the alloys. Jien-Wei Yeh and Brian Cantor independently announced the feasibility of high-entropy alloys and equi-atomic multicomponent alloys in reports published in 2004. This breakthrough in alloying concepts has accelerated research on these new materials throughout the world over the last decade.}
+      \field{booktitle}{High-Entropy Alloys: Fundamentals and Applications}
+      \field{isbn}{978-3-319-27013-5}
+      \field{title}{Overview of High-Entropy Alloys}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/978-3-319-27013-5_1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_1
+      \endverb
+    \endentry
+    \entry{hea2016_ch3}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=2e597f8bcdace90df7c5f040b49b110d}{%
+           family={Liaw},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{fullhash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{bibnamehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{authorbibnamehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{authornamehash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{authorfullhash}{1d8544dd838dcc96479ea41c3beeb2ea}
+      \strng{editorbibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editornamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editorfullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \field{extraname}{2}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Physical metallurgy is a branch of materials science, especially focusing on the relationship between composition, processing, crystal structure and microstructure, and physical and mechanical properties. Because all properties are the manifestation of compositions, structure and microstructure, thermodynamics, kinetics, and plastic deformation, factors as encountered in processing control become very important to control phase transformation and microstructure and thus properties of alloys. All the underlying principles have been well built and physical metallurgy approaches mature. However, traditional physical metallurgy is based on the observations on conventional alloys. As composition is the most basic and original factor to determine the bonding, structure, microstructure, and thus properties to a certain extent, physical metallurgy principles might be different and need to be modified for HEAs which have entirely different compositions from conventional alloys. The most distinguished effects in HEAs are high-entropy, severe lattice distortion, sluggish diffusion, and cocktail effects. This chapter will present and discuss the corresponding subjects of physical metallurgy based on these effects.}
+      \field{booktitle}{High-Entropy Alloys: Fundamentals and Applications}
+      \field{isbn}{978-3-319-27013-5}
+      \field{title}{Physical Metallurgy}
+      \field{year}{2016}
+      \field{pages}{51\bibrangedash 113}
+      \range{pages}{63}
+      \verb{doi}
+      \verb 10.1007/978-3-319-27013-5_3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_3
+      \endverb
+    \endentry
+    \entry{hea2016_ch7}{inbook}{}
+      \name{author}{5}{}{%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=c37a034a3c215193e984bbbcaad05a80}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Swe-Kai},
+           giveni={S\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=26f31bd5aef6abfa5076a65ef9222434}{%
+           family={Shih},
+           familyi={S\bibinitperiod},
+           given={Han\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3f838b386d145bb9dd4e022107bc7fa2}{%
+           family={Zuo},
+           familyi={Z\bibinitperiod},
+           given={Ting\bibnamedelima Ting},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=2e597f8bcdace90df7c5f040b49b110d}{%
+           family={Liaw},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{24a44b56868e7bfd24c41948aac6706c}
+      \strng{fullhash}{3f62dc5e87482d1a5cee24ab479abe4c}
+      \strng{bibnamehash}{24a44b56868e7bfd24c41948aac6706c}
+      \strng{authorbibnamehash}{24a44b56868e7bfd24c41948aac6706c}
+      \strng{authornamehash}{24a44b56868e7bfd24c41948aac6706c}
+      \strng{authorfullhash}{3f62dc5e87482d1a5cee24ab479abe4c}
+      \strng{editorbibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editornamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editorfullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter reviews various functional properties of HEAs: electrical properties (including superconducting), magnetic properties, electrochemical properties, and hydrogen storage properties. Interesting phenomena and potentially promising properties better than those of conventional alloys have been observed. These indicate that HEAs provide attractive functional properties to be explored and developed from both academic and application-oriented viewpoints. In this chapter, compositions, process parameters, and microstructure will be correlated with functional properties to give a better understanding.}
+      \field{booktitle}{High-Entropy Alloys: Fundamentals and Applications}
+      \field{isbn}{978-3-319-27013-5}
+      \field{title}{Functional Properties}
+      \field{year}{2016}
+      \field{pages}{237\bibrangedash 265}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/978-3-319-27013-5_7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_7
+      \endverb
+    \endentry
+    \entry{hea2016_ch2}{inbook}{}
+      \name{author}{4}{}{%
+        {{hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3a9d67501ea85d43b265fde76fbe089a}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1d5b0a83b7f9b24a7b938a9d3a359bfc}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={C.\bibnamedelimi T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9d362588e629aea5809440133ff290d7}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1d8544dd838dcc96479ea41c3beeb2ea}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Jien-Wei},
+           giveni={J\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=2e597f8bcdace90df7c5f040b49b110d}{%
+           family={Liaw},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{2810de8af34d5dab287ae58a8692e0cf}
+      \strng{fullhash}{c678a3e4b6100a47f03e74562e014ae2}
+      \strng{bibnamehash}{2810de8af34d5dab287ae58a8692e0cf}
+      \strng{authorbibnamehash}{2810de8af34d5dab287ae58a8692e0cf}
+      \strng{authornamehash}{2810de8af34d5dab287ae58a8692e0cf}
+      \strng{authorfullhash}{c678a3e4b6100a47f03e74562e014ae2}
+      \strng{editorbibnamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editornamehash}{bfaaf61add9a0ade52e6de6999859c68}
+      \strng{editorfullhash}{4265da1cb727346967d5507a0db4a8b2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter gives an overview of existing active phase formation rules for high-entropy alloys (HEAs). A parametric approach using physiochemical parameters including enthalpy of mixing, entropy of mixing, melting points, atomic size difference, and valence electron concentration is used to delineate phase formation rules for HEAs, with a reference to other multicomponent alloys like bulk metallic glasses (BMGs). Specifically, rules on forming solid solutions, intermetallic compounds, and the amorphous phase are described in detail; formation rules of solid solutions with the face-centered cubic (fcc) or body-centered cubic (bcc) structure are also discussed. Some remaining issues and future prospects on phase formation rules for HEAs are also addressed at the end.}
+      \field{booktitle}{High-Entropy Alloys: Fundamentals and Applications}
+      \field{isbn}{978-3-319-27013-5}
+      \field{title}{Phase Formation Rules}
+      \field{year}{2016}
+      \field{pages}{21\bibrangedash 49}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/978-3-319-27013-5_2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-27013-5_2
+      \endverb
+    \endentry
   \enddatalist
+  \missing{HEA2016}
 \endrefsection
 \endinput
 

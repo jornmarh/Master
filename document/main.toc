@@ -19,11 +19,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Special quasi-random Structures}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The concept and fundamentals of SQS - Write proper later}{10}%
+\contentsline {section}{\numberline {4.1}The fundamentals of SQS}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Mathematical formulation: Might need to expand on the definition and meaning behind terms such as clusters, figures, correlation functions etc (Add in post!)}{11}%
+\contentsline {section}{\numberline {4.2}Mathematical formulation}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results and Advances in SQS and application to high-entropy alloys}{14}%
+\contentsline {section}{\numberline {4.3}Application of SQS to high-entropy alloys}{13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Density-Functional Theory}{15}%
 \defcounter {refsection}{0}\relax 

@@ -2182,17 +2182,21 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3">HEA2016</bcf:citekey>
-    <bcf:citekey order="4">HEA2016</bcf:citekey>
-    <bcf:citekey order="5">HEA2016</bcf:citekey>
-    <bcf:citekey order="6">owen_jones_2018</bcf:citekey>
-    <bcf:citekey order="7">owen_jones_2018</bcf:citekey>
-    <bcf:citekey order="8">sqsfull</bcf:citekey>
-    <bcf:citekey order="9">sqsfull</bcf:citekey>
-    <bcf:citekey order="10">sqsfull</bcf:citekey>
-    <bcf:citekey order="11">sqsfull</bcf:citekey>
+    <bcf:citekey order="3">hea2016_ch1</bcf:citekey>
+    <bcf:citekey order="4">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="5">hea2016_ch3</bcf:citekey>
+    <bcf:citekey order="6">hea2016_ch7</bcf:citekey>
+    <bcf:citekey order="7">HEA2016</bcf:citekey>
+    <bcf:citekey order="8">HEA2016</bcf:citekey>
+    <bcf:citekey order="9">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="10">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="11">sqsIntro</bcf:citekey>
     <bcf:citekey order="12">sqsfull</bcf:citekey>
-    <bcf:citekey order="13">mcsqs2013</bcf:citekey>
+    <bcf:citekey order="13">sqsfull</bcf:citekey>
+    <bcf:citekey order="14">sqsfull</bcf:citekey>
+    <bcf:citekey order="15">sqsfull</bcf:citekey>
+    <bcf:citekey order="16">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="17">mcsqs2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
