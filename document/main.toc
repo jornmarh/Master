@@ -7,9 +7,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Background}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Solid-state physics}{4}%
+\contentsline {section}{\numberline {2.1}Overview of sold-state physics}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Silicides}{4}%
+\contentsline {section}{\numberline {2.2}3d Silicides}{4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}High-Entropy alloys}{5}%
 \defcounter {refsection}{0}\relax 
