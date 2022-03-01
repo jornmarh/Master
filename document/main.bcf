@@ -2182,13 +2182,17 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">HEA2016</bcf:citekey>
-    <bcf:citekey order="2">sqsfull</bcf:citekey>
-    <bcf:citekey order="3">sqsfull</bcf:citekey>
-    <bcf:citekey order="4">sqsfull</bcf:citekey>
-    <bcf:citekey order="5">sqsfull</bcf:citekey>
-    <bcf:citekey order="6">sqsfull</bcf:citekey>
-    <bcf:citekey order="7">mcsqs2013</bcf:citekey>
+    <bcf:citekey order="3">HEA2016</bcf:citekey>
+    <bcf:citekey order="4">HEA2016</bcf:citekey>
+    <bcf:citekey order="5">HEA2016</bcf:citekey>
+    <bcf:citekey order="6">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="7">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="8">sqsfull</bcf:citekey>
+    <bcf:citekey order="9">sqsfull</bcf:citekey>
+    <bcf:citekey order="10">sqsfull</bcf:citekey>
+    <bcf:citekey order="11">sqsfull</bcf:citekey>
+    <bcf:citekey order="12">sqsfull</bcf:citekey>
+    <bcf:citekey order="13">mcsqs2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

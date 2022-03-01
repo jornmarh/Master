@@ -65,6 +65,43 @@
       \verb https://doi.org/10.1007/978-3-319-27013-5
       \endverb
     \endentry
+    \entry{owen_jones_2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=55234a57c2734a27f4d6cf970bf88146}{%
+           family={Owen},
+           familyi={O\bibinitperiod},
+           given={Lewis\bibnamedelima Robert},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=2aa426501d67f908794fc9368e07a831}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima Gwilym},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{ae8084255cd8d62b784878e40c4ba5a6}
+      \strng{fullhash}{ae8084255cd8d62b784878e40c4ba5a6}
+      \strng{bibnamehash}{ae8084255cd8d62b784878e40c4ba5a6}
+      \strng{authorbibnamehash}{ae8084255cd8d62b784878e40c4ba5a6}
+      \strng{authornamehash}{ae8084255cd8d62b784878e40c4ba5a6}
+      \strng{authorfullhash}{ae8084255cd8d62b784878e40c4ba5a6}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Materials Research}
+      \field{number}{19}
+      \field{title}{Lattice distortions in high-entropy alloys}
+      \field{volume}{33}
+      \field{year}{2018}
+      \field{pages}{2954\bibrangedash 2969}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1557/jmr.2018.322
+      \endverb
+    \endentry
     \entry{mcsqs2013}{article}{}
       \name{author}{10}{}{%
         {{hash=936059e3394c7c1de6994c9fc9390009}{%
