@@ -49,34 +49,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{II\hspace {1em}Methodology and Implementation}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Applied DFT}{21}%
+\contentsline {chapter}{\numberline {6}Practical application of DFT}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction to VASP}{21}%
+\contentsline {chapter}{\numberline {7}Computational details}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Work-flow}{21}%
+\contentsline {section}{\numberline {7.1}Vienna Ab initio Simulation Package}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}SQS implementation - TDEP}{21}%
+\contentsline {section}{\numberline {7.2}Generation of SQS}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Parameters}{21}%
+\contentsline {section}{\numberline {7.3}Utility scripts}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Convergence}{21}%
+\contentsline {part}{III\hspace {1em}Results and Discussion}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Material}{22}%
+\contentsline {chapter}{\numberline {8}Results of SQS}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}welcome the new high-entropy slilicides}{22}%
+\contentsline {section}{\numberline {8.1}Something}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Fe2Si, FeSi2, MnSi175, Cr2Si etc}{22}%
+\contentsline {chapter}{\numberline {9}Band gap results}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}The alloys}{22}%
+\contentsline {section}{\numberline {9.1}Compare and anlayze band gaps}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Results and Discussion}{23}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Results of SQS}{24}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Something}{24}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Band gap results}{25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Compare and anlayze band gaps}{25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{26}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{30}%

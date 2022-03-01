@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  28 FEB 2022 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  1 MAR 2022 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,11 +1282,9 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'UKenglish'.
 
-(./main.aux
-No file chapter/chapter_background.aux.
-(./chapter/chapter_2.aux) (./chapter/chapter_3.aux) (./chapter/chapter_4.aux)
-(./chapter/chapter_5.aux) (./chapter/chapter_6.aux) (./chapter/chapter_7.aux)
-(./chapter/chapter_8.aux))
+(./main.aux (./chapter/chapter_background.aux) (./chapter/chapter_2.aux)
+(./chapter/chapter_3.aux) (./chapter/chapter_4.aux) (./chapter/chapter_5.aux)
+(./chapter/chapter_6.aux) (./chapter/chapter_7.aux) (./chapter/chapter_8.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1512,19 +1510,19 @@ Chapter 5.
 
  (./chapter/chapter_5.tex
 Chapter 6.
-) [21
+[21
 
 
-]
+] [22]) [23]
 \openout2 = `chapter/chapter_6.aux'.
 
  (./chapter/chapter_6.tex
 Chapter 7.
-) [22
+[24
 
 
 
-] [23
+] [25]) [26] [27
 
 
 ]
@@ -1532,7 +1530,7 @@ Chapter 7.
 
  (./chapter/chapter_7.tex
 Chapter 8.
-) [24
+) [28
 
 
 ]
@@ -1540,14 +1538,14 @@ Chapter 8.
 
  (./chapter/chapter_8.tex
 Chapter 9.
-) [25
+) [29
 
 
 
-] [26
+] [30
 
 
-] [27
+] [31
 
 
 ] (./main.aux (./chapter/chapter_background.aux)
@@ -1562,11 +1560,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27206 strings out of 481239
- 544177 string characters out of 5920378
- 1174204 words of memory out of 5000000
- 41908 multiletter control sequences out of 15000+600000
- 582832 words of font info for 106 fonts, out of 8000000 for 9000
+ 27234 strings out of 481239
+ 544562 string characters out of 5920378
+ 1176767 words of memory out of 5000000
+ 41923 multiletter control sequences out of 15000+600000
+ 590753 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,24n,69p,1907b,2203s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
@@ -1580,12 +1578,13 @@ sr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
-lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (37 pages, 236353 bytes).
+lbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (41 pages, 255956 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
+ 202 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
