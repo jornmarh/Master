@@ -2194,9 +2194,9 @@
     <bcf:citekey order="12">sqsfull</bcf:citekey>
     <bcf:citekey order="13">sqsfull</bcf:citekey>
     <bcf:citekey order="14">sqsfull</bcf:citekey>
-    <bcf:citekey order="15">sqsfull</bcf:citekey>
-    <bcf:citekey order="16">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="17">mcsqs2013</bcf:citekey>
+    <bcf:citekey order="15">sqs_dos</bcf:citekey>
+    <bcf:citekey order="16">sqs_bg</bcf:citekey>
+    <bcf:citekey order="17">hea2016_ch10</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

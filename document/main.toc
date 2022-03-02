@@ -41,13 +41,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Fundamentals of Density-Functional Theory}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}The exchange-correlation energy}{18}%
+\contentsline {section}{\numberline {5.3}Limitations of DFT}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Success and limitation of DFT}{20}%
+\contentsline {part}{II\hspace {1em}Methodology and Implementation}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Methodology and Implementation}{21}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Practical application of DFT}{22}%
+\contentsline {chapter}{\numberline {6}Practical application of DFT}{21}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Computational details}{25}%
 \defcounter {refsection}{0}\relax 
