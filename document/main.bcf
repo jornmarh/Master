@@ -2186,8 +2186,8 @@
     <bcf:citekey order="4">hea2016_ch2</bcf:citekey>
     <bcf:citekey order="5">hea2016_ch3</bcf:citekey>
     <bcf:citekey order="6">hea2016_ch7</bcf:citekey>
-    <bcf:citekey order="7">HEA2016</bcf:citekey>
-    <bcf:citekey order="8">HEA2016</bcf:citekey>
+    <bcf:citekey order="7">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="8">hea2016_ch2</bcf:citekey>
     <bcf:citekey order="9">owen_jones_2018</bcf:citekey>
     <bcf:citekey order="10">owen_jones_2018</bcf:citekey>
     <bcf:citekey order="11">sqsIntro</bcf:citekey>
@@ -2196,7 +2196,11 @@
     <bcf:citekey order="14">sqsfull</bcf:citekey>
     <bcf:citekey order="15">sqs_dos</bcf:citekey>
     <bcf:citekey order="16">sqs_bg</bcf:citekey>
-    <bcf:citekey order="17">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="17">WANG2021128754</bcf:citekey>
+    <bcf:citekey order="18">WEI2021167432</bcf:citekey>
+    <bcf:citekey order="19">RASHID2014285</bcf:citekey>
+    <bcf:citekey order="20">SORKIN2021160776</bcf:citekey>
+    <bcf:citekey order="21">hea2016_ch10</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

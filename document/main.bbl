@@ -100,6 +100,55 @@
       \verb https://doi.org/10.1007/978-3-319-27013-5_10
       \endverb
     \endentry
+    \entry{sqs_dos}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a1a65ef327762987cd11ae819e0ecaa4}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Z.\bibnamedelimi W.},
+           giveni={Z\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=e65013f62834bd993331961fe0467231}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={S.-H.},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=4731eeb587695ea77704fc49ebd64436}{%
+           family={Zunger},
+           familyi={Z\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{93dfb7a3ce25b6f59306f23ad9133e87}
+      \strng{fullhash}{93dfb7a3ce25b6f59306f23ad9133e87}
+      \strng{bibnamehash}{93dfb7a3ce25b6f59306f23ad9133e87}
+      \strng{authorbibnamehash}{93dfb7a3ce25b6f59306f23ad9133e87}
+      \strng{authornamehash}{93dfb7a3ce25b6f59306f23ad9133e87}
+      \strng{authorfullhash}{93dfb7a3ce25b6f59306f23ad9133e87}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{18}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Electronic structure of ordered and disordered ${\mathrm{Cu}}_3$ Au and ${\mathrm{Cu}}_3$ Pd}
+      \field{volume}{45}
+      \field{year}{1992}
+      \field{pages}{10314\bibrangedash 10330}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.45.10314
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.45.10314
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.45.10314
+      \endverb
+    \endentry
     \entry{owen_jones_2018}{article}{}
       \name{author}{2}{}{%
         {{hash=55234a57c2734a27f4d6cf970bf88146}{%
@@ -137,6 +186,145 @@
       \verb 10.1557/jmr.2018.322
       \endverb
     \endentry
+    \entry{RASHID2014285}{article}{}
+      \name{author}{9}{}{%
+        {{hash=024c3ed8699a0ee20b95c5a57e8c3d51}{%
+           family={Rashid},
+           familyi={R\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eb8183e622df862aca72d889fba7fd52}{%
+           family={Noor},
+           familyi={N\bibinitperiod},
+           given={N.A.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f1601d8e908445021d792f148870b299}{%
+           family={Sabir},
+           familyi={S\bibinitperiod},
+           given={Bushra},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6321d1e9f6ed97d8ded0419fd0695a79}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b05c9b1ee29763fdf3e1474857adc0a9}{%
+           family={Sajjad},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1b563393808650f056a4e2759bf08e1a}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=58451c6f083d842934d84b0b12787487}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={N.U.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=afa2244be49772376abbd0a140221e9b}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f91a520e24bc58bed8c4929879b22399}{%
+           family={Khenata},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6def05f9293c2c6237418749bb97be3}
+      \strng{fullhash}{793cfabc2ce6d82289a6da83891481a8}
+      \strng{bibnamehash}{b6def05f9293c2c6237418749bb97be3}
+      \strng{authorbibnamehash}{b6def05f9293c2c6237418749bb97be3}
+      \strng{authornamehash}{b6def05f9293c2c6237418749bb97be3}
+      \strng{authorfullhash}{793cfabc2ce6d82289a6da83891481a8}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We employed the special quasi-random structure (SQS) approach to investigate the structural, electronic and optical properties of the binary compounds (ZnO and ZnS) and their alloys ZnO1−xSx (x=0.25, 0.50, 0.75) in the rock salt (RS) and zinc blende (ZB) phases. All the calculations were performed using full-potential linearized augmented plane wave plus local orbitals (FP-L/APW+lo) method within the frame work of density functional theory (DFT). The DFT functionals, Wu–Cohen generalized gradient approximation (WC-GGA), Perdew–Burke–Ernzerhof GGA (PBE–GGA) and modified Becke–Johnson GGA (mBJ–GGA) were applied to calculate the exchange–correlation energy and band gap energies. In structural optimization, the predicted results of lattice constant and bulk modulus have shown a non-linear behavior with the selected doping concentrations. From the study of band structures, it has been noticed that the compounds and their alloys under study has metallic behavior in RS phase except at x=0 and 0.25 concentrations (indirect band gaps), whereas semiconducting behavior is obvious in ZB phase with increasing doping order (direct band gaps). The total and partial densities of states (TDOS and PDOS) have been examined to deeply study the electronic properties. Finally, by incorporating the basic optical properties, we discussed the dielectric function, refractive index, optical reflectivity, the absorption coefficient and optical conductivity in terms of incident photon energy up to 20eV.}
+      \field{issn}{0927-0256}
+      \field{journaltitle}{Computational Materials Science}
+      \field{title}{Ab-initio study of fundamental properties of ternary ZnO1−xSx alloys by using special quasi-random structures}
+      \field{volume}{91}
+      \field{year}{2014}
+      \field{pages}{285\bibrangedash 291}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.commatsci.2014.04.032
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0927025614002742
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0927025614002742
+      \endverb
+      \keyw{Mixed binary semiconductors,DFT,Electronic structure,Optical properties}
+    \endentry
+    \entry{SORKIN2021160776}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f3c6508aa4ba010a5adfe1d3141e2a6c}{%
+           family={Sorkin},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=ed4e688b3a13c815213f1ff2acb5d92b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e2a2b7327fe3282848b9aa71de6c89f8}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Teck\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d71de8a3c88876b2eb390512bd150e52}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Z.G.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3b9ef94658d333642b8b3bdc2bc00072}{%
+           family={Man},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2e49db7103c373f0194885b2ec021f60}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.W.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{24ad616325deb0e986f78305b41d3e83}
+      \strng{fullhash}{aa8cc9b39b77b612ef3838d4913571f8}
+      \strng{bibnamehash}{24ad616325deb0e986f78305b41d3e83}
+      \strng{authorbibnamehash}{24ad616325deb0e986f78305b41d3e83}
+      \strng{authornamehash}{24ad616325deb0e986f78305b41d3e83}
+      \strng{authorfullhash}{aa8cc9b39b77b612ef3838d4913571f8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We extend the small set of ordered structures (SSOS) method to calculate several typical materials properties of high entropy alloys (HEAs) with short range order (SRO). Using both equimolar and non-equimolar quinary CoCuFeNiPd HEAs with SRO as an example, we calculate ground state energy, lattice constant, mass density and elastic moduli, and compare them with those obtained from the special quasi-random structure (SQS) method. The calculated properties are in good agreement with those obtained by SQS. Importantly, the computational cost of the SSOS method for achieving the same accuracy is only a small fraction of the computational cost of the SQS method. We further show that the application of machine learning methods can further reduce the computational cost of the SSOS method and maintain the same level of accuracy, making it especially suitable for high-throughput calculations of HEAs with SRO.}
+      \field{issn}{0925-8388}
+      \field{journaltitle}{Journal of Alloys and Compounds}
+      \field{title}{First-principles-based high-throughput computation for high entropy alloys with short range order}
+      \field{volume}{882}
+      \field{year}{2021}
+      \field{pages}{160776}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jallcom.2021.160776
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S092583882102185X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S092583882102185X
+      \endverb
+      \keyw{HEA,SRO,SSOS,SQS,HT-DFT,MC,MD,ML,Pair and triple correlations}
+    \endentry
     \entry{sqsIntro}{article}{}
       \name{author}{1}{}{%
         {{hash=f345f102223a46c407a459d97566a60b}{%
@@ -171,87 +359,193 @@
       \verb https://www.frontiersin.org/article/10.3389/fmats.2017.00036
       \endverb
     \endentry
-    \entry{mcsqs2013}{article}{}
-      \name{author}{10}{}{%
-        {{hash=936059e3394c7c1de6994c9fc9390009}{%
-           family={{van de Walle}},
-           familyi={v\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=e6af497eb5e7220554076a8575eac35b}{%
-           family={Tiwary},
-           familyi={T\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=db0c7080d29c5ff573b342e34bdda593}{%
-           family={{de Jong}},
-           familyi={d\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=79941eb389b34bbf1456f6411124c3b8}{%
-           family={Olmsted},
-           familyi={O\bibinitperiod},
-           given={D.L.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=622dd7e67b7b92e9a086884d3c37386a}{%
-           family={Asta},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=3fefd851967bfbd5391b2014f00a8652}{%
-           family={Dick},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=108e5df81e3ab26dd5a60071fa737a9c}{%
-           family={Shin},
-           familyi={S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+    \entry{WANG2021128754}{article}{}
+      \name{author}{6}{}{%
+        {{hash=2f2bb9422125d3f4e6a018760477a75e}{%
            family={Wang},
            familyi={W\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=4b485cf50e318be408aaade759d720f8}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={L.-Q.},
-           giveni={L\bibinithyphendelim Q\bibinitperiod}}}%
-        {{hash=7f55fb51839e6688e959d53782e802c4}{%
-           family={Liu},
+           given={Shen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d15422747743d19c8a56bec527bf3198}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=02c7a7e9c8b10c3d3ee2912d42a8be3e}{%
+           family={Li},
            familyi={L\bibinitperiod},
-           given={Z.-K.},
-           giveni={Z\bibinithyphendelim K\bibinitperiod}}}%
+           given={Da},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cbc415fc36c599555cb13b0e962f1c25}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=2864d4620004755222145053bb9f2d65}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9dcaa294c2858c639e98148ea7938053}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Xiaosong},
+           giveni={X\bibinitperiod}}}%
       }
-      \strng{namehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
-      \strng{fullhash}{22c948c9c6769350030718b176711762}
-      \strng{bibnamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
-      \strng{authorbibnamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
-      \strng{authornamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
-      \strng{authorfullhash}{22c948c9c6769350030718b176711762}
-      \field{sortinit}{v}
-      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \strng{namehash}{c10e42d9fab24a30454d2c3e26dab22b}
+      \strng{fullhash}{f6ea2a62bb989fe3a6d4a3c5489d7d0b}
+      \strng{bibnamehash}{c10e42d9fab24a30454d2c3e26dab22b}
+      \strng{authorbibnamehash}{c10e42d9fab24a30454d2c3e26dab22b}
+      \strng{authornamehash}{c10e42d9fab24a30454d2c3e26dab22b}
+      \strng{authorfullhash}{f6ea2a62bb989fe3a6d4a3c5489d7d0b}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We present a new algorithm to generate Special Quasirandom Structures (SQS), i.e., best periodic supercell approximations to the true disordered state for a given number of atoms per supercell. The method is based on a Monte Carlo simulated annealing loop with an objective function that seeks to perfectly match the maximum number of correlation functions (as opposed to merely minimizing the distance between the SQS correlation and the disordered state correlations for a pre-specified set of correlations). The proposed method optimizes the shape of the supercell jointly with the occupation of the atomic sites, thus ensuring that the configurational space searched is exhaustive and not biased by a pre-specified supercell shape. The method has been implemented in the “mcsqs” code of the Alloy Theoretic Automated Toolkit (ATAT) in the most general framework of multicomponent multisublattice systems and in a way that minimizes the amount of input information the user needs to specify and that allows for efficient parallelization.}
-      \field{issn}{0364-5916}
-      \field{journaltitle}{Calphad}
-      \field{title}{Efficient stochastic generation of special quasirandom structures}
-      \field{volume}{42}
-      \field{year}{2013}
-      \field{pages}{13\bibrangedash 18}
-      \range{pages}{6}
+      \field{abstract}{We investigated the suitable range of virtual crystal approximation (VCA) and special quasi-random structure (SQS) for estimating lattice constants (LCs) of high entropy alloys (HEAs). For the HEAs composed of the atoms with similar atomic radius and electronic configuration, such as FeCoNiCr combined with Cu or V, the LCs obtained by SQS and VCA methods are close to each other. When combined with atoms with quite different atomic radius and electronic configuration, such as Nb, Ge or Ti, there is obvious lattice distortion in the SQS supercell, and the LCs of VCA models are quite different from that of SQS models. The SQS method can be replaced by VCA when estimating LCs of HEAs composed of atoms with similar properties, which is helpful to increase computation efficiency.}
+      \field{issn}{0167-577X}
+      \field{journaltitle}{Materials Letters}
+      \field{title}{Comparison of two calculation models for high entropy alloys: Virtual crystal approximation and special quasi-random structure}
+      \field{volume}{282}
+      \field{year}{2021}
+      \field{pages}{128754}
+      \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.calphad.2013.06.006
+      \verb https://doi.org/10.1016/j.matlet.2020.128754
       \endverb
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0364591613000540
+      \verb https://www.sciencedirect.com/science/article/pii/S0167577X20314610
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0364591613000540
+      \verb https://www.sciencedirect.com/science/article/pii/S0167577X20314610
       \endverb
-      \keyw{Special quasirandom structures,Monte Carlo,Alloy theory,Ab initio methods,Disordered state,Solid solution}
+      \keyw{Metals and alloys,Crystal structure}
+    \endentry
+    \entry{sqs_bg}{article}{}
+      \name{author}{2}{}{%
+        {{hash=85d54d54ccff7f770000d51b42dbe056}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Su‐Huai},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=4731eeb587695ea77704fc49ebd64436}{%
+           family={Zunger},
+           familyi={Z\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d520579ec9e5971627e964d33063feca}
+      \strng{fullhash}{d520579ec9e5971627e964d33063feca}
+      \strng{bibnamehash}{d520579ec9e5971627e964d33063feca}
+      \strng{authorbibnamehash}{d520579ec9e5971627e964d33063feca}
+      \strng{authornamehash}{d520579ec9e5971627e964d33063feca}
+      \strng{authorfullhash}{d520579ec9e5971627e964d33063feca}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{6}
+      \field{title}{Band offsets and optical bowings of chalcopyrites and Zn‐based II‐VI alloys}
+      \field{volume}{78}
+      \field{year}{1995}
+      \field{pages}{3846\bibrangedash 3856}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1063/1.359901
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.359901
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.359901
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.359901
+      \endverb
+    \endentry
+    \entry{WEI2021167432}{article}{}
+      \name{author}{10}{}{%
+        {{hash=faec69506d8386dc804a3a8c807ababa}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fb9afec195bcde6f18f2ca5c65c6dc67}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Yanzhou},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ac27c4113dfb3b302740f841d0f03b89}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Weiwei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6a2a120b97288079e2e4fb194dd62a96}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9a84ab6184617a84adfbde5b564c7c7f}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b41fe9c6cc1e8e9f13e889d20e626c3c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3ad93e4c675a68a22a9c2c52b38e2751}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=228dd687961f3612985beeddec81f72a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=da31f56113cb61a1fef7cf7543eefff8}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0d79ac5687143da8e01604448cec8fdd}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Shaokang},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{922c1a0d259b981506f75f1dce7c4120}
+      \strng{fullhash}{51229d5ed7365c876b2143f013855f25}
+      \strng{bibnamehash}{922c1a0d259b981506f75f1dce7c4120}
+      \strng{authorbibnamehash}{922c1a0d259b981506f75f1dce7c4120}
+      \strng{authornamehash}{922c1a0d259b981506f75f1dce7c4120}
+      \strng{authorfullhash}{51229d5ed7365c876b2143f013855f25}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, first-principle calculations combining special quasi-random structure (SQS) method were utilized for detecting the mechanism of diversity in magnetic behaviors of rapid-solidified FeCoNiSi0.2M0.2 (M=Cr, Mn) high entropy alloys (HEAs). According to the results, the crystal structure and magnetic properties calculated from the SQS structure fit well with those of the HEAs. It is found that, the addition of Mn leads to significant enhancement in saturated magnetization (BS) and Curie temperature (TC) of the FeCoNiSi0.2M0.2 HEA compared to Cr, which is caused by the changes of electron-spin that lead to ferromagnetism of Mn, and such phenomenon may have close correlation with the ferromagnetic coupling between Mn and FeCoNi matrix. This work provides a novel insight for the compositional design of ferromagnetic HEAs with excellent magnetic properties.}
+      \field{issn}{0304-8853}
+      \field{journaltitle}{Journal of Magnetism and Magnetic Materials}
+      \field{title}{Understanding magnetic behaviors of FeCoNiSi0.2M0.2 (M=Cr, Mn) high entropy alloys via first-principle calculation}
+      \field{volume}{519}
+      \field{year}{2021}
+      \field{pages}{167432}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jmmm.2020.167432
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304885320323994
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304885320323994
+      \endverb
+      \keyw{High entropy alloy,Ferromagnetism,Density function theory,Special quasi-random structure,Magnetic properties}
     \endentry
     \entry{sqsfull}{article}{}
       \name{author}{4}{}{%
@@ -285,6 +579,7 @@
       \strng{authorbibnamehash}{ddc39dbd7b995c4b26f37b085406b9f8}
       \strng{authornamehash}{ddc39dbd7b995c4b26f37b085406b9f8}
       \strng{authorfullhash}{e118246b66f61d7c08d68ea3484bc96a}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
@@ -609,7 +904,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{HEA2016}
 \endrefsection
 \endinput
 
