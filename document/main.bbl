@@ -19,6 +19,45 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{PAW2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0e5ab72a1a8b5e06579c9db59404c0f3}{%
+           family={Blöchl},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0e5ab72a1a8b5e06579c9db59404c0f3}
+      \strng{fullhash}{0e5ab72a1a8b5e06579c9db59404c0f3}
+      \strng{bibnamehash}{0e5ab72a1a8b5e06579c9db59404c0f3}
+      \strng{authorbibnamehash}{0e5ab72a1a8b5e06579c9db59404c0f3}
+      \strng{authornamehash}{0e5ab72a1a8b5e06579c9db59404c0f3}
+      \strng{authorfullhash}{0e5ab72a1a8b5e06579c9db59404c0f3}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{12}
+      \field{title}{Projector augmented-wave method}
+      \field{volume}{50}
+      \field{year}{1994}
+      \field{pages}{17953\bibrangedash 17979}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.50.17953
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.50.17953
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.50.17953
+      \endverb
+    \endentry
     \entry{hea2016_ch10}{inbook}{}
       \name{author}{4}{}{%
         {{hash=1fef1d2525f176ea7bafd4c5399b7df7}{%
@@ -98,6 +137,184 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/978-3-319-27013-5_10
+      \endverb
+    \endentry
+    \entry{hf_bandgap}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a2ea933dd900ba59f638af9c8a2ca60e}{%
+           family={Garza},
+           familyi={G\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2315c752846415e86873ecd3a066c9e2}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f76c7846ddf7c4e90b7b2c95193b1caa}
+      \strng{fullhash}{f76c7846ddf7c4e90b7b2c95193b1caa}
+      \strng{bibnamehash}{f76c7846ddf7c4e90b7b2c95193b1caa}
+      \strng{authorbibnamehash}{f76c7846ddf7c4e90b7b2c95193b1caa}
+      \strng{authornamehash}{f76c7846ddf7c4e90b7b2c95193b1caa}
+      \strng{authorfullhash}{f76c7846ddf7c4e90b7b2c95193b1caa}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry Letters}
+      \field{month}{08}
+      \field{title}{Predicting Band Gaps with Hybrid Density Functionals}
+      \field{volume}{7}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1021/acs.jpclett.6b01807
+      \endverb
+    \endentry
+    \entry{hf_comparision}{article}{}
+      \name{author}{3}{}{%
+        {{hash=761675961e0f50adf62ce4fb73aed920}{%
+           family={Janesko},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=c374dfc5915be133e6d5b9772bbf7f68}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6b833ff9ec8eab914a2c220f704345e5}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{9b9b3a2b81e0b8a0191b96550728d54c}
+      \strng{fullhash}{9b9b3a2b81e0b8a0191b96550728d54c}
+      \strng{bibnamehash}{9b9b3a2b81e0b8a0191b96550728d54c}
+      \strng{authorbibnamehash}{9b9b3a2b81e0b8a0191b96550728d54c}
+      \strng{authornamehash}{9b9b3a2b81e0b8a0191b96550728d54c}
+      \strng{authorfullhash}{9b9b3a2b81e0b8a0191b96550728d54c}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Density functional theory incorporating hybrid exchange–correlation functionals has been extraordinarily successful in providing accurate, computationally tractable treatments of molecular properties. However, conventional hybrid functionals can be problematic for solids. Their nonlocal, Hartree–Fock-like exchange term decays slowly and incorporates unphysical features in metals and narrow-bandgap semiconductors. This article provides an overview of our group’s work on designing hybrid functionals for solids. We focus on the Heyd–Scuseria–Ernzerhof screened hybrid functional [J. Chem. Phys. 2003, 118, 8207], its applications to the chemistry and physics of solids and surfaces, and our efforts to build upon its successes.}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Chem. Chem. Phys.}
+      \field{title}{Screened hybrid density functionals for solid-state chemistry and physics}
+      \field{volume}{11}
+      \field{year}{2009}
+      \field{pages}{443\bibrangedash 454}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1039/B812838C
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/B812838C
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/B812838C
+      \endverb
+    \endentry
+    \entry{PAW1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=40daea6217342757546b996c2086b7b4}{%
+           family={Kresse},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=eca5cd563b92757eb7193b2f93059fc1}{%
+           family={Joubert},
+           familyi={J\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
+      \strng{fullhash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
+      \strng{bibnamehash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
+      \strng{authorbibnamehash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
+      \strng{authornamehash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
+      \strng{authorfullhash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{1}
+      \field{title}{From ultrasoft pseudopotentials to the projector augmented-wave method}
+      \field{volume}{59}
+      \field{year}{1999}
+      \field{pages}{1758\bibrangedash 1775}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.59.1758
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.59.1758
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.59.1758
+      \endverb
+    \endentry
+    \entry{hse06}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0dd92d83eecbced9b768a0c3109e6ee4}{%
+           family={Krukau},
+           familyi={K\bibinitperiod},
+           given={Aliaksandr\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=765db8e05b3c1621f1c93379fa404dda}{%
+           family={Vydrov},
+           familyi={V\bibinitperiod},
+           given={Oleg\bibnamedelima A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=445cd11464a7964a850da38cf166c1c3}{%
+           family={Izmaylov},
+           familyi={I\bibinitperiod},
+           given={Artur\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=6b833ff9ec8eab914a2c220f704345e5}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5261813c67565009c124aff60300d056}
+      \strng{fullhash}{df0fefa8512cc1f78687fd1d52475d13}
+      \strng{bibnamehash}{5261813c67565009c124aff60300d056}
+      \strng{authorbibnamehash}{5261813c67565009c124aff60300d056}
+      \strng{authornamehash}{5261813c67565009c124aff60300d056}
+      \strng{authorfullhash}{df0fefa8512cc1f78687fd1d52475d13}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{number}{22}
+      \field{title}{Influence of the exchange screening parameter on the performance of screened hybrid functionals}
+      \field{volume}{125}
+      \field{year}{2006}
+      \field{pages}{224106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2404663
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.2404663
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.2404663
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.2404663
       \endverb
     \endentry
     \entry{sqs_dos}{article}{}
@@ -325,6 +542,131 @@
       \endverb
       \keyw{HEA,SRO,SSOS,SQS,HT-DFT,MC,MD,ML,Pair and triple correlations}
     \endentry
+    \entry{scan}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a41e9944590c5acae5c314ea7c27e388}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jianwei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4c3a81a7cf7c5ad3cd2a7d8a28d5376e}{%
+           family={Ruzsinszky},
+           familyi={R\bibinitperiod},
+           given={Adrienn},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49bd2640f858f16dfcddcc404b026f30}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6548fe4e129d7e99ae2a904b504c9df7}
+      \strng{fullhash}{6548fe4e129d7e99ae2a904b504c9df7}
+      \strng{bibnamehash}{6548fe4e129d7e99ae2a904b504c9df7}
+      \strng{authorbibnamehash}{6548fe4e129d7e99ae2a904b504c9df7}
+      \strng{authornamehash}{6548fe4e129d7e99ae2a904b504c9df7}
+      \strng{authorfullhash}{6548fe4e129d7e99ae2a904b504c9df7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{7}
+      \field{title}{Strongly Constrained and Appropriately Normed Semilocal Density Functional}
+      \field{volume}{115}
+      \field{year}{2015}
+      \field{pages}{036402}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.115.036402
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.115.036402
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.115.036402
+      \endverb
+    \endentry
+    \entry{scan2}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=a41e9944590c5acae5c314ea7c27e388}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jianwei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a55a01fec009053bea069877837d6731}{%
+           family={Remsing},
+           familyi={R\bibinitperiod},
+           given={Richard\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=fe75e6935c0fb0d0dff458610da9bed5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yubo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d2b490d7dbd96d7914cbce2316c1ae12}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Zhaoru},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4c3a81a7cf7c5ad3cd2a7d8a28d5376e}{%
+           family={Ruzsinszky},
+           familyi={R\bibinitperiod},
+           given={Adrienn},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e0573f7488605120d3a057a64073888}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Haowei},
+           giveni={H\bibinitperiod}}}%
+        {{hash=dbec60185fd56d443bc3dba90827017e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zenghui},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=6b858cc375cb24660e79421d3513630f}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Arpita},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6a4c0e104a19089785d16b74ad411982}{%
+           family={Waghmare},
+           familyi={W\bibinitperiod},
+           given={Umesh},
+           giveni={U\bibinitperiod}}}%
+        {{hash=8c758536f2c4c45ded52158ee596d18f}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xifan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{baa5532fa8b464886002373b1a6f9788}
+      \strng{fullhash}{b57e14a6a1f222be1cc9089363180a44}
+      \strng{bibnamehash}{baa5532fa8b464886002373b1a6f9788}
+      \strng{authorbibnamehash}{baa5532fa8b464886002373b1a6f9788}
+      \strng{authornamehash}{baa5532fa8b464886002373b1a6f9788}
+      \strng{authorfullhash}{b57e14a6a1f222be1cc9089363180a44}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature chemistry}
+      \field{number}{9}
+      \field{title}{Accurate first-principles structures and energies of diversely bonded systems from an efficient density functional}
+      \field{volume}{8}
+      \field{year}{2016}
+      \field{pages}{831\bibrangedash 836}
+      \range{pages}{6}
+    \endentry
     \entry{sqsIntro}{article}{}
       \name{author}{1}{}{%
         {{hash=f345f102223a46c407a459d97566a60b}{%
@@ -357,6 +699,50 @@
       \endverb
       \verb{url}
       \verb https://www.frontiersin.org/article/10.3389/fmats.2017.00036
+      \endverb
+    \endentry
+    \entry{mbj}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4d58a548411980a8ceec17680a2c6e94}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Fabien},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fef50c1d147547388540d8e7dc3f7a3b}{%
+           family={Blaha},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5d2980a431b62bbec25ba7eed0cfc615}
+      \strng{fullhash}{5d2980a431b62bbec25ba7eed0cfc615}
+      \strng{bibnamehash}{5d2980a431b62bbec25ba7eed0cfc615}
+      \strng{authorbibnamehash}{5d2980a431b62bbec25ba7eed0cfc615}
+      \strng{authornamehash}{5d2980a431b62bbec25ba7eed0cfc615}
+      \strng{authorfullhash}{5d2980a431b62bbec25ba7eed0cfc615}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{22}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{6}
+      \field{title}{Accurate Band Gaps of Semiconductors and Insulators with a Semilocal Exchange-Correlation Potential}
+      \field{volume}{102}
+      \field{year}{2009}
+      \field{pages}{226401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.102.226401
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.102.226401
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.102.226401
       \endverb
     \endentry
     \entry{WANG2021128754}{article}{}
