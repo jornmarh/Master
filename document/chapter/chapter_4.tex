@@ -1,6 +1,6 @@
 \chapter{Density-Functional Theory}
 \label{sec:DFT}
-
+\textbf{References for theory: fys-mena4111 lecture notes and book}
 \section{Review of Quantum Mechanics}
 
 \subsection{The Shr\"{o}dinger equation}
@@ -107,7 +107,8 @@ This is the fundamental working principle of the density functional theory and K
 \begin{itemize}
     \item Local minima method
     \item Not exact $V_{xc}$, means we must compromise between accuracy and cost, and choose between the different methods for specific application. There is no one best overall method that is superior for all purposes. 
-    \item Not exact kohn-sham eigenfunctions
-    \item Band gap
+    \item kohn-sham eigenfunctions are not the exact eigenfunctions. 
+    \item DFT in its original formulation is only valid for the ground state. Thus excited state application of DFT, all though very possible have a lesser theoretical footing.
+    \item The band-gap calculation is also complicated by the self-interaction error which arises in the occupied states in standard DFT, and in the unoccupied states in Hartree-Fock. If you consider the "true" band-structure, then semi-local DFT has a spurious self-interaction in the occupied states, which over-delocalises them and forces them up in energy, thus reducing the band-gap; Hartree-Fock has the same problem but for the *unoccupied* states, so they are over-delocalised and forced up in energy, which increases the band-gap. \cite{bandgap_dft_forum}
 \end{itemize}
 
