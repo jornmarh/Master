@@ -6,32 +6,32 @@ In this section we will present the practical application and implementation of 
 \section{The Exchange-Correlation functional}
 \textbf{\cite{XC_bandgap} is a good reference for different functionals and band gaps.}
 
-From the former section, we know that the only peace of information we require to perform DFT plane-wave calculations are that of the exchange-correlation energy $E_{\text{xc}}[n]$. Given that the functional properties of a material is strongly related to the electronic density, the precision of DFT is very sensitive to the type of approximation to the density. The initial challenge is to balance the factors affecting the accuracy of the model to the computational cost.
+From the former section, we know that the only peace of information we require to perform DFT plane-wave calculations are that of the exchange-correlation energy $E_{\text{xc}}[n]$. Only for a homogeneous electron gas (HEG) is the exact exchange-correlation energy known. The HEG is of limited use in practical application considering that the variation in the electronic concentration is responsible for a wide range of properties. However, the local density approximation (LDA) have found large sucsess from building on the HEG. In the LDA, $E_{\text{xc}}[n]$ is  approximated by an electron in an homogeneous electron gas of density $n(\boldsymbol{r})$ .  
 
-The exchange-correlation functional is only exactly known for a homogeneous electron gas, however this is of limited use in real materials with variation in the electron concentration. An improvement on this is the local density approximation (LDA), in which the electronic density is set at each position according to the homogeneous electron gas at that position, in other words
 \begin{equation}
-    V_{xc}(\vec{r}) = V_{xc}^{\text{e gas}}[n(\vec{r})]
+    E_{\text{xc}}^{\text{LDA}}[n(\boldsymbol{r})] = \int n(\boldsymbol{r})\epsilon_{\text{xc}}[n(\boldsymbol{r})]d\boldsymbol{r}.
 \end{equation}
-This is seen as a successful approximation for the exchange-correlation energy in bulk materials, given that typically the electron density does not vary tremendously. However the presence/degree of self-interaction from the fact that this term does not completely cancel out by only including the local environment, lead to artificial contributions to $V_{xc}$ and an overall inaccurately high electron density. The success behind this method most reliably lies in the low computational cost. 
-\textbf{More on LDA? see for ex $https://en.wikipedia.org/wiki/Local-density_approximation$, or lecture notes fys-mena4111}
 
-On the other hand, the generalized gradient approximation (GGA) account for the non-homogeneity in the electron density of real materials by including the gradient to calculate $V_{xc}$. 
+The success of this approach is most dominant in systems with slowly varying charge density, ie bulk materials. A notable downside of LDA is the degree of self-interaction, by only including the local environment, which lead to artificial contributions to the electron density. A significant upside of this method is the low computational cost. \textbf{More on LDA?}
+
+A natural succession to the local density approximation is the family of generalized gradient approximation (GGA).  
+
 \begin{equation}
-    V_{xc}^{GGA}(\vec{r}) = V_{xc}[n(\vec{r}), \nabla n(\vec{r})].
+  E_{\text{xc}}^{\text{GGA}}[n(\boldsymbol{r})] = \int f(n(\boldsymbol{r}), \nabla n(\boldsymbol{r}))d\boldsymbol{r}.
 \end{equation}
-Two popular implementations of the GGA functional are Perdew-Wang 91 (PW91) \cite{pw91} and Perdew-Burke-Ernzerhof (PBE) \cite{pbe}. This method can further be extended to include the laplacian $\nabla^2$, methods with this approach are called meta-GGA. Popular implementations include \textit{Modified Becke and Johnson} (MBJ) \cite{mbj} and \textit{Strongly Constrained Appropriately Normed} (SCAN) \cite{scan}. \textbf{Write a brief discussion of these, see for example \cite{scan2}}.
 
-\textbf{Something on limitations/flaws of LDA/GGA}
+GGA improves on LDA by additonly considering the gradient of the electron concentration. There currently exists many approaches for how to construct the function $f$ to include the gradient, the two most common are Perdew-Wang 91 (PW91) \cite{pw91} and Perdew-Burke-Ernzerhof (PBE) \cite{pbe}. 
 
-By combining the correlations and exchange of LDA/GGA with the exact exchange of the Hartree-Fock approximation, we can obtain much more precise calculations. This method was proposed by Becke as hybrid functionals, since the functional is a hybrid between the two. This method is superior in describing localized states, but comes at a significant larger computational cost. In order to reduce this cost, Heyd al et. split the Hartree-Fock exchange into short-range and long-range parts, in which calculations can adapt exact Hartree-Fock exchange for short-range (SL) and non-exact for long-range (LR). By introducing the parameter $\omega$ to adjust the order parameter of the method, we can express this method, called HSE (Heyd-Scuseria-Ernzerhof) \cite{hse06} as
+Further, we can extended this idea to include the laplacian $\nabla^2$ of the density. This range of methods is called meta-GGA, popular implementations include \textit{Modified Becke and Johnson} (MBJ) \cite{mbj} and \textit{Strongly Constrained Appropriately Normed} (SCAN) \cite{scan}. \textbf{Write a brief discussion of these, see for example \cite{scan2}, and something on limitations/flaws of LDA/GGA}.
+
+Very precise calculations can be obtained from combining LDA/GGA with the exact exchange of Hartree-Fock. This method was proposed by Becke as hybrid functionals, since the functional is a hybrid between the two. This method is superior in describing localized states, but comes at a significant larger computational cost. In order to reduce this cost, Heyd al et. split the Hartree-Fock exchange into short-range and long-range parts, in which calculations can adapt exact Hartree-Fock exchange for short-range (SL) and non-exact for long-range (LR). By introducing the parameter $\omega$ to adjust the order parameter of the method, we can express this method, called HSE (Heyd-Scuseria-Ernzerhof) \cite{hse06} as
 \begin{equation}
     E_{xc}^{HSE} = \alpha E_{x}^{HF,SR}(\omega) + (1-\alpha)E_{x}^{PBE, SR}(\omega) + E_x^{PBE,LR}(\omega) + E_{c}^{PBE}
 \end{equation}
-\begin{itemize}
-    \item Explain what the different notations mean, and the success + limitations of HSE compared to LDA and GGA.
-    \item Write a paragraph on meta-GGA, such as SCAN and perhaps MBJ.
-\end{itemize}
-\textbf{Write more on HSE06, see references \cite{hf_bandgap}, \cite{hf_comparision}}
+\textbf{Explain what the different notations mean, and the success + limitations of HSE compared to LDA and GGA.}
+\textbf{Write more on HSE06, see references \cite{hf_bandgap}, \cite{hf_comparision}. \cite{hse}}
+
+Over the last 50 years, over 500 different approximations have come to fruition, but mainly PBE GGA, and HSE06 have found wide-spread application and usage \cite{XC_bandgap}. Hence, these are emphasized in this project. 
 
 \section{Fundamental aspects of practical DFT calculations}
 With the exchange-correlation functionals presented above, we now have everything in order to perform DFT calculations. To begin solving eq .., we need the single-electron wave-function, for a free electron this is a plane wave $\psi_k = Ae^{i\boldsymbol{k}\boldsymbol{r}}$. In a solid however, there exist a nonzero periodic potential $V(\boldsymbol{r}) = V(\boldsymbol{r} + \boldsymbol{R})$, the solution to the Shr\"{o}dinger equation is given by Bloch's theorem wich states that the solution takes the form

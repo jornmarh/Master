@@ -2202,17 +2202,20 @@
     <bcf:citekey order="20">SORKIN2021160776</bcf:citekey>
     <bcf:citekey order="21">hea2016_ch10</bcf:citekey>
     <bcf:citekey order="22">bandgap_dft_forum</bcf:citekey>
-    <bcf:citekey order="23">XC_bandgap</bcf:citekey>
-    <bcf:citekey order="24">pw91</bcf:citekey>
-    <bcf:citekey order="25">pbe</bcf:citekey>
-    <bcf:citekey order="26">mbj</bcf:citekey>
-    <bcf:citekey order="27">scan</bcf:citekey>
-    <bcf:citekey order="28">scan2</bcf:citekey>
-    <bcf:citekey order="29">hse06</bcf:citekey>
-    <bcf:citekey order="30">hf_bandgap</bcf:citekey>
-    <bcf:citekey order="31">hf_comparision</bcf:citekey>
-    <bcf:citekey order="32">PAW1</bcf:citekey>
-    <bcf:citekey order="33">PAW2</bcf:citekey>
+    <bcf:citekey order="23">discon</bcf:citekey>
+    <bcf:citekey order="24">XC_bandgap</bcf:citekey>
+    <bcf:citekey order="25">pw91</bcf:citekey>
+    <bcf:citekey order="26">pbe</bcf:citekey>
+    <bcf:citekey order="27">mbj</bcf:citekey>
+    <bcf:citekey order="28">scan</bcf:citekey>
+    <bcf:citekey order="29">scan2</bcf:citekey>
+    <bcf:citekey order="30">hse06</bcf:citekey>
+    <bcf:citekey order="31">hf_bandgap</bcf:citekey>
+    <bcf:citekey order="32">hf_comparision</bcf:citekey>
+    <bcf:citekey order="33">hse</bcf:citekey>
+    <bcf:citekey order="34">XC_bandgap</bcf:citekey>
+    <bcf:citekey order="35">PAW1</bcf:citekey>
+    <bcf:citekey order="36">PAW2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
