@@ -51,7 +51,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Fundamental aspects of practical DFT calculations}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Self-consistent calculation}{24}%
+\contentsline {section}{\numberline {6.3}Self-consistent field calculation}{24}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Computational details}{26}%
 \defcounter {refsection}{0}\relax 
@@ -65,12 +65,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Results and Discussion}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Results of SQS}{31}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Something}{31}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Band gap results}{32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Compare and anlayze band gaps}{32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{33}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{31}%

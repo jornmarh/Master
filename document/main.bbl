@@ -58,22 +58,22 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.50.17953
       \endverb
     \endentry
-    \entry{XC_bandgap}{article}{}
+    \entry{xc_bandgap}{article}{}
       \name{author}{6}{}{%
         {{hash=332af9b833c23f155a5cd2c0d8efed0b}{%
            family={Borlido},
            familyi={B\bibinitperiod},
            given={Pedro},
            giveni={P\bibinitperiod}}}%
-        {{hash=7edfead299e26551c56379f4f0ace5a7}{%
-           family={Schmidt},
-           familyi={S\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod}}}%
+        {{hash=2be9f03586883927a06c29b0a3603c65}{%
+           family={Aull},
+           familyi={A\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
         {{hash=27b7b003a874dc5a6a40acd4c0c7136d}{%
            family={Huran},
            familyi={H\bibinitperiod},
-           given={Ahmad\bibnamedelima W},
+           given={Ahmad\bibnamedelima W.},
            giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
         {{hash=4d58a548411980a8ceec17680a2c6e94}{%
            family={Tran},
@@ -83,34 +83,44 @@
         {{hash=da7b6d81edf242e9331544c871c2078b}{%
            family={Marques},
            familyi={M\bibinitperiod},
-           given={Miguel\bibnamedelima AL},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           given={Miguel\bibnamedelimb A.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
         {{hash=d98a367409043df47dafe05549f8cb2c}{%
            family={Botti},
            familyi={B\bibinitperiod},
            given={Silvana},
            giveni={S\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
       \strng{namehash}{8a2b92d0bc7ac90a6eb5fa5be973fa25}
-      \strng{fullhash}{b36902d26c313f5975ca43c53332578c}
+      \strng{fullhash}{a93a66ca2b4cb7b6567c8ff752d3fead}
       \strng{bibnamehash}{8a2b92d0bc7ac90a6eb5fa5be973fa25}
       \strng{authorbibnamehash}{8a2b92d0bc7ac90a6eb5fa5be973fa25}
       \strng{authornamehash}{8a2b92d0bc7ac90a6eb5fa5be973fa25}
-      \strng{authorfullhash}{b36902d26c313f5975ca43c53332578c}
+      \strng{authorfullhash}{a93a66ca2b4cb7b6567c8ff752d3fead}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{npj Computational Materials}
-      \field{number}{1}
-      \field{title}{Exchange-correlation functionals for band gaps of solids: benchmark, reparametrization and machine learning}
-      \field{volume}{6}
-      \field{year}{2020}
-      \field{pages}{1\bibrangedash 17}
-      \range{pages}{17}
+      \field{journaltitle}{Journal of Chemical Theory and Computation}
+      \field{note}{PMID: 31306006}
+      \field{number}{9}
+      \field{title}{Large-Scale Benchmark of Exchange–Correlation Functionals for the Determination of Electronic Band Gaps of Solids}
+      \field{volume}{15}
+      \field{year}{2019}
+      \field{pages}{5069\bibrangedash 5079}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/acs.jctc.9b00322
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/acs.jctc.9b00322
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.jctc.9b00322
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.jctc.9b00322
+      \endverb
     \endentry
     \entry{hea2016_ch10}{inbook}{}
       \name{author}{4}{}{%
@@ -591,7 +601,7 @@
       \field{pages}{13244}
       \range{pages}{1}
     \endentry
-    \entry{discon}{article}{}
+    \entry{bandgap_dft_2}{article}{}
       \name{author}{2}{}{%
         {{hash=49bd2640f858f16dfcddcc404b026f30}{%
            family={Perdew},
@@ -633,6 +643,109 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.51.1884
+      \endverb
+    \endentry
+    \entry{bandgap_dft_1}{article}{}
+      \name{author}{14}{}{%
+        {{hash=49bd2640f858f16dfcddcc404b026f30}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=78e31d3d482cf462f797d4187a52d247}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Weitao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=33a535778ce96cdd2d59799deeea173d}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Kieron},
+           giveni={K\bibinitperiod}}}%
+        {{hash=dbec60185fd56d443bc3dba90827017e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zenghui},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9bd5b22cd8de2dbf675e2736607026d8}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Eberhard\bibnamedelimb K.\bibnamedelimi U.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+        {{hash=b39fc67a3375766bfd10f3b489a3d909}{%
+           family={Scheffler},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6b833ff9ec8eab914a2c220f704345e5}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c374dfc5915be133e6d5b9772bbf7f68}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=dde7868aaae3563f8d9a01ef739dae0c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Igor\bibnamedelima Ying},
+           giveni={I\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=4c3a81a7cf7c5ad3cd2a7d8a28d5376e}{%
+           family={Ruzsinszky},
+           familyi={R\bibinitperiod},
+           given={Adrienn},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e0573f7488605120d3a057a64073888}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Haowei},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a41e9944590c5acae5c314ea7c27e388}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jianwei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=56f57c97f199ef3cf4d265d9cd651283}{%
+           family={Trushin},
+           familyi={T\bibinitperiod},
+           given={Egor},
+           giveni={E\bibinitperiod}}}%
+        {{hash=61b7c86215a04a3067e2c8d2bcba7186}{%
+           family={Görling},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{fullhash}{b160d4ff0ff7d86c0f3da8eda8b1dd27}
+      \strng{bibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{authorbibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{authornamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{authorfullhash}{b160d4ff0ff7d86c0f3da8eda8b1dd27}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{11}
+      \field{title}{Understanding band gaps of solids in generalized Kohn\&\#x2013;Sham theory}
+      \field{volume}{114}
+      \field{year}{2017}
+      \field{pages}{2801\bibrangedash 2806}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1621352114
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.1621352114
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1621352114
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1621352114
       \endverb
     \endentry
     \entry{RASHID2014285}{article}{}

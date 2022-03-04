@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  4 MAR 2022 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.30)  4 MAR 2022 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -70,9 +70,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language15) on input line 105.
+(babel)             (\language37) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language15) on input line 108.
+(babel)             (\language37) on input line 108.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -1309,31 +1309,31 @@ Package csquotes Info: Redefining alias 'default' -> 'UKenglish'.
  (./main.aux
 (./chapter/chapter_background.aux) (./chapter/chapter_2.aux)
 (./chapter/chapter_3.aux) (./chapter/chapter_4.aux) (./chapter/chapter_5.aux)
-(./chapter/chapter_6.aux) (./chapter/chapter_7.aux) (./chapter/chapter_8.aux))
+(./chapter/chapter_6.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 40.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 4
-3.
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    ... okay on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1388,12 +1388,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 46
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 43
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -1402,68 +1402,68 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 <DUO_UiO_segl.png, id=4, 142.3719pt x 142.3719pt>
 File: DUO_UiO_segl.png Graphic file (type png)
 <use DUO_UiO_segl.png>
-Package pdftex.def Info: DUO_UiO_segl.png  used on input line 46.
+Package pdftex.def Info: DUO_UiO_segl.png  used on input line 43.
 (pdftex.def)             Requested size: 170.71652pt x 170.73027pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./DUO_UiO_segl.png>] [1]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 43.
  [1]
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 4
-6.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-6.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 4
-6.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-46.
+43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-46.
+43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-46.
+43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-46.
+43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 46.
+(Font)              scaled to size 11.40997pt on input line 43.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 46.
+(Font)              scaled to size 8.33606pt on input line 43.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 46.
+(Font)              scaled to size 6.25204pt on input line 43.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 46.
+(Font)              scaled to size 11.40997pt on input line 43.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 46.
+(Font)              scaled to size 8.33606pt on input line 43.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 46.
+(Font)              scaled to size 6.25204pt on input line 43.
  [1] [1
 
 
@@ -1490,7 +1490,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
@@ -1580,10 +1580,10 @@ Chapter 6.
 File: figures/theory/selfConsistentDFT.jpeg Graphic file (type jpg)
 <use figures/theory/selfConsistentDFT.jpeg>
 Package pdftex.def Info: figures/theory/selfConsistentDFT.jpeg  used on input l
-ine 81.
+ine 82.
 (pdftex.def)             Requested size: 391.76665pt x 340.575pt.
 
-Overfull \hbox (31.76665pt too wide) in paragraph at lines 81--82
+Overfull \hbox (31.76665pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
@@ -1600,35 +1600,35 @@ Chapter 7.
 <figures/method/sqs/A.jpg, id=145, 663.47874pt x 569.12625pt>
 File: figures/method/sqs/A.jpg Graphic file (type jpg)
 <use figures/method/sqs/A.jpg>
-Package pdftex.def Info: figures/method/sqs/A.jpg  used on input line 44.
+Package pdftex.def Info: figures/method/sqs/A.jpg  used on input line 46.
 (pdftex.def)             Requested size: 180.0pt x 154.4043pt.
 <figures/method/sqs/B.jpg, id=146, 663.47874pt x 569.12625pt>
 File: figures/method/sqs/B.jpg Graphic file (type jpg)
 <use figures/method/sqs/B.jpg>
-Package pdftex.def Info: figures/method/sqs/B.jpg  used on input line 49.
+Package pdftex.def Info: figures/method/sqs/B.jpg  used on input line 51.
 (pdftex.def)             Requested size: 180.0pt x 154.4043pt.
 <figures/method/sqs/C.jpg, id=147, 663.47874pt x 569.12625pt>
 File: figures/method/sqs/C.jpg Graphic file (type jpg)
 <use figures/method/sqs/C.jpg>
-Package pdftex.def Info: figures/method/sqs/C.jpg  used on input line 53.
+Package pdftex.def Info: figures/method/sqs/C.jpg  used on input line 55.
 (pdftex.def)             Requested size: 180.0pt x 154.4043pt.
 <figures/method/sqs/D.jpg, id=148, 663.47874pt x 569.12625pt>
 File: figures/method/sqs/D.jpg Graphic file (type jpg)
 <use figures/method/sqs/D.jpg>
-Package pdftex.def Info: figures/method/sqs/D.jpg  used on input line 58.
+Package pdftex.def Info: figures/method/sqs/D.jpg  used on input line 60.
 (pdftex.def)             Requested size: 180.0pt x 154.4043pt.
 <figures/method/sqs/E.jpg, id=149, 663.47874pt x 569.12625pt>
 File: figures/method/sqs/E.jpg Graphic file (type jpg)
 <use figures/method/sqs/E.jpg>
-Package pdftex.def Info: figures/method/sqs/E.jpg  used on input line 62.
+Package pdftex.def Info: figures/method/sqs/E.jpg  used on input line 64.
 (pdftex.def)             Requested size: 180.0pt x 154.4043pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 43--65
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 45--67
 []$[]$  $[]$
  []
 
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 43--65
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 45--67
 []$  $[]$
  []
 
@@ -1637,47 +1637,28 @@ Overfull \hbox (2.0805pt too wide) in paragraph at lines 43--65
 [30
 
 
-]
-\openout2 = `chapter/chapter_7.aux'.
-
- (./chapter/chapter_7.tex
-Chapter 8.
-) [31
-
-
-]
-\openout2 = `chapter/chapter_8.aux'.
-
- (./chapter/chapter_8.tex
-Chapter 9.
-) [32
-
-
-
-] [33
-
+] [31
 
 ]
 
 Package biblatex Warning: No driver for entry type ''.
-(biblatex)                Using fallback driver on input line 90.
+(biblatex)                Using fallback driver on input line 85.
 
-[34
+[32
 
 
-] [35] [36] (./main.aux (./chapter/chapter_background.aux)
+] [33] [34] [35] (./main.aux (./chapter/chapter_background.aux)
 (./chapter/chapter_2.aux) (./chapter/chapter_3.aux) (./chapter/chapter_4.aux)
-(./chapter/chapter_5.aux) (./chapter/chapter_6.aux) (./chapter/chapter_7.aux)
-(./chapter/chapter_8.aux))
+(./chapter/chapter_5.aux) (./chapter/chapter_6.aux))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28547 strings out of 481239
- 569984 string characters out of 5920378
- 1199203 words of memory out of 5000000
- 43204 multiletter control sequences out of 15000+600000
+ 28521 strings out of 481239
+ 569498 string characters out of 5920377
+ 1194990 words of memory out of 5000000
+ 43192 multiletter control sequences out of 15000+600000
  599318 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,24n,69p,1815b,2742s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1696,10 +1677,10 @@ uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (46 pages, 1799120 bytes).
+Output written on main.pdf (45 pages, 1800797 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
