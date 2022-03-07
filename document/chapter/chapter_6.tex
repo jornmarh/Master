@@ -31,6 +31,9 @@ Upon realizing the convergence parameters, the structures were allowed to relax 
 
 The specific tags, algorithms, parameters and options of VASP that was in use throughout this project can be found at our GitHub address, but in particular we would like to cover two specific parameters. The First is related to the magnetic configuration of our calculations, specified with the tag ISPIN in VASP. We used ISPIN=2 which allow for co-linear spin-polarized calculations due to the involvement of ferromagnetic elements such as iron and nickel in this study. However, there are many more magnetic orientations the system can adopt besides co-linear, therefore the final total energies we found may not be the true lowest energies. But given the allocated duration and resources of this project, this is a understood consequence. Secondly is the type of smearing that was used for the different calculations. The preferred method for accurate total energies and density of states in semiconductors is the tetrahedron method, and for accurate forces in metals the Methfessel-Paxton method is recommended. However, our system contains both metals and a large portion of Si. For this reason we used a combination of smearing methods. For the relaxation and minimization of forces, we used gaussian smearing with smearing width $\sigma = 0.05$, as this method provide accurate forces in both metallic and semiconducting materials. And to calculate the total energy and DOS, we used the tetrahedron method, as recommended. One interesting result of this project, is that we were not able to converge calculations with hybrid functionals using the tetrahedron method and was thus forced to adopt the Gaussian method in this case.
 
+
+\textbf{This \cite{bandgap_vasp_forum} is a good reference for extracting the band gap of VASP jobs relating to smearing and DOSCAR vs EIGENVAL}
+
 \textbf{Band structure/DOS and band-unfolding?}
 
 \section{Generation of SQS}
