@@ -1,0 +1,21 @@
+Resultater: 
+
+- Overview V (Toten, Mag, E_G)
+
+- DOS (Alle 5, zoomet inn rundt fermi energi, husk å skrive om DOS i metode)
+
+- Band gap up/down (Up, down, Total for alle 5 i PBE.)
+
+- Band gap PBE/SCAN/HSE06 (Kun totalt, brukte gap fra EIGENVAL fila)
+
+- 
+
+
+
+Stratergi: Presenter alle relevante resultater for en sammenseting (FeSi2 - CFMN), alle 5 strukturer? Analyser og diskuter resultatene (Båndgapet?). Så gå over til permutasjoner av samme supercelle, da for eks øke/redusere noen stoffer, substituere elementer, ulike supercell størrelser. Til, slutt gå igjennom resultatene til andre SQSer, for eks CrSi2, MnSi1.75, Fe2Si osv. 
+I slutten av seksjon på fesi2 når jeg har gått igjennom alle permutasjoner og slik, er det fint å nevne dette med magnetisk konfigurasjon og forskjell på sqs størrelse og random faktor. For å skinne lys på at disse resultatene trenger grundigere analyse og ekseperimentelle data å måles mot.   
+
+
+Trenger hjelp med vaspkit, band un-folding + struktur, local DOS og PDFs. Husk å laste opp PDFs til github.
+
+Merker der det ikke er båndgap, at det absolutt er mer partial occupancies, og feil occ i spinn ned enn i spinn opp. Er det derfor spin ned gapet er lite, eller 0?
