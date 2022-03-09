@@ -6,7 +6,7 @@ In the introduction to this project, we briefly discussed the scope and focus of
 
 In this structure, each supercell consist of 48 total atoms, 32 of which is silicon, and the remaining 16 positions is equally distributed between Chromium, iron, manganese, and Nickel. The 5 distinct SQS supercells can be seen in figure (method/SQS). In table \ref{tab:FeSi2/CrFeMnNi_equal} we present a summary of the most relevant functional properties of the SQSs.
 
-\begin{table}[]
+\begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
 \toprule
@@ -23,7 +23,7 @@ Structure  & Total energy/atom (eV) & Final magnetic moment (?) & Band gap (eV) 
 
 Bellow we have plotted the total density of states corresponding to the five distinct SQSs.
 
-\begin{figure}
+\begin{figure}[H]
 %\centering
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=\textwidth]{results/fesi2/DOS_A_toten.png}
@@ -44,7 +44,7 @@ Bellow we have plotted the total density of states corresponding to the five dis
 \label{dos_fesi2_gga}
 \end{figure}
 
-\begin{table}[]
+\begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
 \toprule
@@ -58,16 +58,47 @@ Structure  & Spin-up & Spin-down & Total  \\ \midrule
 \caption{Band gap (GGA) in spin up and spin down channels of CFMNSi2 structures}
 \end{table}
 
-\begin{table}[]
+\begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
 \toprule
 Structure  & PBE    & SCAN   & HSE06  \\ \midrule
-\textbf{A} & 0.0281 & 0.0000 & 0.1493 \\
-\textbf{B} & 0.0523 & 0.0890 & 0.1506 \\
-\textbf{C} & 0.0344 & 0.0690 & 0.0649 \\
+\textbf{A} & 0.0281 & 0.0000 & 0.0207 \\
+\textbf{B} & 0.0523 & 0.0890 & 0.1808 \\
+\textbf{C} & 0.0344 & 0.0690 & 0.0196 \\
 \textbf{D} & 0.0000 & 0.0000 & 0.0000 \\
-\textbf{E} & 0.0495 & 0.1048 & 0.1439 \\ \bottomrule
+\textbf{E} & 0.0495 & 0.1048 & 0.0133 \\ \bottomrule
 \end{tabular}
 \caption{Band gap of $CFMN (FeSi_2)$ SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06). \textbf{Add footnote to explain the uncertainty in these results regarding smearing type and width, and DOS and EIGENVAL}}
 \end{table}
+
+Looking at the results from different functionals, we observe that the hybrid functional HSE06 more or less agree with results of the PBE functional in terms of the actual presence of the band gap, while the size of the gap is up for debate. Especially in B, where we observe a band gap greater than 0.18 eV in comparison to 0.05 eV with PBE and 0.08 with SCAN. Bellow we show the total density of states around the fermi energi $E_f$ for this structure with the HSE06 functional. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=.3]{results/fesi2/hse06/B_DOS_zoom.png}
+\caption{Density of states from HSE06 of $FeSi_2$ CFMN structure B}
+\label{DOS_hse06_B}
+\end{figure}
+
+If we now compare this to the density of states of structure E,
+
+\begin{figure}[H]
+%\centering
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/hse06/E_DOS_zoom.png}
+\caption{DOS $\uparrow, \downarrow$}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/hse06/E_DOS_down.png}
+\caption{DOS $\downarrow$}
+\end{subfigure}
+\caption{The density of states of CFMN ($FeSi_2$) structure E for a) spin up and down, and b) focused on spin down}
+\end{figure}
+
+it's obvious that the wider band gap of structure B stems from the spin down channel, as opposed to the other structure where we observe large gaps in $\uparrow$ and small nonzero gaps in $\downarrow$ except for D with metallic characteristic in spin $\downarrow$, responsible for the zero band gap displayed in table ..
+
+\textbf{I think its relevant and interesting to in-depth analyze structure B, D, and E. B because of large band gap. D because no band gap, and E because this well represents the other structures A and C. }
+One difference is the KS eigenvalues. Str D have both partial occupancy and nonphysical occupancy, ie above 1 and bellow zero both in PBE and HSE06. This is not the case for structures that exhibited band gaps. Here we have clear transition from 1 to 0. Without having done a broad investigation of all material. This seems to be the case in other compositions and cells and permutations as well. Where both partial occupants and nonphysical occupations result in metallic structures. Calculating the band gap with strict 1 and 0 conditions, lead to small band gaps in most structures. Furthermore, in structures of Fe2Si, the difference in band where occupation transition from 1 to 0 between up and down, increases hugely compared to FeSi2 structures, talking close to 20 bands, opposed to maybe 2-5. 
+

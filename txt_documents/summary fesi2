@@ -1,0 +1,58 @@
+FeSi2
+
+CrFeMnNi
+
+48 ATOMS: equaldist, Mn7, MnNi3, FeNi3, CrNi3:
+equaldist: 32, 4, 4, 4, 4
+Mn7: 32, 7, 3, 3, 3, 3
+MnNi3: 32 3 3 5 5
+FeNi3, CrNi3: same
+
+equaldist
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0110   0.0018  -0.18  -317.184333     True   4.0006	strA/toten/OUTCAR
+   0   0.0126   0.0022  -1.07  -317.462111     True   3.9999	strB/toten/OUTCAR
+   0   0.0128   0.0032  -0.77  -317.103896     True   4.0008	strC/toten/OUTCAR
+   0   0.0468   0.0043  -0.30  -317.542058     True   4.0001	strD/toten/OUTCAR
+   0   0.0112   0.0050   0.43  -317.225992     True   4.0000	strE/toten/OUTCAR
+band gap: Denne har jeg summert opp bra, store gap i opp, små eller 0 i ned. Alle har fine EIGENVAL verdier, utenom D som har occ over 1 og undre 0, pluss partial occ flere steder. HSE06 med ismear-5 ga lavere gap enn PBE, SCAN ga høyere. Borstsett fra i B, der vi fant et stort gap over 0.1 eV med HSE06. Med HSE06 med ismear0 fant vi store gap i alle strukturer utenom D. Igjen, størst i opp. DOS samsvarer godt med gapet når jeg bruker smear5, men ikke i det hele tatt med smear=0. 
+
+Mn7
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0416   0.0041  -0.27  -321.200323     True   6.9999	strA/toten/OUTCAR
+   0   0.0272   0.0078  -0.28  -321.593815     True   6.9998	strB/toten/OUTCAR
+   0   0.0209   0.0069  -1.36  -321.112341     True   7.0001	strC/toten/OUTCAR
+   0   0.0555   0.0072  -0.66  -321.394541     True   4.9999	strD/toten/OUTCAR
+   0   0.0404   0.0050   0.29  -321.435156     True   7.0007	strE/toten/OUTCAR
+MnNi3
+
+FeNi3
+
+CrNi3
+
+ 
+LARGE, equaldist: 64 + 8 + 8 + 8 + 8 = 92atoms
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0343   0.0177  -0.67  -634.706163     True   8.0013	strA/toten/OUTCAR
+   0   0.0353   0.0165  -0.85  -634.247649     True   6.0001	strB/toten/OUTCAR
+   0   0.0239   0.0143  -0.91  -634.684649     True   6.0000	strC/toten/OUTCAR
+   0   0.0298   0.0219  -0.97  -634.412414     True   8.0004	strD/toten/OUTCAR
+   0   0.4265   0.0329  -2.11  -634.350767     True   6.0000	strE/toten/OUTCAR (Did relax properly)
+band gap: 
+
+HUGE, equaldist: 128 + 16 + 16 + 16 + 16 = 192 atoms
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0217   0.0183  -0.84 -1268.823249     True   14.0001	strA/toten/OUTCAR
+   0   0.0378   0.0190  -0.74 -1269.626564     True   18.0008	strB/toten/OUTCAR
+   0   0.0218   0.0500  -0.80 -1269.678182     True   18.0004	strC/toten/OUTCAR
+   0   0.0388   0.0233  -0.89 -1269.838537     True   12.0228	strD/toten/OUTCAR
+   0   0.2734   0.0234  -1.33 -1269.881398     True   11.0112	strE/toten/OUTCAR
+band gap: 
+
+Other Composistions: CreFeCoNi, CrFeTini, CoFeMnNi, CrFeTiNi
+
+
+
+
+
+
