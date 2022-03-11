@@ -1,0 +1,11 @@
+CrFeMnNi: 72 atoms, equaldist, ispin=2, magmom=default.
+Only A and E relaxed fully to F less than 1E-2. Rest relaxed to about 0.04
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0246   0.0107   0.19  -466.844809     True   7.8970	strA/toten/OUTCAR
+   0   0.0176   0.0141  -0.38  -466.461992     True   7.9992	strB/toten/OUTCAR
+   0   0.0323   0.0109  -0.59  -467.899380     True   2.7439	strC/toten/OUTCAR
+   0   0.0911   0.0079  -1.37  -466.517836     True   4.1181	strD/toten/OUTCAR
+   0   0.0223   0.0132   0.13  -466.403178     True   9.1716	strE/toten/OUTCAR
+str A have small gap in both channels, but not total from eigenvalues, no gap in DOS, and defect states in both channels. Similar with SCAN, but can only find gap for spin up in EIGENVAL. Small band gap in str B, more defect states in spin up than down. DOS only show gap in down. SCAN only finds gap in eigenval for down. Defect states in both, and no gap in DOS. No gap in str C. str D show small gaps around 0.01 in both up and down, and total gap 0.003 eV from eigenvalues, not apperent in DOS. bandgap.py does not find the gap either, defect states in both up and down. SCAN only finds gap in down channel, and no total gap in eigenvalues or DOS. Same for E, except SCAN does not find gap in any channels.
+
+

@@ -1,0 +1,21 @@
+MnSi_{1.75}
+
+Tetragonal: 44atoms, CrFeMnNi
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0524   0.0092   0.25  -293.355661     True   2.0838	strA/toten/OUTCAR
+   0   0.0473   0.0110   0.01  -292.540327     True   1.7420	strB/toten/OUTCAR
+   0   0.0615   0.0062  -0.56  -293.772037     True   0.5676	strC/toten/OUTCAR
+   0   0.0266   0.0014  -0.03  -293.288440     True   3.7421	strD/toten/OUTCAR
+   0   0.0206   0.0000  -0.38  -293.052807     True   1.6054	strE/toten/OUTCAR
+B and D did only relax untill 0.02, so not fully relaxed. No band gap in any of the 5 structures, sometimes a very small gap in one of the spins, but this is never shown in DOS. The EIGENVAL contains defect states for all structures, typically its about 4 bands between up and down regarding the 1 -> 0 occ transistion. 
+
+Orthorombic: CrFeMnNi, CrFeCoNi,   
+
+CrFeMnNi, 44atoms
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0346   0.0022  -1.51  -293.521924     True   1.0941	strA/toten/OUTCAR
+   0   0.0357   0.0039  -0.14  -293.150973     True   5.0021	strB/toten/OUTCAR
+   0   0.0293   0.0082   0.18  -293.723700     True   2.1141	strC/toten/OUTCAR
+   0   0.0553   0.0044  -0.13  -293.087604     True   2.1508	strD/toten/OUTCAR
+   0   0.0410   0.0042   0.62  -292.992844     True   4.7681	strE/toten/OUTCAR
+D did only relax to 0.02. No band gap in any of the structures, regardless of spin or PBE vs SCAN. However, removing the defect states and only evaluating states with occ above 0.99 or bellow 0.01 yield decent band gaps mostly above 0.05 eV, and some spin down gaps above 0.1 eV. DOS did not show any signs of a band gap. 

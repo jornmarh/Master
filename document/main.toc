@@ -59,12 +59,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Generation of SQS}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Band-structure?}{28}%
+\contentsline {section}{\numberline {7.3}Band-structure}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Utility scripts}{28}%
+\contentsline {section}{\numberline {7.4}Utility scripts}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Results and Discussion}{31}%
+\contentsline {part}{III\hspace {1em}Results and Discussion}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Working title}{32}%
+\contentsline {chapter}{\numberline {8}Working title}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{36}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{37}%

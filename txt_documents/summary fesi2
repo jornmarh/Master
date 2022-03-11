@@ -27,10 +27,21 @@ Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
 band gap: Only gap in strD, small. All strucutres have large gaps in up, but zero in down. Using 0.99 and 0.01 yields small band gaps in all structures. No band gap with scan with 0.51 and 0.49. Without we have small gaps in all structures and channels. 
 
 MnNi3
-error
+error in B, A not el converged. 
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0365   0.0062  -0.49  -320.313076     True   4.9967	strC/toten/OUTCAR
+   0   0.0239   0.0079  -0.80  -320.190275     True   4.9999	strD/toten/OUTCAR
+   0   0.0247   0.0121  -0.48  -320.245854     True   6.9954	strE/toten/OUTCAR
+Band gap in strD, nice in EIGENVAL and DOS. Pretty symmetric for both spin channels and around E_F. With SCAN, we find defect states in spin UP, but a nice large band gap in spin down, ie opposite of toten. No gap in C or D, except for in channel up. Interestingly, strE in toten have defect eigenvales in both spin channels.    
 
 FeNi3
-error!
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.3302   0.0185  -0.94  -321.147361     True   5.0000	strA/toten/OUTCAR
+   0   0.0203   0.0112  -0.23  -320.865209     True   8.9990	strB/toten/OUTCAR
+   0   0.1321   0.0109  -0.23  -320.752214     True   8.9996	strC/toten/OUTCAR
+   0   0.2806   0.0225   0.55  -321.022643     True   5.0001	strD/toten/OUTCAR
+   0   0.1215   0.0135  -0.86  -320.668492     True   5.0000	strE/toten/OUTCAR
+Large forces in A, C,D and E. But all relaxed proper with F less than 1E-2 with smear0. Small band gap 0.01 EV in str D, Larger in up than down. But both bellow 0.1 eV. Agreement with DOSCAR, eigneval and bandgap.py values. Again one of the least stable structures have a gap. No gap with SCAN in this structure, show defect states in both up and down, but a small gap in up. No gap around E_F in DOSCAR. 
 
 CrNi3
 Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
@@ -40,6 +51,8 @@ Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
    0   0.0113   0.0144  -1.07  -320.700385     True   5.0001	strE/toten/OUTCAR
 band gap: Nice band gap in both strD and E, around 0.1 eV in total. Both channels above 1 eV (with PBE). With SCAN the gaps lessen or vanish. Should do hybrid functionals here. 
 Interestingly, the two structures with band gap are the two least stable. Furthermore, B did not sucess, and high force in C. 
+
+CONCLUSION PERMUTATIONS: There is merit for conducting a more comprehensive study of the quasiternary phase diagram (Make figure?), from the promising results in certain directions, not one direction points to good results, but rather some structures in all directions showed somewhat of a potential. 
  
 LARGE, equaldist: 64 + 8 + 8 + 8 + 8 = 92atoms
 Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
@@ -51,7 +64,7 @@ Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
 band gap: 
 
 HUGE, equaldist: 128 + 16 + 16 + 16 + 16 = 192 atoms
-Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag		Filename
    0   0.0217   0.0183  -0.84 -1268.823249     True   14.0001	strA/toten/OUTCAR
    0   0.0378   0.0190  -0.74 -1269.626564     True   18.0008	strB/toten/OUTCAR
    0   0.0218   0.0500  -0.80 -1269.678182     True   18.0004	strC/toten/OUTCAR
@@ -59,7 +72,46 @@ Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
    0   0.2734   0.0234  -1.33 -1269.881398     True   11.0112	strE/toten/OUTCAR
 band gap: 
 
-Other Composistions: CreFeCoNi, CrFeTini, CoFeMnNi, CrFeTiNi
+CONCLUSION SQS-size: We see that the results we have gathered are sensitive to the SQS size, as indicated by the book. On the other hand, we do find band gaps in the same composistional stucture regardless of size, it's just the size that varies. Thus, we should have perfomed a convergence test of this. Or maybe this is down to a random factor involved when generating SQSs. As possible, generating 5 new SQS's of the same size could in fact yield different results as well. I have looked at the band gap of these structures, I found several but for some reason did not include them here?? 
+
+
+Other Composistions: CreFeCoNi, CrFeTiNi, CoFeMnNi, CrFeMnTi
+
+
+CrFeCoNi
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0303   0.0015  -0.87  -310.291722     True   1.7136	strA/toten/OUTCAR
+   0   0.0207   0.0010  -0.79  -310.721954     True   0.0000	strB/toten/OUTCAR
+   0   0.0511   0.0019  -1.17  -310.391469     True   0.2865	strC/toten/OUTCAR
+   0   0.1545   0.0020  -1.55  -310.351226     True   0.0000	strD/toten/OUTCAR
+   0   0.0194   0.0021  -0.43  -309.973394     True   0.0006	strE/toten/OUTCAR
+No band gap anywhere, Defect states in up and down. Or since the mag is nearly 0, these should be identical?? Do I need to do these again with ispin=1? I find small band gaps in every structure when neglecting defect states. Very good agreement between toten and SCAN for all structures. 
+
+CrFeTiNi: error in C
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0296   0.0011  -1.16  -308.380422     True   2.0711	strA/toten/OUTCAR
+   0   0.0132   0.0024  -1.13  -308.284745     True   0.6660	strB/toten/OUTCAR
+   0   0.0660   0.0126  -0.79  -307.662636     True   0.0000	strD/toten/OUTCAR
+   0   0.0581   0.0155  -0.99  -308.647364     True   3.1324	strE/toten/OUTCAR
+In A, eigenval show very small band gap in up and down, but not total, this gap is not seen for any spin in DOSCAR. SCAN remove the gap in down. I B, eigenval shows a small gap in down, up and total, despite for defect states in both channels. DOSCAR and bandgap.py does not display this gap. SCAN does not find a total gap in EIGENVAL, a small gap in down. No indication of a gap in strD and E with both PBE and SCAN. 
+
+CoFeMnNi
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0138   0.0107  -0.21  -310.664263     True   0.0000	strA/toten/OUTCAR
+   0   0.0352   0.0087  -0.42  -310.897079     True   0.0000	strB/toten/OUTCAR
+   0   0.0209   0.0094  -0.27  -310.373017     True   0.0000	strC/totenOUTCAR
+   0   0.0260   0.0041  -0.55  -310.924833     True   0.0003	strD/toten/OUTCAR
+   0   0.0306   0.0077  -0.09  -310.686054     True   0.0000	strE/toten/OUTCAR 
+StrA show nice small band gap around 0.035 Ev with both PBE and SCAN, apperent from eigenvalues and DOS. Small gap around 0.005 eV with PBE and SCAN in strE from eigenvalues, show signs in DOS as well. No gap in the other structures.  
+
+CrFeMnTi: error in C
+Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
+   0   0.0296   0.0011  -1.16  -308.380422     True   2.0711	strA/toten/OUTCAR
+   0   0.0132   0.0024  -1.13  -308.284745     True   0.6660	strB/toten/OUTCAR
+   0   0.0660   0.0126  -0.79  -307.662636     True   0.0000	strD/toten/OUTCAR
+   0   0.0581   0.0155  -0.99  -308.647364     True   3.1324	strE/toten/OUTCAR
+strA have defect states in both spins, but also small gaps. No total band gap though. SCAN only finds gap in up, from both eigenvalues and DOS. strB have defect states in both channels, but still show a small gap in both spins and total, around 0.008 eV. This is not seen in DOS. No gap in down or total with SCAN. strD show the lowest overall energy, but both PBE and SCAN with eigenvalues and DOS agree that there is no gap in either up, down or total. Same for strE, that have the highest overall energy and magnetic moment, ie no band gap.
+
 
 
 

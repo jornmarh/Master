@@ -1,0 +1,16 @@
+TODO:
+
+1) Forbrede resultater
+
+ - Gå igjennom Fe2Si og MnSi175 (Done, mangler Co i MnSi orthorombic.)
+ - Sette igang HSE der det er E_G, og/eller mest stabile struktur
+ - Notere overganger der det er båndgap i PBE og HSE06, for å se om det smale kgridet påvirker resultatet
+ - Lage figurer for PDFs, CHGCAR, og LDOS:
+ 	- PDFs: Finn referansedata fra ICSD og legg det som en baseline i figurene for PDFs.
+ - Prøve band unfolding
+ - Regne ut N valence electrons: Use grep NELECT OUTCAR?
+ - Sette igang nye jobber med NEDOS=20000 der det er Eg fra eigenvalues, men ikke i DOSCAR. 
+ 
+ 2) Legge inn resultater
+ 
+ 3) Skriving
