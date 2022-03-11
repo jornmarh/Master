@@ -2182,82 +2182,41 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3">hea2016_ch1</bcf:citekey>
-    <bcf:citekey order="4">hea2016_ch2</bcf:citekey>
-    <bcf:citekey order="5">hea2016_ch3</bcf:citekey>
-    <bcf:citekey order="6">hea2016_ch7</bcf:citekey>
-    <bcf:citekey order="7">hea2016_ch2</bcf:citekey>
-    <bcf:citekey order="8">hea2016_ch2</bcf:citekey>
-    <bcf:citekey order="9">owen_jones_2018</bcf:citekey>
-    <bcf:citekey order="10">owen_jones_2018</bcf:citekey>
-    <bcf:citekey order="11">sqsIntro</bcf:citekey>
+    <bcf:citekey order="1">hea2016_ch1</bcf:citekey>
+    <bcf:citekey order="2">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="3">hea2016_ch3</bcf:citekey>
+    <bcf:citekey order="4">hea2016_ch7</bcf:citekey>
+    <bcf:citekey order="5">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="6">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="7">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="8">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="9">sqsIntro</bcf:citekey>
+    <bcf:citekey order="10">sqsfull</bcf:citekey>
+    <bcf:citekey order="11">sqsfull</bcf:citekey>
     <bcf:citekey order="12">sqsfull</bcf:citekey>
-    <bcf:citekey order="13">sqsfull</bcf:citekey>
-    <bcf:citekey order="14">sqsfull</bcf:citekey>
-    <bcf:citekey order="15">sqs_dos</bcf:citekey>
-    <bcf:citekey order="16">sqs_bg</bcf:citekey>
-    <bcf:citekey order="17">WANG2021128754</bcf:citekey>
-    <bcf:citekey order="18">WEI2021167432</bcf:citekey>
-    <bcf:citekey order="19">RASHID2014285</bcf:citekey>
-    <bcf:citekey order="20">SORKIN2021160776</bcf:citekey>
-    <bcf:citekey order="21">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="22">bandgap_dft_forum</bcf:citekey>
-    <bcf:citekey order="23">bandgap_dft_1</bcf:citekey>
-    <bcf:citekey order="24">bandgap_dft_2</bcf:citekey>
-    <bcf:citekey order="25">xc_bandgap</bcf:citekey>
-    <bcf:citekey order="26">pw91</bcf:citekey>
-    <bcf:citekey order="27">pbe</bcf:citekey>
-    <bcf:citekey order="28">mbj</bcf:citekey>
-    <bcf:citekey order="29">scan</bcf:citekey>
-    <bcf:citekey order="30">scan2</bcf:citekey>
-    <bcf:citekey order="31">hse06</bcf:citekey>
-    <bcf:citekey order="32">hf_bandgap</bcf:citekey>
-    <bcf:citekey order="33">hf_comparision</bcf:citekey>
-    <bcf:citekey order="34">hse</bcf:citekey>
-    <bcf:citekey order="35">xc_bandgap</bcf:citekey>
-    <bcf:citekey order="36">PAW1</bcf:citekey>
-    <bcf:citekey order="37">PAW2</bcf:citekey>
-    <bcf:citekey order="38">ismear5</bcf:citekey>
-    <bcf:citekey order="39">bandgap_vasp_forum</bcf:citekey>
-    <bcf:citekey order="40">bandstructure</bcf:citekey>
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nty">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="nty/global//global/global"
-                type="entry"
-                sortingtemplatename="nty"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
+    <bcf:citekey order="13">sqs_dos</bcf:citekey>
+    <bcf:citekey order="14">sqs_bg</bcf:citekey>
+    <bcf:citekey order="15">WANG2021128754</bcf:citekey>
+    <bcf:citekey order="16">WEI2021167432</bcf:citekey>
+    <bcf:citekey order="17">RASHID2014285</bcf:citekey>
+    <bcf:citekey order="18">SORKIN2021160776</bcf:citekey>
+    <bcf:citekey order="19">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="20">bandgap_dft_forum</bcf:citekey>
+    <bcf:citekey order="21">bandgap_dft_1</bcf:citekey>
+    <bcf:citekey order="22">bandgap_dft_2</bcf:citekey>
+    <bcf:citekey order="23">xc_bandgap</bcf:citekey>
+    <bcf:citekey order="24">pw91</bcf:citekey>
+    <bcf:citekey order="25">pbe</bcf:citekey>
+    <bcf:citekey order="26">mbj</bcf:citekey>
+    <bcf:citekey order="27">scan</bcf:citekey>
+    <bcf:citekey order="28">scan2</bcf:citekey>
+    <bcf:citekey order="29">hse06</bcf:citekey>
+    <bcf:citekey order="30">hf_bandgap</bcf:citekey>
+    <bcf:citekey order="31">hf_comparision</bcf:citekey>
+    <bcf:citekey order="32">hse</bcf:citekey>
+    <bcf:citekey order="33">xc_bandgap</bcf:citekey>
+    <bcf:citekey order="34">PAW1</bcf:citekey>
+    <bcf:citekey order="35">PAW2</bcf:citekey>
+    <bcf:citekey order="36">ismear5</bcf:citekey>
+    <bcf:citekey order="37">bandgap_vasp_forum</bcf:citekey>
+    <bcf:citekey order="38">bandstructure</bcf:citekey>
