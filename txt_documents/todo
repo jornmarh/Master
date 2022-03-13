@@ -1,11 +1,12 @@
 TODO:
 
-1) Forbrede resultater
+1) Forberede resultater
 
  - Gå igjennom Fe2Si og MnSi175 (Done, mangler Co i MnSi orthorombic.)
  - Sette igang HSE der det er E_G, og/eller mest stabile struktur
  - Notere overganger der det er båndgap i PBE og HSE06, for å se om det smale kgridet påvirker resultatet
- - Lage figurer for PDFs, CHGCAR, og LDOS:
+ - Lage figur for bap i spin opp, ned og uten defekt tilstander (Gjør til slutt, jeg tenker en stor konkluderende figur som viser at alle strukturer i og seg selv fremviser lovende resultater, men de blir på en måte holdt tilbake av noe.)
+ - Lage figurer for PDFs, CHGCAR, og LDOS: Har laget ferdig metoden, må bare gjøre det for alle nå.
  	- PDFs: Finn referansedata fra ICSD og legg det som en baseline i figurene for PDFs.
  - Prøve band unfolding
  - Regne ut N valence electrons: Use grep NELECT OUTCAR?
