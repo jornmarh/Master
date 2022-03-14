@@ -1,6 +1,6 @@
 54 atoms, equaldist
 
-CrFeCoNi
+CrFeCoNi, check hse06 strC
 Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag		Filename
    0   0.0353   0.0174   0.47  -389.498317     True   19.3167	strA/toten/OUTCAR
    0   0.0218   0.0138   0.88  -389.394165     True   21.0030	strB/toten/OUTCAR
@@ -9,7 +9,7 @@ Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag		Filename
 
 All relaxed correctly bellow 1E-2, don't know what happend to strD. eigenval does show a very small gap in up, down and total, but not in dos. the eigenval file show large differences in band nr where we transistion from 1 to 0 occ. Also defect states in both channels. No gap with scan. The difference in eigenval is to large in B to calculate the gap with my script. Small gap in C, both from eigenvalues and DOS. With PBE, no defect states in down, With scan we still find a gap in down, but now with defect states, hence the dos does not show any gap in any channels. strE ugly, many defect stats, no gap what so ever. 
 
-CrFeMnNi
+CrFeMnNi, check hse06 in strE
 Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag		Filename
    0   0.0235   0.0134   1.29  -406.278760     True   15.0553	strA/toten/OUTCAR
    0   0.0244   0.0205   1.55  -405.026715     True   19.0003	strB/toten/OUTCAR
