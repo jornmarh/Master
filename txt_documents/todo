@@ -17,3 +17,33 @@ TODO:
  2) Legge inn resultater
  
  3) Skriving
+ 
+ Hva manngler jeg å gjøre på "Results & Discusssion"?
+ 	- Skrive diskusjon på CFMN (fesi2) equaldist 48 atoms resultatene
+ 		- Se på overgang med kpunkter for hse06 kontra pbe og scan
+ 		- Analysere forskjellene mellom de ulike strukturene og trekke sammelignerer til litteraturen og eksperimentelle observasjoner
+ 		- Snakke litt om hva jeg burde ha gjort og mulige retninger, 
+ 		- Kommentere/diskutere sammenheng mellom teori og praksis mellom metoder og resultater
+ 		- Skrive en konklusjon på denne seksjon før jeg går videre til neste avsnitt
+ 	- Legge inn resultater for permutasjoner av CFMN (fesi2) og andre sammensetninger av strukturen
+ 	 Legge inn noen figurer/tableller som viser omfanget av studien, og hvilke resultater vi fant utenfor denne ene sammensetningen. 
+ 	 - Diskutere litt hvorfor vi ikke får båndgap her, eller andre faktorer som stabilitet, magnetisme osv. Prøv å trekk fram enten en god struktur av de fem som kan sammenlignes med den gode strukutren og prøv å pek på ulikheter, evt likheter hvis det er andre gode egenskaper. 
+ 	 -Skrive en konklusjon
+ 	 
+ Hva mangler jeg totalt:
+ 	- Teori: 
+ 		- Skrive utfylleldene DFT og SQS matteseksjonene
+ 		- Skrive limitations av DFT avsnittet
+ 		- Skrive 3d silisider seksjon. 
+ 		- Penskrive HEA
+ 	- Intro: 
+ 		- Legge til inngangsavsnitt
+ 		- Penskrive
+ 	Metode: 
+ 		- Jobbe med XC seksjon
+ 		- Skrive utfyllende på resten av kp 6
+ 		- Omskrive, penskrive og omstrukturere kp 7
+ 		- Legge til avsnitt om båndstruktur, DOS og PDF i kp 7.
+ 		- Skrive bedre om parametere i vasp.
+ 		- Skrive en mer komplett seksjon om referanser og pakker som Materials project, vaspkit, pymatgen, sintef og OM sine script. Annet? TDEP etc. 
+ 		
