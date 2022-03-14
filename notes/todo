@@ -3,48 +3,77 @@ TODO:
 1) Forberede resultater
 
  - Gå igjennom Fe2Si og MnSi175 (Done, mangler Co i MnSi orthorombic.)
- - Sette igang HSE der det er E_G, og/eller mest stabile struktur
+
+ - Sette igang HSE der det er E_G, og/eller mest stabile struktur: sjekk crSi2, fe2si, mnsi1.75, of fesi2 sine permutasjoner og sammensetinger
+
  - Notere overganger der det er båndgap i PBE og HSE06, for å se om det smale kgridet påvirker resultatet
+
  - Lage figur for bap i spin opp, ned og uten defekt tilstander (Gjør til slutt, jeg tenker en stor konkluderende figur som viser at alle strukturer i og seg selv fremviser lovende resultater, men de blir på en måte holdt tilbake av noe.)
+
  - Lage figurer for PDFs, CHGCAR, og LDOS: Har laget ferdig metoden, må bare gjøre det for alle nå.
  	- PDFs: Finn referansedata fra ICSD og legg det som en baseline i figurene for PDFs, mangler ferdig script
+
  	- LDOS: Ferdig plot, bare å hente ut filer, plotte og legge inn.
+
  	-CHGCAR: Har gjort ferdig metode, bare å hente ut filer, gjøre, legge inn i dokument
+
  - Prøve band unfolding
+
  - Regne ut N valence electrons: Use grep NELECT OUTCAR?
+
  - Sette igang nye jobber med NEDOS=20000 der det er Eg fra eigenvalues, men ikke i DOSCAR. 
- 
+
  2) Legge inn resultater
- 
+
  3) Skriving
- 
+
  Hva manngler jeg å gjøre på "Results & Discusssion"?
  	- Skrive diskusjon på CFMN (fesi2) equaldist 48 atoms resultatene
+
  		- Se på overgang med kpunkter for hse06 kontra pbe og scan
  		- Snakke om defect states som ødelegger gapet.
  		- Analysere forskjellene mellom de ulike strukturene og trekke sammelignerer til litteraturen og eksperimentelle observasjoner
- 		- Snakke litt om hva jeg burde ha gjort og mulige retninger, 
+ 		- Snakke litt om hva jeg burde ha gjort og mulige retninger,
+
  		- Kommentere/diskutere sammenheng mellom teori og praksis mellom metoder og resultater
+
  		- Skrive en konklusjon på denne seksjon før jeg går videre til neste avsnitt
+
  	- Legge inn resultater for permutasjoner av CFMN (fesi2) og andre sammensetninger av strukturen
- 	 Legge inn noen figurer/tableller som viser omfanget av studien, og hvilke resultater vi fant utenfor denne ene sammensetningen. 
- 	 - Diskutere litt hvorfor vi ikke får båndgap her, eller andre faktorer som stabilitet, magnetisme osv. Prøv å trekk fram enten en god struktur av de fem som kan sammenlignes med den gode strukutren og prøv å pek på ulikheter, evt likheter hvis det er andre gode egenskaper. 
+ 	 	Legge inn noen figurer/tableller som viser omfanget av studien, og hvilke resultater vi fant 		utenfor denne ene sammensetningen.
+
+ 	 - Diskutere litt hvorfor vi ikke får båndgap her, eller andre faktorer som stabilitet, magnetisme osv. 			Prøv å trekk fram enten en god struktur av de fem som kan sammenlignes med den gode strukutren 			og prøv å pek på ulikheter, evt likheter hvis det er andre gode egenskaper.
+
  	 -Skrive en konklusjon
- 	 
+
  Hva mangler jeg totalt:
- 	- Teori: 
+
+ 	- Teori:
+
  		- Skrive utfylleldene DFT og SQS matteseksjonene
+
  		- Skrive limitations av DFT avsnittet
- 		- Skrive 3d silisider seksjon. 
+
+ 		- Skrive 3d silisider seksjon.
+
  		- Penskrive HEA
- 	- Intro: 
- 		- Legge til inngangsavsnitt
+
+ 	- Intro:
+	 	- Legge til inngangsavsnitt
+
  		- Penskrive
- 	Metode: 
+
+ 	Metode:
  		- Jobbe med XC seksjon
+
  		- Skrive utfyllende på resten av kp 6
+
  		- Omskrive, penskrive og omstrukturere kp 7
+
  		- Legge til avsnitt om båndstruktur, DOS og PDF i kp 7.
+
  		- Skrive bedre om parametere i vasp.
- 		- Skrive en mer komplett seksjon om referanser og pakker som Materials project, vaspkit, pymatgen, sintef og OM sine script. Annet? TDEP etc. 
- 		
+
+ 		- Skrive en mer komplett seksjon om referanser og pakker som Materials project, vaspkit, 			pymatgen, sintef og OM sine script. Annet? TDEP etc.
+
+ 	- The method or results section should include something on the computational aspects of this project, 		such as ease of convergence, relaxation, total cpu time or number of steps etc for the different 		structures, this can easily be summarized in a table or simple figure.

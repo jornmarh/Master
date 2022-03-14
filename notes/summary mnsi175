@@ -1,6 +1,6 @@
 MnSi_{1.75}
 
-Tetragonal: 44atoms, CrFeMnNi
+Tetragonal: 44atoms, CrFeMnNi: check hse06 strB
 Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
    0   0.0524   0.0092   0.25  -293.355661     True   2.0838	strA/toten/OUTCAR
    0   0.0473   0.0110   0.01  -292.540327     True   1.7420	strB/toten/OUTCAR
@@ -11,7 +11,7 @@ B and D did only relax untill 0.02, so not fully relaxed. No band gap in any of 
 
 Orthorombic: CrFeMnNi, CrFeCoNi,   
 
-CrFeMnNi, 44atoms
+CrFeMnNi, 44atoms, check hse06 strE
 Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
    0   0.0346   0.0022  -1.51  -293.521924     True   1.0941	strA/toten/OUTCAR
    0   0.0357   0.0039  -0.14  -293.150973     True   5.0021	strB/toten/OUTCAR
