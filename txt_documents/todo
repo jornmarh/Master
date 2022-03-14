@@ -7,7 +7,9 @@ TODO:
  - Notere overganger der det er båndgap i PBE og HSE06, for å se om det smale kgridet påvirker resultatet
  - Lage figur for bap i spin opp, ned og uten defekt tilstander (Gjør til slutt, jeg tenker en stor konkluderende figur som viser at alle strukturer i og seg selv fremviser lovende resultater, men de blir på en måte holdt tilbake av noe.)
  - Lage figurer for PDFs, CHGCAR, og LDOS: Har laget ferdig metoden, må bare gjøre det for alle nå.
- 	- PDFs: Finn referansedata fra ICSD og legg det som en baseline i figurene for PDFs.
+ 	- PDFs: Finn referansedata fra ICSD og legg det som en baseline i figurene for PDFs, mangler ferdig script
+ 	- LDOS: Ferdig plot, bare å hente ut filer, plotte og legge inn.
+ 	-CHGCAR: Har gjort ferdig metode, bare å hente ut filer, gjøre, legge inn i dokument
  - Prøve band unfolding
  - Regne ut N valence electrons: Use grep NELECT OUTCAR?
  - Sette igang nye jobber med NEDOS=20000 der det er Eg fra eigenvalues, men ikke i DOSCAR. 
