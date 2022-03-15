@@ -4,7 +4,7 @@ TODO:
 
  - Gå igjennom Fe2Si og MnSi175 (Done, mangler Co i MnSi orthorombic.)
 
- - Sette igang HSE der det er E_G, og/eller mest stabile struktur: sjekk crSi2, fe2si, mnsi1.75, of fesi2 sine permutasjoner og sammensetinger
+ - Sette igang HSE der det er E_G, og/eller mest stabile struktur: sjekk crSi2, fe2si, mnsi1.75, of fesi2 sine permutasjoner og sammensetinger 
 
  - Notere overganger der det er båndgap i PBE og HSE06, for å se om det smale kgridet påvirker resultatet
 
@@ -17,11 +17,15 @@ TODO:
 
  	-CHGCAR: Har gjort ferdig metode, bare å hente ut filer, gjøre, legge inn i dokument
 
- - Prøve band unfolding
+ - Prøve band unfolding (Funket ikke)
 
  - Regne ut N valence electrons: Use grep NELECT OUTCAR?
 
- - Sette igang nye jobber med NEDOS=20000 der det er Eg fra eigenvalues, men ikke i DOSCAR. 
+ - Regne ut total CPU tid brukt, ikke bare grep cpu, men regne ut totalt brukt cpu tid fra relax1 til toten, for alle strukturer og plotte den tiden for å sammenligne tiden mellom strukturer, da bør vi finne ut at CFMN fesi2 var suveren. Gjør også det samme for hse06, trenge ikke like mange, ideen her er å illustrere hvor tøft hse06 var å konvergere kontra pbe/scan.
+ 
+ - Regne ut formasjonsenergi/tetthet? 
+ 
+ - Ta med konvergens-tester? 
 
  2) Legge inn resultater
 
