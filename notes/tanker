@@ -27,3 +27,5 @@ Hva er betydingen av OCC over 1 eller under 0. På vasp formumet siterer de artk
 Når jeg skriver diskusjonen/resultater:
 Diskuter først hvorfor vi ser båndgap i alle 5 med pbe, ie se/diskuter DOS, LDOS, CHGCAR og pek på likheter og ulikheter. Prøv å trekk koblinger til litteraturen. Så diskuter forskjellen mellom XC metodene, hvorfor er scan så uforustigbart, og hvorfor er ikke de 3 metodene enige med teori, ie at gapet øker fra pbe til scan til hse06. Hvorfor er kun B stort med hse06. Trekk fram ting som kpunkter og overganger fra VB til CB. Dette med defekttilstander osv, og type smøring som blir brukt. -5 gir nøyaktige beregninger for DOS, men mindre troverdige egenverdier sammenlignet med gaussisk. Da kan jeg trekke fram at med gaussisk fikk vi store gap i de fleste strukturer med hse06 fra eigenval, men DOSCAR viste ikke gap. Men enighet for B i begge strukturer. 
 
+Mention the point of smearing and kpoints when discussing results from hea in how the dos and eigenval give different results for different methods.
+

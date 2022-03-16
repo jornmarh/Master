@@ -98,7 +98,14 @@ Structure  & PBE    & SCAN   & HSE06  \\ \midrule
 \end{table}
 \end{comment}
 
-\textbf{DOS analyse}
+The most obvious result of figure (\textbf{ref DOS above}), is that the band gap listed for the five structures in table is validated from the density of states. The band gap for a spin-polarized system can be determined by the minimum distance between occupied states regardless of spin states. Thus, despite clear gap in the spin up direction, the total gap is often limited to the smaller or non-existent gap in the spin down channel. This is particularly evident in structure D, where there exist a large symmetric gap in spin $\uparrow$ around $0.3$ eV, but the metallic spin down channel results in an overall metallic band structure, as opposed to the remaining structures. Especially structures B and E show large gaps around $0.5$ eV. 
+
+However, judging the band gap of a system solely based on the density of states, particularly in VASP, provide both limited information and are prone to errors. For instance, all though the DOS illustrate that structure D have a gap in the $\uparrow$ direction, but not in $\downarrow$, it does not provide an answer to why this is. Additionally, the accuracy of of the DOS is very sensitive to primarily the type of numerical smearing. In this project we observed a great number of cases where the density of states failed to capture the band gap when we employed Gaussian smearing, compared to the much more accurate method of tetrahedron smearing with Bloch corrections (see section method..)  As well other computational factors such as number of points used to plot the DOS (NEDOS in VASP) and amount of k-points (to solve the DOS integral, see section ..). 
+
+A more rigid approach to both determine and investigate the band gap and structure of a solid with VASP and DFT is to investigate the Kohn-Sham eigenvalues. The eigenvalues are given for all energy bands for the given number of k-points used in the calculation, with listed energies and corresponding occupancy in both channels. In this structure, we find good agreement between the DOS and eigenvalues for the CFMN (fesi2) system. In figure \textbf{ref bar graph spin up/down} we illustrate the relationship between the spin up and down channels in regards to the band gap, as read from the eigenvalues. From the eigenvalues, we can qualitatively differentiate structure D from the rest, by observing that for certain k-points, the occupancy does not transition from 1 to 0 in 1 step, but rather contain partially occupied states in between, however only in the spin down channel. If we were to neglect this partially occupied states, and only consider bands with above 0.99 or bellow 0.01 occupancy, the band gap of structure D remain consistent in spin up, but we now observe a band gap in spin down around 0.05 eV and similarly thus for the total band gap of the structure. \textbf{More on this, and/or make some kind of figure to better explain it}
+Again, this would have been extremely insightful to investigate from the band structure of the structure.
+
+Regarding the eigenvalues, there are some important factors to consider that may negatively impact the results. Firstly, as explained above the eigenvalues of each band is given for the total number of k-points employed in the calculation, obviously this leads to a relationship between accuracy and number of points. A small mesh of k-points may lead to the smallest transition between the highest occupied state in the conduction band and the lowest unoccupied state in the valence band risk not being encapsulated, resulting in an inaccurately large gap. As well, the eigenvalues are subject to the smearing method similarly, but inversely to the density of states. In this case, the tetrahedron method with Bloch corrections are prone to yield nonphysical results with the occupancy in a given band either above 1 or negative, ie bellow 0, whereas Gaussian smearing with an appropriately small smearing width. Due to the limited time and resources on this project, we were not able to investigate this principle to the full extent, and thus the listed results comes with a degree of uncertainty. An interesting observation in this project, is that out of all the numerous structures we studied, this problem of non-physical eigenvalues only appear in structures that does not have a band gap, and correspondingly contain these partial occupants. \textbf{More on this}
 
 \begin{figure}[H]
 \centering
@@ -107,12 +114,10 @@ Structure  & PBE    & SCAN   & HSE06  \\ \midrule
 \label{DOS_hse06_B}
 \end{figure}
 
-\textbf{Intro LDOS}
 
-\textbf{Diskusjon LDOS}
 
 \begin{figure}[H]
-%\centering
+\centering
 	\begin{subfigure}{\textwidth}
 		\includegraphics[width=\textwidth]{results/fesi2/A_LDOS.png}
 		\caption{A}
@@ -131,6 +136,7 @@ Structure  & PBE    & SCAN   & HSE06  \\ \midrule
 	\end{subfigure}
 \end{figure}		
 \begin{figure}[H]
+	\centering	
 	\includegraphics[width=\textwidth]{results/fesi2/E_LDOS.png}
 	\caption{E}
 \end{figure}
@@ -166,30 +172,15 @@ Structure  & PBE    & SCAN   & HSE06  \\ \midrule
 \textbf{Finish discussion pdfs, introduce CHGCAR}
 
 \begin{figure}
-	\begin{subfigure}{0.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/A_CHGCAR.jpg}
-		\caption{Structure A}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.5\textwidth}
+	\begin{subfigure}{\textwidth}
 		\includegraphics[width=\textwidth]{results/fesi2/B_CHGCAR.jpg}
 		\caption{Structure B}
 	\end{subfigure}
-	\begin{subfigure}{0.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/C_CHGCAR.jpg}
-		\caption{Structure C}
-	\end{subfigure}
 	\hfill
-	\begin{subfigure}{0.5\textwidth}
+	\begin{subfigure}{\textwidth}
 		\includegraphics[width=\textwidth]{results/fesi2/D_CHGCAR.jpg}
 		\caption{Structure D}
 	\end{subfigure}
-	\begin{subfigure}{0.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/E_CHGCAR.jpg}
-		\caption{Structure E}
-	\end{subfigure}
-		\caption{Charge density}
-		\label{chgcar}
 \end{figure}
 
 

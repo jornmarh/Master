@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'chapter_7.blg'
+[62] biber:322> INFO - === on. mars 16, 2022, 09:47:01
+[173] Utils.pm:309> ERROR - Cannot find 'chapter_7.bcf'!
+[173] Biber.pm:132> INFO - ERRORS: 1
