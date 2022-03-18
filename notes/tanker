@@ -29,3 +29,7 @@ Diskuter først hvorfor vi ser båndgap i alle 5 med pbe, ie se/diskuter DOS, LD
 
 Mention the point of smearing and kpoints when discussing results from hea in how the dos and eigenval give different results for different methods.
 
+Når jeg skal analysere LDOS, ta med kanskje 1 full figur for å vise hvor de ulike elementene har effekt, og inkluder zoomet inn versjon av noen. For eks struktur B/E og D for å vise en med gap og en uten. 
+
+For CHGCAR analysen, inkluder CHGCAR for fesi2 bulk først, så ta med for eks str B og D og se på forksjeller/likheter for å forklare hvorfor en er halvledene og en er metall. 
+
