@@ -2,7 +2,26 @@
 \label{sec:something}
 
 
+As stated previously, in this project we have attempted to study so-called high-entropy silicides, in which we use the principle of the special quasi random structures approach, implemented with TDEP, to generate random alloys by alloying promising base 3d-silicides such as $Fe_2Si \text{ and }FeSi_2$ with sustainable 3d elements. The SQS method will locate the optimal correlation functions to mimic the true random alloys, and from these build supercells, but the number of supercells one can build with this approach is plenty-full. To maintain a clear and comparative study, we limit our-self to only generating 5 unique supercells per composition. This will allow us to observe patterns and locate promising directions, while allowing for a greater number of compositions to be trialed, however we must bear in mind that by employing this limitation we are prone to errors resulting from that the trial width does not necessarily encapsulate the true properties of the random alloy, good or bad. 
 
+In this section, we will cover the outcome of this method applied to a great number of compositions, permutations and unit cells. We will evaluate factors such as geometric considerations, stability, magnetism, but primarily, our emphasis will lie on the band gap of the structures. The project began with the unit cell of hexagonal $Fe_2Si$, in which we generated 5 supercells with the composition $(CrFeCoNi)2Si$. These supercells consisted of 54 atoms, where the 3d atoms are distributed eqvimolar between 36 sites, and silicon occupy the remaining 18 sites. However, we only managed to successfully carry out calculations on 4/5 SQSs, in other words complete force relaxation and total energy convergence. Hence we will only include the 4 successfully calculated structures.  
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}cccc@{}}
+\toprule
+Structure  & Total energy/atom (eV) & Final magnetic moment (?) & Band gap (eV) \\ \midrule
+\textbf{A} & −7.2129                & 19.3167                    & 0.0000        \\
+\textbf{B} & −7.2110                & 21.0030                    & 0.0000        \\
+\textbf{C} & −7.2042                & 19.0002                    & 0.0000        \\
+\textbf{E} & −7,2077                & 17.4200                    & 0.0000             \\
+\textbf{Mean} & −7.2090            & 19.1850                  	 & -        \\ 
+\textbf{Std} & 0.0038				  & 	1.4688						& -				\\ \bottomrule
+\end{tabular}
+\caption{Total energy per atom, final magnetic moment, and band gap (PBE) of $(CrFeCoNi)_2Si$  }
+\label{table:fesi2_summary}
+\end{table}  
 
 Throughout the duration of this study, we have carried out a great number of DFT calculations in order to present an comprehensive overview of promising high-entropy silicides. In payment to the thermoelectric prospect of hexagonal $Fe_2Si$, we firstly attempted to build SQSs from this structure. However, in agreement to the experimental indication that \textbf{cite?}, 3d silicides adopt a metallic character when the 3d elements supercede $50\%$ of the composition, all of our SQSs displayed a clear absence of an energy gap between the valence band and conduction band, we will return  more specifically to these compositions later in this section. For now, we will present the results of a much more interesting and promising case, in which we replaced $Fe_2Si$, with $\beta-FeSi_2$, effectively doubling the Si-metal ratio. Hence why we prefer the term high-entropy silicides more so than high-entropy alloys, as these particular compositions does not lie directly within the conditions presented in sections (\textbf{HEA}). In this structure, we completed in total calculations regarding 17 distinct compositions and permutations, such $\text{ALLOY}Si_2$ SQS based on CoCrFeni, CrFeMnNi, CoCrMnNi, CrFeMnTi, CrFeTiNi, and permutations wihin these such as increasing or decreasing the distribution of certain elements. Of the 17 variants, each consists of 5 unique SQSs, and trialed with numerous functionals, magnetic configurations and other parameters, as discussed in section .., in attempt to locate the overall most stable and reliable results. With this approach, the complete number of calculations and results both escalated very quikly, therefore, in the intent of presenting a clear and informative report of the study, we will begin this section by analyzing the overall most promising structure, then present and discuss these results in relation to the remaining permutations and structures.    
 
