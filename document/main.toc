@@ -65,6 +65,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Results and Discussion}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Working title}{33}%
+\contentsline {chapter}{\numberline {8}Results and Discussion}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{47}%
+\contentsline {section}{\numberline {8.1}One iron, two silicide}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}two iron, one silicon}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}CFMN in the $CrSi_2$ and $MnSi_{1.75}$ ($Mn_4Si_7$) unit cell}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Overview}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IV\hspace {1em}Conclusion}{50}%

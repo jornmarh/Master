@@ -1,50 +1,40 @@
-\chapter{Working title}
-\label{sec:something}
+\chapter{Results and Discussion}
+\label{sec:R&D}
 
+In this nearly two year long study, we have managed to investigate a great number of materials with various structures and compositions. We initially began by experimenting with an $Fe_2Si$ unit cell and create these high-entropy silicides by using the special quasi-random structure approach as described above. All though this initial compound is not a semiconductor, we worked under the hope that the extraordinary properties that have been observed in high-entropy alloys through effects such as the cocktail effect, we could locate a specific combinations of elements that in terms would yield a semiconductor with unchanged metal to silicon ratio. Thus creating a highly efficient thermoelectric material based on the other suitable properties of di-iron silicide.  All though this idea is not invalidated, because there are plenty-full of else compositions and permutations to trial, in our narrow search we however did not find such a material. Therefore we opted for a more conservative angle for our study by instead considering well known semiconducting TM silicides such as $\beta - Fe_2Si$, $CrSi_2$ and $MnSi_{1.75}$, see section .. for an introduction to these. However, also for these disilicides we experiences limited success in finding semiconducting materials. In fact, the only case in which we found positive confirmation of a band gap was for a particular composition of $(Cr_{0.25}Fe{0.25}Mn_{0.25}Ni_{0.25})Si_2$, here-in CFMN, in the $\beta FeSi_2$ configuration. This make for an interesting question that we will try to understand and answer in this section, why is exclusively this compound semiconducting?  
 
-As stated previously, in this project we have attempted to study so-called high-entropy silicides, in which we use the principle of the special quasi random structures approach, implemented with TDEP, to generate random alloys by alloying promising base 3d-silicides such as $Fe_2Si \text{ and }FeSi_2$ with sustainable 3d elements. The SQS method will locate the optimal correlation functions to mimic the true random alloys, and from these build supercells, but the number of supercells one can build with this approach is plenty-full. To maintain a clear and comparative study, we limit our-self to only generating 5 unique supercells per composition. This will allow us to observe patterns and locate promising directions, while allowing for a greater number of compositions to be trialed, however we must bear in mind that by employing this limitation we are prone to errors resulting from that the trial width does not necessarily encapsulate the true properties of the random alloy, good or bad. 
+We will try to answer this question by first considering the CFMN (fesi2) compound, and investigating the potential properties and correlations between the different elements that make this particular system semiconducting. Factors we will investigate is the overall stability by total energy per atom and formation enthalpy, the magnetic configuration and which elements contribute the magnetism. But in majority, we will look at the band gap and related properties, as this is the main motivation and distinction of the study. When we are done analyzing this system, we will transition into the similar compounds we have worked with in this project, but that turn out metallic. First we will look at compounds within the same crystal structure, but where we substitute the exact composition of $(Cr_{0.25}Fe{0.25}Mn_{0.25}Ni_{0.25})Si_2$ with other 3d elements and distributions slightly away from eqvimolar. Then we present the results of the CFMN composition in different crystal structures mentioned above, ie $Fe_2Si$ where we flip the metal-silicon atom ratio, $CrSi_2$ where the ratio is consistent, but in a different crystal structure, and $MnSi_{1.75}$ where we alter both simultaneously. Finally we will compare and discuss the observed distinctions and give our thoughts on the complete experiment and guideline future research directions in this field.     
 
-In this section, we will cover the outcome of this method applied to a great number of compositions, permutations and unit cells. We will evaluate factors such as geometric considerations, stability, magnetism, but primarily, our emphasis will lie on the band gap of the structures. The project began with the unit cell of hexagonal $Fe_2Si$, in which we generated 5 supercells with the composition $(CrFeCoNi)2Si$. These supercells consisted of 54 atoms, where the 3d atoms are distributed eqvimolar between 36 sites, and silicon occupy the remaining 18 sites. However, we only managed to successfully carry out calculations on 4/5 SQSs, in other words complete force relaxation and total energy convergence. Hence we will only include the 4 successfully calculated structures.  
+\section{One iron, two silicide}
+In section .. we briefly discussed various semiconducting TM silicides, such as $\beta-FeSi_2$ in the orthorombic cmce lattice. In our DFT work, we find this structure semiconducting with an indirect band gap close to 0.65 eV with PBE. Additionally we found the compound to be non-magnetic and a total energy per atom equal to 6,8274 eV. Which means that we can calculate the formation enthalpy as $\Delta H = E/at_{FeSi_2} - (E/at_{Fe} + E/at_{Si})$ = 7,0653 eV, with the help of materials project for providing the total energy per atom for iron (-8.4693 eV) and silicon (-5.4234 eV).
 
+The $FeSi_2$ structure consisted of 48 atoms, 16 of which is iron and the remaining 32 sites occupied by silicon atoms. In our project, we filled the 16 iron sites with an even distribution of chromium, iron, manganese and nickel by the principle of the SQS method described in section .. . With this approach, there are many possible supercells one can create, we however limit our-self to 5 distinct supercells per composition, which means that we have 5 structures of the same composition and space group, but the distribution is slightly different. This allow us to both study a composition to great depth, but also to test different compositions and structures, compared to if we instead generated 10 or 15 or more supercells. But its important to be aware of this assumption, as our results may be subject to errors and result that does not match the true random alloy due to a small sample size.
+
+\subsection{CFMN (fesi2)} 
+
+Bellow in table .. we display the most relevant properties to the 5 SQSs of the CFMN (fesi2) system for this study, they are the total energy per atom, final magnetic moment per atom, and the band gap. For simplicity, we denote these SQSs as A, B, C, D and E.   
 
 \begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
 \toprule
-Structure  & Total energy/atom (eV) & Final magnetic moment (?) & Band gap (eV) \\ \midrule
-\textbf{A} & −7.2129                & 19.3167                    & 0.0000        \\
-\textbf{B} & −7.2110                & 21.0030                    & 0.0000        \\
-\textbf{C} & −7.2042                & 19.0002                    & 0.0000        \\
-\textbf{E} & −7,2077                & 17.4200                    & 0.0000             \\
-\textbf{Mean} & −7.2090            & 19.1850                  	 & -        \\ 
-\textbf{Std} & 0.0038				  & 	1.4688						& -				\\ \bottomrule
+Structure  & Total energy/atom (eV) & Final magnetic moment/atom (?) & Band gap (eV) \\ \midrule
+\textbf{A} & −6,6080                & 0.0833                    & 0.0280        \\
+\textbf{B} & −6,6138                & 0.0833                    & 0.0523        \\
+\textbf{C} & −6,6063                & 0.0834                    & 0.0344        \\
+\textbf{D} & −6,6155                & 0.0833                    & 0             \\
+\textbf{E} & −6,6089                & 0.0833                    & 0.0495        \\ \midrule
+\textbf{Mean} & -6.6105 & 4.0000 & 0.0328    \\
+\textbf{Std} & 0.0039 &  - &  0.0210 \\
+\textbf{$\Delta H_{mean}$} & 31,8767 eV \\ \bottomrule
 \end{tabular}
-\caption{Total energy per atom, final magnetic moment, and band gap (PBE) of $(CrFeCoNi)_2Si$  }
+\caption{Total energy per atom, final magnetic moment, band gap (GGA) and formation enthalpy of $Cr_4Fe_4Mn_4Ni_4Si_{32}$ SQSs based on $FeSi_2$}
 \label{table:fesi2_summary}
 \end{table}  
 
-Throughout the duration of this study, we have carried out a great number of DFT calculations in order to present an comprehensive overview of promising high-entropy silicides. In payment to the thermoelectric prospect of hexagonal $Fe_2Si$, we firstly attempted to build SQSs from this structure. However, in agreement to the experimental indication that \textbf{cite?}, 3d silicides adopt a metallic character when the 3d elements supercede $50\%$ of the composition, all of our SQSs displayed a clear absence of an energy gap between the valence band and conduction band, we will return  more specifically to these compositions later in this section. For now, we will present the results of a much more interesting and promising case, in which we replaced $Fe_2Si$, with $\beta-FeSi_2$, effectively doubling the Si-metal ratio. Hence why we prefer the term high-entropy silicides more so than high-entropy alloys, as these particular compositions does not lie directly within the conditions presented in sections (\textbf{HEA}). In this structure, we completed in total calculations regarding 17 distinct compositions and permutations, such $\text{ALLOY}Si_2$ SQS based on CoCrFeni, CrFeMnNi, CoCrMnNi, CrFeMnTi, CrFeTiNi, and permutations wihin these such as increasing or decreasing the distribution of certain elements. Of the 17 variants, each consists of 5 unique SQSs, and trialed with numerous functionals, magnetic configurations and other parameters, as discussed in section .., in attempt to locate the overall most stable and reliable results. With this approach, the complete number of calculations and results both escalated very quikly, therefore, in the intent of presenting a clear and informative report of the study, we will begin this section by analyzing the overall most promising structure, then present and discuss these results in relation to the remaining permutations and structures.    
-
-The aforementioned system is composed of Cr, Fe, Mn, and Ni, equally distributed in a 48 atom SQSs of $FeSi_2$, wheras 32 of these is silicon atoms. Here after, this system will be abbreviated CFMN (fesi2) to spcify that its within the framework of the cmce $FeSi_2$ unit cell.
+From a first glance, we observe very similar properties between the structures regarding both the total energy and final magnetic moment. \textbf{Something on stability}. Comparing to $FeSi_2$, by replacing purely iron atoms with a number of 3d elements we have made the compound magnetic. We performed self-consistent total energy calculations with ispin=1, ispin=2 and ispin=2, MGMOM=2*NIONS \textbf{What does this mean?}, and found that ispin2 was the most stable magnetic configuration. The consistent magnetic moment between the 5 supercells is excpected seeing as all 5 structures consist of equivalent elements. The magnetism is as attributed solely from 3d electrons and in particular from chromium and manganese, whereas the iron and nickel atoms are diamagnetic. \textbf{Near 0, or negative values in OUTCAR}. 
  
-The 5 distinct SQS can be seen in figure (method/SQS). Bellow, in table \ref{tab:FeSi2/CrFeMnNi_equal} we present a summary of the total energy, final magnetic moment and band gap corresponding to the 5 SQSs called A, B, C, D, and E respectfully. From a first glance, we observe very similar properties between the structures. The total energy per atom vary by $0.0092$ eV from the most stable structure C ($-6.6063$ eV) to the least stable structure D ($-6.6155$ eV). Similarly, the final magnetic moment is near identical throughout the span of SQSs, which is excepted given that aside from the unique distribution, all 5 SQSs contain the same amount and type of elements. On the contrary to the magnetic moment, the band gap is very sensitive to the type of SQS, ranging from a highest $0.05$ eV in structure B to $0$, ie nonexistent in structure D. A band gap in this range means for excellent application as thermoelectric materials. 
-
-
-\begin{table}[H]
-\centering
-\begin{tabular}{@{}cccc@{}}
-\toprule
-Structure  & Total energy/atom (eV) & Final magnetic moment (?) & Band gap (eV) \\ \midrule
-\textbf{A} & −6,6080                & 4.0006                    & 0.0280        \\
-\textbf{B} & −6,6138                & 3.9999                    & 0.0523        \\
-\textbf{C} & −6,6063                & 4.0008                    & 0.0344        \\
-\textbf{D} & −6,6155                & 4.0001                    & 0             \\
-\textbf{E} & −6,6089                & 4.0000                    & 0.0495        \\ \bottomrule
-\end{tabular}
-\caption{Total energy per atom, final magnetic moment, and band gap (GGA) of 5 $Cr_4Fe_4Mn_4Ni_4Si_{32}$ SQSs based on $FeSi_2$}
-\label{table:fesi2_summary}
-\end{table}  
-Furthermore regarding the band gaps, we note that the gaps are indirect, the specific transitions is listed bellow.
+The most interesting property of these SQSs is in fact the band gap. We note a mean band gap of about 0.03 eV, in contrast to 0.65 eV in bulk $FeSi_2$. The gap is seen in 4 out of 5 SQSs, but surprisingly not in the most stable arrangement (D), the largest gap observed is about 0.05 eV from structure B, which is very similar to D in terms of total energy. Moreover the gaps are indirect, the transitions is listed bellow in table .. .     
 
 \begin{table}[H]
 \centering
@@ -60,7 +50,7 @@ Structure  & Gap (D/I) & Transition                              \\ \midrule
 \caption{Band gap transition of CFMN (fesi2) SQSs with PBE functional}
 \end{table}
 
-In this regard, it would have been very instructive to plot a band structure diagram to further evaluate the energy bands, however due to the complex nature of the SQSs and the implementation with TDEP we were not able to plot the bandstructure. Thus, in this section we will analyze the band gap by other meassures. The first method we will employ is to observe the band gap from the plotted density of states, in figure \textbf{ref bellow}. From these figures, we can determine the band gap from the distance in energy around the Fermi energy (here set to 0), where the density of states is exactly 0, in addition we can observe the band gap for spin $\uparrow$ (positive) and $\downarrow$ (negative) states.   
+A very useful method to extract information regarding the band gap of a material is to plot and study the band structure, however this is not as insightful when considering large supercells with large number of energy bands. The solution to this is normally to do a band unfolding, but given the complex structure and implementation of these SQS is VASP we where not able to do band-unfolding or plot the band structure in any way. Another method to study the band gap is to observe the density of states, in figure .. we plot the total density of states. In these plots, the 0 value on the x-axis is set to the Fermi energy, in other word the negative values relate to states in the conduction band and positive values the valence band. 
 
 \begin{figure}[H]
 	\centering
@@ -87,9 +77,10 @@ In this regard, it would have been very instructive to plot a band structure dia
 	\label{dos_fesi2_gga}
 \end{figure}
 
+In spin polarized materials such as this one, the band gap can be extracted from the total DOS by the minimal width of unoccupied states around the Fermi energy. From figure .. we can observe two properties of the band gap. One, there is clearly a band gap in structures A, B, C, and E, and secondly, the band gap is significantly greater in the spin $\uparrow$ channel than spin $\downarrow$. This is especially evident for structure D, where we learn that the structure is metallic in spin down, but contain a sizable  gap in spin up.
 
+The density of states, all though useful provide limited information.  For instance, the DOS in structure D point to a difference in spin states, but does not give any indication as to to why. Additionally, the density of states can be unreliable and prone to errors. As mentioned in section .., the smearing is important for accurate DOS calculations, preferably the tetrahedron smearing with Bloch correlations (TBS). In this project we experiences a significant difference between calculations with gaussian and TBS smearing in relation to the written band gap and the density of states band gap (More on this later). Moreover the DOS is very sensitive to computational factors such as number of points used in the DOS (NEDOS in VASP) and k-points (to solve the DOS integral, see section ..). For example, the band gap in structure C could only be seen in the density of states when increasing the number of points in the DOS from 2401 to 20000 points (this was not the case for the other structures). 
 
-\begin{comment}
 \begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
@@ -101,8 +92,15 @@ Structure  & Spin-up & Spin-down & Total  \\ \midrule
 \textbf{D} & 0.3386  & 0         & 0      \\
 \textbf{E} & 0.3078  & 0.0495    & 0.0495 \\ \bottomrule
 \end{tabular}
-\caption{Band gap (GGA) in spin up and spin down channels of CFMNSi2 structures}
+\caption{Band gap (eV) with PBE in spin up and spin down channels of CFMN (fesi2) SQSs}
 \end{table}
+
+A more rigid method for both determining and investigating the energy bands is to study the Kohn-Sham eigenvalues. The eigenvalues are given for all energy bands for the given number of k-points used in the calculation, with listed energies and corresponding occupancy in both channels.  In table (..) above, we provide the relationship between the spin up and down channels in regards to the band gap, as read from the eigenvalues. In addition to validate and quantify the point expressed above about the gap in both spin channels, we can from the eigenvalues qualitatively differentiate structure D from the rest. From observing that for certain k-points, the occupancy does not transition from 1 to 0 directly between two bands, but rather contain one or more partially occupied bands in between, however only in the spin down channel. If we were to neglect this partially occupied states, and only consider bands with above 0.99 or bellow 0.01 occupancy, the band gap of structure D remain consistent in spin up, but we now observe a band gap in spin down around 0.05 eV and similarly thus for the total band gap of the structure. Again, this would have been extremely insightful to investigate with help of a band structure diagram.
+
+\textbf{Something on the flaws of EIGENVALUES, bloch corrections yield un-physical eigenvalues in structures without band gap. Some times we find band gap from eigenvalues but not DOS or other script. What does the distance in bands between 1 occ and 0 occ mean?} 
+
+
+As expressed previously, in this work we include 3 level of depths GGA (PBE), meta-GGA (SCAN) and hybrid functionals (HSE06). In table .. bellow we show the results from these functionals. 
 
 \begin{table}[H]
 \centering
@@ -115,20 +113,14 @@ Structure  & PBE    & SCAN   & HSE06  \\ \midrule
 \textbf{D} & 0.0000 & 0.0000 & 0.0000 \\
 \textbf{E} & 0.0495 & 0.1048 & 0.0133 \\ \bottomrule
 \end{tabular}
-\caption{Band gap of $CFMN (FeSi_2)$ SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06). \textbf{Add footnote to explain the uncertainty in these results regarding smearing type and width, and DOS and EIGENVAL}}
+\caption{Band gap of $CFMN (FeSi_2)$ SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06).}
 \end{table}
-\end{comment}
 
-The most obvious result of figure (\textbf{ref DOS above}), is that the band gap listed for the five structures in table is validated from the density of states. The band gap for a spin-polarized system can be determined by the minimum distance between occupied states regardless of spin states. Thus, despite clear gap in the spin up direction, the total gap is often limited to the smaller or non-existent gap in the spin down channel. This is particularly evident in structure D, where there exist a large symmetric gap in spin $\uparrow$ around $0.3$ eV, but the metallic spin down channel results in an overall metallic band structure, as opposed to the remaining structures. Especially structures B and E show large gaps around $0.5$ eV. 
+The first fact we make notice of is that aside from A, all 3 methods agree on the presence of a band gap, but the actual value is under debate. We see a general trend that the SCAN functional find the largest gaps and HSE06 the lowest. This is an unexpected result, the general consensus is that hybrid functionals will extend on the band gap found by LDA or GGA functionals \textbf{Find reference!}. However we find one exception to this trend, in structure B the band gap increase from 0.05 to 0.09 and 0.18 eV. The most likely reason for this abnormal large gap is a consequence of the small number of k-points we had to employ in order for the calculations to converge. Recalling that the transition in in the PBE calculation was (0.250,0.000,0.250)-(0.000,0.000,0.000), comparing to HSE, the gap transition is between (0.500,0.000,0.000)-(0.000,0.000,0.000). Moreover, the point (0.250, 0.000, 0.250) in k-space is not included in the hybrid functional due to the narrow mesh (from IBZKIT file. Thus we may conclude that the large gap from HSE06 is a result of that the minimal gap is not encapsulated by the k-mesh. On the other hand, with the SCAN functional we also observe an increased band gap, and also a different band transition from (0.250,0.000,0.250)-(0.000,0.333,0.000) despite identical k-points used in PBE and SCAN. We observe similar trends for the other SQSs as well, but somehow they produce the opposite outcome \textbf{So I don't know??} \textbf{Mention the gaps found with ismear0, and discuss which smearing method provide the best eigenvalues.}
 
-However, judging the band gap of a system solely based on the density of states, particularly in VASP, provide both limited information and are prone to errors. For instance, all though the DOS illustrate that structure D have a gap in the $\uparrow$ direction, but not in $\downarrow$, it does not provide an answer to why this is. Additionally, the accuracy of of the DOS is very sensitive to primarily the type of numerical smearing. In this project we observed a great number of cases where the density of states failed to capture the band gap when we employed Gaussian smearing, compared to the much more accurate method of tetrahedron smearing with Bloch corrections (see section method..)  As well other computational factors such as number of points used to plot the DOS (NEDOS in VASP) and amount of k-points (to solve the DOS integral, see section ..). 
+\textbf{I think I will include something like this in the summary/conclusion: Due to the disagreement between methods, SQS'sizes and etc, we may not confidently report a precise value of the band gap, but we can with some confidence conclude that we have found semiconducting high-entropy silicides.}   
 
-\textbf{Something is off about structure C. DOSCAR does not contain 0 states, but TDOS.png does?? Eigenval is in agreement with the dosplot.}
-
-A more rigid approach to both determine and investigate the band gap and structure of a solid with VASP and DFT is to investigate the Kohn-Sham eigenvalues. The eigenvalues are given for all energy bands for the given number of k-points used in the calculation, with listed energies and corresponding occupancy in both channels. In this structure, we find good agreement between the DOS and eigenvalues for the CFMN (fesi2) system. In figure \textbf{ref bar graph spin up/down} we illustrate the relationship between the spin up and down channels in regards to the band gap, as read from the eigenvalues. From the eigenvalues, we can qualitatively differentiate structure D from the rest, by observing that for certain k-points, the occupancy does not transition from 1 to 0 in 1 step, but rather contain partially occupied states in between, however only in the spin down channel. If we were to neglect this partially occupied states, and only consider bands with above 0.99 or bellow 0.01 occupancy, the band gap of structure D remain consistent in spin up, but we now observe a band gap in spin down around 0.05 eV and similarly thus for the total band gap of the structure. \textbf{More on this, and/or make some kind of figure to better explain it}
-Again, this would have been extremely insightful to investigate from the band structure of the structure.
-
-Regarding the eigenvalues, there are some important factors to consider that may negatively impact the results. Firstly, as explained above the eigenvalues of each band is given for the total number of k-points employed in the calculation, obviously this leads to a relationship between accuracy and number of points. A small mesh of k-points may lead to the smallest transition between the highest occupied state in the conduction band and the lowest unoccupied state in the valence band risk not being encapsulated, resulting in an inaccurately large gap. As well, the eigenvalues are subject to the smearing method similarly, but inversely to the density of states. In this case, the tetrahedron method with Bloch corrections are prone to yield nonphysical results with the occupancy in a given band either above 1 or negative, ie bellow 0, whereas Gaussian smearing with an appropriately small smearing width. Due to the limited time and resources on this project, we were not able to investigate this principle to the full extent, and thus the listed results comes with a degree of uncertainty. An interesting observation in this project, is that out of all the numerous structures we studied, this problem of non-physical eigenvalues only appear in structures that does not have a band gap, and correspondingly contain these partial occupants. \textbf{More on this}
+Regarding the eigenvalues, there are some important factors to consider that may negatively impact the results. Firstly, as explained above the eigenvalues of each band is given for the total number of k-points employed in the calculation, obviously this leads to a relationship between accuracy and number of points. A small mesh of k-points may lead to the smallest transition between the highest occupied state in the conduction band and the lowest unoccupied state in the valence band risk not being encapsulated, resulting in an inaccurately large gap. As well, the eigenvalues are subject to the smearing method similarly, but inversely to the density of states. In this case, the tetrahedron method with Bloch corrections are prone to yield nonphysical results with the occupancy in a given band either above 1 or negative, ie bellow 0, whereas Gaussian smearing with an appropriately small smearing width \textbf{Siter forum}. Due to the limited time and resources on this project, we were not able to investigate this principle to the full extent, and thus the listed results comes with a degree of uncertainty. An interesting observation in this project, is that out of all the numerous structures we studied, this problem of non-physical eigenvalues only appear in structures that does not have a band gap, and correspondingly contain these partial occupants. \textbf{More on this}
 
 \begin{figure}[H]
 \centering
@@ -248,6 +240,33 @@ If we now compare this to the density of states of structure E,
 \end{subfigure}
 \caption{The density of states of CFMN ($FeSi_2$) structure E for a) spin up and down, and b) focused on spin down}
 \end{figure}
+
+\subsection{Permutations of CFMN (fesi2)}
+
+
+\subsection{Other composistions (fesi2)}
+
+\section{two iron, one silicon}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}cccc@{}}
+\toprule
+Structure  & Total energy/atom (eV) & Final magnetic moment (?) & Band gap (eV) \\ \midrule
+\textbf{A} & −7.2129                & 19.3167                    & 0.0000        \\
+\textbf{B} & −7.2110                & 21.0030                    & 0.0000        \\
+\textbf{C} & −7.2042                & 19.0002                    & 0.0000        \\
+\textbf{E} & −7,2077                & 17.4200                    & 0.0000             \\
+\textbf{Mean} & −7.2090            & 19.1850                  	 & -        \\ 
+\textbf{Std} & 0.0038				  & 	1.4688						& -				\\ \bottomrule
+\end{tabular}
+\caption{Total energy per atom, final magnetic moment, and band gap (PBE) of $(CrFeCoNi)_2Si$  }
+\label{table:fesi2_summary}
+\end{table}  
+
+\section{CFMN in the $CrSi_2$ and $MnSi_{1.75}$ ($Mn_4Si_7$) unit cell}
+
+\section{Overview}
 
 
 \textbf{I think its relevant and interesting to in-depth analyze structure B, D, and E. B because of large band gap. D because no band gap, and E because this well represents the other structures A and C. }
