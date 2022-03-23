@@ -69,10 +69,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}One iron, two silicide}{34}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}CFMN (fesi2)}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.2}Permutations of CFMN (fesi2)}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.3}Other composistions (fesi2)}{48}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}two iron, one silicon}{48}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}CFMN in the $CrSi_2$ and $MnSi_{1.75}$ ($Mn_4Si_7$) unit cell}{48}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.4}Overview}{48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{50}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{49}%
