@@ -106,16 +106,7 @@ Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
    0   0.0306   0.0077  -0.09  -310.686054      True   0.0000	strE/toten/OUTCAR 
 StrA show nice small band gap around 0.035 Ev with both PBE and SCAN, apperent from eigenvalues and DOS. Small gap around 0.005 eV with PBE and SCAN in strE from eigenvalues, show signs in DOS as well. No gap in the other structures.  
 
-CrFeMnTi: error in C
-Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
-   0   0.0296   0.0011  -1.16  -308.380422     True   2.0711	strA/toten/OUTCAR
-   0   0.0132   0.0024  -1.13  -308.284745     True   0.6660	strB/toten/OUTCAR
-   0   0.0660   0.0126  -0.79  -307.662636     True   0.0000	strD/toten/OUTCAR
-   0   0.0581   0.0155  -0.99  -308.647364     True   3.1324	strE/toten/OUTCAR
-strA have defect states in both spins, but also small gaps. No total band gap though. SCAN only finds gap in up, from both eigenvalues and DOS. strB have defect states in both channels, but still show a small gap in both spins and total, around 0.008 eV. This is not seen in DOS. No gap in down or total with SCAN. strD show the lowest overall energy, but both PBE and SCAN with eigenvalues and DOS agree that there is no gap in either up, down or total. Same for strE, that have the highest overall energy and magnetic moment, ie no band gap.
-
-
-
+CrFeMnTi: Check later, but have observed energy of -321 which is interesting. Also from str A, B, E no band gap in any spin channels due to defect states. Wait for B, C and D. Pretty high magnetic moment. 
 
 
 
