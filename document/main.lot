@@ -21,9 +21,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {8.2}{\ignorespaces Band gap transition of CFMN (fesi2) SQSs with PBE functional\relax }}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.3}{\ignorespaces Band gap (eV) with PBE in spin up and spin down channels of CFMN (fesi2) SQSs\relax }}{38}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Band gap (eV) with PBE in spin up and spin down channels of CFMN (fesi2) SQSs\relax }}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.4}{\ignorespaces Band gap of $CFMN (FeSi_2)$ SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06).\relax }}{39}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Band gap of $CFMN (FeSi_2)$ SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06).\relax }}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.5}{\ignorespaces Mean and stadard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch {FeSi2}).\relax }}{45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.6}{\ignorespaces Total and spin polarized band gap of 4 permutations of CFMN (fesi2) with PBE GGA calculation. The structures that are excluded from this list either failed in calculations, or does not show any band gap.\relax }}{47}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

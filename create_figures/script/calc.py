@@ -62,11 +62,8 @@ list_perm = list(dict_perm.values())
 list_comp = list(dict_comp.values())
 list_cells = list(dict_cells.values())
 
-print(dict_cells)
-
-'''
 plt.style.use('seaborn')
-plt.rcParams['font.size'] = 15
+plt.rcParams['font.size'] = 5
 plt.rcParams['legend.fontsize'] = 10
 
 names = [r'$Mn_7$', r'$Mn_3$', r'$Fe_3$', r'$Cr_3$'
@@ -101,8 +98,7 @@ for i in range(len(dict_cells.keys())):
         ax.text(list_cells[i][3]+0.004, list_cells[i][0]+0.07, names[j], fontsize=12)
     j += 1
 
-ax.set_xlabel("Magnetic moment")
-ax.set_ylabel("Formation enthalpy")
+ax.set_xlabel("Magnetization (A/m)")
+ax.set_ylabel("Enthalpy of formation (eV)")
 ax.legend()
 plt.show()
-'''

@@ -27,11 +27,11 @@ def ldos(file):
     ldos.close()
     return energy, element1, element2, element3, element4, element5, labels
 
-data = '/home/jrn-marcus/master/data/'
-figures = '/home/jrn-marcus/master/figures/'
+data = '../data/'
+figures = '../figures/'
 material = 'fesi2/'
 composistion = 'crfemnni/equaldist/'
-structure = 'B/' # or B, C, D, E
+structure = 'D/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
 figurepath = figures+material+composistion+structure+xc
@@ -56,12 +56,12 @@ for a in range(2):
 
 #ax.plot(ldos_up[0], np.zeros(len(ldos_up[0])), '--', lw=2)
 ax[0].set_xlim(-13,3)
-ax[0].set_ylim(-10,10)
+#ax[0].set_ylim(-10,10)
 ax[0].set_xlabel("Energy (eV)")
 ax[0].set_ylabel("Local density of states")
 
 ax[1].set_xlim(-1,1)
-ax[1].set_ylim(-10,10)
+#ax[1].set_ylim(-10,10)
 ax[1].set_xlabel("Energy (eV)")
 ax[1].set_ylabel("Local density of states")
 ax[1].legend()

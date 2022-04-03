@@ -25,8 +25,8 @@ def readFile(filename, elements):
 
     return dict
 
-data = '/home/jrn-marcus/master/data/'
-figures = '/home/jrn-marcus/master/figures/'
+data = '../data/'
+figures = '../figures/'
 material = 'fesi2/'
 composistion = 'crfemnni/equaldist/'
 structure = 'B/' # or B, C, D, E

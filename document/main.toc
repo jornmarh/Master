@@ -69,12 +69,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}Eqvimolar distribution}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Permutations}{45}%
+\contentsline {section}{\numberline {8.2}Permutations}{43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}The bad (Other composistions)}{47}%
+\contentsline {chapter}{\numberline {9}The bad (Other composistions)}{50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}The ugly (Other symmetry groups)}{48}%
+\contentsline {chapter}{\numberline {10}The ugly (Other symmetry groups)}{53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}The overview}{49}%
+\contentsline {chapter}{\numberline {11}The overview}{55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{50}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{57}%

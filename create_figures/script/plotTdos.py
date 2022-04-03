@@ -18,8 +18,6 @@ def Tdos(file):
         energies.append(float(e))
         up.append(float(u))
         down.append(float(d))
-
-        tdos.close()
     return energies, up, down
 
 def lagFigur(str, x1, x2, y1, y2):
@@ -47,18 +45,23 @@ def lagFigur(str, x1, x2, y1, y2):
     axin.set_ylim(y1, y2)
     mark_inset(ax, axin, loc1=1, loc2=3, edgecolor='black')
 
-    axin.xaxis.set_major_locator(mpl.ticker.MultipleLocator(0.4)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
+    axin.xaxis.set_major_locator(mpl.ticker.MultipleLocator(0.15)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
     axin.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
     axin.xaxis.set_tick_params(which='major', length=6, width=1, direction='out')
     axin.xaxis.set_tick_params(which='minor', length=3, width=1, color='black', direction='out')
+    axin.yaxis.set_major_locator(mpl.ticker.MultipleLocator(2)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
+    #axin.yaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
+    axin.yaxis.set_tick_params(which='major', length=6, width=1, direction='out')
+    axin.yaxis.set_tick_params(which='minor', length=3, width=1, color='black', direction='out')
     for spine in axin.spines.values():
             spine.set_edgecolor('black')
+    #plt.savefig(figurepath+"TDOS.png")
     plt.show()
 
-data = '/home/jrn-marcus/master/data/'
-figures = '/home/jrn-marcus/master/figures/'
+data = '../data/'
+figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfemnni/crni3/'
+composistion = 'crfemnni/equaldist/'
 structure = 'D/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
@@ -70,4 +73,4 @@ plt.rcParams['legend.fontsize'] = 8
 
 input = Tdos(datapath+"TDOS.dat")
 
-lagFigur(input, -0.4, 0.4, -3, 3)
+lagFigur(input, -0.2, 0.3, -3, 3)

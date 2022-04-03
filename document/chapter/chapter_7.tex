@@ -52,28 +52,25 @@ A very useful method to extract information regarding the band gap of a material
 
 \begin{figure}[H]
 	\centering
-	\begin{subfigure}{0.9\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/DOS_A_toten.png}
+	\begin{subfigure}{\textwidth}
+		\includegraphics[width=\textwidth]{results/fesi2/D_TDOS.png}
 	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+		\includegraphics[width=\textwidth]{results/fesi2/D_LDOS.png}
+	\end{subfigure}
+\end{figure}
 
-	\begin{subfigure}{0.9\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/DOS_B_toten.png}
-	\end{subfigure}
-	\begin{subfigure}{0.9\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/DOS_C_toten.png}
-	\end{subfigure}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\begin{subfigure}{0.9\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/DOS_D_toten.png}
-	\end{subfigure}
-	\begin{subfigure}{0.9\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/DOS_E_toten.png}
-	\end{subfigure}
-	\caption{Density of states for structure A, B, C, D, E of $CFMNSi_2 (FeSi_2)$ SQSs (PBE GGA)}
-	\label{dos_fesi2_gga}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\begin{subfigure}{0.9\textwidth}
+%		\includegraphics[width=\textwidth]{results/fesi2/DOS_D_toten.png}
+%	\end{subfigure}
+%	\begin{subfigure}{0.9\textwidth}
+%		\includegraphics[width=\textwidth]{results/fesi2/DOS_E_toten.png}
+%	\end{subfigure}
+%	\caption{Density of states for structure A, B, C, D, E of $CFMNSi_2 (FeSi_2)$ SQSs (PBE GGA)}
+%	\label{dos_fesi2_gga}
+%\end{figure}
 
 In spin polarized materials such as this one, the band gap can be extracted from the total DOS by the minimal width of unoccupied states around the Fermi energy. From figure .. we can observe two properties of the band gap. One, there is clearly a band gap in structures A, B, C, and E, and secondly, the band gap is significantly greater in the spin $\uparrow$ channel than spin $\downarrow$. This is especially evident for structure D, where we learn that the structure is metallic in spin down, but contain a sizable  gap in spin up.
 
@@ -212,3 +209,64 @@ At the surface, figure .. show that are supercells are in good agreement with th
 Lastly we include the charge density of blabla, \textbf{something on these.}
 
 \section{Permutations}
+
+Up until this point we have investigated the structure CFMN (\ch{FeSi2}). Morre specificly we have looked at the center of a quasiternary pahse diargram. In this section, we aim to exapand our search of this diargram by studying SQSs slightly away from eqvimolar distribution of 3d elements. In table (bellow) we list the mean total energy and magnetic moment per atom with corresponding standard deviation, and enthalpy of formation of 4 different permutations of the quasiternary phase diagram. Ideally we would like to only alter one element at a time, but the TDEP method insist in also reducing Nickel to stay consistent with the 48 atom supercells. The 4 permuations are listed bellow
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}cccccc@{}}
+\toprule
+       & \multicolumn{2}{c}{Toten (eV)} & Enthalpy of formation & \multicolumn{2}{c}{Mag} \\ \midrule
+\ch{Cr3Fe3Mn7Ni3Si32} & 6.6947      & 0.0040 & -11.9586      & 0.1375     & 0.0186     \\
+\ch{Cr5Fe5Mn3Ni3Si32} & 6.6705      & 0.0030 & -11.1991      & 0.1127     & 0.0223     \\
+\ch{Cr5Fe3Mn5Ni3Si32} & 6.6852      & 0.0041 & -10.5200      & 0.1375     & 0.0456     \\
+\ch{Cr3Fe5Mn5Ni3Si32} & 6.6801      & 0.0036 & -12.6426      & 0.0937     & 0.0209     \\ \bottomrule
+\end{tabular}
+\caption{Mean and stadard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch{FeSi2}).}
+\end{table}
+
+Interestingly we find that we can increase the stability of the compound by adjusting the distribution of 3d elements. The most stable permutation is found when we increase the amount of manganese relative to the other TMs. In said permutation we find very similar properties as the equal distribution in terms of the band gap. From PBE calculations, we find that the band gap ranges from 0.13-0.47eV in spin up, depending on the supercell and all except for structure D have zero gaps in down, here we find a total band gap of 0.0063 eV. In contrast to equally distributed CFMN (fesi2), the SCAN functional does not find a band gap in any of the five supercells, except for small gaps less than 0.06 eV in spin up for structures D and E. Extending to the HSE06 functional, we find that structre D contain a large band gap of 0.17 eV, 0.57 eV and 0.26 eV in spin up and down respectfully. Both the gaussian and TBC smearing method are in excellent agreement of the gap. Howver, the result of the hybrid functional are surrounded by the same factors of uncertainty as described for CFMN (fesi2), in that also in this case we find that the transistion of the indirect band gap is sensetive to the applied functional and escpecially the limited number of k-points used to perfrom HSE06 calculations.
+
+If we now move in the opposite direction and reduce the number of manganese atoms we observe the opposite, namely the least stable permutation in terms of the total energy. One of the 5 SQSs (D) is a semiconductor, this supercell show from PBE calculations a band gap of 0.067 eV (up) and 0.041 eV (down) and 0.037 eV in total. The SCAN functional in contrast predict a half-metal with a band gap of 0.17 eV in spin down. The conflicting band gap contunue with the HSE06 functional, resulting in 0.77 eV in spin up and 0.22 eV in down and total. Thus PBE and HSE06 result in a semiconductor with HSE06 pointing to a large spin polarization and PBE finding symetric spin values. And on the other side, meta-GGA calculations predict a half-metal with semiconduction in the spin-down channel, opposiste of the polarization from HSE06. As follows drawing a conclusion on the band gap is challanging, but as discussed previosly we emphazie the results of GGA and hybrid functionals for the univeral application and reputation they hold in self-consistent method studies of electronic structure. 
+
+The two most stable SQSs C and E, both exhibit large band gaps soeley in the spin up channel. These gaps contain a few partially occupied bands that result in the gap vanishing in the density of states. This is an interesting result, as opposed to structures where many bands are partially filled, the structure is obviosuly a metal as apperant from both the calculated band gap and density of states. But in cases where there are only very few states with partial occupation we see a band gap from the eigenvalues and also the density of states show indication of a band gap with the DOS becomming very low near the fermi energy, but not exactly zero as in the structures with no partial occupants.\textbf{Include DOS figure??} The spin up band gap in C and E discussed above is calculated from the eigenvalues as 0.21 and 0.36 eV respectfully. In both cases the gap vanishes with SCAN, and HSE06 calculates unfortunatly proved difficult to converge for these structures, thus we were unable to obtain results with the hybrid functional. A positve conclusion of this permutation, is that if we include the possible half-metal gaps in C and E, we can report that the most stable arrangements are half-metals, then semiconducting and the least stable SQS is metalic. In conclusion we can then state that semiconducting and escpecially half-metalalic are the preffered state over metallic in this permutation.     
+
+\ch{Cr5Fe3Mn5Ni3Si32} is on par with \ch{Cr5Fe5Mn7Ni3} in terms of both stability and magnetism. We note that the high magnetic moment is mostly attributed to the least stable SQSs, and the more stable arrangements have magnetic moment 5/48, as opposed to the first permutation in which we found high magnetism also in the stable SQSs. From PBE GGA calculations we obtain spin-polarized half-metals in structures A, B, C, and E with the spin up gap ranging between 0.21(A)-0.47(C) eV. Wheras structure D is a semiconductor with a 0.012 ev band gap (slightly larger in up than down). Additionaly this is also the most stable SQS second only to A. In most cases, the use of SCAN results in very small spin up gaps, the rest 0. From the hybrid functional we find very conflicting results of strcture D. With TBC smearing, HSE06 predict a metalic gap , but  we see signs in the density of states that may indicate a half-metal in spin down \textbf{Figure?}. Using instead the gaussian smearing method results in a gap of 0.063 eV and 0.27 eV in spin down with some partial occupancy in both channels, but much rarer and less impactfull in the spin down states (Similar DOS as TBC).        
+
+Lastly, the final permutation we did of CFMN (fesi2) was to reduce the amount of Cr. The most dominant display of this is the magnetism, out of the 4 permutations and the baseline system, this was the least magnetic system, according to our calculations with a fixed magnetic configuration. This is not a surprising result recalling that in CFMN fesi2, the magnetic momemt was primarly attributed to Cr atoms in the lattice. We find 2 semiconductors (D and E) and 2 half-metals (A and C). Similar to the other systems discussed in this section, the half-metals display a sizable band gap in the spin up direction, 0.39 eV and 0.12 eV respectfully. SCAN calculations result in stucture A being a semiconductor with a band gap of 0.015 eV, and B a metal. Of the two semiconductors, both PBE and SCAN agree of a band gap, PBE predict a band gap of 0.1 eV (0.25 up and 0.1 down) in D, and 0.014 eV (0.21 up and 0.08 down) with SCAN. In contrast to both, HSE06 calculations produce a semi-metal with a spin up gap of 0.53 eV. In E we find a band gap of 0.35 and 0.10 eV in the two spin directions, yielding a total gap of 0.084 eV. The SCAN calculations find several nonphysical eigenstates and thus no band gap. From HSE06, we find as before greatly exatereded band gaps of 0.74 eV in spin up, and 0.25 eV in total. An additiontal positive regarding this permutation is that the two semiconducting SQSs are the most stable of the set, with D having the highest total energy, followed by E. The least stable supercell is A, it's important to note however that the total energy very similar across all SQSs as seen from the standard deviation in table .. 
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}ccccc@{}}
+\toprule
+                                                     &   & Spin up (eV) & Spin down (eV) & Total (eV) \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{\ch{Cr3Fe3Mn7Ni3Si32}}}}   & A & 0.3390                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & B & 0.4745                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & C & 0.1342                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & D & 0.1950                & 0.0063                  & 0.0063              \\
+\multicolumn{1}{c|}{}                                & E & 0.4211                & 0                       & 0                   \\ \midrule
+\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{\ch{Cr5Fe5Mn3Ni3Si32}}}} & C & 0.2103                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & D & 0.0674                & 0.0413                  & 0.0372              \\
+\multicolumn{1}{c|}{}                                & E & 0.3619                & 0                       & 0                   \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{\ch{Cr5Fe3Mn5Ni3Si32}}}} & A & 0.2082                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & B & 0.4053                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & C & 0.4659                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & D & 0.0843                & 0.0121                  & 0.0121              \\
+\multicolumn{1}{c|}{}                                & E & 0.3008                & 0                       & 0                   \\ \midrule
+\multicolumn{1}{c|}{\multirow{4}{*}{\textbf{\ch{Cr3Fe5Mn5Ni3Si32}}}} & A & 0.3922                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & C & 0.1285                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & D & 0.2595                & 0.1004                  & 1.004               \\
+\multicolumn{1}{c|}{}                                & E & 0.3591                & 0.1003                  & 0.0848              \\ \bottomrule
+\end{tabular}
+\caption{Total and spin polarized band gap of 4 permutations of CFMN (fesi2) with PBE GGA calculation. The structures that are excluded from this list either failed in calculations, or does not show any band gap.}
+\end{table}
+
+In this section we have seen that it's defintivly a merit for exploring the quasiternary phase diagram. We find the overall most stable composistion by increasing the number of manganese atoms in the composistion. Judging from the most stable supercells of the permutations, we can say that the high magnetic moment is attributed to chromium and manganese atoms as in the CFMN (fesi2) system. The same can be saif for the \ch{Cr5Fe3Mn5Ni3Si32} alloy where we increase the proportions of the magnetic elements Cr and Mn relative to Fe and Ni. From these patterns observed in the permutations and the equal distribution of CFMN (fesi2), we can conclude that the magnetic properties of this compound is reliant on chromium and manganese. This is also seen from the magnetism in the permutations where we reduce these elements, ie low magnetic moment. \textbf{Something on why one is more stable than the other, and why they all are more stable than equal dist.}
+
+With reference to the band gap, we see from table .. that half-metalic is the most preferred state in most permutaions. This is in line with the eqvimolar distribution, as also here we observed severe spin polarization, mainly spin up, in addition to the semiconducting character. As was the case in CFMN (fesi2), we can not report any concise relation between the stability of the supercells and band gap, except for that the semiconducting SQSs is rarely the most stable of the set, but always above the mean total energy, the exception for this obviosuly being the chromium reduced alloy in which the two highest energy SQSs both were semiconductors. An interesting observation of the band gap is the relation to the magnetic moment. From table .. we see that the permutations differ in magnetic moment, but internly as highligted by the standard deviation we also note a variation in the magntic moment. And facinatingly, all reported semiconductors have the identical magnetic moment equal to 5.0000/48. The only exception is the eqvimolar system, were all structures had identical mag equal to 4.0000/48. Howver, this observation does not point to any domintating direction as this value is not the minimum or maxium magnetization, so we can not report a relation between high/low magnetization and the band gap.         
+
+As a conclusion to this segment we do not find one best direction to expore of the quasiternary phasediagram, as good and promising results was unveiled to some degree in all directions. This definitivly motivates the further exploration of the diagram, with the prospect of both improving the properties of the eqvimolar system and the ability to tune the properties by going in certain directions. In respect to the band gap, the most promising direction seems to be along manganese, as we see the most frequently large band gaps (in spin up) by increasing manganese, and the least frequent by reduction of manganese. For purely semiconducting compounds, reduction of chromium appears as a viable option seen from the $50\%$ ratio of semiconducting to half-metalic ratio. An intersting proposistion for future work would thus be to reduce chromium and increase manganese simontainusly. 
+
+\textbf{Conclusion example: In this project we have found many structures that show signs of semiconducting properties, but only CFMN fesi2 produced clear indication thorugh all 3 levels of meassures, ie eigenvalues, bandgap.py and dos, 3 levels of depth; PBE, SCAN, HSE06, and 5 levels of width, ie the 5 SQSs}
+
+\textbf{Skriv i introducksjonen av resultater intensjonen vår med å nevne ting som stabilitet og magnetisme, og hvor overfladisk den analysen her. En ordentlig analyse av dette ville involvert mange flere jobber med ulike magnetiske konfigurasjoner og innstillinger. En stabilitetsavhandling ville invlovert grundigere relaksering og analyse av gitterparametere og celle, finite temperatur beregninger osv. Hovedvekten i denne oppgaven er på båndgapet}
