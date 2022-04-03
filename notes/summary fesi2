@@ -104,7 +104,7 @@ Step   MxForce  Drift   Press      E0(eV)    El.conv. Mag	Filename
    0   0.0209   0.0094  -0.27  -310.373017     True   0.0000	strC/totenOUTCAR
    0   0.0260   0.0041  -0.55  -310.924833     True   0.0003	strD/toten/OUTCAR
    0   0.0306   0.0077  -0.09  -310.686054      True   0.0000	strE/toten/OUTCAR 
-StrA show nice small band gap around 0.035 Ev with both PBE and SCAN, apperent from eigenvalues and DOS. Small gap around 0.005 eV with PBE and SCAN in strE from eigenvalues, show signs in DOS as well. No gap in the other structures.  
+StrA show nice smal l band gap around 0.035 Ev with both PBE and SCAN, apperent from eigenvalues and DOS. Small gap around 0.005 eV with PBE and SCAN in strE from eigenvalues, show signs in DOS as well. No gap in the other structures.  
 
 CrFeMnTi: Check later, but have observed energy of -321 which is interesting. Also from str A, B, E no band gap in any spin channels due to defect states. Wait for B, C and D. Pretty high magnetic moment. 
 

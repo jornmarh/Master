@@ -1,16 +1,14 @@
-\chapter{Results and Discussion}
-\label{sec:R&D}
+\chapter{The good (CFMN fesi2)}
+\label{sec:good}
 
 In this nearly two year long study, we have managed to investigate a great number of materials with various structures and compositions. We initially began by experimenting with an $Fe_2Si$ unit cell and create these high-entropy silicides by using the special quasi-random structure approach as described above. All though this initial compound is not a semiconductor, we worked under the hope that the extraordinary properties that have been observed in high-entropy alloys through effects such as the cocktail effect, we could locate a specific combinations of elements that in terms would yield a semiconductor with unchanged metal to silicon ratio. Thus creating a highly efficient thermoelectric material based on the other suitable properties of di-iron silicide.  All though this idea is not invalidated, because there are plenty-full of else compositions and permutations to trial, in our narrow search we however did not find such a material. Therefore we opted for a more conservative angle for our study by instead considering well known semiconducting TM silicides such as $\beta - Fe_2Si$, $CrSi_2$ and $MnSi_{1.75}$, see section .. for an introduction to these. However, also for these disilicides we experiences limited success in finding semiconducting materials. In fact, the only case in which we found positive confirmation of a band gap was for a particular composition of $(Cr_{0.25}Fe{0.25}Mn_{0.25}Ni_{0.25})Si_2$, here-in CFMN, in the $\beta FeSi_2$ configuration. This make for an interesting question that we will try to understand and answer in this section, why is exclusively this compound semiconducting?  
 
 We will try to answer this question by first considering the CFMN (fesi2) compound, and investigating the potential properties and correlations between the different elements that make this particular system semiconducting. Factors we will investigate is the overall stability by total energy per atom and formation enthalpy, the magnetic configuration and which elements contribute the magnetism. But in majority, we will look at the band gap and related properties, as this is the main motivation and distinction of the study. When we are done analyzing this system, we will transition into the similar compounds we have worked with in this project, but that turn out metallic. First we will look at compounds within the same crystal structure, but where we substitute the exact composition of $(Cr_{0.25}Fe{0.25}Mn_{0.25}Ni_{0.25})Si_2$ with other 3d elements and distributions slightly away from eqvimolar. Then we present the results of the CFMN composition in different crystal structures mentioned above, ie $Fe_2Si$ where we flip the metal-silicon atom ratio, $CrSi_2$ where the ratio is consistent, but in a different crystal structure, and $MnSi_{1.75}$ where we alter both simultaneously. Finally we will compare and discuss the observed distinctions and give our thoughts on the complete experiment and guideline future research directions in this field.     
 
-\section{One iron, two silicide}
+\section{Eqvimolar distribution}
 In section .. we briefly discussed various semiconducting TM silicides, such as $\beta-FeSi_2$ in the orthorombic cmce lattice. In our DFT work, we find this structure semiconducting with an indirect band gap close to 0.65 eV with PBE. Additionally we found the compound to be non-magnetic and a total energy per atom equal to 6,8274 eV. Which means that we can calculate the formation enthalpy as $\Delta H = E/at_{FeSi_2} - (E/at_{Fe} + E/at_{Si})$ = 7,0653 eV, with the help of materials project for providing the total energy per atom for iron (-8.4693 eV) and silicon (-5.4234 eV).
 
 The $FeSi_2$ structure consisted of 48 atoms, 16 of which is iron and the remaining 32 sites occupied by silicon atoms. In our project, we filled the 16 iron sites with an even distribution of chromium, iron, manganese and nickel by the principle of the SQS method described in section .. . With this approach, there are many possible supercells one can create, we however limit our-self to 5 distinct supercells per composition, which means that we have 5 structures of the same composition and space group, but the distribution is slightly different. This allow us to both study a composition to great depth, but also to test different compositions and structures, compared to if we instead generated 10 or 15 or more supercells. But its important to be aware of this assumption, as our results may be subject to errors and result that does not match the true random alloy due to a small sample size.
-
-\subsection{CFMN (fesi2)} 
 
 Bellow in table .. we display the most relevant properties to the 5 SQSs of the CFMN (fesi2) system for this study, they are the total energy per atom, final magnetic moment per atom, and the band gap. For simplicity, we denote these SQSs as A, B, C, D and E.   
 
@@ -25,8 +23,8 @@ Structure  & Total energy/atom (eV) & Final magnetic moment/atom (?) & Band gap 
 \textbf{D} & −6,6155                & 0.0833                    & 0             \\
 \textbf{E} & −6,6089                & 0.0833                    & 0.0495        \\ \midrule
 \textbf{Mean} & -6.6105 & 4.0000 & 0.0328    \\
-\textbf{Std} & 0.0039 &  - &  0.0210 \\
-\textbf{$\Delta H_{mean}$} & 31,8767 eV \\ \bottomrule
+\textbf{Std} & 0.0039 &  0.0000 &  0.0210 \\
+\textbf{$\Delta H_{mean}$} & -11.5000 eV & - & - \\ \bottomrule
 \end{tabular}
 \caption{Total energy per atom, final magnetic moment, band gap (GGA) and formation enthalpy of $Cr_4Fe_4Mn_4Ni_4Si_{32}$ SQSs based on $FeSi_2$}
 \label{table:fesi2_summary}
@@ -211,36 +209,6 @@ If we now consider the probability distribution functions (PDFs), shown in figur
 
 At the surface, figure .. show that are supercells are in good agreement with the listed values for Tm-Si bonds, with the most occurring bond length falling at around 2.4 Å for all TMs, and some bonds at around 4.1 Å. The relative height of the peaks follow a similar trend, Fe-Si, Mn-Si, and Cr-Si all lie close to 8 for the first peak at 2.4 Å, and Ni-Si slightly bellow around 7. \textbf{More on the PDFs?}
 
-
 Lastly we include the charge density of blabla, \textbf{something on these.}
 
-\subsection{Permutations of CFMN (fesi2)}
-
-
-\subsection{Other composistions (fesi2)}
-
-\section{two iron, one silicon}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{@{}cccc@{}}
-\toprule
-Structure  & Total energy/atom (eV) & Final magnetic moment (?) & Band gap (eV) \\ \midrule
-\textbf{A} & −7.2129                & 19.3167                    & 0.0000        \\
-\textbf{B} & −7.2110                & 21.0030                    & 0.0000        \\
-\textbf{C} & −7.2042                & 19.0002                    & 0.0000        \\
-\textbf{E} & −7,2077                & 17.4200                    & 0.0000             \\
-\textbf{Mean} & −7.2090            & 19.1850                  	 & -        \\ 
-\textbf{Std} & 0.0038				  & 	1.4688						& -				\\ \bottomrule
-\end{tabular}
-\caption{Total energy per atom, final magnetic moment, and band gap (PBE) of $(CrFeCoNi)_2Si$  }
-\label{table:fesi2_summary}
-\end{table}  
-
-\section{CFMN in the $CrSi_2$ and $MnSi_{1.75}$ ($Mn_4Si_7$) unit cell}
-
-\section{Overview}
-
-
-\textbf{I think its relevant and interesting to in-depth analyze structure B, D, and E. B because of large band gap. D because no band gap, and E because this well represents the other structures A and C. }
-One difference is the KS eigenvalues. Str D have both partial occupancy and nonphysical occupancy, ie above 1 and bellow zero both in PBE and HSE06. This is not the case for structures that exhibited band gaps. Here we have clear transition from 1 to 0. Without having done a broad investigation of all material. This seems to be the case in other compositions and cells and permutations as well. Where both partial occupants and nonphysical occupations result in metallic structures. Calculating the band gap with strict 1 and 0 conditions, lead to small band gaps in most structures. Furthermore, in structures of Fe2Si, the difference in band where occupation transition from 1 to 0 between up and down, increases hugely compared to FeSi2 structures, talking close to 20 bands, opposed to maybe 2-5. 
+\section{Permutations}
