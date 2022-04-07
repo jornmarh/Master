@@ -20,6 +20,17 @@ def Tdos(file):
         down.append(float(d))
     return energies, up, down
 
+def strC(file, f):
+    tdos = open(file, "r")
+    fermi = tdos.readline().split()[f]; fermi = float(fermi)
+    energies = []; up = []; down = []
+    for line in tdos:
+        values = line.split()
+        energies.append(float(values[0]))
+        up.append(float(values[1]))
+        down.append(-float(values[2]))
+    return energies, up, down, fermi
+
 def lagFigur(str, x1, x2, y1, y2):
 
     fig, ax = plt.subplots(figsize=[10,5])
@@ -69,8 +80,32 @@ figurepath = figures+material+composistion+structure+xc
 
 plt.style.use('ggplot')
 plt.rcParams['font.size'] = 11
-plt.rcParams['legend.fontsize'] = 8
+plt.rcParams['legend.fontsize'] = 12
 
-input = Tdos(datapath+"TDOS.dat")
+#input = Tdos(datapath+"TDOS.dat")
+#lagFigur(input, -0.2, 0.3, -3, 3)
 
-lagFigur(input, -0.2, 0.3, -3, 3)
+e_s, u_s, d_s, f_s = strC('DOS_c_small.txt', 3)
+e_l, u_l, d_l, f_l = strC('DOS_c_large.txt', 2)
+
+fig, ax = plt.subplots(figsize=[10,5])
+ax.plot(e_l, np.zeros(len(e_l)), 'C3--', lw=2)
+
+ax.plot(e_s, u_s, c='C1', lw=1.3, label='NEDOS = 2401')
+ax.plot(e_s, d_s, c='C1', lw=1.3)
+
+ax.plot(e_l, u_l, c='C0', lw=1.3, label='NEDOS = 20000')
+ax.plot(e_l, d_l, c='C0', lw=1.3)
+
+ax.plot(np.full(len(e_l), f_l), np.linspace(-15,15, len(e_l)), 'C0--', lw=2)
+ax.plot(np.full(len(e_s), f_s), np.linspace(-15,15, len(e_s)), 'C1--', lw=2)
+
+ax.set_ylim(-15,15)
+ax.set_xlabel("Energy (eV)")
+ax.set_ylabel("Density of states")
+ax.xaxis.set_major_locator(mpl.ticker.MultipleLocator(0.1)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
+ax.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
+ax.xaxis.set_tick_params(which='major', length=8, width=1, direction='out')
+ax.xaxis.set_tick_params(which='minor', length=4, width=1, color='black', direction='out')
+ax.legend()
+plt.show()

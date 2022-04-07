@@ -40,7 +40,7 @@ plt.rcParams['font.size'] = 11
 plt.rcParams['legend.fontsize'] = 12
 
 dict = readFile(datapath+"XDATCAR", ["Si", "Cr", "Fe", "Mn", "Ni"])
-fig, axes = plt.subplots(ncols=3, nrows=1, constrained_layout=True, figsize=[12,5])
+fig, axes = plt.subplots(ncols=3, nrows=1, constrained_layout=True, figsize=[12,6])
 
 axin1 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.3, .55, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
 axin1.tick_params(labelleft=True, labelbottom=True)
@@ -77,8 +77,8 @@ axes[0].set_ylabel("Occurance")
 
 axin1.set_xlim(2.2,2.6); axin1.set_ylim(6.5,8)
 axin12.set_xlim(3.8,4.8); axin12.set_ylim(1.2,2.8)
-axin2.set_xlim(3.8,4.4); axin2.set_ylim(4.5,7)
-axin3.set_xlim(3.9,4.2); axin3.set_ylim(4,5)
+axin2.set_xlim(3.8,4.4); axin2.set_ylim(4,6.5)
+axin3.set_xlim(3.9,4.3); axin3.set_ylim(2.5,5)
 
 mark_inset(axes[0], axin1, loc1=1, loc2=3, edgecolor='black')
 for spine in axin1.spines.values():
@@ -116,5 +116,5 @@ axin3.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(
 axin3.yaxis.set_major_locator(mpl.ticker.MultipleLocator(1)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
 axin3.yaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
 
-#plt.savefig(figurepath+"PDF.png")
+plt.savefig(figurepath+"PDF.png")
 plt.show()
