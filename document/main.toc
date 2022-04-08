@@ -75,11 +75,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.3}Meta-GGA and hybrid functional}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{SCAN \\}{39}%
+\contentsline {paragraph}{SCAN \\}{40}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{HSE06 \\}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.4}Probability distribution functions and charge density}{42}%
+\contentsline {subsection}{\numberline {8.1.4}Probability distribution functions and charge density}{43}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Permutations}{44}%
 \defcounter {refsection}{0}\relax 

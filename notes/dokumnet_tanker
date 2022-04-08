@@ -26,4 +26,16 @@ I konklusjonen må det komme noe om å koble observerte bånd gap mot stabilitet
 
 In perm and CFMN more or less the PBE and HSE06 functionals agreed on the band gap, hse06 would often find larger in up, smaller in down. But in comp we find that HSE06 yield a completly different result to PBE. This is confusing. How should I present this outcome
 
+We see signs that Cr is vital for mag, and bad for the stability. This we see from permutations and composistions sections. The Cr less permutation is the most stable, and show good signs of a band gap despite of reduced Cr, also this is the least magnetic permutation. Then in composistions, the most stable is the one where Cr is completly replaced by Co. This have zero mag, despite of Mn still being present. Another clear pattern is that Mn is critical to the band gap. Write something like this in the overview.
+
+- On the stability: We have not studied the effect of entropy, nor finite temperature etc
+
+- Additional on the mag and stability, we only tested one magnetic setting ispin=2 for all structures, therfore the reported magnetic moment and corresponding total energy (stability) is likely to be suboptimal, ie we may only find the local minima in several cases.
+
+- Make sure to mention the results of varying the SQS size. 
+
+- Density of states from EIGENVAL with vaspkit??
+
+- 
+ 
  
