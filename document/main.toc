@@ -75,18 +75,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.3}Meta-GGA and hybrid functional}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Permutations}{43}%
+\contentsline {paragraph}{SCAN \\}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}The bad (Other composistions)}{48}%
+\contentsline {paragraph}{HSE06 \\}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}The ugly (Other symmetry groups)}{51}%
+\contentsline {subsection}{\numberline {8.1.4}Probability distribution functions and charge density}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}The overview}{53}%
+\contentsline {section}{\numberline {8.2}Permutations}{44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{55}%
+\contentsline {chapter}{\numberline {9}The bad (Other compositions of the \ch {FeSi2} unit cell)}{47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Density of states}{57}%
+\contentsline {chapter}{\numberline {10}The ugly (Other symmetry groups)}{50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}PDFs}{58}%
+\contentsline {chapter}{\numberline {11}The overview}{52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Charge density}{59}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Density of states}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}PDFs}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Charge density}{58}%

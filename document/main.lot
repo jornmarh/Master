@@ -25,11 +25,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {8.4}{\ignorespaces Band gap of CFMN (\ch {FeSi2}) SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06).\relax }}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.5}{\ignorespaces Mean and stadard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch {FeSi2}).\relax }}{43}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces Mean and stadard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch {FeSi2}).\relax }}{44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.6}{\ignorespaces Total and spin polarized band gap of 4 permutations of CFMN (fesi2) with PBE GGA calculation. The structures that are excluded from this list either failed in calculations, or does not show any band gap.\relax }}{46}%
+\contentsline {table}{\numberline {8.6}{\ignorespaces Total and spin dependent band gap of 4 permutations of CFMN (fesi2) with PBE GGA calculation. The structures that are excluded from this list either failed in calculations, or does not show any band gap. \textbf {Remove C and E from Mn3, these contain defects and no gap in DOS.}\relax }}{45}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.1}{\ignorespaces Summary of the total energy, enthalpy of formation and magnetization of several composistionally different SQS high-entropy alloys based on the $\beta -$ \ch {FeSi2} unit cell.\relax }}{47}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -1,0 +1,29 @@
+I need a clear comment on how I evaluate the band gap, I think I only list results that agree between eigenvalues and DOS, cause bandgap.py only returns the total band gap. What should I do about the results that are written from eigenvalues but not in DOSCAR, these always have some defects in the eigenvalues, and the dos show small values but not complete zero. Maybe write a comment on it early in the results/method section, and include the dos for one of these. Then should I mention the others or simply neglect them, maybe the last, that seems simpler. 
+
+What should i do about crni3 str C and E, large spin up gap, but wiht some defects, indication in DOS, but not 0. Should I mention this or not?
+
+Need to include the specifc magnetic moment and bandgap of the most stable SQS when discussing permutations and composistions.
+
+Conclusion example: In this project we have found many structures that show signs of semiconducting properties, but only CFMN fesi2 produced clear indication thorugh all 3 levels of meassures, ie eigenvalues, bandgap.py and dos, 3 levels of depth; PBE, SCAN, HSE06, and 5 levels of width, ie the 5 SQSs
+
+Do analysis of the most stable SQS of Mn3 to compare to the most stable of CFMN or Cr3 or Mn7. 
+
+In the conclusion I need to comment on some of the more promising results not being the most stable SQSs, therefore not really probable in the real world compared to the metalic SQSs. 
+
+Need a comment on how i determine the band gap. Need to show eigenvalues without defect states and show clearly the gap from the DOS. Maybe for the first case where eigenvalues find gap with defects and the DOS is lacking, include the result and DOS figure and state that following we will not include these results due to the large amount of results in this study to keep some sort of structure.
+
+- Ta med poenget O.M tok med om DFT bergeninger gjøres for perfekte krystaller ved 0K, derfor kan målinger være annerledes enn eksperimentell data, tenk HSE06 på FeSi2 bulk
+
+- Fokuser på å analysere LDOS, PDFs for senere seksjoner type compositions
+
+- Gjør ferdig diskusjonen om usikre beregeninger og resultater i CFMN seksjonen, fordi det er mange av dem senere gjør det de senere delene mye mer lettleslige. For eks for sammensetninge kan jeg si at vi finner halv-metaller i disse og disse SQSsen men at egenverdiene inneholder defekter og dos ikke helt synlig. Likevel er de en plass mellom de rene halv metallene/halvlederne og de som er fullstendig metallisk.
+
+- Ta med at Fe er det ene elementet vi ikke erstatter når vi tester, pga vi jobber i FeSi2 strukturen så vi kan forvente at Fe egner seg godt der? 
+
+- Skriv om LDOS at vi antar at metallstatene tilsvarer 3d elektronsene grunnet andre studier på 3d silisider som finner det, men at det blir for kronglete å analysere dette selv.
+
+I konklusjonen må det komme noe om å koble observerte bånd gap mot stabiliteten av SQSsen og si noe om at i denne sammensetningen ser vi at bånd gap er det mest sannsynlige utfallet.
+
+In perm and CFMN more or less the PBE and HSE06 functionals agreed on the band gap, hse06 would often find larger in up, smaller in down. But in comp we find that HSE06 yield a completly different result to PBE. This is confusing. How should I present this outcome
+
+ 
