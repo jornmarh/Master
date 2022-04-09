@@ -87,28 +87,42 @@ Structure  & Spin-up & Spin-down & Total  \\ \midrule
 \caption{Band gap (eV) with PBE in spin up and spin down channels of CFMN (fesi2) SQSs}
 \end{table}
 
-From table 8.3 we find that SQSs B D and E all display band gaps around 0.3 eV in spin up, and small non-zero or zero in the case of SQS D in spin down. To further explore the observed band gaps we plot the projected density of states of SQS D. With this information we can study the above density of states by the contributions of individual elements in the structure. In the PDOS plot we assume that the lines of TMs is mainly attributed to the 3d electrons of the elements. Likewise we state that the blue line corresponding to silicon is composed of s electrons in the lower energy region and and p electrons at higher energies. Ideally this should be  investigating with the local density of states of each element, but with 5 different elements this become tedious. Furthermore this is seen in several transition-metal silicides \textbf{cite?}
+From table 8.3 we find that SQSs B D and E all display band gaps around 0.3 eV in spin up, and small non-zero or zero in the case of SQS D in spin down. To further explore the electronic structure we plot both the projected density of states and local density of states of SQS D. With this information we can study the above case by the contributions of individual elements in the structure. From the local density of states plotted in figures 8.3 and 8.4 we see that the s-electrons in Si occupy states in the lower energy regions and the p electrons at energies closer to the Fermi energy, while both equally occupy states above $E_F$. In the transition metals we see that 3d electrons dominate across the energy range. Between the different TMs we observe that 3d electrons particularly of manganese and chromium show a strong presence in spin down right above $E_F$, and just bellow in the spin up direction. Meanwhile iron and nickel lie at lower energies respectively. The relationship and interaction between the different elements can better be seen in the projected density of states in figure 8.5. 
 
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/D_PDOS.png}
+	\centering
+	\includegraphics[width=.7\textwidth]{results/fesi2/D_LDOS_Si.png}
+	\caption{Local density of states of Si (SQS D)}
+\end{figure} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{results/fesi2/D_LDOS.jpeg}
+	\caption{Local density of states of TMs (SQS D), (a) Cr, (b) Mn, (c) Fe, (d) Ni}
+\end{figure} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{results/fesi2/D_PDOS.png}
 	\caption{Projected density of states SQS D CFMN (fesi2) from PBE calculation}
 \end{figure} 
 
-From figure 8.3 we note that the low energy states states are filled by silicon s electrons. At higher energies there is evidence of hybridization between silicon p and TM 3d electrons. In both spin channels Ni lie at the lowest energies of the 3d elements, followed by iron and then manganese and chromium very close to the fermi energy. Above the fermi enery we see than the spin up channel is equally distributed by all elements while the down states are more dominated by manganese and chromuim. Bellow we include the same figure, but now emphasizing states close to the Fermi energy.
-
+In agreement with the local DOS we observe here that the Si s-electrons occupy the lower energetic states, and evidence of p-3d hybridization at higher energies. With the upmost energetic states in the valence band occupied by 3d electrons of chromium and manganese. Bellow we include the PDOS of SQS D and B but focused around $E_F$, from these figures we find that the spin down channel in D contain a more dominant presence of manganese especially, and some chromium as compared to the semiconducting SQS B.  
+  
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/D_PDOS_Ef.png}
-	\caption{Projected density of states of SQS D around $E_f$}		
+	\centering
+	\begin{subfigure}{.45\textwidth}
+			\includegraphics[width=\textwidth]{results/fesi2/D_PDOS_Ef.png}
+			\caption{Projected density of states of SQS D around $E_f$}		
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}{.45\textwidth}
+		\includegraphics[width=\textwidth]{results/fesi2/B_PDOS_Ef.png}
+		\caption{Projected density of states of SQS B around $E_f$}		
+\end{subfigure}
 \end{figure}
 
-Comparing to the equivalent case in SQS B in figure 8.5 we see that the spin down channel in D contain a more dominant presence of manganese especially, and some chromium. 
-
-\begin{figure}
-	\includegraphics[width=\textwidth]{results/fesi2/B_PDOS_Ef.png}
-	\caption{Projected density of states of SQS B around $E_f$}		
-\end{figure}
-
-In the above figures we have addressed the band gap in terms of the density of states, however in the context of DFT and VASP there are several factors than can affect the accuracy of the density of states. As mentioned in section .., the type of numerical smearing is paramount for accurate DOS calculations. In this project we experienced large differences between calculations from gaussian and TBC smearing in relation to the band gap and DOS, this will be covered in more detail later. Moreover the DOS is very sensitive to computational factors such as the number of points (NEDOS in VASP) and the number of k-points (to solve the DOS integral, see section ..). For example, the band gap in structure C could only be seen in the density of states when increasing the number of points in the DOS from 2401 to 20000 points. This is shown bellow in figure blabla, where we plot the density of states around the fermi energy, denoted by the strippled red and blue lines, relative to the density of states with 2401 points and 20000 points respectfully, all other parameters remained unchanged, it should however be noted that the second calculations applied the charge density calculated by the former for quicker convergence. 
+In the context of DFT and VASP there are several factors than can affect the accuracy of the DOS. As mentioned in section .., the type of numerical smearing is paramount for accurate DOS calculations. In this project we experienced large differences between calculations from gaussian and TBC smearing in relation to the band gap and DOS, this will be covered in more detail later. Moreover the DOS is very sensitive to computational factors such as the number of points (NEDOS in VASP) and the number of k-points (to solve the DOS integral, see section ..). For example, the band gap in structure C could only be seen in the density of states when increasing the number of points in the DOS from 2401 to 20000 points. This is shown bellow in figure blabla, where we plot the density of states around the fermi energy, denoted by the strippled red and blue lines, relative to the density of states with 2401 points and 20000 points respectfully, all other parameters remained unchanged, it should however be noted that the second calculations applied the charge density calculated by the former for quicker convergence. 
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{results/fesi2/C_DOS.png}
