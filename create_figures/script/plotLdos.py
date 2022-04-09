@@ -31,7 +31,7 @@ data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
 composistion = 'crfemnni/equaldist/'
-structure = 'D/' # or B, C, D, E
+structure = 'B/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
 figurepath = figures+material+composistion+structure+xc
@@ -42,8 +42,9 @@ ldos_dw = ldos(datapath+"PDOS_ELEMENTS_DW.dat")
 
 plt.style.use('fivethirtyeight')
 #plt.rcParams['font.size'] = 11
-plt.rcParams['legend.fontsize'] = 10
+plt.rcParams['legend.fontsize'] = 12
 
+'''
 fig, ax = plt.subplots(2,1, sharey=True, figsize=[10,10])
 for a in range(2):
     for i in range(1, N_e+1):
@@ -67,22 +68,22 @@ ax[1].set_ylabel("Projected density of states")
 ax[1].legend()
 
 plt.tight_layout()
-plt.savefig(figurepath+"LDOS.png")
+#plt.savefig(figurepath+"LDOS.png")
 plt.show()
-
 '''
-fig, ax = plt.subplots(figsize=[10,5])
+
+fig, ax = plt.subplots(figsize=[9,5])
 for i in range(1, N_e+1):
     line_up, = ax.plot(ldos_up[0], ldos_up[i], label=ldos_up[-1][i], lw=2, alpha=1)
     line_down, = ax.plot(ldos_dw[0], ldos_dw[i], c=line_up.get_color(), lw=2, alpha=1)
 
 #ax.plot(ldos_up[0], np.zeros(len(ldos_up[0])), '--', lw=2)
-ax.set_xlim(-1,1)
-ax.set_ylim(-10,10)
+ax.set_xlim(-0.5, 0.5)
+ax.set_ylim(-5,5)
 ax.set_xlabel("Energy (eV)")
-ax.set_ylabel("Projected density of states")
+ax.set_ylabel("Density of states")
 ax.legend()
 
-plt.savefig(figurepath+"PDOS_Ef.png")
+plt.tight_layout()
+#plt.savefig(figurepath+"PDOS_Ef.png")
 plt.show()
-'''

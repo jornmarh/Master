@@ -28,8 +28,8 @@ def readFile(filename, elements):
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfemnni/equaldist/'
-structure = 'B/' # or B, C, D, E
+composistion = 'cofemnni/'
+structure = 'D/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 
 datapath = data+material+composistion+structure+xc
@@ -39,7 +39,7 @@ plt.style.use('fivethirtyeight')
 plt.rcParams['font.size'] = 11
 plt.rcParams['legend.fontsize'] = 12
 
-dict = readFile(datapath+"XDATCAR", ["Si", "Cr", "Fe", "Mn", "Ni"])
+dict = readFile(datapath+"XDATCAR", ["Si", "Co", "Fe", "Mn", "Ni"])
 fig, axes = plt.subplots(ncols=3, nrows=1, constrained_layout=True, figsize=[12,6])
 
 axin1 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.3, .55, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
@@ -116,5 +116,5 @@ axin3.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(
 axin3.yaxis.set_major_locator(mpl.ticker.MultipleLocator(1)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
 axin3.yaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
 
-plt.savefig(figurepath+"PDF.png")
+#plt.savefig(figurepath+"PDF.png")
 plt.show()

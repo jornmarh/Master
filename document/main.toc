@@ -81,9 +81,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.4}Probability distribution functions and charge density}{43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Permutations}{44}%
+\contentsline {section}{\numberline {8.2}Permutations}{45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}The bad (Other compositions of the \ch {FeSi2} unit cell)}{47}%
+\contentsline {chapter}{\numberline {9}The bad (Other compositions of the \ch {FeSi2} unit cell)}{48}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}The ugly (Other symmetry groups)}{50}%
 \defcounter {refsection}{0}\relax 
