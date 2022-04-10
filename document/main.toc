@@ -83,7 +83,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Permutations}{45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}The bad (Other compositions of the \ch {FeSi2} unit cell)}{48}%
+\contentsline {chapter}{\numberline {9}The bad (Other compositions of the \ch {FeSi2} unit cell)}{49}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}The ugly (Other symmetry groups)}{50}%
 \defcounter {refsection}{0}\relax 

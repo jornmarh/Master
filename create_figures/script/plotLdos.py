@@ -30,11 +30,13 @@ def ldos(file):
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfemnni/equaldist/'
-structure = 'B/' # or B, C, D, E
+composistion = 'crfemnco'
+structure = '/B/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
 figurepath = figures+material+composistion+structure+xc
+path = "../../document/figures/results/fesi2/composistions/"
+savepath = path + composistion
 
 N_e = 5
 ldos_up = ldos(datapath+"PDOS_ELEMENTS_UP.dat")
@@ -72,18 +74,25 @@ plt.tight_layout()
 plt.show()
 '''
 
+colors = {"Si": "#30a2da", "Cr": "#fc4f30", "Mn": "#e5ae38", "Fe": "#6d904f", "Ni": "#8b8b8b", "Co": "#dc92ff", "Ti": "#ff6ef1"}
 fig, ax = plt.subplots(figsize=[9,5])
 for i in range(1, N_e+1):
-    line_up, = ax.plot(ldos_up[0], ldos_up[i], label=ldos_up[-1][i], lw=2, alpha=1)
+    for key in colors:
+        if (ldos_up[-1][i] == key):
+            farge = colors[key]
+    line_up, = ax.plot(ldos_up[0], ldos_up[i], label=ldos_up[-1][i], c=farge, lw=2, alpha=1)
     line_down, = ax.plot(ldos_dw[0], ldos_dw[i], c=line_up.get_color(), lw=2, alpha=1)
 
-#ax.plot(ldos_up[0], np.zeros(len(ldos_up[0])), '--', lw=2)
-ax.set_xlim(-0.5, 0.5)
-ax.set_ylim(-5,5)
+ax.plot(ldos_up[0], np.zeros(len(ldos_up[0])), c='#898989', lw=1)
+ax.plot(np.zeros(len(ldos_up[0])),np.linspace(-20,20, len(ldos_up[0])), c='#898989', lw=1)
+
+ax.set_xlim(-6, 3)
+#ax.set_ylim(-12,12)
 ax.set_xlabel("Energy (eV)")
 ax.set_ylabel("Density of states")
 ax.legend()
 
 plt.tight_layout()
-#plt.savefig(figurepath+"PDOS_Ef.png")
+
+plt.savefig(savepath + "_PDOS_full.png")
 plt.show()
