@@ -28,8 +28,8 @@ def readFile(filename, elements):
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'cofemnni/'
-structure = 'D/' # or B, C, D, E
+composistion = 'crfemnco/'
+structure = 'B/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 
 datapath = data+material+composistion+structure+xc
@@ -39,7 +39,7 @@ plt.style.use('fivethirtyeight')
 plt.rcParams['font.size'] = 11
 plt.rcParams['legend.fontsize'] = 12
 
-dict = readFile(datapath+"XDATCAR", ["Si", "Co", "Fe", "Mn", "Ni"])
+dict = readFile(datapath+"XDATCAR", ["Si", "Cr", "Fe", "Mn", "Co"])
 fig, axes = plt.subplots(ncols=3, nrows=1, constrained_layout=True, figsize=[12,6])
 
 axin1 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.3, .55, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
