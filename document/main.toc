@@ -59,9 +59,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Generation of SQS}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Band-structure}{28}%
+\contentsline {section}{\numberline {7.3}Figures}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Utility scripts}{30}%
+\contentsline {subsection}{\numberline {7.3.1}Density of states}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Probability distribution functions}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Charge density}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Band gap}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Utility scripts}{29}%
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Results and Discussion}{31}%
 \defcounter {refsection}{0}\relax 

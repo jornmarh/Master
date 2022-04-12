@@ -13,8 +13,7 @@ In similar fashion to the previous sections, we here begin by presenting the mea
 \ch{Co4Fe4Mn4Ni4Si32} & - 6.4731        & 0.0046     & - 15.0836       & 0.0000    & 0.0000          \\
 \ch{Cr4Fe4Ti4Ni4Si32} & - 6.4217        & 0.0087     & - 7.5040       & 0.0305     & 0.0293     \\
 \ch{Cr4Fe4Mn4Ti4Si32} & -6.6994         & 0.0071     & - 7.3060       & 0.1142     & 0.0641     \\ 
-\ch{Cr4Fe4Mn4Co4Si32} & -6.7687 		  & 0.0034     & - 13.7796      & 0.1331     & 0.0326    
-\bottomrule
+\ch{Cr4Fe4Mn4Co4Si32} & -6.7687 		  & 0.0034     & - 13.7796      & 0.1331     & 0.0326   \\ \bottomrule
 \end{tabular}
 \caption{Summary of the total energy, enthalpy of formation and magnetization of several  composistionally different SQS high-entropy alloys based on the $\beta-$ \ch{FeSi2} unit cell.}
 \end{table} 
@@ -57,35 +56,26 @@ In regards to the band gap of the compositions, we can report that a heavy major
 In the density of states plotted in figure .., the band gap in A is clearly visible. On the other hand the very narrow gap in B is not as apparent, as the states around Ef contain very small nonzero values.  This could be related to the low resolution of 2500 points in the density of states as seen before, especially considering the size of the gap. In opposite to the CFMN calculations previous we here experience excellent cohesion between PBE and SCAN simulations on the band gap. With the meta-GGA functional the band gap of SQS A and B respective is 0.04 eV and the 0.003 eV. Moreover we find the identical gap transition with both functionals, which was not the case in previous endeavors with this functional. Additionally we also find that the HSE06 functional produce dissimilar results to previous experiences. In this scenario, the HSE06 functional fails to recognize the observed band gap of PBE and SCAN in both supercells. The greater number of k-points in the GGA and meta-GGA calculations offer more accurate band gaps, however lesser k-points will not result in a smaller gap, only bigger. Thus the uncertainites of previous calculations of the HSE06 functional does not apply in this case. For this reason in addition to the reputation of hybrid functionals and the lack of other factors to negatively affect the validity of the result, we find it challenging to conclude on the band gap of these structures between functionals.
 
 \textbf{Comment PDOS figures} \\
-\textbf{Make additional figures plain DOS around Ef. \\}
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=.6\textwidth]{results/fesi2/composistions/crfeconi_PDOS_full.png}
-	\caption{\ch{Cr4Fe4Co4Ni4Si32}}
+	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfeconi_PDOS.png}
+	\caption{Projected density of states of \ch{Cr4Fe4Co4Ni4Si32}}
 \end{figure}
 
-
 \begin{figure}[H]
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/composistions/cofemnni_PDOS_full.png}
-		\caption{\ch{Co4Fe4Mn4Ni4Si32}}
-	\end{subfigure}
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnco_PDOS_full.png}
-		\caption{\ch{Cr4Fe4Mn4Co4Si32}}
-	\end{subfigure}
+	\includegraphics[width=\textwidth]{results/fesi2/composistions/cofemnni_PDOS.png}
 \end{figure}
 
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnco_PDOS.png}
+\end{figure}
 
 \begin{figure}[H]
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/composistions/crfetini_PDOS_full.png}
-		\caption{\ch{Cr4Fe4Ti4Ni4Si32}}
-	\end{subfigure}
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/composistions/crfetini_PDOS_full.png}
-		\caption{\ch{Cr4Fe4Mn4Ti4Si32}}
-	\end{subfigure}
+	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfetini_PDOS.png}
 \end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnti_PDOS.png}
+\end{figure}
+
 
 \textbf{Add PDFs if time maybe}
