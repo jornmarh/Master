@@ -56,7 +56,7 @@ def lagFigur(str, x1, x2, y1, y2):
     axin.set_ylim(y1, y2)
     mark_inset(ax, axin, loc1=1, loc2=3, edgecolor='black')
 
-    axin.xaxis.set_major_locator(mpl.ticker.MultipleLocator(0.15)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
+    axin.xaxis.set_major_locator(mpl.ticker.MultipleLocator(0.3)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
     axin.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
     axin.xaxis.set_tick_params(which='major', length=6, width=1, direction='out')
     axin.xaxis.set_tick_params(which='minor', length=3, width=1, color='black', direction='out')
@@ -66,15 +66,16 @@ def lagFigur(str, x1, x2, y1, y2):
     axin.yaxis.set_tick_params(which='minor', length=3, width=1, color='black', direction='out')
     for spine in axin.spines.values():
             spine.set_edgecolor('black')
-    #plt.savefig(figurepath+"TDOS.png")
+    #plt.tight_layout()
+    plt.savefig("/home/jrn-marcus/master/github/document/figures/results/fesi2/" +"E_TDOS_hse06.png")
     plt.show()
 
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
 composistion = 'crfemnni/equaldist/'
-structure = 'D/' # or B, C, D, E
-xc = 'pbe/' #or scan, hse06
+structure = 'E/' # or B, C, D, E
+xc = 'hse06/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
 figurepath = figures+material+composistion+structure+xc
 
@@ -82,11 +83,12 @@ plt.style.use('ggplot')
 plt.rcParams['font.size'] = 11
 plt.rcParams['legend.fontsize'] = 12
 
-#input = Tdos(datapath+"TDOS.dat")
-#lagFigur(input, -0.2, 0.3, -3, 3)
+input = Tdos(datapath+"TDOS.dat")
+lagFigur(input, -0.4, 0.4, -3, 3)
 
-e_s, u_s, d_s, f_s = strC('DOS_c_small.txt', 3)
-e_l, u_l, d_l, f_l = strC('DOS_c_large.txt', 2)
+'''
+e_pbe, u_pbe, d_pbe, f_pbe = strC('DOS_c_small.txt', 3)
+e_scan, u_scan, d_scan, f_scan = strC('DOS_c_large.txt', 2)
 
 fig, ax = plt.subplots(figsize=[10,5])
 ax.plot(e_l, np.zeros(len(e_l)), 'C3--', lw=2)
@@ -109,3 +111,4 @@ ax.xaxis.set_tick_params(which='major', length=8, width=1, direction='out')
 ax.xaxis.set_tick_params(which='minor', length=4, width=1, color='black', direction='out')
 ax.legend()
 plt.show()
+'''

@@ -28,8 +28,8 @@ def readFile(filename, elements):
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfemnco'
-structure = '/B/' # or B, C, D, E
+composistion = 'crfemnni/crni3'
+structure = '/D/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 
 datapath = data+material+composistion+structure+xc
@@ -39,7 +39,7 @@ plt.style.use('fivethirtyeight')
 plt.rcParams['font.size'] = 11
 plt.rcParams['legend.fontsize'] = 12
 
-dict = readFile(datapath+"XDATCAR", ["Si", "Cr", "Fe", "Mn", "Co"])
+dict = readFile(datapath+"XDATCAR", ["Si", "Cr", "Fe", "Mn", "Ni"])
 fig, axes = plt.subplots(ncols=3, nrows=1, constrained_layout=True, figsize=[12,5])
 
 axin1 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.3, .55, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
@@ -76,10 +76,10 @@ axes[2].legend()
 axes[0].set_ylabel("Occurance")
 
 
-axin1.set_xlim(2.2,2.6); axin1.set_ylim(7,8.5)
+axin1.set_xlim(2.2,2.6); axin1.set_ylim(6,8.3)
 axin12.set_xlim(3.7,4.8); axin12.set_ylim(1,2.8)
-axin2.set_xlim(3.8,4.4); axin2.set_ylim(4,7.5)
-axin3.set_xlim(3.8,4.4); axin3.set_ylim(2.7,3.2)
+axin2.set_xlim(3.8,4.4); axin2.set_ylim(3.5,7.6)
+axin3.set_xlim(3.8,4.4); axin3.set_ylim(2,4)
 
 mark_inset(axes[0], axin1, loc1=1, loc2=3, edgecolor='black')
 for spine in axin1.spines.values():
@@ -118,5 +118,5 @@ axin3.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(
 axin3.yaxis.set_major_locator(mpl.ticker.MultipleLocator(1)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
 axin3.yaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
 
-#plt.savefig("/home/jrn-marcus/master/github/document/figures/results/fesi2/composistions/"+"{}".format(composistion)+"_PDF.png")
+#plt.savefig("/home/jrn-marcus/master/github/document/figures/results/fesi2/permutations/"+"_crni3_D_PDF.png")
 plt.show()

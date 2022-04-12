@@ -41,4 +41,13 @@ We see signs that Cr is vital for mag, and bad for the stability. This we see fr
 - Discuss that materials are half-metals spin gapless and relate to the type of materials that fall under this class.
 
 - Diskutere mag vs stabilitet for SQSer, vi lister mean verdier, men er den mest stabile sqs mer eller mindre enn mean? 
+
+- Rewrite the introduction and introduction of results to fit the final product, ie more a walkthorugh of FeSi2 CFMN and different variants of this.
+
+- Skriv om egenverdier i metode, hvordan kan man regne ut båndgapet fra de, hvordan er de strukturert etc. 
+
+- Need a comment on why we use the SCAN functional exactly, answer: Considered accurate, fast, and allows for testing on a level between gga and hybrid. Write this in the method section.
+
+- Hvor ofte skal jeg nevne defects in th eigenvalues
+
  

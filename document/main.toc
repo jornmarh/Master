@@ -65,31 +65,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Results and Discussion}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}The good (CFMN fesi2)}{33}%
+\contentsline {chapter}{\numberline {8}The results of \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}CFMN Eqvimolar distribution}{33}%
+\contentsline {section}{\numberline {8.1}Eqvimolar SQSs}{33}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.1}Introduction}{33}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1.2}The band gap}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.3}Meta-GGA and hybrid functional}{39}%
+\contentsline {subsection}{\numberline {8.1.3}Local and Projected density of states}{36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.4}Meta-GGA and hybrid functional}{40}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{SCAN \\}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HSE06 \\}{40}%
+\contentsline {paragraph}{HSE06 \\}{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.4}Probability distribution functions and charge density}{43}%
+\contentsline {paragraph}{Numerical smearing \\}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Permutations}{45}%
+\contentsline {subsection}{\numberline {8.1.5}Probability distribution functions and charge density}{44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}The bad (Other compositions of the \ch {FeSi2} unit cell)}{49}%
+\contentsline {section}{\numberline {8.2}Permutations of the \ch {Cr4Fe4Mn4Ni4Si32} high-entropy silicide}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}The ugly (Other symmetry groups)}{50}%
+\contentsline {chapter}{\numberline {9}Changing the elements}{52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}The overview}{52}%
+\contentsline {chapter}{\numberline {10}Overview and Relevance}{57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{54}%
+\contentsline {section}{\numberline {10.1}\ch {Cr4Fe4Mn4Ni4Si32} in different crystal structures}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{MnSi \\}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fe2Si \\}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Overview}{59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IV\hspace {1em}Conclusion}{60}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Density of states}{56}%
 \defcounter {refsection}{0}\relax 

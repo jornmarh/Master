@@ -1,83 +1,21 @@
-TODO:
+Results & Discussion
 
-1) Forberede resultater
+- Legge inn Ni7 i tabell og diskusjon: Regne ut Delta H
+- legge inn CrFeMnCo i tabell og diskusjon: Regne ut Delta H
+- Lage og legge inn DO figurer compositions
+- Komentere DOS og PDOS figuerer i comps
+- Fjerne PDFs comps
 
- - Gå igjennom Fe2Si og MnSi175 (Done, mangler Co i MnSi orthorombic.)
 
- - Sette igang HSE der det er E_G, og/eller mest stabile struktur: sjekk crSi2, fe2si, mnsi1.75, of fesi2 sine permutasjoner og sammensetinger 
+- Gå igjennom alt:
+	- Se på boldtext kommentarer
+	- Se på formuleringer
+	- Se på notater om noen resultater/poeng mangler
+	- Noe som er overflødig?
+	- Legg inn referanser for tabeller og figurer! 
 
- - Notere overganger der det er båndgap i PBE og HSE06, for å se om det smale kgridet påvirker resultatet
+- Skriv siste seksjon.
 
- - Lage figur for bap i spin opp, ned og uten defekt tilstander (Gjør til slutt, jeg tenker en stor konkluderende figur som viser at alle strukturer i og seg selv fremviser lovende resultater, men de blir på en måte holdt tilbake av noe.)
+- Analyser variasjon i SQS-er for ulike resultater der jeg ikke har gjort det (Hvis tid)
 
- - Lage figurer for PDFs, CHGCAR, og LDOS: Har laget ferdig metoden, må bare gjøre det for alle nå.
- 	- PDFs: Finn referansedata fra ICSD og legg det som en baseline i figurene for PDFs, mangler ferdig script
-
- 	- LDOS: Ferdig plot, bare å hente ut filer, plotte og legge inn.
-
- 	-CHGCAR: Har gjort ferdig metode, bare å hente ut filer, gjøre, legge inn i dokument
-
- - Prøve band unfolding (Funket ikke)
-
- - Regne ut N valence electrons: Use grep NELECT OUTCAR?
-
- - Regne ut total CPU tid brukt, ikke bare grep cpu, men regne ut totalt brukt cpu tid fra relax1 til toten, for alle strukturer og plotte den tiden for å sammenligne tiden mellom strukturer, da bør vi finne ut at CFMN fesi2 var suveren. Gjør også det samme for hse06, trenge ikke like mange, ideen her er å illustrere hvor tøft hse06 var å konvergere kontra pbe/scan.
- 
- - Regne ut formasjonsenergi/tetthet? 
- 
- - Ta med konvergens-tester? 
-
- 2) Legge inn resultater
-
- 3) Skriving
-
- Hva manngler jeg å gjøre på "Results & Discusssion"?
- 	- Skrive diskusjon på CFMN (fesi2) equaldist 48 atoms resultatene
-
- 		- Se på overgang med kpunkter for hse06 kontra pbe og scan
- 		- Snakke om defect states som ødelegger gapet.
- 		- Analysere forskjellene mellom de ulike strukturene og trekke sammelignerer til litteraturen og eksperimentelle observasjoner
- 		- Snakke litt om hva jeg burde ha gjort og mulige retninger,
-
- 		- Kommentere/diskutere sammenheng mellom teori og praksis mellom metoder og resultater
-
- 		- Skrive en konklusjon på denne seksjon før jeg går videre til neste avsnitt
-
- 	- Legge inn resultater for permutasjoner av CFMN (fesi2) og andre sammensetninger av strukturen
- 	 	Legge inn noen figurer/tableller som viser omfanget av studien, og hvilke resultater vi fant 		utenfor denne ene sammensetningen.
-
- 	 - Diskutere litt hvorfor vi ikke får båndgap her, eller andre faktorer som stabilitet, magnetisme osv. 			Prøv å trekk fram enten en god struktur av de fem som kan sammenlignes med den gode strukutren 			og prøv å pek på ulikheter, evt likheter hvis det er andre gode egenskaper.
-
- 	 -Skrive en konklusjon
-
- Hva mangler jeg totalt:
-
- 	- Teori:
-
- 		- Skrive utfylleldene DFT og SQS matteseksjonene
-
- 		- Skrive limitations av DFT avsnittet
-
- 		- Skrive 3d silisider seksjon.
-
- 		- Penskrive HEA
-
- 	- Intro:
-	 	- Legge til inngangsavsnitt
-
- 		- Penskrive
-
- 	Metode:
- 		- Jobbe med XC seksjon
-
- 		- Skrive utfyllende på resten av kp 6
-
- 		- Omskrive, penskrive og omstrukturere kp 7
-
- 		- Legge til avsnitt om DOS, EIGENVAL og PDFs i kp 7.
-
- 		- Skrive bedre om parametere i vasp.
-
- 		- Skrive en mer komplett seksjon om referanser og pakker som Materials project, vaspkit, 			pymatgen, sintef og OM sine script. Annet? TDEP etc.
-
- 	- The method or results section should include something on the computational aspects of this project, 		such as ease of convergence, relaxation, total cpu time or number of steps etc for the different 		structures, this can easily be summarized in a table or simple figure.
+Teori og Metode
