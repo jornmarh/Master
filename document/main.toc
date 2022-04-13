@@ -25,53 +25,53 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Applications and limitations of SQS in modeling high-entropy alloys}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Density-Functional Theory}{15}%
+\contentsline {chapter}{\numberline {5}Density Functional Theory}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Review of Quantum Mechanics}{15}%
+\contentsline {section}{\numberline {5.1}Review of Quantum Mechanics}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}The Shr\"{o}dinger equation}{15}%
+\contentsline {subsection}{\numberline {5.1.1}The Shr\"{o}dinger equation}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Simplifications and approximations to solve the many-electron Shr\"{o}dinger equation}{16}%
+\contentsline {subsection}{\numberline {5.1.2}Simplifications and approximations to solve the many-electron Shr\"{o}dinger equation}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Born-Oppenheimer}{16}%
+\contentsline {subsubsection}{Born-Oppenheimer}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Hartree-Fock}{16}%
+\contentsline {subsubsection}{Hartree-Fock}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Variational principle}{17}%
+\contentsline {subsubsection}{The Variational principle}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Fundamentals of Density-Functional Theory}{17}%
+\contentsline {section}{\numberline {5.2}Fundamentals of Density-Functional Theory}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Limitations of DFT}{18}%
+\contentsline {section}{\numberline {5.3}Limitations of DFT}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Methodology and Implementation}{20}%
+\contentsline {part}{II\hspace {1em}Methodology and Implementation}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Practical application of DFT}{21}%
+\contentsline {chapter}{\numberline {6}Practical application of DFT}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}The Exchange-Correlation functional}{21}%
+\contentsline {section}{\numberline {6.1}The Exchange-Correlation functional}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Fundamental aspects of practical DFT calculations}{22}%
+\contentsline {section}{\numberline {6.2}Fundamental aspects of practical DFT calculations}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Self-consistent field calculation}{24}%
+\contentsline {section}{\numberline {6.3}Self-consistent field calculation}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Computational details}{26}%
+\contentsline {chapter}{\numberline {7}Computational details}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Vienna Ab initio Simulation Package}{26}%
+\contentsline {section}{\numberline {7.1}Vienna Ab initio Simulation Package}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Generation of SQS}{28}%
+\contentsline {section}{\numberline {7.2}Generation of SQS}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Figures}{29}%
+\contentsline {section}{\numberline {7.3}Figures}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Density of states}{29}%
+\contentsline {subsection}{\numberline {7.3.1}Density of states}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Probability distribution functions}{29}%
+\contentsline {subsection}{\numberline {7.3.2}Probability distribution functions}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Charge density}{29}%
+\contentsline {subsection}{\numberline {7.3.3}Charge density}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Band gap}{29}%
+\contentsline {section}{\numberline {7.4}Band gap}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Utility scripts}{29}%
+\contentsline {section}{\numberline {7.5}Utility scripts}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Results and Discussion}{31}%
+\contentsline {part}{III\hspace {1em}Results and Discussion}{33}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}The results of \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{33}%
 \defcounter {refsection}{0}\relax 

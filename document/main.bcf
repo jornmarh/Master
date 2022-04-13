@@ -2182,24 +2182,9 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="6">sqsIntro</bcf:citekey>
-    <bcf:citekey order="7">sqsfull</bcf:citekey>
-    <bcf:citekey order="8">sqsfull</bcf:citekey>
-    <bcf:citekey order="9">sqsfull</bcf:citekey>
-    <bcf:citekey order="10">sqs_dos</bcf:citekey>
-    <bcf:citekey order="11">sqs_bg</bcf:citekey>
-    <bcf:citekey order="12">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="13">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="14">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="15">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="16">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="17">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="18">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="19">hea2016_ch10</bcf:citekey>
-    <bcf:citekey order="20">WANG2021128754</bcf:citekey>
-    <bcf:citekey order="21">WEI2021167432</bcf:citekey>
-    <bcf:citekey order="22">RASHID2014285</bcf:citekey>
-    <bcf:citekey order="23">SORKIN2021160776</bcf:citekey>
+    <bcf:citekey order="6">bandgap_dft_forum</bcf:citekey>
+    <bcf:citekey order="7">bandgap_dft_1</bcf:citekey>
+    <bcf:citekey order="8">bandgap_dft_2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

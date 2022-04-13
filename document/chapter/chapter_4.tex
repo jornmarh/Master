@@ -1,25 +1,68 @@
-\chapter{Density-Functional Theory}
+\chapter{Density Functional Theory}
 \label{sec:DFT}
+
+The density functional theory (DFT) is recognized as a overwhelmingly successful method in quantum chemistry and the overall study and understanding of matter. As illustrated in figure 5.1 this is a tremendously popular method with rapid growth to this day due to improvements to both the method and computational power. \textbf{More elaborate introduction, write later.}
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{theory/dftScope.png}
+\caption{Number of DFT studies per year from 1980 to 2021. \textbf{Add reference?}}
+\end{figure}
+
+The concept of the density functional theory is to efficiently solve the problems posed by quantum physics, most notably the many-particle Shr\"{o}dinger equation. Thus in this section we will begin by reviewing some central concepts of quantum physics before presenting the main Hohenberg-Kohn formulation of DFT. The content in this part is inspired from the lecture notes [REF] written by Clas Persson in the course FYS-MENA4111 at the University of Oslo.
 \textbf{References for theory: fys-mena4111 lecture notes and book}
+
+Quantum mechanics is the engine of density functional theory and to truly understand the method and it's limitations a knowledge of the engines is necessary. 
 \section{Review of Quantum Mechanics}
 
 \subsection{The Shr\"{o}dinger equation}
-The Schr\"{o}dinger equation composed of the wavefunction $\Psi(\vec{r},t)$ and Hamiltonian $\hat{H}(\vec{r},t)$ where $\vec{r}$ and $t$ is the spatial position and time respectfully.
+All theoretical information of a material can be derived from the Shrodinger equation, which came to the world in 1926. Since this the major question how been how this equation can be solved. 
+The time-dependent Schr\"{o}dinger equation for one electron is given bellow
+
 \begin{equation}
-    i\hbar\frac{\partial}{\partial t}\Psi(\vec{r}, t) = \hat{H}(\vec{r},t)\Psi(\vec{r}, t)
+    i\hbar\frac{\partial}{\partial t}\Psi(\vec{r}, t) = \hat{H}(\vec{r},t)\Psi(\vec{r}, t).
 \end{equation}
-The time-independent shr\"{0}dinger equation for the eigenvalues $E_k$ of the $k$-th eigenvalue $\psi_k(\vec{r}$
+
+This equation consists of the the wavefunction $\Psi(\vec{r},t)$ which describe the electron, and the Hamiltonian $\hat{H}(\vec{r},t)$ where $\vec{r}$ and $t$ is the spatial position and time respectively. The Hamiltonian describes the systems total energy by a kinetic part $T = \frac{-\hbar^2\nabla^2}{2m_e}$, where $m_e$ is the electron mass and $\hbar$ is the constant, and a potential energy operator U, typically an external potential denoted $V_{ext}(\vec{r}, t)$. Wavefunctions of stationary states are eigenfunctions of the Hamiltionian and are denoted as $\psi_{\kappa}(\vec{r}, t)$ with an energy eigenvalue $\epsilon_{\kappa}$. The subscript $\kappa$ indicate that the wavefunction correspond to the $\kappa$ eigenstate. Above we included the time-dependent Shrodinger equation, but almost all cases involving Quantom physics employ rather the time-independent Shroidinger eqaution in which the external potential is independent of time. Bellow we show the time-independent Shrodinger equation for the eigenvalues $E_k$ of the $k$-th eigenfunction $\psi_k(\vec{r})$
+
+\textbf{Talk about general wavefunctions vs eigenfunctions or skip this?)}
+
 \begin{equation}
-    \hat{H}\psi_k(\vec{r}) = E_k \psi_k(\vec{r})
+	\left(-\frac{\hbar^2\nabla^2}{2m_e} + V_{ext}(\vec{r}) \right)\psi_{\kappa}(\vec{r}) = E_k \psi_k(\vec{r})
 \end{equation}
-Extending to a system comprised of multiple particles, we have the many-particle Shr\"{o}dinger equation, involving the many-body Hamiltonian. This quantity is composed of the kinetic energy of $N_e$ electrons $T_e$, the interaction energy between electrons $U_{ee}$, the kinetic energy of $N_n$ nuclei, the coulomb interaction between nuclei $U_{nn}$, and finally the attractive interaction between nuclei and electrons $U_{en}$. In the equation bellow for the may-body equation, we use the following symbols and notation: $m_e$ = electron mass, $m_n$ = nuclei mass, $\epsilon_0$ = permittivity in vacuum, $q$ = particle charge, $\alpha$ = nuclei number, $Z_a$ = atom number of nuclei $\alpha$, $r$ = position of electron, $R$ = position of nuclei.
+
+Solving the single electron time-independent equation often results in infinite eqienstates that the electron can occupy. The most probable state the electron occupy is the lowest energy state called the ground state, this state is indicated by $\kappa = 0$. Extending to a system comprised of multiple particles we have the many-body Shr\"{o}dinger equation with the many-body wavefunction 
+
+The many-body wavefunction is defined as
+\begin{equation}
+\Psi^{en}(\vec{r}, \vec{R}) = \Psi^{en}(\vec{r_1}, \vec{r_2}, \dots \vec{r_{N_e}}, \vec{R_1}, \vec{R_2}, \dots \vec{R_{N_n}}),
+\end{equation}
+ where $r_j$ denote the coordinates of the j:th electron and likewise $R_{\alpha}$ describe the coordinates of the $\alpha$:th nucleus, and the subscript "en" subscript means that we consider both the electrons and nuclei. Furthermore we have the many-body Hamiltonian $H^{en}$, composed of the kinetic energy of $N_e$ electrons $T_e$, the interaction energy between electrons $U_{ee}$, the kinetic energy of $N_n$ nuclei, the coulomb interaction between nuclei $U_{nn}$, and finally the attractive interaction between nuclei and electrons $U_{en}$. In the many-body Hamiltonian the following notations are used $m_n$ = nuclei mass, $q$ = particle charge, $\alpha$ = nuclei number, $Z_a$ = atom number of nuclei $\alpha$. In final we get 
 \begin{align}
     \hat{H} &= T_e + T_n + U_{ee} + U_{nn} + U_{en} \\
     \begin{split}
-        &= -\sum_{j=1}^{N_e}\frac{\hbar^2\nabla_j}{2m_e} - \sum_{\alpha=1}^{N_n}\frac{\hbar^2 \nabla_\alpha}{2m_n} + \frac{1}{4\pi \epsilon_0}\sum_{j=1}^{N_e}\sum_{j'<j}\frac{q^2}{|r_j - r_{j'}|} \\
-    &+ \frac{1}{4\pi\epsilon_0}\sum_{\alpha=1}^{N_n}\sum_{\alpha' < \alpha}\frac{q^2Z_\alpha Z_{\alpha'}}{R_\alpha - R_{\alpha'}} - \frac{1}{4\pi\epsilon_0}\sum_{j=1}^{N_e}\sum_{\alpha=1}^{N_n}\frac{q^2Z_\alpha}{|r_j - R_\alpha|}
+        &= -\sum_{j=1}^{N_e}\frac{\hbar^2\nabla_j ^2}{2m_e} - \sum_{\alpha=1}^{N_n}\frac{\hbar^2 \nabla_\alpha ^2}{2m_n} + \sum_{j=1}^{N_e}\sum_{j'<j}\frac{q^2}{|r_j - r_{j'}|} \\
+    &+ \sum_{\alpha=1}^{N_n}\sum_{\alpha' < \alpha}\frac{q^2Z_\alpha Z_{\alpha'}}{R_\alpha - R_{\alpha'}} -\sum_{j=1}^{N_e}\sum_{\alpha=1}^{N_n}\frac{q^2Z_\alpha}{|r_j - R_\alpha|},
     \end{split}
 \end{align} 
+ 
+and the many body Schrodinger equation with total energy eigenvalue $E_{\kappa}^{en}$ of the whole system in eigenstate $\kappa$
+ 
+\begin{equation}
+H^{en}\Psi^{en}_{\kappa}(\vec{r}, \vec{R}) = E_{\kappa}^{en}\Psi_{\kappa}^{en}(\vec{r}, \vec{R}).
+\end{equation}
+
+The first step to solving the many-body problem is to obtain an exact expression for the many particle wavefunction $\Psi^{en}(\vec{r}, \vec{R})$ in order to apply the single-particle operators in equation (5.4). If we consider a simplified system consisting of just two electrons, the problem is reduced to finding $\Psi_{\kappa}(\vec{r_1}, r_2)$ that is a function of $psi_1(\vec{r_1})$ and $\psi_2(\vec{r_2})$. In the Hartree approach this is solved by considering the two electrons to be independent of each-other, and employ variable separation to express the two particle wavefunction as
+
+\begin{equation}
+\Psi_{\kappa}(\vec{r_1}, r_2) = psi_1(\vec{r_1})psi_2(\vec{r_2}).
+\end{equation}
+
+The limitation of the Hartree approach is that the electrons, which are fermions, in this formulation are distinguishable and hence does not obey the Pauli exclusion principle of fermions. This is corrected by the Harte-Fock approximation which introduces a spin function $\chi_{mp}(s_1, s_2)$ to equation (5.4) to make it anti-symmetric with respect to the particle coordinates. The Hartree-Fock approximation is expressed as
+
+\begin{equation}
+\Psi_{\kappa}(\vec{r}_1, \vec{r}_2) = \frac{1}{2} \left\{ \psi_1(\vec{r}_2) \psi_2(\vec{r}_2) \pm \psi_1(\vec{r}_2) psi_2(\vec{r}_1) \right\} \chi_{\mp}(s_1, s_2).
+\end{equation}  
+
+The difference in energy from the improved wavefunction in Harte-Fock compared to the Hartee approximation is called the exchange energy. Note however that Hartee-Fock is not a complete description either as it fails to model the electron correlations.  
 
 \subsection{Simplifications and approximations to solve the many-electron Shr\"{o}dinger equation}
 
