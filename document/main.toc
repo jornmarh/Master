@@ -17,13 +17,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Core effects and properties of high-entropy alloys}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Special quasi-random Structures}{10}%
+\contentsline {chapter}{\numberline {4}Modeling of random alloys}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The fundamentals of SQS}{10}%
+\contentsline {section}{\numberline {4.1}The Special Quasi-random Structure model}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Mathematical formulation}{11}%
+\contentsline {subsection}{\numberline {4.1.1}Mathematical description}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Application of SQS to high-entropy alloys - Add figure}{13}%
+\contentsline {section}{\numberline {4.2}Applications and limitations of SQS in modeling high-entropy alloys}{13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Density-Functional Theory}{15}%
 \defcounter {refsection}{0}\relax 
