@@ -57,9 +57,9 @@ I don't know how to write the prelude to this part! (see section IIIA in \cite{s
 With this approach, \cite{sqsfull} managed by mimicking the correlation functions exact for the first two shells, to reduce the computational measures of an accurate models. In this exact study they matched the results of an $N \rightarrow \infty$ by an $N=8$ SQS. In the final section of this chapter, we will take a look at the recent advances in the SQS method and application to high-entropy alloys. 
 
 \subsection{Applications to high-entropy alloys}
-The success of the SQS method is in large part related to to the fact that we can create simple periodic structures, this allows for the use of standard DFT methods to calculate properties such as the total energy, charge density and electronic band structure \cite{sqs_dos}, \cite{sqs_bg}. However, some additional challenges are involved when applying the SQS method to model multi-component random alloys such as HEAs. Several of these are covered in the work of M.C Gao et al. \cite{hea2016_ch10}, whom in 2016 presented a comprehensive review on high-entropy alloys modeling with SQS in the framework of DFT and VASP.
+The success of the SQS method is in large part related to to the fact that we can create simple periodic structures, this allows for the use of standard DFT methods to calculate with ease properties such as the total energy, charge density and electronic band structure \cite{sqs_dos}, \cite{sqs_bg}. However, some certain obstacles arise when trying to apply the SQS model to high-entropy alloys. An exhaustive analysis discussing several of these factors and comparing to alternative methods were performed in 2016 by M.C Gao et al. \cite{hea2016_ch10}  in the framework of DFT and VASP.
 
-The first initial concern with applying SQS to model high-entropy alloys is the size of the supercell. This parameter  needs to be balanced between accuracy and cost. A larger SQS cell consisting of a greater number of atoms better encapsulate the disordered structure of HEAs, but both the generation and simulation of such large SQSs come with an increased computational demand. An example of this can be seen in the study by M.C Gao et al study on the stability and predicted crystal structure of \ch{CoCrFeNi} and \ch{CoCrFeMnNi} HEAs with SQSs of different size. Experimentally both of these is found stable in the FCC structure. By calculating the enthalpy of formation, he found that SQSs under 64 atoms wrongly predicted the HCP structure as the most stable, while larger SQS correctly agreed on the FCC structure. Additionally, the probability distribution functions (PDFs) of the respective SQSs display a dependence to the SQS size. For example in 3 SQSs of size 20, 125 and 250 atoms each of FCC CrFeMnNi, the Cr-Mn is much better represented in the large SQS model as seen bellow in figure 4.1.
+The first initial concern is the size of the supercell. This parameter  needs to be balanced between accuracy and cost. A larger SQS cell consisting of a greater number of atoms better encapsulate the disordered structure of HEAs, but both the generation and simulation of such large SQSs come at an increased computational demand.  M.C Gao discovered a significant sensitivity between the registered stability and predicted crystal structure of \ch{CoCrFeNi} and \ch{CoCrFeMnNi} HEAs and varying SQSs sizes. Experimentally both of these is found stable in the FCC structure. By calculating the enthalpy of formation, he found that SQSs under 64 atoms wrongly predicted the HCP structure as the most stable, while larger SQS correctly agreed on the FCC structure. Additionally, the probability distribution functions (PDFs) of the respective SQSs display a dependence to the SQS size. For example in 3 SQSs of size 20, 125 and 250 atoms each of FCC CrFeMnNi, the Cr-Mn is much better represented in the large SQS model as seen bellow in figure 4.1.
 
 \begin{figure}[H]
 \begin{subfigure}{.5\textwidth}
@@ -73,18 +73,15 @@ The first initial concern with applying SQS to model high-entropy alloys is the 
 \caption{PDFs of (a) 20 and (b) 250 atom SQS models of CrFeMnNi \cite{hea2016_ch10}}
 \end{figure}
      
-It can also be noted that a similar dependence on the SQS size is apparent for the entropy and mechanical properties, however these topics are not relevant for this project and will thus not be elaborated further. 
-    
-\textbf{Compare SQS to CPA and MCMD}
-    
+It can also be noted that a similar dependence on the SQS size is apparent for the entropy and mechanical properties, however these topics are not relevant for this project and will thus not be elaborated further. Bellow we summarize the findings of M.C Gao et al between the SQS model and the crystal potential approximation and hybrid monte-carlo/molecular dynamics applied to high-entropy alloys. The comparison of SQS and MC/MD in terms of the calculated density of states can be seen in figure 3.2.
+      
 \begin{figure}[H]
 \centering
 \includegraphics[width=.6\textwidth]{theory/SQS-MCMD_DOS.png}
 \caption{Density of states with SQS and MC/MD of FCC CoCrFeNi, figure from \cite{hea2016_ch10}}
 \end{figure}
 
-Above ... DOS in agreement between much more complex MC/MD computations of a 108 atom cell and a simple 64 atom SQS. Both these are in agreement but also in disagreement with the DOS from CPA should be noted. But I think the two above is the most accurate. 
-
+The density of states (DOS) of the MC/MD simulations were conducted on a larger 108 atom cell, compared to a 64 atom SQS. In despite of both the larger cell and much more complex calculations, the results of the SQS model measures up well. Furthermore, the SQS model produce a comparative outcome of the probability distribution functions (PDFs) to MC/MD as seen bellow. 
 
 \begin{figure}[H]
 \centering
@@ -92,18 +89,12 @@ Above ... DOS in agreement between much more complex MC/MD computations of a 108
 \caption{Probability distribution functions with SQS and MC/MD of HCP CoOsReRu \cite{hea2016_ch10}}
 \end{figure}
 
-The PDFs are more accurate from MCMD due to the inclusion of interatomic interaction that SQS neglect, and is the preferred tool for a larger temperature relation study. But SQS offer excellent result for such simple implementation in comparison. This is illustrated in figure [ABOVE] for the HCP CoOsreRu alloy, in which clear preference of Co-Os and Re-Ru pairs is apparent from MC/MD simulations but not in the SQS. 
+The discrepancy in the PDFs are seen as more accurate from MC/MD calculations compared to experimental values. This is because SQS fail to include inter-atomic interaction and preference to the same extent as MC/MD. This is illustrated in figure 3.3 for the HCP CoOsreRu alloy, in which clear preference of Co-Os and Re-Ru pairs is apparent from MC/MD simulations but not in the SQS model. Regardless, the results of SQS is very good considering the simplicity of the model and implementation. Compared to the CPA method, SQS is the less equipped method for dealing with specific cases such as \ch{A{1/3}BCDE} structures, and paramagnetic materials \cite{hea2016_ch10} 
 
-A significant concern of SQSs is the large number of possible configurations of a alloy. For example a quaternary and quinary alloy respectivly offer 24 and 124 uniqe atomic configurations. In \cite{hea2016_ch10} it was found varying sensityity in the enthalpy of formation to the atomic confiugation in different alloys. It was found that the sensitivity is large for anisotropic latticies such as HCP and chemically dissimilar constituents, furthermore a larger SQS size helps to reduce the sensitivity. A final limitation of SQSs is the ability to model specific compositions such as \ch{A{1/3}BCDE} compared to CPA. Additionly both MC/MD and SQS struggle with magnetic materials in general and particularly paramagnets, beinig more computational hevy than CPA. Also for large SQSs, the elastic propeties can be cumbersome to calculate. 
+We have seen up until this point that the SQS method utilized an intelligent approach which allows for a simple implementation and calculations while providing results mostly on par to other more intricate and complex solutions to model disordered structures. However one particular factor concerning SQS that does not apply for CPA and MC/MD, is that within the SQS model one material can obtain in a number of distinct configurations. For example a quaternary and quinary alloy make for 24 and 124 unique configurations respectively, resulting in an uncertainty of the energy regarding the different permutations. This effect is most prominent in anisotropic lattices such as HCP and alloys with chemically dissimilar constituents, and particularly in small SQS cells \cite{hea2016_ch10}. 
 
-
-\textbf{mc-SQS and advances and recent studies.}
-
-up until the use of mcsqs the use of SQS to HEA have been very limited, with most applications lying 
-\textbf{How to I write this final paragraph of why SQS is used at HEAs today? mcSQS?}
-Something on in very recent time, computational resources have increased and the generation of SQS have improved by the mc-SQS approach? This allows for a reduction in cell size and computation time, all though the convergence of SQSs and magnetic configuration remain troublesome in some cases. Maybe mention that the implementation of the TDEP package drastically improve the computational cost.     
-
- application to high-entropy alloys have been limited prior to the last couple of years on the grounds of computational demands involved in modeling disordered multi-component systems and the very recent emergence of the field in general. Mainly the last few years have we seen studies of high-entropy alloys based on special quasi-random structures \cite{WANG2021128754}, \cite{WEI2021167432}, \cite{RASHID2014285}, \cite{SORKIN2021160776}.   
+ 
+Despite of it's flaws, especially in recent years SQS have emerged as a viable and trusted method of modeling disordered structures such as HEA. This is down to both the increasingly available computational power and improvements to the SQS method. The latter particularly saw a boost in 2013 with the introduction of the MC-SQS method \cite{mcsqs2013}, short for Monte-Carlo Special Quasirandom Structures. Contrary to the original SQS method that seek to minimize the difference between the correlation functions of the approximated cell and the true random alloy, this method employ monte-carlo simulations to perfectly match a maximum number of correlation functions. Furthermore emphasizes an efficient and fast implementation in addition to an exhaustive unbiased search of possible atomic configurations. Following, this is the preferred and most widely used method of choice in today's research, specific details on the method can be found in \cite{mcsqs2013}. \textbf{How much detail do I need to include here, should I do a full explanation of the method or does this suffice?}  This has resulted in an increased number of studies utilizing SQSs to investigate high-entropy alloys \cite{WANG2021128754}, \cite{WEI2021167432}, \cite{RASHID2014285}, and \cite{SORKIN2021160776}.   
 
 
 

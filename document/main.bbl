@@ -359,6 +359,88 @@
       \verb https://www.frontiersin.org/article/10.3389/fmats.2017.00036
       \endverb
     \endentry
+    \entry{mcsqs2013}{article}{}
+      \name{author}{10}{}{%
+        {{hash=936059e3394c7c1de6994c9fc9390009}{%
+           family={{van de Walle}},
+           familyi={v\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e6af497eb5e7220554076a8575eac35b}{%
+           family={Tiwary},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=db0c7080d29c5ff573b342e34bdda593}{%
+           family={{de Jong}},
+           familyi={d\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=79941eb389b34bbf1456f6411124c3b8}{%
+           family={Olmsted},
+           familyi={O\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=622dd7e67b7b92e9a086884d3c37386a}{%
+           family={Asta},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3fefd851967bfbd5391b2014f00a8652}{%
+           family={Dick},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=108e5df81e3ab26dd5a60071fa737a9c}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4b485cf50e318be408aaade759d720f8}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={L.-Q.},
+           giveni={L\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=7f55fb51839e6688e959d53782e802c4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.-K.},
+           giveni={Z\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{fullhash}{22c948c9c6769350030718b176711762}
+      \strng{bibnamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{authorbibnamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{authornamehash}{c0d2a43d57b36a3415e3b9570bd3d7e4}
+      \strng{authorfullhash}{22c948c9c6769350030718b176711762}
+      \field{sortinit}{v}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a new algorithm to generate Special Quasirandom Structures (SQS), i.e., best periodic supercell approximations to the true disordered state for a given number of atoms per supercell. The method is based on a Monte Carlo simulated annealing loop with an objective function that seeks to perfectly match the maximum number of correlation functions (as opposed to merely minimizing the distance between the SQS correlation and the disordered state correlations for a pre-specified set of correlations). The proposed method optimizes the shape of the supercell jointly with the occupation of the atomic sites, thus ensuring that the configurational space searched is exhaustive and not biased by a pre-specified supercell shape. The method has been implemented in the “mcsqs” code of the Alloy Theoretic Automated Toolkit (ATAT) in the most general framework of multicomponent multisublattice systems and in a way that minimizes the amount of input information the user needs to specify and that allows for efficient parallelization.}
+      \field{issn}{0364-5916}
+      \field{journaltitle}{Calphad}
+      \field{title}{Efficient stochastic generation of special quasirandom structures}
+      \field{volume}{42}
+      \field{year}{2013}
+      \field{pages}{13\bibrangedash 18}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.calphad.2013.06.006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0364591613000540
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0364591613000540
+      \endverb
+      \keyw{Special quasirandom structures,Monte Carlo,Alloy theory,Ab initio methods,Disordered state,Solid solution}
+    \endentry
     \entry{WANG2021128754}{article}{}
       \name{author}{6}{}{%
         {{hash=2f2bb9422125d3f4e6a018760477a75e}{%
