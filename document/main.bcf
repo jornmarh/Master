@@ -2182,13 +2182,32 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="7">dimensions</bcf:citekey>
-    <bcf:citekey order="8">dimensions</bcf:citekey>
-    <bcf:citekey order="9">dft_limitations</bcf:citekey>
-    <bcf:citekey order="10">dft_bandgap</bcf:citekey>
-    <bcf:citekey order="11">dft_wdv</bcf:citekey>
-    <bcf:citekey order="12">dft_forum</bcf:citekey>
-    <bcf:citekey order="13">nobelPrize</bcf:citekey>
+    <bcf:citekey order="7">hea2016_ch1</bcf:citekey>
+    <bcf:citekey order="8">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="9">hea2016_ch3</bcf:citekey>
+    <bcf:citekey order="10">hea2016_ch7</bcf:citekey>
+    <bcf:citekey order="11">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="12">hea2016_ch2</bcf:citekey>
+    <bcf:citekey order="13">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="14">owen_jones_2018</bcf:citekey>
+    <bcf:citekey order="15">sqsIntro</bcf:citekey>
+    <bcf:citekey order="16">sqsfull</bcf:citekey>
+    <bcf:citekey order="17">sqsfull</bcf:citekey>
+    <bcf:citekey order="18">sqsfull</bcf:citekey>
+    <bcf:citekey order="19">sqs_dos</bcf:citekey>
+    <bcf:citekey order="20">sqs_bg</bcf:citekey>
+    <bcf:citekey order="21">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="22">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="23">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="24">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="25">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="26">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="27">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="28">hea2016_ch10</bcf:citekey>
+    <bcf:citekey order="29">WANG2021128754</bcf:citekey>
+    <bcf:citekey order="30">WEI2021167432</bcf:citekey>
+    <bcf:citekey order="31">RASHID2014285</bcf:citekey>
+    <bcf:citekey order="32">SORKIN2021160776</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

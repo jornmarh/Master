@@ -5,43 +5,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{I\hspace {1em}Theory}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Background}{4}%
+\contentsline {chapter}{\numberline {2}High-Entropy alloys}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Overview of sold-state physics}{4}%
+\contentsline {section}{\numberline {2.1}Fundamentals}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}3d Silicides}{4}%
+\contentsline {section}{\numberline {2.2}Core effects and properties}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}High-Entropy alloys}{5}%
+\contentsline {chapter}{\numberline {3}Modeling of random alloys}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Fundamentals}{5}%
+\contentsline {section}{\numberline {3.1}The Special Quasi-random Structure model}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Core effects and properties of high-entropy alloys}{8}%
+\contentsline {subsection}{\numberline {3.1.1}Mathematical description}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Modeling of random alloys}{10}%
+\contentsline {subsection}{\numberline {3.1.2}Applications to high-entropy alloys}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}The Special Quasi-random Structure model}{10}%
+\contentsline {chapter}{\numberline {4}Density Functional Theory}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Mathematical description}{11}%
+\contentsline {section}{\numberline {4.1}Review of Quantum Mechanics}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Applications and limitations of SQS in modeling high-entropy alloys}{13}%
+\contentsline {subsection}{\numberline {4.1.1}The Shrodinger equation}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Density Functional Theory}{17}%
+\contentsline {subsection}{\numberline {4.1.2}Approximations to the many-body Shrodinger equation}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Review of Quantum Mechanics}{18}%
+\contentsline {section}{\numberline {4.2}Kohn-Sham density functional theory}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}The Shrodinger equation}{18}%
+\contentsline {subsection}{\numberline {4.2.1}Density functional theory}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Approximations to the many-body Shrodinger equation}{19}%
+\contentsline {subsection}{\numberline {4.2.2}The Kohn-Sham Equation}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Kohn-Sham density functional theory}{21}%
+\contentsline {section}{\numberline {4.3}Limitations of DFT - Insert refs}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Density functional theory}{21}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}The Kohn-Sham Equation}{22}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Limitations of DFT - Insert refs}{23}%
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Methodology and Implementation}{25}%
+\contentsline {part}{II\hspace {1em}Methodology and Implementation}{24}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Practical application of DFT}{23}%
 \defcounter {refsection}{0}\relax 
