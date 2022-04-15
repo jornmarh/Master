@@ -19,29 +19,190 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{bandgap_dft_forum}{}{}
+    \entry{dft_forum}{misc}{}
       \name{author}{1}{}{%
-        {{hash=b3f1c486d108f0311fe7e76ddd60cc5d}{%
-           family={Hasnip},
-           familyi={H\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
+        {{hash=4d1c3ca2d0e2027185ca29c55b94fa69}{%
+           family={(https://scicomp.stackexchange.com/users/8020/carlos-borca)},
+           familyi={(\bibinithyphendelim b\bibinitperiod},
+           given={Carlos\bibnamedelima Borca},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \strng{namehash}{b3f1c486d108f0311fe7e76ddd60cc5d}
-      \strng{fullhash}{b3f1c486d108f0311fe7e76ddd60cc5d}
-      \strng{bibnamehash}{b3f1c486d108f0311fe7e76ddd60cc5d}
-      \strng{authorbibnamehash}{b3f1c486d108f0311fe7e76ddd60cc5d}
-      \strng{authornamehash}{b3f1c486d108f0311fe7e76ddd60cc5d}
-      \strng{authorfullhash}{b3f1c486d108f0311fe7e76ddd60cc5d}
+      \strng{namehash}{4d1c3ca2d0e2027185ca29c55b94fa69}
+      \strng{fullhash}{4d1c3ca2d0e2027185ca29c55b94fa69}
+      \strng{bibnamehash}{4d1c3ca2d0e2027185ca29c55b94fa69}
+      \strng{authorbibnamehash}{4d1c3ca2d0e2027185ca29c55b94fa69}
+      \strng{authornamehash}{4d1c3ca2d0e2027185ca29c55b94fa69}
+      \strng{authorfullhash}{4d1c3ca2d0e2027185ca29c55b94fa69}
+      \field{sortinit}{h}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Computational Science Stack Exchange}
+      \field{note}{URL:https://scicomp.stackexchange.com/q/11443 (version: 2014-04-22)}
+      \field{title}{Limitations of Density Functional Theory as a computational method?}
+      \verb{eprint}
+      \verb https://scicomp.stackexchange.com/q/11443
+      \endverb
+      \verb{urlraw}
+      \verb https://scicomp.stackexchange.com/q/11443
+      \endverb
+      \verb{url}
+      \verb https://scicomp.stackexchange.com/q/11443
+      \endverb
+    \endentry
+    \entry{dft_limitations}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cdd96e42dcf25700fe56c5c86b140e19}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Aron\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=83254745ecd207ef9a1c59580244827c}{%
+           family={Mori-Sánchez},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod}}}%
+        {{hash=78e31d3d482cf462f797d4187a52d247}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Weitao},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4ec1c787196da8791511cc7e8453c0f}
+      \strng{fullhash}{a4ec1c787196da8791511cc7e8453c0f}
+      \strng{bibnamehash}{a4ec1c787196da8791511cc7e8453c0f}
+      \strng{authorbibnamehash}{a4ec1c787196da8791511cc7e8453c0f}
+      \strng{authornamehash}{a4ec1c787196da8791511cc7e8453c0f}
+      \strng{authorfullhash}{a4ec1c787196da8791511cc7e8453c0f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Density functional theory of electronic structure is widely and successfully applied in simulations throughout engineering and sciences. However, for many predicted properties, there are spectacular failures that can be traced to the delocalization error and static correlation error of commonly used approximations. These errors can be characterized and understood through the perspective of fractional charges and fractional spins introduced recently. Reducing these errors will open new frontiers for applications of density functional theory.}
+      \field{journaltitle}{Science}
+      \field{number}{5890}
+      \field{title}{Insights into Current Limitations of Density Functional Theory}
+      \field{volume}{321}
+      \field{year}{2008}
+      \field{pages}{792\bibrangedash 794}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/science.1158722
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.1158722
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.1158722
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.1158722
+      \endverb
+    \endentry
+    \entry{dft_wdv}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f981c220d6706edc990df1ed3e0a1cdc}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3690bec6826e4bb711d2dcdd5972654d}{%
+           family={Sohlberg},
+           familyi={S\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a25c65514fb21936ef13319f30c4adba}
+      \strng{fullhash}{a25c65514fb21936ef13319f30c4adba}
+      \strng{bibnamehash}{a25c65514fb21936ef13319f30c4adba}
+      \strng{authorbibnamehash}{a25c65514fb21936ef13319f30c4adba}
+      \strng{authornamehash}{a25c65514fb21936ef13319f30c4adba}
+      \strng{authorfullhash}{a25c65514fb21936ef13319f30c4adba}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Chemistry Chemical Physics - PHYS CHEM CHEM PHYS}
+      \field{month}{01}
+      \field{title}{Empirically corrected DFT and semi-empirical methods for non-bonding interactions}
+      \field{volume}{12}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1039/b912859j
+      \endverb
+    \endentry
+    \entry{dimensions}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ad8998c2d883cea219000f39c6c25c11}{%
+           family={Hook},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=6dcc2d4b43e977bb2e9f2fce3aeaf373}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Simon\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f91b1ca5fc6330e10752d16b690e3393}{%
+           family={Herzog},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0827641b9e58792b5ed35dc9c84f7580}
+      \strng{fullhash}{0827641b9e58792b5ed35dc9c84f7580}
+      \strng{bibnamehash}{0827641b9e58792b5ed35dc9c84f7580}
+      \strng{authorbibnamehash}{0827641b9e58792b5ed35dc9c84f7580}
+      \strng{authornamehash}{0827641b9e58792b5ed35dc9c84f7580}
+      \strng{authorfullhash}{0827641b9e58792b5ed35dc9c84f7580}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{03}
-      \field{title}{Underestimation of Band gap by DFT?}
-      \field{year}{2016}
+      \field{abstract}{Dimensions is a new scholarly search database that focuses on the broader set of use cases that academics now face. By including awarded grants, patents, and clinical trials alongside publication and Altmetric attention data, Dimensions goes beyond the standard publication-citation ecosystem to give the user a much greater sense of context of a piece of research. All entities in the graph may be linked to all other entities. Thus, a patent may be linked to a grant, if an appropriate reference is made. Books, book chapters, and conference proceedings are included in the publication index. All entities are treated as first-class objects and are mapped to a database of research institutions and a standard set of research classifications via machine-learning techniques. This article gives an overview of the methodology of construction of the Dimensions dataset and user interface.}
+      \field{journaltitle}{Frontiers in Research Metrics and Analytics}
+      \field{note}{https://www.frontiersin.org/articles/10.3389/frma.2018.00023/pdf}
+      \field{title}{Dimensions: Building Context for Search and Evaluation}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/frma.2018.00023
+      \endverb
+      \verb{urlraw}
+      \verb https://app.dimensions.ai/details/publication/pub.1106289502
+      \endverb
+      \verb{url}
+      \verb https://app.dimensions.ai/details/publication/pub.1106289502
+      \endverb
     \endentry
-    \entry{bandgap_dft_2}{article}{}
+    \entry{nobelPrize}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f2d218a6b001f686892482d07d2e9a7}{%
+           family={NobelPrize.org},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f2d218a6b001f686892482d07d2e9a7}
+      \strng{fullhash}{8f2d218a6b001f686892482d07d2e9a7}
+      \strng{bibnamehash}{8f2d218a6b001f686892482d07d2e9a7}
+      \strng{authorbibnamehash}{8f2d218a6b001f686892482d07d2e9a7}
+      \strng{authornamehash}{8f2d218a6b001f686892482d07d2e9a7}
+      \strng{authorfullhash}{8f2d218a6b001f686892482d07d2e9a7}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2022-15-04}
+      \field{title}{The Nobel Prize in Chemistry 1998}
+      \verb{urlraw}
+      \verb https://www.nobelprize.org/prizes/chemistry/1998/summary/
+      \endverb
+      \verb{url}
+      \verb https://www.nobelprize.org/prizes/chemistry/1998/summary/
+      \endverb
+    \endentry
+    \entry{dft_bandgap}{article}{}
       \name{author}{2}{}{%
         {{hash=49bd2640f858f16dfcddcc404b026f30}{%
            family={Perdew},
@@ -83,109 +244,6 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.51.1884
-      \endverb
-    \endentry
-    \entry{bandgap_dft_1}{article}{}
-      \name{author}{14}{}{%
-        {{hash=49bd2640f858f16dfcddcc404b026f30}{%
-           family={Perdew},
-           familyi={P\bibinitperiod},
-           given={John\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=78e31d3d482cf462f797d4187a52d247}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Weitao},
-           giveni={W\bibinitperiod}}}%
-        {{hash=33a535778ce96cdd2d59799deeea173d}{%
-           family={Burke},
-           familyi={B\bibinitperiod},
-           given={Kieron},
-           giveni={K\bibinitperiod}}}%
-        {{hash=dbec60185fd56d443bc3dba90827017e}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Zenghui},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=9bd5b22cd8de2dbf675e2736607026d8}{%
-           family={Gross},
-           familyi={G\bibinitperiod},
-           given={Eberhard\bibnamedelimb K.\bibnamedelimi U.},
-           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
-        {{hash=b39fc67a3375766bfd10f3b489a3d909}{%
-           family={Scheffler},
-           familyi={S\bibinitperiod},
-           given={Matthias},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6b833ff9ec8eab914a2c220f704345e5}{%
-           family={Scuseria},
-           familyi={S\bibinitperiod},
-           given={Gustavo\bibnamedelima E.},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=c374dfc5915be133e6d5b9772bbf7f68}{%
-           family={Henderson},
-           familyi={H\bibinitperiod},
-           given={Thomas\bibnamedelima M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=dde7868aaae3563f8d9a01ef739dae0c}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Igor\bibnamedelima Ying},
-           giveni={I\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-        {{hash=4c3a81a7cf7c5ad3cd2a7d8a28d5376e}{%
-           family={Ruzsinszky},
-           familyi={R\bibinitperiod},
-           given={Adrienn},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6e0573f7488605120d3a057a64073888}{%
-           family={Peng},
-           familyi={P\bibinitperiod},
-           given={Haowei},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a41e9944590c5acae5c314ea7c27e388}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Jianwei},
-           giveni={J\bibinitperiod}}}%
-        {{hash=56f57c97f199ef3cf4d265d9cd651283}{%
-           family={Trushin},
-           familyi={T\bibinitperiod},
-           given={Egor},
-           giveni={E\bibinitperiod}}}%
-        {{hash=61b7c86215a04a3067e2c8d2bcba7186}{%
-           family={Görling},
-           familyi={G\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
-      \strng{fullhash}{b160d4ff0ff7d86c0f3da8eda8b1dd27}
-      \strng{bibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
-      \strng{authorbibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
-      \strng{authornamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
-      \strng{authorfullhash}{b160d4ff0ff7d86c0f3da8eda8b1dd27}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the National Academy of Sciences}
-      \field{number}{11}
-      \field{title}{Understanding band gaps of solids in generalized Kohn\&\#x2013;Sham theory}
-      \field{volume}{114}
-      \field{year}{2017}
-      \field{pages}{2801\bibrangedash 2806}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1073/pnas.1621352114
-      \endverb
-      \verb{eprint}
-      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.1621352114
-      \endverb
-      \verb{urlraw}
-      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1621352114
-      \endverb
-      \verb{url}
-      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1621352114
       \endverb
     \endentry
   \enddatalist

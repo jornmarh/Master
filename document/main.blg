@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[65] biber:322> INFO - === on. april 13, 2022, 23:41:33
-[77] Biber.pm:415> INFO - Reading 'main.bcf'
-[138] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
-[151] Biber.pm:4256> INFO - Processing section 0
-[151] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
-[151] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
-[160] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[164] bibtex.pm:1653> INFO - LaTeX decoding ...
-[230] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
-[273] Utils.pm:293> WARN - month field 'Nov' in entry 'bandgap_dft_2' is not an integer - this will probably not sort properly.
-[283] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[283] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[283] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-UK'
-[283] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
-[290] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[293] bbl.pm:755> INFO - Output to main.bbl
-[293] Biber.pm:128> INFO - WARNINGS: 1
+[64] biber:322> INFO - === fr. april 15, 2022, 13:35:57
+[76] Biber.pm:415> INFO - Reading 'main.bcf'
+[132] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[144] Biber.pm:4256> INFO - Processing section 0
+[144] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[144] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[153] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[155] bibtex.pm:1653> INFO - LaTeX decoding ...
+[215] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[246] Utils.pm:293> WARN - month field 'Nov' in entry 'dft_bandgap' is not an integer - this will probably not sort properly.
+[267] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[267] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[267] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-UK'
+[267] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
+[277] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[280] bbl.pm:755> INFO - Output to main.bbl
+[280] Biber.pm:128> INFO - WARNINGS: 1

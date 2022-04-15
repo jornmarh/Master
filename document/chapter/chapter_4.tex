@@ -1,38 +1,41 @@
 \chapter{Density Functional Theory}
 \label{sec:DFT}
 
-The density functional theory (DFT) is recognized as a overwhelmingly successful method in quantum chemistry and the overall study and understanding of matter. As illustrated in figure 5.1 this is a tremendously popular method with rapid growth to this day due to improvements to both the method and computational power. \textbf{More elaborate introduction, write later.}
+The density functional theory (DFT) is recognized as a overwhelmingly successful and important theory in quantum chemistry and the overall study and understanding of matter. As illustrated in figure 5.1 this is a increasingly popular method with rapid growth to this day due to improvements to both the method and computational power.
+
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{theory/dftScope.png}
-\caption{Number of DFT studies per year from 1980 to 2021. \textbf{Add reference?}}
+\caption{Number of DFT studies per year from 1980 to 2021 \cite{dimensions}.}
 \end{figure}
 
-The concept of the density functional theory is to efficiently solve the problems posed by quantum physics, most notably the many-particle Shr\"{o}dinger equation. Thus in this section we will begin by reviewing some central concepts of quantum physics before presenting the main Hohenberg-Kohn formulation of DFT. The content in this part is inspired from the lecture notes [REF] written by Clas Persson in the course FYS-MENA4111 at University of Oslo.
+The overarching goal of DFT is to efficiently and accuratly solve the many-body Shrodinger equation. Thus the this chapter will begin by refreshing some central concepts of quatum mechanics such the Shrodinger equation and the various approximations one can apply. Then we will introduce the main philospohy and idea behind both the original density functinoal theory and the complete Kohn-Sham density functional theory used today. Finally we will look at some of the drawbacks of DFT. \\\\
 
-Quantum mechanics is the engine of density functional theory and to truly understand the method and it's limitations a knowledge of the engines is necessary. 
+The content in this part is based on the lecture notes [REF] written by Clas Persson in the course FYS-MENA4111 at University of Oslo and the book "A practical introduction to DFT" by .. [REF]. For a more elaborate description of the quantum mechanical concepts covered in this section, we refer the reader to sources such as "Introduction to quantum mechanics" by Griffith [REF].
+
 \section{Review of Quantum Mechanics}
 
-\subsection{The Shr\"{o}dinger equation}
+\subsection{The Shrodinger equation}
 All theoretical information of a material can be derived from the Shrodinger equation, which came to the world in 1926. Since this the major question how been how this equation can be solved. 
 The time-dependent Schr\"{o}dinger equation for one electron is given bellow
 
 \begin{equation}
-    i\hbar\frac{\partial}{\partial t}\Psi(\vec{r}, t) = \hat{H}(\vec{r},t)\Psi(\vec{r}, t).
+    i\hbar\frac{\partial}{\partial t}\Psi(\boldsymbol{r}, t) = \hat{H}(\boldsymbol{r},t)\Psi(\boldsymbol{r}, t).
 \end{equation}
 
-This equation consists of the the wavefunction $\Psi(\vec{r},t)$ which describe the electron, and the Hamiltonian $\hat{H}(\vec{r},t)$ where $\vec{r}$ and $t$ is the spatial position and time respectively. The Hamiltonian describes the systems total energy by a kinetic part $T = \frac{-\hbar^2\nabla^2}{2m_e}$, where $m_e$ is the electron mass and $\hbar$ is the constant, and a potential energy operator U, typically an external potential denoted $V_{ext}(\vec{r}, t)$. Wavefunctions of stationary states are eigenfunctions of the Hamiltionian and are denoted as $\psi_{\kappa}(\vec{r}, t)$ with an energy eigenvalue $\epsilon_{\kappa}$. The subscript $\kappa$ indicate that the wavefunction correspond to the $\kappa$ eigenstate. Above we included the time-dependent Shrodinger equation, but almost all cases involving Quantom physics employ rather the time-independent Shroidinger eqaution in which the external potential is independent of time. Bellow we show the time-independent Shrodinger equation for the eigenvalues $E_k$ of the $k$-th eigenfunction $\psi_k(\vec{r})$
+This equation consists of the the wavefunction $\Psi(\boldsymbol{r},t)$ which describe the electron, and the Hamiltonian $\hat{H}(\boldsymbol{r},t)$ where $\boldsymbol{r}$ and $t$ is the spatial position and time respectively. The Hamiltonian describes the systems total energy by a kinetic part $T = \frac{-\hbar^2\nabla^2}{2m_e}$, where $m_e$ is the electron mass and $\hbar$ is the constant, and a potential energy operator U, typically an external potential denoted $V_{ext}(\boldsymbol{r}, t)$. Wavefunctions of stationary states are eigenfunctions of the Hamiltionian and are denoted as $\psi_{\kappa}(\boldsymbol{r}, t)$ with an energy eigenvalue $\epsilon_{\kappa}$. The subscript $\kappa$ indicate that the wavefunction correspond to the $\kappa$ eigenstate. Above we included the time-dependent Shrodinger equation, but almost all cases involving Quantom physics employ rather the time-independent Shroidinger eqaution in which the external potential is independent of time. Bellow we show the time-independent Shrodinger equation for the eigenvalues $E_k$ of the $k$-th eigenfunction $\psi_k(\boldsymbol{r})$
 
 \begin{equation}
-	\left(-\frac{\hbar^2\nabla^2}{2m_e} + V_{ext}(\vec{r}) \right)\psi_{\kappa}(\vec{r}) = E_k \psi_k(\vec{r})
+	\left(-\frac{\hbar^2\nabla^2}{2m_e} + V_{ext}(\boldsymbol{r}) \right)\psi_{\kappa}(\boldsymbol{r}) = E_k \psi_k(\boldsymbol{r})
 \end{equation}
 
 Solving the single electron time-independent equation often results in infinite eqienstates that the electron can occupy. The most probable state the electron occupy is the lowest energy state called the ground state, this state is indicated by $\kappa = 0$. Extending to a system comprised of multiple particles we have the many-body Shr\"{o}dinger equation with the many-body wavefunction 
 
-The many-body wavefunction is defined as
 \begin{equation}
-\Psi^{en}(\vec{r}, \vec{R}) = \Psi^{en}(\vec{r_1}, \vec{r_2}, \dots \vec{r_{N_e}}, \vec{R_1}, \vec{R_2}, \dots \vec{R_{N_n}}),
+\Psi^{en}(\boldsymbol{r}, \boldsymbol{R}) = \Psi^{en}(\boldsymbol{r}_1 , \boldsymbol{r}_2, \dots \boldsymbol{r}_{N_e}, \boldsymbol{R}_1, \boldsymbol{R}_2, \dots \boldsymbol{R}_{N_n}),
 \end{equation}
- where $r_j$ denote the coordinates of the j:th electron and likewise $R_{\alpha}$ describe the coordinates of the $\alpha$:th nucleus, and the subscript "en" subscript means that we consider both the electrons and nuclei. Furthermore we have the many-body Hamiltonian $H^{en}$, composed of the kinetic energy of $N_e$ electrons $T_e$, the interaction energy between electrons $U_{ee}$, the kinetic energy of $N_n$ nuclei, the coulomb interaction between nuclei $U_{nn}$, and finally the attractive interaction between nuclei and electrons $U_{en}$. In the many-body Hamiltonian the following notations are used $m_n$ = nuclei mass, $q$ = particle charge, $\alpha$ = nuclei number, $Z_a$ = atom number of nuclei $\alpha$. In final we get 
+
+where $r_j$ denote the coordinates of the j:th electron and likewise $R_{\alpha}$ describe the coordinates of the $\alpha$:th nucleus, and the subscript "en" subscript means that we consider both the electrons and nuclei. Furthermore we have the many-body Hamiltonian $H^{en}$, composed of the kinetic energy of $N_e$ electrons $T_e$, the interaction energy between electrons $U_{ee}$, the kinetic energy of $N_n$ nuclei, the coulomb interaction between nuclei $U_{nn}$, and finally the attractive interaction between nuclei and electrons $U_{en}$. In the many-body Hamiltonian the following notations are used $m_n$ = nuclei mass, $q$ = particle charge, $\alpha$ = nuclei number, $Z_a$ = atom number of nuclei $\alpha$. In final we get 
+
 \begin{align}
     \hat{H} &= T_e + T_n + U_{ee} + U_{nn} + U_{en} \\
     \begin{split}
@@ -44,35 +47,39 @@ The many-body wavefunction is defined as
 and the many body Schrodinger equation with total energy eigenvalue $E_{\kappa}^{en}$ of the whole system in eigenstate $\kappa$
  
 \begin{equation}
-H^{en}\Psi^{en}_{\kappa}(\vec{r}, \vec{R}) = E_{\kappa}^{en}\Psi_{\kappa}^{en}(\vec{r}, \vec{R}).
+H^{en}\Psi^{en}_{\kappa}(\boldsymbol{r}, \boldsymbol{R}) = E_{\kappa}^{en}\Psi_{\kappa}^{en}(\boldsymbol{r}, \boldsymbol{R}).
 \end{equation}
 
-The first step to solving the many-body problem is to obtain an exact expression for the many particle wavefunction $\Psi^{en}(\vec{r}, \vec{R})$ in order to apply the single-particle operators in equation (5.4). If we consider a simplified system consisting of just two electrons, the problem is reduced to finding $\Psi_{\kappa}(\vec{r_1}, r_2)$ that is a function of $psi_1(\vec{r_1})$ and $\psi_2(\vec{r_2})$. In the Hartree approach this is solved by considering the two electrons to be independent of each-other, and employ variable separation to express the two particle wavefunction as
+\subsection{Approximations to the many-body Shrodinger equation}
+
+The first step to solving the many-body problem is to obtain an exact expression for the many particle wavefunction $\Psi^{en}(\boldsymbol{r}, \boldsymbol{R})$ in order to apply the single-particle operators in equation (5.4). If we consider a simplified system consisting of just two electrons, the problem is reduced to finding $\Psi_{\kappa}(\boldsymbol{r_1}, r_2)$ that is a function of $\psi_1(\boldsymbol{r_1})$ and $\psi_2(\boldsymbol{r_2})$. In the Hartree approach this is solved by assuming that the two electrons are independent of each-other and employ variable separation to express the two particle wavefunction as
 
 \begin{equation}
-\Psi_{\kappa}(\vec{r_1}, r_2) = psi_1(\vec{r_1})psi_2(\vec{r_2}).
+\Psi_{\kappa}(\boldsymbol{r_1}, r_2) = psi_1(\boldsymbol{r_1})psi_2(\boldsymbol{r_2}).
 \end{equation}
 
-The limitation of the Hartree approach is that the electrons, which are fermions, in this formulation are distinguishable and hence does not obey the Pauli exclusion principle of fermions. This is corrected by the Harte-Fock approximation which introduces a spin function $\chi_{mp}(s_1, s_2)$ to equation (5.4) to make it anti-symmetric with respect to the particle coordinates. The Hartree-Fock approximation is expressed as
+The flaw of the Hartree approach is that the electrons, which are fermions, in this formulation are distinguishable and hence does not obey the Pauli exclusion principle of fermions. This is corrected by the Harte-Fock approximation which introduces a spin function $\chi_{mp}(s_1, s_2)$ to equation (5.4) to make it anti-symmetric with respect to the particle coordinates. The Hartree-Fock approximation is expressed as
 
 \begin{equation}
-\Psi_{\kappa}(\vec{r}_1, \vec{r}_2) = \frac{1}{2} \left\{ \psi_1(\vec{r}_2) \psi_2(\vec{r}_2) \pm \psi_1(\vec{r}_2) psi_2(\vec{r}_1) \right\} \chi_{\mp}(s_1, s_2).
+\Psi_{\kappa}(\boldsymbol{r}_1, \boldsymbol{r}_2) = \frac{1}{2} \left\{ \psi_1(\boldsymbol{r}_2) \psi_2(\boldsymbol{r}_2) \pm \psi_1(\boldsymbol{r}_2) psi_2(\boldsymbol{r}_1) \right\} \chi_{\mp}(s_1, s_2).
 \end{equation}  
 
 The difference in energy from the improved wavefunction in Harte-Fock compared to the Hartee approximation is called the exchange energy. Note however that Hartee-Fock is not a complete description either as it fails to model the electron correlations. For the next step in the derivation of the Kohn-Sham density functional theory we need to make use the variational principle. This is an efficient method for finding the ground state properties of a system. The method states that the energy of any trial wavefunction will always be higher than the ground-state energy $E_0$, ie
+
 \begin{equation}
     E_0 = \langle\psi_0|H|\psi_0\rangle \leq \langle\psi|H|\psi\rangle = E
 \end{equation}
-This enable us to find the ground state energy and corresponding wavefunction by a minimization technique. We will apply the variational principle to find the ground state energy $\Psi_0(\vec{r}_1, \vec{r}_2)$ of a two electron Hartree problem. Here we skip the result and simply state the result. In final we get the Hartree single-electron equation defined as
+
+This enable us to find the ground state energy and corresponding wavefunction by a minimization technique. We will apply the variational principle to find the ground state energy $\Psi_0(\boldsymbol{r}_1, \boldsymbol{r}_2)$ of a two electron Hartree problem. Here we skip the derivation and mechanism behind the variational principle and simply state the final product. In final, the Hartree single-electron equation is defined as
 
 \begin{equation}
-\left[ -\frac{\hbar^2\nabla^2}{2m_e} + V_H(\vec{r}) - V_{SI}(\vec{r}) + V_{ext}(\vec{r}) \right] \psi_j(\vec{r}) = \epsilon_j \psi_j(\vec{r}), j = 1, 2.
+\left[ -\frac{\hbar^2\nabla^2}{2m_e} + V_H(\boldsymbol{r}) - V_{SI}(\boldsymbol{r}) + V_{ext}(\boldsymbol{r}) \right] \psi_j(\boldsymbol{r}) = \epsilon_j \psi_j(\boldsymbol{r}), j = 1, 2.
 \end{equation}
  
-From this expression we can further find the ground state total energy as 
+Furthermore the total energy can be calculated by
  
 \begin{equation}
-E = \sum_j \epsilon_j - \frac{1}{2} \int \left( V_H(\vec{r}) - V_{SI}(\vec{r}) \right) n(\vec{r})d\vec{r}.
+E = \sum_j \epsilon_j - \frac{1}{2} \int \left( V_H(\boldsymbol{r}) - V_{SI}(\boldsymbol{r}) \right) n(\boldsymbol{r})d\boldsymbol{r}.
 \end{equation} 
  
 In the above expressions $V_H$ and $V_{SI}$ are the Hartree potential and the self-interaction potential respectively. The self-interaction potential is subtracted in the equations to account for that an electron can not interact with itself. The above statements can also be applied for Hartree-Fock systems and is easily extended to a $N_E$ electron problem by setting $j$ in Eq. (5.4) equal to $j = 1, 2, \dots N_e$. In this case it's common to also include the self-interaction term to simply the calculations by making the total potential in Eq. (5.10 ) equal for all electrons, however this introduces a self-interaction error in the approximation. Moreover,by employing the variational principle, the many body equation has been transformed to a set of single electron equations, however the use of the variational principle means that this expression is valid only for the ground state. 
@@ -80,76 +87,99 @@ In the above expressions $V_H$ and $V_{SI}$ are the Hartree potential and the se
 A second essential approximation to the many-body equation is the Born-Oppenheimer approximation. This makes a very cleaver assumption that significantly simply the equation. Given that the electron mass is negligibly small in comparison to that of a nuclei, we can treat the nuclei as point charges, enabling us to divide the eigenfunction into a separate electronic and nuclear part, in other words
 
 \begin{equation}
-    \Psi_{k}^{en}(\vec{r}, \vec{R}) \approx \Psi_k(\vec{r}, \vec{R}) \Theta_k(\vec{R}),
+    \Psi_{k}^{en}(\boldsymbol{r}, \boldsymbol{R}) \approx \Psi_k(\boldsymbol{r}, \boldsymbol{R}) \Theta_k(\boldsymbol{R}),
 \end{equation}
 
-where $\Psi_k(\vec{r}, \vec{R})$ is the electronic part and $\Theta_k(\vec{R})$ the nuclear part. The $\vec{R}$ dependence in $\Psi_k(\vec{r}, \vec{R})$ originate from the fact that electrons can respond instantaneously to updated positions of the nuclei. Writing this in terms of the Hamiltonian give
+where $\Psi_k(\boldsymbol{r}, \boldsymbol{R})$ is the electronic part and $\Theta_k(\boldsymbol{R})$ the nuclear part. The $\boldsymbol{R}$ dependence in $\Psi_k(\boldsymbol{r}, \boldsymbol{R})$ originate from the fact that electrons can respond instantaneously to updated positions of the nuclei. Writing this in terms of the Hamiltonian give
 
 \begin{align}
-    &\left( T_{e} + U_{ee} + U_{en} \right) \Psi_k(\vec{r}, \vec{R}) = E_k(\vec{R})\Psi_k(\vec{r}, \vec{R}) \\
-    &\left( T_{n} + U_{nn} + E_k(\vec{R}) \right) \Theta(\vec{R}) = E_{k}^{en}(\vec{R})\Theta_k(\vec{r}, \vec{R}).
+    &\left( T_{e} + U_{ee} + U_{en} \right) \Psi_k(\boldsymbol{r}, \boldsymbol{R}) = E_k(\boldsymbol{R})\Psi_k(\boldsymbol{r}, \boldsymbol{R}) \\
+    &\left( T_{n} + U_{nn} + E_k(\boldsymbol{R}) \right) \Theta(\boldsymbol{R}) = E_{k}^{en}(\boldsymbol{R})\Theta_k(\boldsymbol{r}, \boldsymbol{R}).
 \end{align}
 
-We observe that the two sections are interrelated through the electronic energy $E_k(\vec{R})$. Furthermore, the left hand side of the nuclear part can be simplified to $U_{nn} + E_k(\vec{R})$, assuming that the kinetic energy of point charges is zero.
+We observe that the two sections are interrelated through the electronic energy $E_k(\boldsymbol{R})$. Furthermore, the left hand side of the nuclear part can be simplified to $U_{nn} + E_k(\boldsymbol{R})$, assuming that the kinetic energy of point charges is zero.
 
-With the Hartree, Hartree-Fock and Born-Oppenheimer approximations we are finally ready to solve the many-body Shodinger equation. The first factor we need to consider is how the gigantic number of terms in the calculation can be solved numerically. As an example, a material of volume equal to $1cm^3$ contain about $10^{23}$ nucleus and electrons which makes for nearly $10^{40}$ terms to solve in Eq.(5.6). Secondly and more important, how does the many-particle wavefunction $\Psi^{en}$ depend on the single-particle wavefunctions, and how can we operate the Hamiltonian on $\Psi^{en}$? This is where the density-functional theory enters. When people today mention DFT, most of the time they mean the Kohn-Sham density functional theory that combines the concept of the original density functional theory of relating the many-body wavefunction to the total energy through $n(\vec{r}) = |\Psi(\vec{r})|^2$, where n is the electron density. And the Kohn-Sham equations that approximate $\Psi^{en}$ by ...
+With the Hartree, Hartree-Fock and Born-Oppenheimer approximations we are finally ready to tackle the many-body Shodinger equation. However despite the afforementioned approximations one can apply, the many-body equation still pose a few obstacles to overcome both numerically and theoretically. The first of which is how the immense number of terms in Eq. (6) can be handled in a numerical manner. As an example, a material of volume equal to $1cm^3$ contain about $10^{23}$ nucleus and electrons which makes for nearly $10^{40}$ terms to solve in Eq.(5.6). A Second and more present concern is how the many-particle wavefunction $\Psi^{en}$ is related to the single-particle wavefunctions, and how can we operate the Hamiltonian on $\Psi^{en}$? This is where the density-functional theory enters. When people mention DFT today, most of the time they mean Kohn-Sham density functional theory, that combines the concept of the original density functional theory with the Kohn-Sham equation and philosphy. These two topics will be the focus of the following sections.
 
-\section{Fundamentals of Density-Functional Theory}
-The density functional theory was developed by Hohenberg and Kohn in 1964 and revolved around the fact that the ground-state density can be expressed in terms of the ground-state wavefunction. We have
+\section{Kohn-Sham density functional theory}
+
+\subsection{Density functional theory}
+
+The density functional theory was developed by Hohenberg and Kohn in 1964 and centers around the ground-state density of a system, described as
+
 \begin{equation}
-    n_0(r) = |\Psi_0(r)|,
+    n_0(\boldsymbol{r}) = |\Psi_0(\boldsymbol{r})|^2.  
 \end{equation}
-furthermore the theorem states that all ground-state physical properties can be found as unique functionals of the ground-state density. The biggest upside of this, is that instead of trying to solve the many-body Shr\"{o}dinger equation to obtain the ground-state wavefunction, we have reduced the computational complexity from $3N_e$ to $3$. Thus, the Hohenberg and Kohn density functional theory makes for a promising and effective method to obtain the ground-state properties of a system, given that the exact electron density functional is known. However, this is still 60 years later unknown. 
 
-The density functional theory build on two specific theories, called the Hohenberg-Kohn theorems. They are:
+The working princples and the role of the grond-state density in DFT is outlined in two theorems known as the Hohenberg-kohn theorems [lecture notes REF]:
+
 \begin{enumerate}
-    \item For any system of interacting particles in an external potential $V_{ext}$, the density is uniquely determined.
-    \item There exists a variational principle for the energy density functional such that, if $n$ is not the electron density of the ground-state, them $E[n_0] < E[n]$.
+\item "All ground-state properties of the many-body system are determined by the ground state density $n_0(\boldsymbol{r})$. Each property is thus a functional f[n] and the ground-state property is obtained from $f[n_0]$". 
+\item "There exists a variational principle for the energy density functional such that, if $n$ is not the electron density of the ground-state, then $E[n_0] < E[n]$."
 \end{enumerate}
-The proof behind both theorems can be found in appendix .. A direct result of the second theorem is the energy can be described as a function of the density
-\begin{equation}
-    E[n] = T[n] + U_{ee}[n] + U_{en}[n],
-\end{equation}
-where the first two terms $T[n]$ and $U_{ee}[n]$ make up the Hohenberg-Kohn functional. 
 
-We know move on to the Kohn-Sham equations, in which Kohn and Sham expressed the exact ground-state density from Hartree type wavefunctions. 
+The major benefit of this theorem is that by applying the density to calculate the ground state properties of a system, we can significantly reduce the computational complexity of the problem. This is true seeing as the density only concerns 3 variables $x$, $y$, and $z$ regardless of the system compared to $3N_e$ variables in the many-particle wavefunction. Moreover the second theorem states that the exact ground state energy is the global minumim for a given potential and that the density that minimize the energy functional is the exact ground-state density. From the first theorem we can now rewrite the total energy in Eq. (13) as a functional of the density, we get
+
 \begin{equation}
-    \Psi(\vec{r}_1, \vec{r}_2 , .., \vec{r}{N_e}) = \psi_1^{KS}(\vec{r}_1)\psi_2^{KS}(\vec{r}_2)...\psi_{N_e}^{KS}(\vec{r}_{N_e})
-\end{equation}
-In which, $\psi_j^{KS}$ are auxiliary independent single-particle wavefunctions. We know modify the equation for total energy as a function of density defined by the second theorem, to include the single auxiliary wavefunctions and their corresponding kinetic energy and interaction energy. We get:
-\begin{equation}
-    E[n] = T_s[n] + U_s[n] + U_{en}[n] + (T[n] - T_s[n]) + (U_{ee}[n] - U_s[n]).
-\end{equation}
-with the s subscript denoting the single particle wavefunctions. The latter two terms are known as the exchange-correlation energy $E_{xc}$
-\begin{equation}
-    E_{xc}[n] = \Delta T + \Delta U
+    E[n] = F[n] + \int V_{en}(\boldsymbol{r})n(\boldsymbol{r})d\boldsymbol{r},
 \end{equation}
 
-This term is responsible for the many-electron interaction. The complete total energy functional can now be expressed as
+where $F[n] = T[n] + U_{ee}[n]$ make up the Hohenberg-Kohn functional and $\int V_{en}(\boldsymbol{r})n(\boldsymbol{r})d\boldsymbol{r}) = U_{en}[n]$.
+Note that $F[n]$ is independent of the external potential, and thus is universal for all systems.  
+
+\subsection{The Kohn-Sham Equation}
+
+The concept of Kohn-sham density functional theory is to utilize the Kohn-Sham equation to determine the ground-state density, and then invokes the theorems of DFT to find the ground state energy. The Kohn-Sham approach begins by approximating the many-particle wavefunction by Hartree type functions, ie 
+
+\begin{equation}
+    \Psi(\boldsymbol{r}_1, \boldsymbol{r}_2 , .., \boldsymbol{r}_{N_e}) = \psi_1^{KS}(\boldsymbol{r}_1)\psi_2^{KS}(\boldsymbol{r}_2)...\psi_{N_e}^{KS}(\boldsymbol{r}_{N_e}), 
+\end{equation}
+
+where $\psi_j^{KS}$ are auxiliary independent single-particle wavefunctions. This means that the density can be calculated simlpy as
+
+\begin{equation}
+n(\boldsymbol{r}) = \sum_{j=1}^{N_e} |\psi_{j}^{KS}(\boldsymbol{r})|^2.
+\end{equation} 
+
+The idea behind the Kohn-Sham equation is to now rewrite the energy in Eq. (15) as
+
+\begin{equation}
+    E[n] = T_s[n] + U_s[n] + U_{en}[n] + \bigg\{(T[n] - T_s[n]) + (U_{ee}[n] - U_s[n]) \bigg\}, 
+\end{equation}
+
+with the "s" subscript relating to that the wavefunctions are the auxiliary wavefunctions of Eq. (ABOVE). The enclosed term in Eq. (ABOVE) is known as the exchange-correlation energy $E_{xc}$ of the system, defined as $E_{xc}[n] = \Delta T + \Delta U$. This quantitity is the engine of the Kohn-Sham approach, it contains the leftover energy between the exact energy and the energy corresponding to the simpler terms $T_s[n] + U_s[n] + U_{en}[n]$ that is possible to calculate. This means that the exchange-correlation must account for the more complex energies corresponding to the many-electron interaction, electron self-interaction and the kinetic energy part. Thus if $E_{xc}$ is eaxct, so is the total energy. In full, we can write the energy functional as
+
 \begin{equation}
     \begin{split}
-    E[n] &= \overbrace{\sum_j \int \psi_j^{KS*}\frac{-\hbar^2 \nabla^2}{2m}\psi_j^{KS}d\vec{r}}^{T_s[n]} + \overbrace{\frac{1}{2}\frac{1}{4\pi \epsilon_0} \int \int q^2 \frac{n(\vec{r})n(\vec{r}')}{|\vec{r} - \vec{r}'|}d\vec{r}\vec{r}'}^{U_s[n]} \\ 
-        &+ \underbrace{\int V_{en}(\vec{r}n(\vec{r})d\vec{r}}_{U_en[n]} + \underbrace{(T[n] - T_s[n]) + (U_{ee}[n] - U_s[n])}_{E_{xc}[n]}
+    E[n] &= \overbrace{\sum_j \int \psi_j^{KS*}\frac{-\hbar^2 \nabla^2}{2m}\psi_j^{KS}d\boldsymbol{r}}^{T_s[n]} + \overbrace{\frac{1}{2} \int \int q^2 \frac{n(\boldsymbol{r})n(\boldsymbol{r}')}{|\boldsymbol{r} - \boldsymbol{r}'|}d\boldsymbol{r}\boldsymbol{r}'}^{U_s[n]} \\ 
+        &+ \underbrace{\int V_{en}(\boldsymbol{r}n(\boldsymbol{r})d\boldsymbol{r}}_{U_{en}[n]} + \underbrace{(T[n] - T_s[n]) + (U_{ee}[n] - U_s[n])}_{E_{xc}[n]}
     \end{split}
 \end{equation}
 
-Finally we write the complete expression for the Kohn-Sham single-electron equations given an exact exchange-correlation energy and utilizing the variational principle described previously
-\begin{equation}
-    \bigg\{ -\frac{\hbar^2}{2m_e}\nabla^2_s + v_H(\vec{r}) + V_{en}(\vec{r}) + V_{xc}(\vec{r} \bigg\}\psi_s^{KS}(\vec{r}) = \epsilon_s^{KS}(\vec{r})\psi_s^{KS}(\vec{r}),
-\end{equation}
-Define $V_H$, and $V_{xc}$ and mention that the former include self interaction that can be accounted for in XC functional. Finally, the total energy of the many-electron system is defined as
-\begin{equation}
-    E[n] = \sum_j \epsilon_j^{KS} - \frac{1}{2}\frac{1}{4\pi\epsilon_0} \int \int q^2 \frac{n(\vec{r})n(\vec{r}')}{|\vec{r} - \vec{r}'|}d\vec{r}d\vec{r}' + E_{xc}[n] - \int V_{xc}(\vec{r})n(\vec{r})d\vec{r}.
-\end{equation}
-This is the fundamental working principle of the density functional theory and Kohn-Sham equations.
+Similar to how the single particle Hartree eqaution was found in Eq. (10), the Kohn-Sham single-particle wavefunction can be reached from utilizing the variational principle.
 
-\section{Limitations of DFT}
-\begin{itemize}
-    \item Local minima method
-    \item Not exact $V_{xc}$, means we must compromise between accuracy and cost, and choose between the different methods for specific application. There is no one best overall method that is superior for all purposes. 
-    \item kohn-sham eigenfunctions are not the exact eigenfunctions. 
-    \item DFT in its original formulation is only valid for the ground state. Thus excited state application of DFT, all though very possible have a lesser theoretical footing.
-    \item The band-gap calculation is also complicated by the self-interaction error which arises in the occupied states in standard DFT, and in the unoccupied states in Hartree-Fock. If you consider the "true" band-structure, then semi-local DFT has a spurious self-interaction in the occupied states, which over-delocalises them and forces them up in energy, thus reducing the band-gap; Hartree-Fock has the same problem but for the *unoccupied* states, so they are over-delocalised and forced up in energy, which increases the band-gap. \cite{bandgap_dft_forum}
-    \item References on the band gap with DFT based methods \cite{bandgap_dft_1}, \cite{bandgap_dft_2}
-\end{itemize}
+\begin{equation}
+    \bigg\{ -\frac{\hbar^2}{2m_e}\nabla^2_s + v_H(\boldsymbol{r}) + V_{en}(\boldsymbol{r}) + V_{xc}(\boldsymbol{r} \bigg\}\psi_s^{KS}(\boldsymbol{r}) = \epsilon_s^{KS}(\boldsymbol{r})\psi_s^{KS}(\boldsymbol{r}).
+\end{equation}
 
+With this expression it's now possible to calculate the ground state density in Eq. (17) by solving Eq. (ABOVE) for all the ground state single electron wavefunctions. Finally, we have the total energy of the system expressed as
+
+\begin{equation}
+E[n] = \sum_j \epsilon_j^{KS} - \frac{1}{2} \int V_H(\boldsymbol{r})n(\boldsymbol{r})d\boldsymbol{r} + E_{xc}[n] - \int V_{xc}(\boldsymbol{r})n(\boldsymbol{r})d\boldsymbol{r}, 
+\end{equation}
+
+where $V_{xc}(\boldsymbol{r}) = \frac{\partial E_{xc}[n]}{\partial n}$ is the exchange-correlation potential. This is the Kohn-Sham density functional theory.
+ 
+ 
+
+\section{Limitations of DFT - Insert refs}
+
+"Any fool can know. The point is to understand" - Albert Einstein \\
+
+In this section we intend to outline and \textit{understand} the fundamental drawbacks and limitations of the density functional theory in light of both the theoretical formulation and the practical aspects of performing DFT based simulations. The primary drawback of the density functional theory is that to this day we still don't have the exact form of $E_{xc}$.  From the above derivations we recognize that this term must account for several complex properties such as the many-body interaction and large amounts of kinetic energy. Additionly the exchange-correlation must also include the self-interaction error from applying Hartree-like wavefunctions in the Kohn-Sham equation. Furthermore this functional should be applicable in any material, ie metals, semiconductors, liquids and gasses. In the next section we will look at some of the most commonly used approximations to $E_{xc}$. These approximate functionals range from low-complex and computationally cheap methods such as LDA, to heavy computational methods such as hybrid functionals. This is therefore seen as a diagreement between the theoretical philosophy of the DFT and the practical application of it, ie in practice one must adapt the functional first to the type of system and intention, for example if one wants to study the band gap, or weak Wan-Der Waals interactions. Secondly the functional must be choosen as a comprimise between accuracy and cost.
+
+However, even if the exchange-correlation functional was expressed exactly and efficiently implemented, DFT would still serve a couple of drawbacks. For instance the Kohn-Sham eigenfunctions in equations 17 are not the true single-electron eigenfunctions, thus also the corresponding eigenvalues are not exact even with an exact value of $E_{xc}$, meaning that the band gap obtained from the eigenvalues is in nature inexact. In fact, the estimation of the band gap of semiconductors is one of the major short-comings of DFT. In addition to the eigenvalue, the band gap is also subject to underestimation due to a self-interaction term that over-delocalize the occupied states and hence pushes them up in energy, effectively reducing the band gap \cite{dft_limitations}. More advanced topics regarding the under-estimation of the band gap in semiconductors from DFT calculations can be read about in \cite{dft_bandgap}, by John P. Perdew and Mel Levy. Additionally, DFT also have difficulties in simulating weak long-range Wan-der Waal attraction \cite{dft_wdv}, due to DFT's emphasis on primarily the local density, thus to some degree neglect long-range effects.    
+
+More practical limitations of DFT include factors such as the calculations not being variational with respect to the functional, meaning that a more complex functional does not guarantee higher accuracy \cite{dft_forum}. Moreover the calculations of DFT only deliver a local minimum, in other words the calculations only return the most stable energy for the given initial settings and parameters. An example of this is seen when studying magnetic materials, where the total energy of a DFT calculation vary between each magnetic configuration of the material, meaning that to obtain the true ground-state energy one must perform an exhaustive search of all magnetic possibilities. Similar is also the case when comparing crystal structures and geometric features of materials. Finally, despite the possibility of simulations of excited states exists today, DFT in its original formulation is only valid for the ground state. Thus these calculations have a lesser theoretical footing in comparison.
+
+Regardless of its' flaws, DFT is still considered a widely successful method and accordingly Walter Kohn and John A. Pope won the Nobel prize in chemistry in 1998; "to Walter Kohn for his development of the density-functional theory and to John Pople for his development of computational methods in quantum chemistry." \cite{nobelPrize}
