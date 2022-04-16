@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.30)  16 APR 2022 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.30)  16 APR 2022 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1532,89 +1532,32 @@ Chapter 1.
 
 ] [2] [3
 
-]
-\openout2 = `chapter/chapter_2.aux'.
+] [24
 
- (./chapter/chapter_2.tex
-Chapter 2.
-[4
+
 
 
 ]
-<figures/theory/heaformation1.jpeg, id=67, 969.6225pt x 690.58pt>
-File: figures/theory/heaformation1.jpeg Graphic file (type jpg)
-<use figures/theory/heaformation1.jpeg>
-Package pdftex.def Info: figures/theory/heaformation1.jpeg  used on input line 
-35.
-(pdftex.def)             Requested size: 251.9989pt x 179.4728pt.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 36.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 36.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 36.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 36.
-<figures/theory/heaformation2.jpeg, id=68, 943.525pt x 705.63625pt>
-File: figures/theory/heaformation2.jpeg Graphic file (type jpg)
-<use figures/theory/heaformation2.jpeg>
-Package pdftex.def Info: figures/theory/heaformation2.jpeg  used on input line 
-39.
-(pdftex.def)             Requested size: 251.9989pt x 188.45705pt.
- [5] [6 <./figures/theory/heaformation1.jpeg> <./figures/theory/heaformation2.j
-peg>]
-<figures/theory/latticeDistortionHEA.jpeg, id=75, 660.4675pt x 319.1925pt>
-File: figures/theory/latticeDistortionHEA.jpeg Graphic file (type jpg)
-<use figures/theory/latticeDistortionHEA.jpeg>
-Package pdftex.def Info: figures/theory/latticeDistortionHEA.jpeg  used on inpu
-t line 55.
-(pdftex.def)             Requested size: 360.0pt x 173.98811pt.
- [7]) [8 <./figures/theory/latticeDistortionHEA.jpeg>]
-\openout2 = `chapter/chapter_3.aux'.
+\openout2 = `chapter/chapter_5.aux'.
+
+ (./chapter/chapter_5.tex
+Chapter 5.
+[25
 
 
-(./chapter/chapter_3.tex
-Chapter 3.
-[9
+] [26] [27] [28]
+<figures/theory/selfConsistentDFT.jpeg, id=83, 1305.87875pt x 1135.24126pt>
+File: figures/theory/selfConsistentDFT.jpeg Graphic file (type jpg)
+<use figures/theory/selfConsistentDFT.jpeg>
+Package pdftex.def Info: figures/theory/selfConsistentDFT.jpeg  used on input l
+ine 83.
+(pdftex.def)             Requested size: 391.76665pt x 340.575pt.
 
-
-
-] [10] [11] [12]
-<figures/theory/PDF_small.png, id=98, 292.09125pt x 208.78pt>
-File: figures/theory/PDF_small.png Graphic file (type png)
-<use figures/theory/PDF_small.png>
-Package pdftex.def Info: figures/theory/PDF_small.png  used on input line 66.
-(pdftex.def)             Requested size: 180.0pt x 128.66493pt.
-<figures/theory/PDF_big.png, id=99, 284.06125pt x 201.75375pt>
-File: figures/theory/PDF_big.png Graphic file (type png)
-<use figures/theory/PDF_big.png>
-Package pdftex.def Info: figures/theory/PDF_big.png  used on input line 70.
-(pdftex.def)             Requested size: 180.0pt x 127.85052pt.
-
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 65--73
-[]$[]$ $[]$ 
+Overfull \hbox (31.76665pt too wide) in paragraph at lines 83--84
+ [][] 
  []
 
-<figures/theory/SQS-MCMD_DOS.png, id=100, 356.33125pt x 430.60875pt>
-File: figures/theory/SQS-MCMD_DOS.png Graphic file (type png)
-<use figures/theory/SQS-MCMD_DOS.png>
-Package pdftex.def Info: figures/theory/SQS-MCMD_DOS.png  used on input line 80
-.
-(pdftex.def)             Requested size: 216.0022pt x 261.0283pt.
-[13 <./figures/theory/PDF_small.png> <./figures/theory/PDF_big.png>]
-<figures/theory/SQS-MCMD_PDF.png, id=106, 816.04875pt x 292.09125pt>
-File: figures/theory/SQS-MCMD_PDF.png Graphic file (type png)
-<use figures/theory/SQS-MCMD_PDF.png>
-Package pdftex.def Info: figures/theory/SQS-MCMD_PDF.png  used on input line 88
-.
-(pdftex.def)             Requested size: 360.0pt x 128.8548pt.
- [14 <./figures/theory/SQS-MCMD_DOS.png> <./figures/theory/SQS-MCMD_PDF.png>]) 
-[15]
-[24
-
-
-
-] [33
+) [29 <./figures/theory/selfConsistentDFT.jpeg>] [33
 
 
 
@@ -1629,41 +1572,42 @@ Package pdftex.def Info: figures/theory/SQS-MCMD_PDF.png  used on input line 88
 
 
 
-] [60] (./main.aux (./chapter/chapter_2.aux)
-(./chapter/chapter_3.aux) (./chapter/chapter_4.aux) (./chapter/chapter_5.aux)
-(./chapter/chapter_6.aux) (./chapter/chapter_7.aux) (./chapter/chapter_8.aux)
-(./chapter/chapter_9.aux) (./chapter/chapter_11.aux) (./chapter/chapter_12.aux)
-(./chapter/chapter_13.aux))
+] [60]
+(./main.aux (./chapter/chapter_2.aux) (./chapter/chapter_3.aux)
+(./chapter/chapter_4.aux) (./chapter/chapter_5.aux) (./chapter/chapter_6.aux)
+(./chapter/chapter_7.aux) (./chapter/chapter_8.aux) (./chapter/chapter_9.aux)
+(./chapter/chapter_11.aux) (./chapter/chapter_12.aux) (./chapter/chapter_13.aux
+))
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28700 strings out of 481239
- 571644 string characters out of 5920377
- 1206406 words of memory out of 5000000
- 43351 multiletter control sequences out of 15000+600000
- 599199 words of font info for 145 fonts, out of 8000000 for 9000
+ 28587 strings out of 481239
+ 568740 string characters out of 5920377
+ 1206027 words of memory out of 5000000
+ 43254 multiletter control sequences out of 15000+600000
+ 590650 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,69p,1620b,2742s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,7n,69p,1421b,2708s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpaz
-o/fplmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
-atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (32 pages, 1126907 bytes).
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplm
+r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
+lbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (25 pages, 713907 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 151 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

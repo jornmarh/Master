@@ -37,13 +37,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{II\hspace {1em}Methodology and Implementation}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Practical application of DFT}{23}%
+\contentsline {chapter}{\numberline {5}Practical application of DFT}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}The Exchange-Correlation functional}{23}%
+\contentsline {section}{\numberline {5.1}The Exchange-Correlation functional}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Fundamental aspects of practical DFT calculations}{24}%
+\contentsline {subsection}{\numberline {5.1.1}Local density approximation}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Self-consistent field calculation}{26}%
+\contentsline {subsection}{\numberline {5.1.2}Generalized gradient approximation}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Hybrid functionals}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Fundamental aspects of practical DFT calculations}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Self-consistent field calculation}{28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Computational details}{28}%
 \defcounter {refsection}{0}\relax 
