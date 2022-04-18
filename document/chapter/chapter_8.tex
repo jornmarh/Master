@@ -1,7 +1,6 @@
 \chapter{Changing the elements}
 \label{sec:elements}
 
-\textbf{Include results for CRFeMnCo to finish!}
 In similar fashion to the previous sections, we here begin by presenting the mean and standard deviation of the total energy and magnetization of a set of SQSs corresponding to different high-entropy silicides of the \ch{Fesi2} unit cell. The compositions we have tested are deliberate combinations intended to investigate both the impact of manganese by replacing the element with Co or Ti, and concepts related to HEA theory such as the atomic size effect. Furthermore Co is a very common element in many stable HEA, as seen in section .., thus we include two (3?) compositions with this element to study the impact on stability and the functional properties. The results of the aforementioned alloys can be seen bellow in table 9.1, note that all compounds contain a total of 48 atoms as before.  
 
 \begin{table}[H]
@@ -21,61 +20,24 @@ In similar fashion to the previous sections, we here begin by presenting the mea
 \textbf{Maybe discuss the std of mag and relation to energy of sqs, several cases we find large differences between SQSs.}
 From table 9.1 we see that the stability of the relative compositions vary greatly. By introducing cobalt to the alloys, particularly at the cost of manganese result in a large positive effect on the stability, contrary replacing either manganese or nickel with titanium significantly lowers the stability. In terms of the magnetization, the results are in line with the observations of the CFMN composition, from table 9.1 it's clear that replacing either manganese or chromium drastically reduces the magnetization of the alloys. In addition, we find indication of chromium being further significant to the magnetization than manganese as seen from the first and second compounds in table 9.1 respectively. In opposition to the study of the CFMN system we observe here a clear relation between magnetization and stability. However, we are not confident if the observed outcome is a direct consequence of the magnetization or simply a product of addition of cobalt and titanium respectively to the alloys. On the other hand, in both cases the least magnetic composition is also the most unstable, thus there is weight behind the magnetic relation to stability. \textbf{Wait for CrFeMnCoSi2 to finish}  
 
-\begin{comment}
-Bellow we include the calculated PDFs of introducing cobalt to the alloy.   
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}{\textwidth}
 		\includegraphics[width=\textwidth]{results/fesi2/composistions/cofemnni_PDF.png}
 	\end{subfigure}
 	\begin{subfigure}{\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/composistions/crfeconi_PDF.png}
-	\end{subfigure}
-	\begin{subfigure}{\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnco_PDF.png}
-	\end{subfigure}
-	\caption{Probability distribution functions of top: \ch{Co4Fe4Mn4Ni4Si32} (SQS D), middle: \ch{Cr4Fe4Co4Ni4Si32} (SQS B), bottom: \ch{Cr4Fe4Mn4Co4Si32} (SQS B)}
-\end{figure}
-Similarly we look at the PDFs of \ch{Cr4Fe4Mn4Ti4Si32} and \ch{Cr4Fe4Ti4Ni4Si32} bellow.
-\begin{figure}[H]
-	\centering
-	\begin{subfigure}{\textwidth}
 		\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnti_PDF.png}
 	\end{subfigure}
-	\begin{subfigure}{\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/composistions/crfetini_PDF.png}
-	\end{subfigure}
-	\caption{Probability distribution function of top: \ch{Cr4Fe4Mn4Ti4Si32} (SQS B), bottom: \ch{Cr4Fe4Ti4Ni4Si32} (SQS B))}
+	\caption{Probability distribution function of \ch{Co4Fe4Mn4Ni4Si32} (top) and \ch{Cr4Fe4M4Ti4Si32} (bottom)}
 \end{figure}
-\end{comment}  
-
 
 In regards to the band gap of the compositions, we can report that a heavy majority are metals. We found no evidence of a band gap in both the CrFeCoNiSi2 and CrFeMnTiSi2 alloys across all supercells, as seen in the density of states of the two most stable SQSs of the respective compounds \textbf{Add figures}. Further also the most stable SQSs of the CrFeTiNiSi alloy point to a metal. Similarly the most stable SQSs of the CoFeMnNiSi2 alloy are clearly metals. Noteworthy of this composition however is that we find clear evidence of a narrow band gap in two SQSs (A and B). In terms of stability, these lie around the mean total energy of the set. The respective band gaps are 0.033 eV in A and 0.0058 eV in B. \textbf{Include DOS or other figures for these results.} 
 
+\begin{figure}[H]
+\hskip-5cm\includegraphics[scale=.65]{results/fesi2/composistions/all_DOS.jpg}
+\caption{Density of states of A: \ch{CrFeCoNiSi2}, B: \ch{CrFeTiNiSi2}, C: \ch{CoFeMnNiSi2}, D: \ch{CrFeMnCoSi2}, E: \ch{CrFeMnTiSi2}. Calculations performed with PBE GGA.}
+\end{figure}
+
+
 \textbf{To follow is details on the gaps in A and B, is it worth to include this?}
-In the density of states plotted in figure .., the band gap in A is clearly visible. On the other hand the very narrow gap in B is not as apparent, as the states around Ef contain very small nonzero values.  This could be related to the low resolution of 2500 points in the density of states as seen before, especially considering the size of the gap. In opposite to the CFMN calculations previous we here experience excellent cohesion between PBE and SCAN simulations on the band gap. With the meta-GGA functional the band gap of SQS A and B respective is 0.04 eV and the 0.003 eV. Moreover we find the identical gap transition with both functionals, which was not the case in previous endeavors with this functional. Additionally we also find that the HSE06 functional produce dissimilar results to previous experiences. In this scenario, the HSE06 functional fails to recognize the observed band gap of PBE and SCAN in both supercells. The greater number of k-points in the GGA and meta-GGA calculations offer more accurate band gaps, however lesser k-points will not result in a smaller gap, only bigger. Thus the uncertainites of previous calculations of the HSE06 functional does not apply in this case. For this reason in addition to the reputation of hybrid functionals and the lack of other factors to negatively affect the validity of the result, we find it challenging to conclude on the band gap of these structures between functionals.
-
-\textbf{Comment PDOS figures} \\
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfeconi_PDOS.png}
-	\caption{Projected density of states of \ch{Cr4Fe4Co4Ni4Si32}}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/composistions/cofemnni_PDOS.png}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnco_PDOS.png}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfetini_PDOS.png}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnti_PDOS.png}
-\end{figure}
-
-
-\textbf{Add PDFs if time maybe}
+In the density of states plotted in figure .., the band gap in A is clearly visible. On the other hand the very narrow gap in B is not as apparent, as the states around Ef contain very small nonzero values.  This could be related to the low resolution of 2500 points in the density of states as seen before, especially considering the size of the gap. In opposite to the CFMN calculations previous we here experience excellent cohesion between PBE and SCAN simulations on the band gap. With the meta-GGA functional the band gap of SQS A and B respective is 0.04 eV and the 0.003 eV. Moreover we find the identical gap transition with both functionals, which was not the case in previous endeavors with this functional. Additionally we also find that the HSE06 functional produce dissimilar results to previous experiences. In this scenario, the HSE06 functional fails to recognize the observed band gap of PBE and SCAN in both supercells. The greater number of k-points in the GGA and meta-GGA calculations offer more accurate band gaps, however lesser k-points will not result in a smaller gap, only bigger. Thus the uncertainties of previous calculations of the HSE06 functional does not apply in this case. For this reason in addition to the reputation of hybrid functionals and the lack of other factors to negatively affect the validity of the result, we find it challenging to conclude on the band gap of these structures between functionals.
