@@ -45,11 +45,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.2}Generalized gradient approximation}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Hybrid functionals}{26}%
+\contentsline {subsection}{\numberline {5.1.3}Meta-GGA}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Fundamental aspects of practical DFT calculations}{26}%
+\contentsline {subsection}{\numberline {5.1.4}Hybrid functionals}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Self-consistent field calculation}{28}%
+\contentsline {subsection}{\numberline {5.1.5}Outlook}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Fundamental aspects of practical DFT calculations}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Self-consistent field calculation}{30}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Computational details}{28}%
 \defcounter {refsection}{0}\relax 
