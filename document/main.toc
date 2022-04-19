@@ -55,68 +55,66 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Self-consistent field calculation}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Computational details}{28}%
+\contentsline {chapter}{\numberline {6}Computational details}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Vienna Ab initio Simulation Package}{28}%
+\contentsline {section}{\numberline {6.1}Vienna Ab initio Simulation Package}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Generation of SQS}{30}%
+\contentsline {section}{\numberline {6.2}Generation of SQS}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Figures}{31}%
+\contentsline {section}{\numberline {6.3}Utility scripts}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Density of states}{31}%
+\contentsline {part}{III\hspace {1em}Results and Discussion}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Probability distribution functions}{31}%
+\contentsline {chapter}{\numberline {7}The results of \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Charge density}{31}%
+\contentsline {section}{\numberline {7.1}Eqvimolar SQSs}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Band gap}{31}%
+\contentsline {subsection}{\numberline {7.1.1}Introduction}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Utility scripts}{31}%
+\contentsline {subsection}{\numberline {7.1.2}The band gap}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Results and Discussion}{33}%
+\contentsline {subsection}{\numberline {7.1.3}Local and Projected density of states}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}The results of \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{35}%
+\contentsline {subsection}{\numberline {7.1.4}Meta-GGA and hybrid functional}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Eqvimolar SQSs}{35}%
+\contentsline {paragraph}{SCAN \\}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.1}Introduction}{35}%
+\contentsline {paragraph}{HSE06 \\}{47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.2}The band gap}{36}%
+\contentsline {paragraph}{Numerical smearing \\}{48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.3}Local and Projected density of states}{38}%
+\contentsline {subsection}{\numberline {7.1.5}Probability distribution functions and charge density}{50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.4}Meta-GGA and hybrid functional}{42}%
+\contentsline {section}{\numberline {7.2}Permutations of the \ch {Cr4Fe4Mn4Ni4Si32} high-entropy silicide}{52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{SCAN \\}{42}%
+\contentsline {chapter}{\numberline {8}Changing the elements}{59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HSE06 \\}{43}%
+\contentsline {chapter}{\numberline {9}Overview and Outlook}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Numerical smearing \\}{44}%
+\contentsline {paragraph}{The SQS size \\}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.5}Probability distribution functions and charge density}{46}%
+\contentsline {paragraph}{Relevance of crystal structure}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Permutations of the \ch {Cr4Fe4Mn4Ni4Si32} high-entropy silicide}{48}%
+\contentsline {paragraph}{The exchange-correlation functional}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Changing the elements}{55}%
+\contentsline {paragraph}{What more should/could have been done in this project?}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Overview and Relevance}{59}%
+\contentsline {section}{\numberline {9.1}\ch {Cr4Fe4Mn4Ni4Si32} in different crystal structures}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}\ch {Cr4Fe4Mn4Ni4Si32} in different crystal structures}{59}%
+\contentsline {paragraph}{MnSi \\}{64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{MnSi \\}{60}%
+\contentsline {paragraph}{Fe2Si \\}{64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fe2Si \\}{60}%
+\contentsline {section}{\numberline {9.2}Overview}{65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Overview}{61}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{62}%
+\contentsline {chapter}{\numberline {A}Compositions}{68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Compositions}{64}%
+\contentsline {section}{\numberline {A.1}Projected density of states}{68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Projected density of states}{64}%
+\contentsline {section}{\numberline {A.2}Probability distribution functions}{71}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Probability distribution functions}{67}%
+\contentsline {chapter}{\numberline {B}PDFs}{73}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}PDFs}{57}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Charge density}{58}%
+\contentsline {chapter}{\numberline {C}Charge density}{74}%

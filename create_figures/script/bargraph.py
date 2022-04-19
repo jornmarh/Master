@@ -1,26 +1,31 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import matplotlib
+font = {'weight' : 'normal',
+        'size'   : 14}
 
-#plt.style.use('fivethirtyeight')
-
+matplotlib.rc('font', **font)
+plt.tight_layout()
 barWidth = 0.25
 
-pbe = [0.0281, 0.0523, 0.0344, 0.0000, 0.0495]
-scan = [0.0000, 0.0890, 0.0690, 0.0000, 0.1048]
-hse06 = [0.0207, 0.1808, 0.0196, 0.0000, 0.0133]
+toten = [250*64, 594*64, 2540*64]
+relax = [962.995*64 + 311.529*64, 2934.907*64 + 800*64, 14796.605*64 + 3780.826*64]
 
-br1 = np.arange(len(pbe))
+for i in range(len(toten)):
+    toten[i] = toten[i]/(60*60)
+
+for i in range(len(relax)):
+    relax[i] = relax[i]/(60*60)
+
+br1 = np.arange(len(toten))
 br2 =  [x + barWidth for x in br1]
-br3 =  [x + barWidth for x in br2]
 
-plt.bar(br1, pbe, width = barWidth,label ='PBE')
-plt.bar(br2, scan, width = barWidth,label ='SCAN')
-plt.bar(br3, hse06, width = barWidth, label ='HSE06')
-
-plt.xlabel('SQS')
-plt.ylabel('CPU-time')
-plt.xticks([r + barWidth for r in range(len(pbe))],['A', 'B', 'C', 'D', 'E'])
+plt.bar(br1, toten, width = barWidth,label ='Electronic relaxation')
+plt.bar(br2, relax, width = barWidth,label ='Ionic + Volume relaxation')
+plt.xlabel('Number of atoms')
+plt.ylabel('CPU-time [hours]')
+plt.xticks([r + barWidth for r in range(len(toten))],['48', '96', '192'])
 
 plt.legend()
 plt.show()

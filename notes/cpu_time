@@ -1,0 +1,27 @@
+CPU time, nevn at k-punktene blir anerledes
+
+CrFeMnNi 48 atoms strD:
+
+Relax1: 10 steps, 962.995 seconds
+Relax2: 1 step 311.529 seconds
+Toten: 249.525 seconds 
+
+CrFeMnNi 96 atoms strA:
+
+Relax1: 16 steps, 2934.907 seconds
+Relax2: 1 step 800 seconds
+Toten: 594 seconds
+
+CrFeMnNi 192 atoms:
+
+Relax1: 18 steps 14796.605 seconds
+Relax2: 3 steps, 3780.826 seconds
+Toten: 2540.370 seconds
+
+PBE/SCAN/HSE06/
+
+CrFEMnNi 48 atoms SQS D
+
+PBE: 249.525 seconds
+SCAN: 3106.295 seconds
+HSE06: 251769.328 (ismear0) + 251101.328 seconds
