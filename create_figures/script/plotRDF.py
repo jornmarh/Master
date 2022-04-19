@@ -28,47 +28,47 @@ def readFile(filename, elements):
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfemnni/crni3'
-structure = '/D/' # or B, C, D, E
-xc = 'pbe/' #or scan, hse06
+composistion = 'crfemnni/equaldist'
+structure = '/huge/' # or B, C, D, E
+#xc = 'pbe/' #or scan, hse06
 
-datapath = data+material+composistion+structure+xc
-figurepath = figures+material+composistion+structure+xc
+datapath = data+material+composistion+structure
+figurepath = figures+material+composistion+structure
 
-plt.style.use('fivethirtyeight')
+plt.style.use('default')
 plt.rcParams['font.size'] = 11
 plt.rcParams['legend.fontsize'] = 12
 
 dict = readFile(datapath+"XDATCAR", ["Si", "Cr", "Fe", "Mn", "Ni"])
 fig, axes = plt.subplots(ncols=3, nrows=1, constrained_layout=True, figsize=[12,5])
 
-axin1 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.3, .55, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
-axin1.tick_params(labelleft=True, labelbottom=True)
-axin12 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.65, .2, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
-axin12.tick_params(labelleft=True, labelbottom=True)
+#axin1 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.3, .6, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
+#axin1.tick_params(labelleft=True, labelbottom=True)
+#axin12 = inset_axes(axes[0], width="100%", height="100%",  bbox_to_anchor=(.65, .3, .3, .4), bbox_transform=axes[0].transAxes, loc=2)
+#axin12.tick_params(labelleft=True, labelbottom=True)
 
-axin2 = inset_axes(axes[1], width="100%", height="100%",  bbox_to_anchor=(.6, .25, .25, .4), bbox_transform=axes[1].transAxes, loc=2)
-axin2.tick_params(labelleft=True, labelbottom=True)
+#axin2 = inset_axes(axes[1], width="100%", height="100%",  bbox_to_anchor=(.05, .6, .2, .4), bbox_transform=axes[1].transAxes, loc=2)
+#axin2.tick_params(labelleft=True, labelbottom=True)
 
-axin3 = inset_axes(axes[2], width="100%", height="100%",  bbox_to_anchor=(.65, .35, .2, .35), bbox_transform=axes[2].transAxes, loc=2)
-axin3.tick_params(labelleft=True, labelbottom=True)
+#axin3 = inset_axes(axes[2], width="100%", height="100%",  bbox_to_anchor=(.1, .7, .2, .3), bbox_transform=axes[2].transAxes, loc=2)
+#axin3.tick_params(labelleft=True, labelbottom=True)
 
 for key in dict:
     s = key.split('-')
     print(s)
     if (s[0] != 'Si' and s[1] == 'Si'):
-        axes[0].plot(dict[key].r, dict[key].smeared_rdf(), label=key, alpha=1)
-        axin1.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
-        axin12.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
+        axes[0].plot(dict[key].r, dict[key].smeared_rdf(), label=key, alpha=1, lw=1)
+        #axin1.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
+        #axin12.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
     if(s[0] != 'Si' and s[1] != 'Si' and s[0] != s[1]):
-        axes[1].plot(dict[key].r, dict[key].smeared_rdf(), label=key, alpha=1)
-        axin2.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
+        axes[1].plot(dict[key].r, dict[key].smeared_rdf(), label=key, alpha=1, lw=1)
+        #axin2.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
     if(s[0] == s[1]):
-        axes[2].plot(dict[key].r, dict[key].smeared_rdf(), label=key, alpha=1)
-        axin3.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
+        axes[2].plot(dict[key].r, dict[key].smeared_rdf(), label=key, alpha=1, lw=1)
+        #axin3.plot(dict[key].r, dict[key].smeared_rdf(), lw=2)
 
 for i in range(3):
-    axes[i].set_xlim(1,8)
+    #axes[i].set_xlim(1,8)
     axes[i].set_xlabel("Distance (Å)")
 axes[0].legend()
 axes[1].legend()
@@ -76,10 +76,11 @@ axes[2].legend()
 axes[0].set_ylabel("Occurance")
 
 
+'''
 axin1.set_xlim(2.2,2.6); axin1.set_ylim(6,8.3)
 axin12.set_xlim(3.7,4.8); axin12.set_ylim(1,2.8)
-axin2.set_xlim(3.8,4.4); axin2.set_ylim(3.5,7.6)
-axin3.set_xlim(3.8,4.4); axin3.set_ylim(2,4)
+axin2.set_xlim(3.8,4.4); axin2.set_ylim(6,7.5)
+axin3.set_xlim(3.8,4.4); axin3.set_ylim(5,7)
 
 mark_inset(axes[0], axin1, loc1=1, loc2=3, edgecolor='black')
 for spine in axin1.spines.values():
@@ -89,11 +90,11 @@ mark_inset(axes[0], axin12, loc1=2, loc2=4, edgecolor='black')
 for spine in axin12.spines.values():
         spine.set_edgecolor('black')
         spine.set_linewidth(.5)
-mark_inset(axes[1], axin2, loc1=1, loc2=3, edgecolor='black')
+mark_inset(axes[1], axin2, loc1=1, loc2=4, edgecolor='black')
 for spine in axin2.spines.values():
         spine.set_edgecolor('black')
         spine.set_linewidth(.5)
-mark_inset(axes[2], axin3, loc1=1, loc2=3, edgecolor='black')
+mark_inset(axes[2], axin3, loc1=1, loc2=4, edgecolor='black')
 for spine in axin3.spines.values():
         spine.set_edgecolor('black')
         spine.set_linewidth(.5)
@@ -117,6 +118,7 @@ axin3.xaxis.set_major_locator(mpl.ticker.MultipleLocator(1)) #axin.xaxis.set_maj
 axin3.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
 axin3.yaxis.set_major_locator(mpl.ticker.MultipleLocator(1)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
 axin3.yaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
+'''
 
 #plt.savefig("/home/jrn-marcus/master/github/document/figures/results/fesi2/permutations/"+"_crni3_D_PDF.png")
 plt.show()

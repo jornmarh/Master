@@ -1,30 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[47] biber:322> INFO - === ti. april 19, 2022, 09:52:40
-[56] Biber.pm:415> INFO - Reading 'main.bcf'
-[104] Biber.pm:943> INFO - Found 44 citekeys in bib section 0
-[114] Biber.pm:4256> INFO - Processing section 0
-[114] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
-[114] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
-[120] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[123] bibtex.pm:1653> INFO - LaTeX decoding ...
-[189] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
-[191] Utils.pm:293> WARN - Duplicate entry key: 'hse' in file 'bibliography.bib', skipping ...
-[192] Utils.pm:293> WARN - Duplicate entry key: 'hse06' in file 'bibliography.bib', skipping ...
-[251] Utils.pm:293> WARN - month field 'Nov' in entry 'sqsfull' is not an integer - this will probably not sort properly.
-[255] Utils.pm:293> WARN - month field 'May' in entry 'sqs_dos' is not an integer - this will probably not sort properly.
-[326] Utils.pm:293> WARN - month field 'Nov' in entry 'dft_bandgap' is not an integer - this will probably not sort properly.
-[346] Utils.pm:293> WARN - month field 'Sep' in entry 'metagga' is not an integer - this will probably not sort properly.
-[353] Utils.pm:293> WARN - month field 'Jul' in entry 'scan' is not an integer - this will probably not sort properly.
-[362] Utils.pm:293> WARN - month field 'Aug' in entry 'scan_hse06' is not an integer - this will probably not sort properly.
-[376] Utils.pm:293> WARN - month field 'Jun' in entry 'scan_flaw' is not an integer - this will probably not sort properly.
-[402] Utils.pm:293> WARN - month field 'Jan' in entry 'PAW1' is not an integer - this will probably not sort properly.
-[405] Utils.pm:293> WARN - month field 'Dec' in entry 'PAW2' is not an integer - this will probably not sort properly.
-[408] Utils.pm:293> WARN - month field 'Jun' in entry 'ismear5' is not an integer - this will probably not sort properly.
-[441] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[441] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[441] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[441] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
-[461] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[484] bbl.pm:755> INFO - Output to main.bbl
-[485] Biber.pm:128> INFO - WARNINGS: 12
+[46] biber:322> INFO - === ti. april 19, 2022, 18:56:45
+[55] Biber.pm:415> INFO - Reading 'main.bcf'
+[101] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[105] Utils.pm:293> WARN - The file 'main.bcf' does not contain any citations!
+[111] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[111] bbl.pm:755> INFO - Output to main.bbl
+[111] Biber.pm:128> INFO - WARNINGS: 1

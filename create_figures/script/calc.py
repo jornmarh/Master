@@ -12,6 +12,7 @@ def calc(composistion, toten):
     for elm in elements:
         distributiion[elm[:2]] = int(elm[2:])
 
+    print(distributiion)
     sum = 0
     for key in distributiion:
             H = distributiion[key]*E_atom[key]
@@ -32,11 +33,12 @@ def doCalc(dict):
         newdict[key] = list
     return newdict
 
+
+'''
 Na_fesi2 = 48
 Na_crsi2 = 72
 Na_mnsi = 44
 Na_fe2si = 54
-
 permutations_fesi2 = {'Cr3Fe3Mn7Ni3Si32': [-6.6947*Na_fesi2, 0.1375]
                       , 'Cr5Fe5Mn3Ni3Si32': [-6.6705*Na_fesi2, 0.1127]
                       , 'Cr5Fe3Mn5Ni3Si32': [-6.6852*Na_fesi2, 0.1375]
@@ -62,8 +64,6 @@ dict_cells = doCalc(cells_cfmn)
 list_perm = list(dict_perm.values())
 list_comp = list(dict_comp.values())
 list_cells = list(dict_cells.values())
-
-print(dict_comp['Cr4Fe4Mn4Co4Si32'])
 
 plt.style.use('seaborn')
 plt.rcParams['font.size'] = 5
@@ -105,17 +105,10 @@ ax.set_xlabel("Magnetization (A/m)")
 ax.set_ylabel("Enthalpy of formation (eV)")
 ax.legend()
 plt.show()
-
 '''
-list = [5.9873, 7.9967, 4.5027, 5.4503, 7.9983]
+
+list = [14.0001, 18.0008, 18.0004, 12.0228, 11.0112]
 #list = [1.3272, 0.9912, 0.7146, 0.0053, 0.7799]
 for i in range(len(list)):
-    list[i] = list[i]/Na_fesi2
+    list[i] = list[i]/192.0
     print(list[i])
-mean = 0
-for i in range(len(list)):
-    mean += list[i]
-    print(mean)
-
-print(mean/len(list))
-'''

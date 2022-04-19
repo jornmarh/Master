@@ -81,40 +81,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{HSE06 \\}{47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Numerical smearing \\}{48}%
+\contentsline {subsection}{\numberline {7.1.5}Probability distribution functions and charge density}{49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.5}Probability distribution functions and charge density}{50}%
+\contentsline {section}{\numberline {7.2}Permutations of the \ch {Cr4Fe4Mn4Ni4Si32} high-entropy silicide}{51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Permutations of the \ch {Cr4Fe4Mn4Ni4Si32} high-entropy silicide}{52}%
+\contentsline {chapter}{\numberline {8}Changing the elements}{58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Changing the elements}{59}%
+\contentsline {chapter}{\numberline {9}Overview and Outlook}{62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Overview and Outlook}{63}%
+\contentsline {paragraph}{The SQS size \\}{62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The SQS size \\}{63}%
+\contentsline {paragraph}{Relevance of crystal structure \\}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Relevance of crystal structure}{63}%
+\contentsline {paragraph}{The exchange-correlation functional \\}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The exchange-correlation functional}{63}%
+\contentsline {paragraph}{Numerical smearing \\}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{What more should/could have been done in this project?}{63}%
+\contentsline {paragraph}{What more should/could have been done in this project?}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}\ch {Cr4Fe4Mn4Ni4Si32} in different crystal structures}{63}%
+\contentsline {section}{\numberline {9.1}\ch {Cr4Fe4Mn4Ni4Si32} in different crystal structures}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{MnSi \\}{64}%
+\contentsline {paragraph}{MnSi \\}{68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fe2Si \\}{64}%
+\contentsline {paragraph}{Fe2Si \\}{68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Overview}{65}%
+\contentsline {section}{\numberline {9.2}Overview}{69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Conclusion}{66}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Compositions}{68}%
+\contentsline {chapter}{\numberline {A}Compositions}{72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Projected density of states}{68}%
+\contentsline {section}{\numberline {A.1}Projected density of states}{72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Probability distribution functions}{71}%
+\contentsline {section}{\numberline {A.2}Probability distribution functions}{75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}PDFs}{73}%
+\contentsline {chapter}{\numberline {B}PDFs}{77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Charge density}{74}%
+\contentsline {chapter}{\numberline {C}Charge density}{78}%

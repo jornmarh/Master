@@ -2,10 +2,91 @@
 \label{sec:final}
 
 \paragraph{The SQS size \\}
+In this project we have made calculations of a type of supercell and SQS model. This model consisted of 48 atoms and have a volume of $700 Å^3$ before structural relaxation. This was done for two reasons, firstly it allowed for the use of more complex XC-functionals, and secondly enabled a broad study of distinct permutations and compositions. However, as covered in section 4.2 or something the results of the SQS model is known to show a sensitivity to the size of the model. For this reason we include the results of 96 and 192 atom SQSs of \ch{CrFeMnNiSi2} with volume $1200 Å^3$ and $2400 Å^3$ respectively. Bellow in figure .. we show the increased computational burden in terms of cpu-hours from performing both structural and ionic relaxation as well as a single electronic self-consistent calculation with PBE GGA of the distinct SQSs. 
 
-\paragraph{Relevance of crystal structure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{results/SQS_time.png}
+\end{figure}
 
-\paragraph{The exchange-correlation functional}
+\begin{table}[h!]
+%\centering
+\hskip-2cm\begin{tabular}{@{}cccccc@{}}
+\toprule
+       & \multicolumn{2}{c}{Total energy/atom (eV)} & Enthalpy of formation (eV) & \multicolumn{2}{c}{Final magnetic moment ($\mu_B$)} \\ \midrule
+48 atoms & - 6.6105 & .. & -11.5000 & 0.0833 & 0.0000    \\
+96 atoms & - 6.6092  & 0.0021 & - 22.8752  & 0.0708  & 0.0114     \\
+192 atoms & - 6.6123  & 0.0022 & - 46.6654 & 0.0761 & 0.0171     \\ \bottomrule
+\end{tabular}
+\caption{Mean and stadard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch{FeSi2}).}
+\end{table}
+
+
+yabadabado Discuss \\
+
+One of the most surprising result of this high-entropy silicide is that according to our calculations, the observed magnetism is attributed largely to ant-ferromagnetic Cr as opposed to the ferromagnetic elements Co, Fe and Ni. We did not perform fixed temperature results, thus the magnetism is not really valid. Similarly the stability discussion in this project have been evaluated through the enthalpy of formation, however there are many other contributions to the stability and formation of a material. And a true study of the stability would include a study over a wide range of temperatures and further investigate the entropic properties.  
+
+\newpage
+
+\begin{figure}[H]
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF48.png}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF96.png}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF192.png}
+\end{subfigure}
+\end{figure}
+
+\newpage
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}ccccc@{}}
+\toprule
+                                                     &   & Spin up (eV) & Spin down (eV) & Total (eV) \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{48 atoms}}}   
+												  & A & 0.0815                & 0.0521                  & 0.0281              \\
+\multicolumn{1}{c|}{}                                & B & 0.2932                & 0.0523                  & 0.0523              \\
+\multicolumn{1}{c|}{}                                & C & 0.2355                & 0.0343                  & 0.0343              \\
+\multicolumn{1}{c|}{}                                & \textbf{D} & 0.3386                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & E & 0.3078                & 0.0495                  & 0.0495              \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{96 atoms}}}   
+                                                     & \textbf{A} & 0.1705                & 0.0442                  & 0.0367              \\ 
+\multicolumn{1}{c|}{}                                & B & 0.1386                & 0.0270                  & 0.0270                   \\
+\multicolumn{1}{c|}{}                                & C & 0.1347                & 0.0363                  & 0.0075                   \\
+\multicolumn{1}{c|}{}                                & D & 0.0892                & 0.0398                  & 0.0398                   \\
+\multicolumn{1}{c|}{}                                & E & 0.1610                & 0                       & 0                        \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{192 atoms}}}
+	 									           & A & 0.1197                & 0.0321                  & 0.0321                   \\
+\multicolumn{1}{c|}{}                                & B & 0.1444                & 0                       & 0                        \\
+\multicolumn{1}{c|}{}                                & C & 0.1867                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & D & 0                     & 0                       & 0          \\
+\multicolumn{1}{c|}{}                                & \textbf{E} & 0.0131                & 0.0184                       & 0.0131                   \\ \bottomrule
+\end{tabular}
+\caption{Total and spin dependent band gap of 4 permutations of CFMN (fesi2) with PBE GGA calculation. The structures that are excluded from this list either failed in calculations, or does not show any band gap.<}
+\end{table}
+
+
+blablabla, Cr is known to lower the saturation magnetization in HEAs, we observe an opposite effect. SQS struggle with paramagnets, furthermore with specific compoitions, therfore maybe the method is poor suited for our case. Similarly PBE is known to be of limited use in 3d elements, SCAN for magnetic but good for diversly bonded structures. HSE06 is overall the best, same for MBJ, but both proved difficult to implement on large-scale for such complex materials. Bellow is a table illustrating a the computational demand for CrFeMnNiSi2 sqs D between the 3 methods. 
+
+Finally we show a figure of the overview of all results in this project. In it we have also included the results of the CrFeMnSi based alloy built from different initial starting points such as the CrSi2, MnSi175 and Fe2Si that inlcude different metal-Si ratioes and crystal structures, par Fe2Si the materials are known semiconductors with band gaps above 0.5 eV. As the figure show, none of these showed any indication of a band gap, this applies for half-metal gaps as well. As a positve, we observe that the positve FeSi2 results are also the most stable structure of this compostional HEA silicide based on the calculated formation enthalpies.  
+
+ We find that the half-metals and/or semiconductors are somewhat magnetic according to our own calculations. Compared to FeSi2 cmce bulk which is anti-ferromagnetic, we experience that alloying this structure with different 3d elements in a HEA method yields a magnetic moment.  But we should balbla study this at elevated temperatures for a proper description of the magnetic properties of the alloy. This result was mearly included to present an overview over potential properties and applications of this material. However the magnetic charachter is certainly evident from the large spin polarization of the band gap. This makes for many interesting applications, for instance within the spin-tronic sector. The Half-Metal property is in line with relevant studies of similar studies, see .., which point to spin-gapless semiconductors. We can not conclude this result of the alloy becouse we have not considered the various conductivites amongst other relevant properties. But the band gap insinuate that this could be the case. Furthermore from the magnitude of the gap, this alloy could have promise as a thermoelectric material. High-entropy alloys is known to heavily lower the phonon scattering in materials which is a desirable property of TE's for a high figure of merit. However HEAs also show low electrical conductivity as well, this is bad for TE's. However from the band gap size this is worth a focused study on it's application in thermoelectricity. See for example Mari master that found some positive effect of a similar material. \textbf{Anything else?}
+
+
+\paragraph{Relevance of crystal structure \\}
+
+\paragraph{The exchange-correlation functional \\}
+
+\paragraph{Numerical smearing \\}
+
+One final point we would like to cover in the discussion of HSE06 calculations of this system, and generally in this project, is the effect of smearing on the reported band gaps. From the method section, we know that TBC smearing is the preferred choice for accurate density of states and total energy calculations of semiconductors, alike we know that this method is unfitting to calculate the forces in metals. As discussed in the methodology section, hybrid functionals proved difficult to converge for such composistionally complex structures, thus we were forced to initially calculate the charge density from the HSE06 functional with did a self-consistent calculation with gaussian smearing and smearing width of 0.05 eV. Thereafter reuse the calculated charge density for subsequent hybrid calculations with TBC smearing. Using SQS A as an example, from the first run (Gaussian), the band gap is 0.15 eV, (0.78 up and 0.15 down). However the eigenvalues contain defect states and the band gap is not observable from the density of states. Next we can reapply the charge density to perform an additional HSE06 calculation with gaussian smearing, but reducing the smearing width from 0.05 eV to 0.005 eV. Now we find a new gap of 0.1 eV (0.21 up and 0.1 down), with no defects in the eigenstates, and apperant in the density of states. In cases where we find conflicting results between the eigenvalues and density of states we rely on the script bandgap.py provided in the pymatgen package, refer to section .. for a description. With this we only report a band gap for the HSE06 calculation with TBC smearing, note that this method return the same value of the gap as well. As another example lets consider SQS B. In contrast, the nummerical smearing does not appear to impact the band gap of this structure. We find from HSE06 simulations with gaussian smearing of both 0.05 and 0.005 eV smearing width to yield results around 0.28 eV and 0.18 eV in spin up and down. But alike SQS A, the larger smearing width comes with a few defect states in the spin down channel and additionally can not be seen in the density of states. However, particular of this structure is that the bandgap.py script validate the calculated total band gap from the eigenvalues in all three calculations. Aside from this abnormalty, the other SQS similar to A find some similarities between smearings, but only TBC was validated with bandgap.py, furthermore the DOS does not with the same clarity reproduce the calculated band gap from the eigenvalues in calculations done with gaussian smearing compared to TBC. \textbf{figureof the DOS of hybrid/smear/smear5 maybe A?}
+
+We see from the above examples that as most studies and articles state, that TBC smearing is superior in terms of accurate total energy and DOS calculations of semiconductors. Similar to how TBC produce inacurate forces of metals, in several cases in this project we relaxed the structures with gaussian to forces bellow 1E-2, but subsequent calculation with TBC in certain cases resulted in forces above 0.1, without making any geometric alteration to the previously relaxed cell \textbf{(Include examples?)}. On the grounds of these factors we can report good agreement between our own results and the theoretical advice regarding numerical smearing in DFT studies \textbf{Insert refrences}
 
 \paragraph{What more should/could have been done in this project?}
 
