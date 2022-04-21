@@ -3,14 +3,17 @@ In this one year long project, we have collected results of a great number of ma
 
 Following this attempt, we transitioned into studying high-entropy silicides based on well known semiconducting 3d silicides such as $\beta-$\ch{FeSi2}, \ch{CrSi2} and \ch{MnSi_{1.75}}. The main outcome of this project is that for all 4 different starting silicides, we could only produce high-entropy silicides from one unit cell, furthermore in this cell only one specific compositions of elements was semiconducting. This was \ch{Cr_{0.25}Fe{0.25}Mn_{0.25}Ni_{0.25})Si2}, here-in CFMN, in the $\beta-$ \ch{FeSi2} crystal structure.  
 
-This section will be structured in the following manner, firstly we will investigate the CFMN (fesi2) compound and various permutations of the composition. Thereafter we will look at other possible compositions of fesi2 based high-entropy silicides, and lastly test the CFMN composition in other crystal symmetries. In final we will present an overview of the complete study and the various compounds that have been investigated in order to propose promising directions and guideline future research directions in this field. In this way, we aim to understand the uniqe properties of CFMN (fesi2) and why this particular compound is semiconducting compared to the other testes structures in this project. Properties we will cover is the overall stability by total energy and corresponding enthalpy of formation, the magnetic properties and which elements contribute to the magnetism. But in majority, we will look at the band gap and related properties, as this is the main motivation and distinction of the study.    
+This section will be structured in the following manner, firstly we will investigate the CFMN (fesi2) compound and various permutations of the composition. Thereafter we will look at other possible compositions of fesi2 based high-entropy silicides, and lastly test the CFMN composition in other crystal symmetries. In final we will present an overview of the complete study and the various compounds that have been investigated in order to propose promising directions and guideline future research directions in this field. In this way, we aim to understand the uniqe properties of CFMN (fesi2) and why this particular compound is semiconducting compared to the other testes structures in this project. Properties we will cover is the overall stability by total energy and corresponding enthalpy of formation, the magnetic properties and which elements contribute to the magnetism. But in majority, we will look at the band gap and related properties, as this is the main motivation and distinction of the study.
+
+\textbf{Add figure DOS FeSi2?}
+
 
 \chapter{The results of \ch{(CrFeMnNi)Si2} in the $\beta-$\ch{FeSi2} structure}
 \label{sec:good}
 
 $\beta-FeSi_2$ in the orthorombic cmce crystal lattice is a well known semiconductor with an experimentally measured band gap of around 0.85 ev at room temperature \cite{PhysRevB.58.10389}, the nature of the band gap is under debate, all though most ab inito studies point to an indirect gap, experimental work indicate a direct gap. From our calculations we find an indirect band gap close to 0.65 eV with PBE, compared for example materials project's listed value of 0.698 eV with the same functional. Moreover in agreement with the calculations of materials project we discover that bulk $\beta-$ \ch{FeSi2} is diamagnetic. Finally, the enthalpy of formation of this compound is calculated as $-18.6583 eV$.
 
-The high-entropy alloys generated from the \ch{FeSi2} unit cell alloys can be seen in figure 6.1. The supercells consist of 48 atoms each, in which the 16 iron sites is occupied equimolarly between Cr, Fe, Mn, and Ni, and the 32 silicon sites is as before occupied by silicon. Bellow in table 7.1 we list the enthalpy of formation ($\Delta H^0$) in addition to the total energy per atom (Toten), final magnetic moment per atom (Mag), and the band gap, for the five distinct SQSs plus the mean and standard deviation of the set. For simplicity, we denote the 5 supercells as A, B, C, D and E respectively.
+The high-entropy alloys generated from the \ch{FeSi2} unit cell alloys can be seen in figure 6.1. The supercells consist of 48 atoms each, in which the 16 iron sites is occupied equimolarly between Cr, Fe, Mn, and Ni, and the 32 silicon sites is as before occupied by silicon. Bellow in table 7.1 we list the enthalpy of formation ($\Delta H^0$) in addition to the total energy per atom (Toten), final magnetic moment per atom (Mag), and the band gap $E_G$, for the five distinct SQSs plus the mean and standard deviation of the set. For simplicity, we denote the 5 supercells as A, B, C, D and E respectively.
 
 \begin{table}[H]
 \centering
@@ -30,7 +33,7 @@ Structure  & Toten (eV) & Mag ($\mu_B$) & Band gap (eV) \\ \midrule
 \label{table:fesi2_summary}
 \end{table}  
 
-From a first glance it's a clear distinction between the SQSs, especially in terms of the band gap and less so for the total magnetic moment. On the grounds of the total energy we note that the most stable supercell is SQS D, and reversely the least stable is SQS A. The band gaps listed in table 7.1 point to that the large majority of the SQSs are narrow-gap semiconductors in the range 0.028 - 0.052 eV, but the utmost stable configuration D does not exhibit any finite band gap. On a side note, the reported band gaps in the other SQSs is clearly drastically lowered compared to the original silicide of 0.65 eV. 
+From a first glance it's a clear distinction between the SQSs, especially in terms of the band gap and less so for the total magnetic moment. On the grounds of the total energy we note that the most stable supercell is SQS D, and reversely the least stable is SQS A. The band gaps listed in table 7.1 point to that the large majority of the SQSs are narrow-gap semiconductors in the range 0.028 - 0.052 eV, but the utmost stable configuration D does not exhibit any finite band gap.
 
 In terms of the magnetism we see that contrary to the bulk \ch{FeSi2} compound that this alloy is magnetic. Investigating the local magnetic moments of SQS D we discover that the ferromagnetic iron and nickel contain very small moments and non-existent in Ni.On the other hand the anti-ferromagnetic elements chromium and manganese contain large magnetic moments. In section 2.2 we provided several examples where Cr was known to reduce the saturation magnetization of high-entropy alloys. For example in the ferromagnetic HEA CoFeMnNiX, X = Al, Cr, Ga, Sn, studied in \cite{ZUO201710}. Mn had minimal impact on the magnetism and favoured the ferromagnetic phase, meanwhile addition of Cr pushed the material to a paramagnetic phase. Likewise in the eqvimolar system of \ch{CrMnFeCoNi} \cite{PhysRevB.96.014437}, the local magnetic moment of Cr was found to align antiferromagnetic, and the ferromagnetic character was attributed to local magnetic moments of Fe and Mn. The odd magnetic properties experienced in this alloy can be related to several factors. Firstly are the limitations mentioned previously about about both DFT and special quasi-random structures to model magnetic and particularly paramagnetic materials. Further the magnetic investigation and focus in this project have been very superficial with only considering non-spin polarized calculations or co-linear spin polarization, thus the phases in-between have been neglected. Lastly only the the ground state, ie 0K have been studied. Hence the reported magnetic properties should be taken with a grain of salt and are intended for subsequent studies focused on the magnetic properties of this alloy especially at non-zero temperatures. 
 
@@ -42,32 +45,51 @@ In terms of the magnetism we see that contrary to the bulk \ch{FeSi2} compound t
 	\caption{Density of states of SQS D \ch{(CrFeMnNi)Si2} with PBE.}
 \end{figure}
 
-Above we plot the electronic density of states of SQS D from calculations with the PBE GGA functional. This supercell and it's corresponding properties are emphasized for it's relative stability in the set. Being the most stable means it's the most representative structure of the potentially "real" material, and hence so are the properties of that SQS. From the DOS in figure 7.1 we discover that the structure is in fact a half-metal with a band gap around 0.4 eV in the spin up channel and a metal in spin down. In figure 7.2 bellow we plot likewise the density of states corresonding to the second utmost stable SQS B, here clearly displaying a band gap in both spin directions. 
-
 \begin{figure}[H]
 \centering
 	\includegraphics[width=.8\textwidth]{results/fesi2/B_TDOS.png}
 	\caption{Density of states of SQS B \ch{(CrFeMnNi)Si2} with PBE.}
 \end{figure}  
 
-The density of states of the other SQSs can be seen in appendix .., the spin dependent band gaps can be seen in table 7.2, as determined from the calculated eigenvalues. In all 5 we find a trend of significantly greater band gaps in the spin up direction as seen in D, however the other also contain small nonzero gaps in spin down. This result can be related to the magnetic properties discussed above for the alloys. Contrary, the band gap in bulk \ch{FeSi2} is identical in both spins in accordance with the nonmagnetic character. 
+Above we plot the electronic density of states of SQS D and B from calculations with the PBE GGA functional. These supercells and corresponding properties are emphasized due to the relative stability in the set. Being the most stable means it's the most representative structure of the potentially "real" material, and hence so are the properties of that SQS. From the DOS in figure 7.1 we discover that the structure is in fact a half-metal with a band gap around 0.3 eV in the spin up channel and a metal in spin down. The exact value of the band gap in spin up is calculated from the range of energies corresponding 0 density of states around $E_F$, ie $ 0.2 eV - (-0.1 eV) = 0.3 eV$. Following the total band gap of the solid is determined by the minimum range of energies from both spins, which in this case is 0 from the spin down DOS. Since these values are calculated by the density of states they will be denoted as $E_G ^\text{up, dos}$ and $E_G ^\text{dw, dos}$ to indicate the spin direction. By the same mannerism we can see from figure 7.2 that the second utmost stable SQS (B) clearly contain finite values of both $E_G ^\text{up, dos}$ and $E_G ^\text{dw, dos}$. Similar figures can be seen for SQS A, C, and E in appendix ..,  all respective spin dependent band gaps is listed below in table 7.2. 
+
+These values are determined from the calculated eigenvalues, and hence will be referenced to as $E_G ^\text{up, eigen}$ and $E_G ^\text{dw, eigen}$. This value is found by subtracting the highest energy eigenvalue in the valence band from the lowest energy eigenvalue in the conduction band. Across all five SQSs we observe in accordance with the magnetic property a distinction between spins where $E_G ^\text{up} > E_G ^\text{dw}$.
  
 \begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
 \toprule
-Structure  & Spin-up & Spin-down & Total  \\ \midrule
-\textbf{A} & 0.0814  & 0.0522    & 0.0281 \\
-\textbf{B} & 0.2932  & 0.0523    & 0.0523 \\
-\textbf{C} & 0.2355  & 0.0343    & 0.0343 \\
-\textbf{D} & 0.3386  & 0         & 0      \\
-\textbf{E} & 0.3078  & 0.0495    & 0.0495 \\ \bottomrule
+SQS  & $E_G ^\text{up, eigen}$ (meV) & $E_G ^\text{dw, eigen}$ (meV) & $E_G ^\text{t, eigen}$ (meV)   \\ \midrule
+\textbf{A} & 81.4  & 52.2   & 28.1 \\
+\textbf{B} & 293  & 52.2    & 52.2 \\
+\textbf{C} & 236  & 34.3    & 34.3 \\
+\textbf{D} & 339  & 0.00    & 0.00      \\
+\textbf{E} & 308  & 50.0    & 50.0 \\ \bottomrule
 \end{tabular}
 \caption{Band gap (eV) with PBE in spin up and spin down channels of CFMN (fesi2) SQSs}
 \end{table}
   
-Alike the bulk material, these gaps are indirect. It would have been instructive to visualize and analyze the energy bands by plotting the band structure. Unfortunately this is neither simple to perform or interpret in large supercells consisting of several elements and a large number of energy bands. One solution is to do band-unfolding, but given the complex structure and implementation of the special quasi-random structures method in VASP this proved too challenging for the scope of this project.To explain the result of SQS D in comparison to the other semiconducting SQSs of the alloy, we look at the calculated eigenvalues for the distinct supercell. Here it's seen that eigenstates transition between full to empty occupancy at energy band 124 in spin down and 129 in spin up, thus a difference of 5 bands between states in the different spins, this is also the case in the other SQSs. In particular of SQS D however is that for a majority of k-points the bands 124 and 125 contain occupancy values other than 1 and 0 for the spin down states. These are either non-physical values above 1 or negative, in other words indicating states are more than filled or less than empty. Or values in-between 1 and 0, meaning partially filled states (defect states). If we were to neglect these defect states and only consider bands where the occupancy is above 0.99 or bellow 0.01, the band gap of structure D remain consistent in spin up, but we now observe a band gap of around 0.05 eV in the spin down channel as well. This concept of defects in the forbidden energy gap is a well known factor of random alloys that is known to prohibit a band gap \cite{PhysRevLett.104.236403}. Again, this would have been extremely insightful to investigate with the help of a band structure diagram. The non-physical values is simply a consequence of using the tetrahedron method with Bloch corrections as numerical smearing, but poses no significant problems to the results. Interestingly we only find such values for spin channels also containing defect states. Furthermore the presence of such defect/non-physical states is found as the key divider between structures with and without a band gap also for the coming examples in this project.  
+Alike the bulk material, these gaps are indirect. It would have been instructive to visualize and analyze the energy bands by plotting the band structure. Unfortunately this is neither simple to perform or interpret in large supercells consisting of several elements and a large number of energy bands. One solution is to do band-unfolding, but given the complex structure and implementation of the special quasi-random structures method in VASP this proved too challenging for the scope of this project. 
+
  
+\textbf{ \\ Visualize the eigenvalues ??}
+
+A key point regarding the band structure of SQS D is the presence of defect states. In this structure the highest occupied conduction band is 128 for spin up states and band 124 in spin down, thus a difference of 4 bands between spins. For the spin down states we find that the highest energy conduction band, ie 124 have states with occupancy both slightly bellow 1.00 and above at several k-points. Likewise the lowest energy valence band (124) have partially filled states above 0.00 and bellow. The case of occupancy either above or bellow completely full or completely empty is simply a numerical inaccuracy well-known to calculations that apply the Tetrahedron method with Bloch corrections and have no real impact on the results. The second case where we have partially filled eigenstates in the conduction band and not completely filled states is a familiar term in random alloys \cite{PhysRevLett.104.236403} in which the forbidden energy gap is contaminated by defect states. To further study this effect we introduce $E_G ^\text{eigen}(occ)$ to represent the band gap calculated at a cut-off occupancy in the eigenvalues such that $E_G ^\text{eigen}(0.99)$ only consider eigenstates with occupancy above 0.99 as filled. Equivalently $E_G ^\text{eigen}(0.01)$ only consider eigenstates with occupancy less than 0.01 as empty. By utilizing this parameter we can effectively study the band gap in relation to the defect states. Applying this to SQS D we get the results listed below in table .., keep in mind that $E_G ^\text{up, eigen}$ is constant from that the defect states are only present in the spin down channel.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}ccccc@{}}
+\toprule
+Occ (full)          & Occ (empty)      & $E_G ^\text{up, eigen}$ (meV)  & $E_G ^\text{dw, eigen}$ (meV) & $E_G ^\text{t, eigen}$ (meV) \\ \midrule
+0.9                 & 0.1              & 339 & 0    & 0     \\
+0.95                & 0.05             & 339 & 21.0 & 21.0  \\
+0.99                & 0.01             & 339 & 49.6 & 49.6  \\
+0.999               & 0.001            & 339 & 73.3 & 73.3  \\
+\textgreater 0.9999 & \textless 0.0001 & 339 & 85.7 & 85.7  \\ \bottomrule
+\end{tabular}
+\end{table}
+
+
 \section{Local and projected density of states}
   
 \begin{figure}[H]
@@ -204,17 +226,9 @@ Both the Fe-Fe and Ni-Ni bonds are in better agreement with the ICSD histograms,
 
 \newpage
 \section{SQS size}
+Above we have presented the results of a high-entropy silicide \ch{(CrFeMnNi)Si2} investigated by 5 48 atom SQSs with a volume of $700 Å^3$ before structural relaxations, and found several positive functional properties. This intermediate size allowed for the use of more complex XC-functionals, and secondly enabled a broad study of distinct permutations and compositions. However the application of the special quasi-random structures method to HEAs is not necessarily straightforward. Recalling from section 4.3, the first initial concern is the size of the SQS model and if it's sufficient enough to correctly model the disordered multi-component materials. In this section we will consider this problem by studying the difference between the 48 atom SQS to that of 96 and 192 atom SQS with volume $1200 Å^3$ and $2400 Å^3$ respectively. Below we list the total energy per atom, enthalpy of formation and final magnetic moment in table 7.4, and the band gap in table 7.5 of the respective models, 
 
-Lastly a precise determination of the exact value of the band gap would requiere much more effort. Recalling the concerns of the special quasi-random structures, we know that one problem is the large possible number of configurations. Here we select only a span of 5 and we find that the band gap varies greatly between all 5 but show the same characther. Thus we should have performed a larger search over more configurations. Additionly also the SQS size is relevant, here we have only tested a 48 atom model, but as section .. stated often much larger SQSs are required to reach convergence and accuratly model the disordered structure of HEA. At the same time this is not a true disordered structure, the Si atom contain some order and this is not really a typicial HEA so maybe this is not as important.
-
-In this project we have made calculations of a type of supercell and SQS model. This model consisted of 48 atoms and have a volume of $700 Å^3$ before structural relaxation. This was done for two reasons, firstly it allowed for the use of more complex XC-functionals, and secondly enabled a broad study of distinct permutations and compositions. However, as covered in section 4.2 or something the results of the SQS model is known to show a sensitivity to the size of the model. For this reason we include the results of 96 and 192 atom SQSs of \ch{CrFeMnNiSi2} with volume $1200 Å^3$ and $2400 Å^3$ respectively. Bellow in figure .. we show the increased computational burden in terms of cpu-hours from performing both structural and ionic relaxation as well as a single electronic self-consistent calculation with PBE GGA of the distinct SQSs. 
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=.8\textwidth]{results/SQS_time.png}
-\end{figure}
-
-\begin{table}[h!]
+\begin{table}[H]
 %\centering
 \hskip-2cm\begin{tabular}{@{}cccccc@{}}
 \toprule
@@ -223,22 +237,8 @@ In this project we have made calculations of a type of supercell and SQS model. 
 96 atoms & - 6.6092  & 0.0021 & - 22.8752  & 0.0708  & 0.0114     \\
 192 atoms & - 6.6123  & 0.0022 & - 46.6654 & 0.0761 & 0.0171     \\ \bottomrule
 \end{tabular}
-\caption{Mean and stadard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch{FeSi2}).}
+\caption{Summary SQS sisze 48, 96, 192 of \ch{(CrFeMnNi)Si2}}
 \end{table}
-
-
-\begin{figure}[H]
-\begin{subfigure}{\textwidth}
-\includegraphics[width=\textwidth]{results/PDF48.png}
-\end{subfigure}
-\begin{subfigure}{\textwidth}
-\includegraphics[width=\textwidth]{results/PDF96.png}
-\end{subfigure}
-\begin{subfigure}{\textwidth}
-\includegraphics[width=\textwidth]{results/PDF192.png}
-\end{subfigure}
-\end{figure}
-
 
 \begin{table}[H]
 \centering
@@ -262,7 +262,34 @@ In this project we have made calculations of a type of supercell and SQS model. 
 \multicolumn{1}{c|}{}                                & B & 0.1444                & 0                       & 0                        \\
 \multicolumn{1}{c|}{}                                & C & 0.1867                & 0                       & 0                   \\
 \multicolumn{1}{c|}{}                                & D & 0                     & 0                       & 0          \\
-\multicolumn{1}{c|}{}                                & \textbf{E} & 0.0131                & 0.0184                       & 0.0131                   \\ \bottomrule
+\multicolumn{1}{c|}{}                                & \textbf{E} & 0                & 0                       & 0                   \\ \bottomrule
 \end{tabular}
-\caption{Total and spin dependent band gap of 4 permutations of CFMN (fesi2) with PBE GGA calculation. The structures that are excluded from this list either failed in calculations, or does not show any band gap.<}
+\caption{Total and spin dependent band gap of SQS of 48, 96 and 192 atoms each of \ch{(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or 192. The most stable SQS is highlighted in bold text.}
 \end{table}
+
+As seen from table 7.4 both the total energy and magnetism remain more or less consistent throughout all sizes, this is a good indication of that the 48 atom model can adequately model the alloy. \textbf{Something on the formation enthalpy.} Regarding the band gap, we find that the band gap is lower in the larger cells. In the 48 atom SQSs the gap varies mostly between 0.2 - 0.3 eV. In the 96 model this is reduced to 0.10 - 0.17 eV, and alike in the 192 model. Most instances still point to a spin polarized band gap with larger values in up. A concerning result of this analysis is that it appears that the largest SQS model, attributed by litterture reviews to be the most accurate description to favor a metal, as indicated both by the low number of band gaps in spin up and down compared to the previous cases, and the fact that the most stable configuration have no band gap, as opposed to the smaller cells where the most stable configuration is either half-metallic or semiconducting. However we do see differences between SQSs with some being half-metals and one semiconducting, to draw any real conclusion we should have studied a larger number of SQSs of each size. 
+
+Looking at the pair distribution functions in figure 7.11 we see that the local ordering and short-range interactions is well represented and identical across all three sizes. The distinctions of preferences is largely attributed to the uniqueness of the SQSs more so than the size. On the other hand the larger SQSs clearly provide a better description of large-range interactions, that is not nearly as present in the smaller cell. However as seen in table 7.4 and in accordance with the fundamental concept of the special quasi-random structures method is that the functional properties is mostly determined by short-range effects in the lattice. Therefore, even though the bigger SQSs is a more accurate model the improvement is not justified from the cost, as illustrated in figure 7.12. That is if we neglect the difference of the band gap, which very well could be a product of the uniqeness of the 5 SQSs used in the analysis, or if it's a rigid relevance to the SQS size. \textbf{Something on SQS applied to our case, a XSi2 structure is not really as disordered as a true HEA?}      
+
+
+\begin{figure}[H]
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF48.png}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF96.png}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF192.png}
+\end{subfigure}
+\caption{Pair distribution functions of SQS sizes}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.6\textwidth]{results/SQS_time.png}
+\caption{CPU time}
+\end{figure}
+
+
