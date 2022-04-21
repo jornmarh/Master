@@ -8,21 +8,15 @@ This section will be structured in the following manner, firstly we will investi
 \chapter{The results of \ch{(CrFeMnNi)Si2} in the $\beta-$\ch{FeSi2} structure}
 \label{sec:good}
 
-$\beta-FeSi_2$ in the orthorombic cmce crystal lattice is a well known semiconductor with an experimentally measured band gap of around 0.8 ev \textbf{cite}, the nature of the band gap is under debate, all though most ab inito studies point to an indirect gap, experimental work indicate a direct gap. From our own DFT calculations, we find an indirect band gap close to 0.65 eV with PBE. This is in good agreement with other meassurements from ab intitio studies \textbf{cite materials projects, other studies.} 
+$\beta-FeSi_2$ in the orthorombic cmce crystal lattice is a well known semiconductor with an experimentally measured band gap of around 0.85 ev at room temperature \cite{PhysRevB.58.10389}, the nature of the band gap is under debate, all though most ab inito studies point to an indirect gap, experimental work indicate a direct gap. From our calculations we find an indirect band gap close to 0.65 eV with PBE, compared for example materials project's listed value of 0.698 eV with the same functional. Moreover in agreement with the calculations of materials project we discover that bulk $\beta-$ \ch{FeSi2} is diamagnetic. Finally, the enthalpy of formation of this compound is calculated as $-18.6583 eV$.
 
-The density of states and charge density of bulk $\beta-$\ch{FeSi2} from PBE calculations can be seen in figure .., ..  From the figures we observe a clear band gap and semiconducting character. Moreover, we note from the density of states that the gap is identical in both spin channels, indicating that this material is diamagnetic. We find this to be true from the written magnetization in VASP, this also is in agreement with relevant literature \textbf{cite}. \textbf{Find reference for $\Delta H^0$.} Finally, the enthalpy of formation of this compound is -18.6583 eV.
-
-\section{Eqvimolar SQSs}
-
-\subsection{Introduction}
-
-The CFMN alloys of the fesi2 unit cell alloys can be seen in figure ... The supercells consist of 48 atoms, 16 of which is evenly distributed between Cr, Fe, Mn, and Ni, the remaining 32 sites occupied by silicon atoms. Bellow in table .. we list the total energy per atom (Toten), final magnetic moment per atom (Mag), and the band gap of the five distinct SQSs corresponding to the CFMN (fesi2) compound. In addition we include the mean and standard deviation of the values, plus the enthalpy of formation. For simplicity, we denote the SQSs as A, B, C, D and E.
+The high-entropy alloys generated from the \ch{FeSi2} unit cell alloys can be seen in figure 6.1. The supercells consist of 48 atoms each, in which the 16 iron sites is occupied equimolarly between Cr, Fe, Mn, and Ni, and the 32 silicon sites is as before occupied by silicon. Bellow in table 7.1 we list the enthalpy of formation ($\Delta H^0$) in addition to the total energy per atom (Toten), final magnetic moment per atom (Mag), and the band gap, for the five distinct SQSs plus the mean and standard deviation of the set. For simplicity, we denote the 5 supercells as A, B, C, D and E respectively.
 
 \begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
 \toprule
-Structure  & Toten (eV) & Mag (?) & Band gap (eV) \\ \midrule
+Structure  & Toten (eV) & Mag ($\mu_B$) & Band gap (eV) \\ \midrule
 \textbf{A} & −6,6080                & 0.0833                    & 0.0280        \\
 \textbf{B} & −6,6138                & 0.0833                    & 0.0523        \\
 \textbf{C} & −6,6063                & 0.0834                    & 0.0344        \\
@@ -36,42 +30,28 @@ Structure  & Toten (eV) & Mag (?) & Band gap (eV) \\ \midrule
 \label{table:fesi2_summary}
 \end{table}  
 
-\textbf{Write a section on magnetism in method}
-From a first glance, we observe very similar properties between the SQSs regarding both the total energy and final magnetic moment. Comparing to bulk \ch{FeSi_2}, this compound is both less stable, from the enthalpy of formation, and magnetic. For the magnetic character of the compound, we performed self-consistent total energy calculations with three diffrent magnetic configurations, non-magnetic (ispin=1), colinear magnetism with the initial magnetic moment equal to 1 times the number of ions, and lastly two times N ions. Of the three starting positions, we found the two latter to yield near identical total energies, with the middle seting winning out in some SQSs. The consistent magnetic moment between the 5 supercells is excpected seeing as all 5 structures consist of equivalent elements. The magnetic moment observed is solely attributed from 3d electrons and in particular those of chromium and manganese atoms. 
- 
-\subsection{The band gap} 
- 
-The most interesting property of these SQSs is in fact the band gap. We note a mean band gap of about 0.03 eV, much lower than 0.65 eV of bulk $FeSi_2$. But a band gap in this smaller range makes for  excellent application in for instance thermoelectrics. The gap is seen in 4 out of 5 SQSs, but surprisingly not in the most stable arrangement (D), the largest gap observed is about 0.05 eV from structure B, which is slighlty bellow D in terms of total energy, but still a way above the mean energy. Similar to the bulk material, also these band gaps are indirect, the transitions are listed bellow in table .. .     
+From a first glance it's a clear distinction between the SQSs, especially in terms of the band gap and less so for the total magnetic moment. On the grounds of the total energy we note that the most stable supercell is SQS D, and reversely the least stable is SQS A. The band gaps listed in table 7.1 point to that the large majority of the SQSs are narrow-gap semiconductors in the range 0.028 - 0.052 eV, but the utmost stable configuration D does not exhibit any finite band gap. On a side note, the reported band gaps in the other SQSs is clearly drastically lowered compared to the original silicide of 0.65 eV. 
 
-\begin{table}[H]
-\centering
-\begin{tabular}{@{}ccc@{}}
-\toprule
-Structure  & Gap (D/I) & Transition                              \\ \midrule
-\textbf{A} & I         & (0.500,0.333,0.500) $\rightarrow$ (0.500,0.000,0.000)  \\
-\textbf{B} & I         & (0.250,0.000,0.250) $\rightarrow$ (0.000,0.000,0.000)  \\
-\textbf{C} & -         & (0.500,0.000,0.500) $\rightarrow$ (-0.250,0.333,0.500) \\
-\textbf{D} & I         & -                                        \\
-\textbf{E} & I         & (0.000,0.000,0.000) $\rightarrow$ (0.250,0.000,0.250)  \\ \bottomrule
-\end{tabular}
-\caption{Band gap transition of CFMN (fesi2) SQSs with PBE functional}
-\end{table}
+In terms of the magnetism we see that contrary to the bulk \ch{FeSi2} compound that this alloy is magnetic. Investigating the local magnetic moments of SQS D we discover that the ferromagnetic iron and nickel contain very small moments and non-existent in Ni.On the other hand the anti-ferromagnetic elements chromium and manganese contain large magnetic moments. In section 2.2 we provided several examples where Cr was known to reduce the saturation magnetization of high-entropy alloys. For example in the ferromagnetic HEA CoFeMnNiX, X = Al, Cr, Ga, Sn, studied in \cite{ZUO201710}. Mn had minimal impact on the magnetism and favoured the ferromagnetic phase, meanwhile addition of Cr pushed the material to a paramagnetic phase. Likewise in the eqvimolar system of \ch{CrMnFeCoNi} \cite{PhysRevB.96.014437}, the local magnetic moment of Cr was found to align antiferromagnetic, and the ferromagnetic character was attributed to local magnetic moments of Fe and Mn. The odd magnetic properties experienced in this alloy can be related to several factors. Firstly are the limitations mentioned previously about about both DFT and special quasi-random structures to model magnetic and particularly paramagnetic materials. Further the magnetic investigation and focus in this project have been very superficial with only considering non-spin polarized calculations or co-linear spin polarization, thus the phases in-between have been neglected. Lastly only the the ground state, ie 0K have been studied. Hence the reported magnetic properties should be taken with a grain of salt and are intended for subsequent studies focused on the magnetic properties of this alloy especially at non-zero temperatures. 
 
-A very useful method to extract information regarding the band gap of a material is to plot and study the band structure, however this is not as insightful when considering large supercells consisting of several elements and a  large number of energy bands. The solution to this is normally to do a band unfolding, but given the complex structure and implementation of SQSs in VASP proved difficult. Instead we investigate the band gap from the plotted density of states shwon in figure 8.1. We only include the DOS of this particular super-cell because results of the most stable arrangement is probably the most representative of a potential high-entropy silicide, nevertheless we will consider the remaining SQSs in the following sections as well.  
+\section{The band gap}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{results/fesi2/D_TDOS.png}
-	\caption{Density of states SQS D CFMN (fesi2) from PBE calculation}
+	\includegraphics[width=.8\textwidth]{results/fesi2/D_TDOS.png}
+	\caption{Density of states of SQS D \ch{(CrFeMnNi)Si2} with PBE.}
 \end{figure}
 
-From the DOS we observe that the band gap in this structure differ between the spin up states and spin down states, following the magnetic property of the material seen in table 8.1. In this particular SQS the spin down channel is completely metallic, and the spin up channel exhibit a relatively large band gap, thus we can classify this SQS as either a half-metal, or possibly a spin-gapless conductor (\textbf{Insert references/discuss this}). Furthermore we find that the band gap in all SQSs of this alloy is severely spin-polarized in the spin up direction \textbf{Is this okay to say?}. We list the spin-dependent band gaps in table 8.3, and show the relationship in SQS B in figure 8.2 bellow.
+Above we plot the electronic density of states of SQS D from calculations with the PBE GGA functional. This supercell and it's corresponding properties are emphasized for it's relative stability in the set. Being the most stable means it's the most representative structure of the potentially "real" material, and hence so are the properties of that SQS. From the DOS in figure 7.1 we discover that the structure is in fact a half-metal with a band gap around 0.4 eV in the spin up channel and a metal in spin down. In figure 7.2 bellow we plot likewise the density of states corresonding to the second utmost stable SQS B, here clearly displaying a band gap in both spin directions. 
 
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/B_TDOS.png}
-	\caption{Density of states SQS B CFMN (fesi2) from PBE calculation}
-\end{figure}
+\centering
+	\includegraphics[width=.8\textwidth]{results/fesi2/B_TDOS.png}
+	\caption{Density of states of SQS B \ch{(CrFeMnNi)Si2} with PBE.}
+\end{figure}  
 
+The density of states of the other SQSs can be seen in appendix .., the spin dependent band gaps can be seen in table 7.2, as determined from the calculated eigenvalues. In all 5 we find a trend of significantly greater band gaps in the spin up direction as seen in D, however the other also contain small nonzero gaps in spin down. This result can be related to the magnetic properties discussed above for the alloys. Contrary, the band gap in bulk \ch{FeSi2} is identical in both spins in accordance with the nonmagnetic character. 
+ 
 \begin{table}[H]
 \centering
 \begin{tabular}{@{}cccc@{}}
@@ -85,12 +65,11 @@ Structure  & Spin-up & Spin-down & Total  \\ \midrule
 \end{tabular}
 \caption{Band gap (eV) with PBE in spin up and spin down channels of CFMN (fesi2) SQSs}
 \end{table}
-
-From table 8.3 we find that SQSs B, D and E all display band gaps around 0.3 eV in spin up, and small non-zero or zero band gap in the case of SQS D in spin down. In the coming section we will investigate the band gap and electronic structure of this compound by looking at the local and projected density of states. 
-
-\subsection{Local and Projected density of states}
-From LDOS and PDOS it's possible to study the above case by the contributions of the individual elements in the structure. In the local density of states plotted in figures 8.3 and 8.4 we see that the s-electrons in Si occupy states in the lower energy regions and the p electrons at energies closer to the Fermi energy, while both equally occupy states above $E_F$. In the transition metals we see that 3d electrons dominate across the energy range. Between the different TMs we observe that 3d electrons particularly of manganese and chromium show a strong presence in spin down right above $E_F$, and just bellow in the spin up direction. Meanwhile iron and nickel lie at lower energies respectively. The relationship and interaction between the different elements can better be seen in the projected density of states in figure 8.5. 
-
+  
+Alike the bulk material, these gaps are indirect. It would have been instructive to visualize and analyze the energy bands by plotting the band structure. Unfortunately this is neither simple to perform or interpret in large supercells consisting of several elements and a large number of energy bands. One solution is to do band-unfolding, but given the complex structure and implementation of the special quasi-random structures method in VASP this proved too challenging for the scope of this project.To explain the result of SQS D in comparison to the other semiconducting SQSs of the alloy, we look at the calculated eigenvalues for the distinct supercell. Here it's seen that eigenstates transition between full to empty occupancy at energy band 124 in spin down and 129 in spin up, thus a difference of 5 bands between states in the different spins, this is also the case in the other SQSs. In particular of SQS D however is that for a majority of k-points the bands 124 and 125 contain occupancy values other than 1 and 0 for the spin down states. These are either non-physical values above 1 or negative, in other words indicating states are more than filled or less than empty. Or values in-between 1 and 0, meaning partially filled states (defect states). If we were to neglect these defect states and only consider bands where the occupancy is above 0.99 or bellow 0.01, the band gap of structure D remain consistent in spin up, but we now observe a band gap of around 0.05 eV in the spin down channel as well. This concept of defects in the forbidden energy gap is a well known factor of random alloys that is known to prohibit a band gap \cite{PhysRevLett.104.236403}. Again, this would have been extremely insightful to investigate with the help of a band structure diagram. The non-physical values is simply a consequence of using the tetrahedron method with Bloch corrections as numerical smearing, but poses no significant problems to the results. Interestingly we only find such values for spin channels also containing defect states. Furthermore the presence of such defect/non-physical states is found as the key divider between structures with and without a band gap also for the coming examples in this project.  
+ 
+\section{Local and projected density of states}
+  
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{results/fesi2/D_LDOS_Si.png}
@@ -100,8 +79,10 @@ From LDOS and PDOS it's possible to study the above case by the contributions of
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{results/fesi2/D_LDOS.jpeg}
-	\caption{Local density of states of TMs (SQS D), (a) Cr, (b) Mn, (c) Fe, (d) Ni}
-\end{figure} 
+	\caption{Local density of states of (a) Cr, (b) Mn, (c) Fe, (d) Ni in SQS D.}
+\end{figure}   
+  
+In the local density of states plotted in figure 7.3 we see that the s-electrons in Si occupy states in the lower energy regions and p electrons at slightly elevated energies closer to the Fermi energy, above $E_F$ states are occupied by both s and p electrons almost equally. Further, the local density of states of the transition metals chromium, manganese, iron and nickel in SQS D is displayed bellow in figure 7.4. In spin down, manganese is most dominant especially above $E_F$, but also bellow $E_F$. Likewise chromium show a strong presence above the Fermi energy in spin down. Both iron an Nicel show largest contribution at energies further from the Fermi energy, most notably bellow $E_F$. In the spin up channel we see a similar trend where chromium lie closest to $E_F$ followed by manganese then iron and lastly nickel at the lowest energies. Another interesting observation is that the the LDOS of iron and nickel is much more symmetric between spins, than Cr and Mn. Comparing to the LDOS of iron and silicon in bulk $\beta-$ \ch{FeSi2} \cite{doi:10.1063/1.346415} we find good agreement for both Fe and Si in this alloy .
 
 \begin{figure}[H]
 	\centering
@@ -109,7 +90,8 @@ From LDOS and PDOS it's possible to study the above case by the contributions of
 	\caption{Projected density of states SQS D CFMN (fesi2) from PBE calculation}
 \end{figure} 
 
-In agreement with the local DOS we observe here that the Si s-electrons occupy the lower energetic states, and evidence of p-3d hybridization at higher energies. With the upmost energetic states in the valence band occupied by 3d electrons of chromium and manganese. Bellow we include the PDOS of SQS D and B but focused around $E_F$, from these figures we find that the spin down channel in D contain a more dominant presence of manganese especially, and some chromium as compared to the semiconducting SQS B.  
+Moreover the relative positions and interplay between 3d elements and silicon as shown in the projected density of states (figure 7.5) is in good agreement with observed trends in simpler Si-rich transition metal silicides \cite{lange1997electronic}. The electronic structure tends to be dominated by TM d electrons, and the valence band density of states are filled by non-bonding d states near $E_F$. The p-d hybridization between Si and TM elements typically fall about 6 eV bellow $E_F$ and Si $s$ states about 10 eV bellow. In our case we find that the Si states are pushed up closer to the fermi energy by random alloying of various 3d elements.    
+
   
 \begin{figure}[H]
 	\centering
@@ -125,21 +107,11 @@ In agreement with the local DOS we observe here that the Si s-electrons occupy t
 	\caption{Projected density of states of SQS D and B around $E_F$}
 \end{figure}
 
-In the context of DFT and VASP there are several factors than can affect the accuracy of the DOS. As mentioned in section .., the type of numerical smearing is paramount for accurate DOS calculations. In this project we experienced large differences between calculations from gaussian and TBC smearing in relation to the band gap and DOS, this will be covered in more detail later. Moreover the DOS is very sensitive to computational factors such as the number of points (NEDOS in VASP) and the number of k-points (to solve the DOS integral, see section ..). For example, the band gap in structure C could only be seen in the density of states when increasing the number of points in the DOS from 2401 to 20000 points. This is shown bellow in figure .., where we plot the density of states around the fermi energy, denoted by the stippled red and blue lines, relative to the density of states with 2401 points and 20000 points respectively, all other parameters remained unchanged. It should however be noted that the second calculations applied the charge density calculated by the former for quicker convergence. 
+Above we have included the PDOS of SQS D and B but focused around $E_F$, from these figures we find that the spin down channel in D contain a more dominant presence of manganese especially, and some chromium as compared to the semiconducting SQS B.  
 
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{results/fesi2/C_DOS.png}
-	\caption{Density of states of SQS C with 2501 points vs 20000 points in the density of states.}
-\end{figure} 
+\section{Results from SCAN and HSE06 functionals}
 
-Despite of the higher accuracy of the greater number of points, we continue to perform calculations with around 2400 points, mostly down to the increased workload of analyzing the DOS with such a large number of points. 
- 
-\textbf{Some way of visualizing the eigenvalues?}
-To explain the result of SQS D in comparison to the other semiconducting SQSs of the alloy, we look at the calculated eigenvalues for the distinct supercell. Here it's seen that eigenstates transition between full to empty occupancy at energy band 124 in spin down and 129 in spin up, thus a difference of 5 bands between states in the different spins, this is also the case in the other SQSs. In particular of SQS D however is that for a majority of k-points the bands 124 and 125 contain occupancy values other than 1 and 0 for the spin down states. These are either non-physical values above 1 or negative, in other words indicating states are more than filled or less than empty. Or values in-between 1 and 0, meaning partially filled states (defect states). If we were to neglect these defect states and only consider bands where the occupancy is above 0.99 or bellow 0.01, the band gap of structure D remain consistent in spin up, but we now observe a band gap of around 0.05 eV in the spin down channel as well. Again, this would have been extremely insightful to investigate with the help of a band structure diagram. The non-physical values is simply a consequence of using the tetrahedron method with Bloch corrections (ISMEAR-5) as numerical smearing, (\textbf{Insert reference}). Interestingly we only find such values for spin channels also containing defect states. Furthermore the presence of such defect/non-physical states is found as the key divider between structures with and without a band gap also for the coming examples in this project. 
-
-\subsection{Meta-GGA and hybrid functional}
-
-As expressed previously, in this work we invoke 3 level of depths GGA (PBE), meta-GGA (SCAN) and hybrid functionals (HSE06) to determine the band gap of the SQSs. In table .. bellow we list the respective band gaps of these methods for all 5 SQSs of CFMN (fesi2). Note that all calculations is done with TBC smearing.
+As expressed previously in this work we invoke 3 level of depths GGA (PBE), meta-GGA (SCAN) and hybrid functional (HSE06) to determine the band gap of the SQSs. In table 7.3 we list the respective band gaps of these methods for all 5 SQSs of \ch{(CrFeMnNi)Si2}.
 
 \begin{table}[H]
 \centering
@@ -155,48 +127,63 @@ Structure  & PBE    & SCAN   & HSE06  \\ \midrule
 \caption{Band gap of CFMN (\ch{FeSi2}) SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06).}
 \end{table}
 
-The most obvious result of table .. is that aside from SQS A, all 3 methods agree on the presence of the band gap. This in itself is a very positive result for this project, as the primary motivation is based simply on locating semiconducting high-entropy silicides and thus the agreement of 3 different methods on the same structures is most welcome. On the other hand, it's clear that the actual size of the gap is under some debate. We note the largest observed band gaps is largely associated with the SCAN functional, compared to PBE calculations this result is very in line with what is expected by involving more complex factors in the calculations, as discussed in section .. In contrast, by the same argument we would not expect that par SQS B, the overall smallest band gaps is found with the well-proven hybrid functional HSE06, as shown in table .. The results associated with the HSE06 functional will be covered in more detail in the subsequent section, for now lets consider SCAN. 
+The most obvious result of table 7.3 is that aside from SQS A, all 3 methods agree on the presence of the band gap. On the other hand, it's clear that the actual size of the gap is under some debate. We note the largest observed band gaps is largely associated with the SCAN functional in line with what is expected by involving more complex factors in the exchange-correlation functional, as discussed in section .. In contrast, by the same argument we would not expect that par SQS B, the overall smallest band gaps is found with the well-proven hybrid functional HSE06.
  
-\paragraph{SCAN \\}
-On the surface the results with SCAN are sensible and in line with the PBE results with the exception of SQS A, in this case the calculations with SCAN resulted in a zero band gap as opposed to 0.03 eV with the PBE functional. However also the SCAN results of the other 4 SQSs differ from the PBE band gaps. In the two SQSs B and E the band gap is increased with SCAN, but the properties of the gap is reversed compared to PBE. This is shown in figure 8.8 for SQS E. The band gap of this SQS as previously described is around 0.3 eV in spin up and 0.05 eV in spin down equaling a total 0.05 eV band gap. Bellow in figure 8.8 it's seen that the SCAN functional results in a larger total gap of 0.09 eV, but at the same time lowers the previously large spin up gap, and increase the smaller spin down gap. This is also seen in SQS B. In structures C and D this is taken a step further and reverse the spin polarization of the band gap. \textbf{Include figure?}. For example, in despite of the SCAN functionals agreement with PBE of predicting a zero total band gap in SQS D, the former in opposite of PBE find a band gap in the spin down channel.  
+On the surface the results of table 7.3 point to sensible results from applying the SCAN functional, however we do make note of certain oddities under the surface. In SQS A the SCAN functional resulted in a zero total band gap, as opposed to 0.03 eV from PBE. In SQS B and E the band gap is increased with SCAN, but the properties of the gap is reversed compared to PBE. This can be seen for SQS E in figure 7.7 (a, b). In structures C and D this is taken a step further and reverse the spin polarization of the band gap, seen in figure 7.7 (c, d) for SQS C.
  
 \begin{figure}[H]
 	\begin{subfigure}{.5\textwidth}
 		\includegraphics[width=\textwidth]{results/fesi2/E_DOS_pbe.png}
-		\caption{PBE}
+		\caption{SQS E PBE}
 	\end{subfigure}
 	\begin{subfigure}{.5\textwidth}
 		\includegraphics[width=\textwidth]{results/fesi2/E_DOS_scan.png}
-		\caption{SCAN}
+		\caption{SQS E SCAN}
 	\end{subfigure}
-	\caption{Density of states of SQS E illustrating the different band gap from calculations with (a) PBE and (b) SCAN functional}
+	\begin{subfigure}{.5\textwidth}
+		\includegraphics[width=\textwidth]{results/fesi2/D_DOS_pbe.png}
+		\caption{SQS D PBE}
+	\end{subfigure}
+	\begin{subfigure}{.5\textwidth}
+		\includegraphics[width=\textwidth]{results/fesi2/D_DOS_scan.png}
+		\caption{SQS D SCAN}
+	\end{subfigure}
+	\caption{Density of states illustrating the band gaps from PBE and SCAN calculations for SQS E and D.}
 \end{figure}
 
-\paragraph{HSE06 \\}
-As stated above, the measured band gaps with the HSE06 functional was less than that of PBE and SCAN for most of the tested SQSs. Hybrid functionals as described in section .. is computationally demanding, but comes with superior accuracy for band gap measurements, and the HSE06 functional in particular is on the top of the list. For this reason, one would in general expect larger band gaps compared to GGA or meta-GGA calculations, as highlighted in .. \textbf{cite?} The one exception we observed to this trend is in SQS B (figure 8.9 A), here the band gap increase from 0.05 eV to 0.09 eV and 0.18 eV from PBE to SCAN to HSE06. One possible reason behind the abnormally large gap can originate from the small number of k-points we had to employ in order for the calculations to converge. Recalling that the gap transition in in the PBE calculation was (0.250,0.000,0.250)-(0.000,0.000,0.000), compared to the hybrid functional we now see that the transition is between k-points (0.500,0.000,0.000) and (0.000,0.000,0.000). Moreover, the point (0.250, 0.000, 0.250) in k-space is not included in the hybrid functional due to the narrow mesh (this we read from the IBZKIT file in VASP). Thus it's a possibility that the large gap is caused by the fact that the minimal gap is not encapsulated by the k-points in the HSE06 calculation. However we also see this trend in the other SQSs, but despite of the different transistion in k-space, these structures find lesser band gaps with the HSE06 functional compared to PBE. Additionally, we find similar results in the bulk $\beta-$\ch{FeSi2} structure. In this calculation we applied the same number of k-points for HSE06 as for PBE and SCAN. Nevertheless we find a much larger band gap of around 1.5 eV with HSE06, as opposed to 0.65 eV with both PBE and SCAN, and as mentioned before the two latter is in much better agreement with experimental results and ab intio work on the band gap of $\beta-$\ch{FeSi2} \textbf{cite materials project, other articles}. Additionally also in this case, the transition vary between functionals. PBE: (0.000,0.000,0.000)-(0.000,0.000,0.250), and HSE06: (0.000,0.000,0.000)-(0.000,0.000,0.500). \textbf{Include band-diagram for bulk fesi2?} 
+
+In SQS B we find from calculations with HSE06 an increment tot the band gap to a value of 0.18 eV. This gap can be seen in terms of the density of states in figure 7.8. Compared to the other listed values of table 7.3 this is the sole case we obtain such a result from the HSE06 functional.   
 
 \begin{figure}[H]
 	\centering	
-	\begin{subfigure}{.8\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/B_TDOS_hse06.png}
-		\caption{SQS B}
-	\end{subfigure}
-	\begin{subfigure}{.8\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/E_TDOS_hse06.png}
-		\caption{SQS E}
-	\end{subfigure}
-	\caption{Total density of states of SQS (a) B and  (b) E from calculations with HSE06}
+	\includegraphics[width=.8\textwidth]{results/fesi2/B_TDOS_hse06.png}
+	\caption{Density of states of SQS B with HSE06}
 \end{figure}
 
-Aside SQS B, we generally see good agreement between HSE06 and PBE calculations. In A we notice that the 0.02 eV band gap stems from a 0.7 eV gap in spin up and 0.02 eV in down. Likewise SQSs C, D, and E all exhibit large band gaps in spin up, 0.17, 0.37 and 0.55 eV respectively, and correspondingly very narrow spin down gaps 0.032, 0, and 0.013 eV. In figure 8.9 above we include the plotted density of states for SQS B (a) and E (b) clearly illustrating the spin polarization in E. Compared to the listed spin dependent band gaps from PBE in table 8.3, we see that the band gaps from HSE06 typically compares or exceeds in spin up, and lessen in spin down, with the exception of SQS B (0.29 eV and 0.18 eV) where also the spin down gap is increased. 
 
-From the above examples between it's clear that the band gap in this compound is subject to the SQS and the applied exchange-correlation functional. From the SCAN functional we found several cases that disagreeed with the PBE results, see SQS A, C and D. Combining this with the popularity and wide-spread application and reliability of the PBE functional. See for example materials project, that exclusivly list PBE band gaps. We put the most faith in the PBE results. An additional point is that GGA is known to underestimate band gaps, due to the concepts described in section .., therefore if we find a gap with PBE, the real material would most probably also have a band gap, and a larger one at that.
+Aside SQS B, we generally see good agreement between HSE06 and PBE calculations. In A we notice that the 0.02 eV band gap stems from a 0.7 eV gap in spin up and 0.02 eV in down. Likewise SQSs C, D, and E all exhibit large band gaps in spin up, 0.17, 0.37 and 0.55 eV respectively, and correspondingly very narrow spin down gaps of 0.032, 0, and 0.013 eV. The DOS of these SQSs can be found in appenidix \textbf{?}. Compared to the values in table 7.3 the HSE06 functional either compare or exceed the PBE band gaps in spin up and lessen in spin down, with the exception of SQS B (0.29 eV and 0.18 eV) where also the spin down gap is increased. As opposed to the SCAN functional that yielded dissimilar values to PBE in most cases.
 
-Regarding the HSE06 functional, the inaccuracy shown for the bulk material is concerning, especially considering the lack of experimental baselines in this study to compare and measure our results after. However, generally we find much better cohesion between PBE and HSE06 compared to SCAN for the 5 supercells, both methods predict semiconductors with heavy spin polarization in the spin up direction, par B. The fact that all 3 functionals and five structures for the most part agree on the presence of a semiconductor is a overwhelmingly positive result in itself, that allow us to state with high certainity that this compound is in fact a semiconductor, or we may label the compound as a half-metal or spin-gapless conductor from the registered spin dependence. A qualitative study on the exact band gap would demand a much greater scope as there are many factors affecting the value that we have neglected. One of these is the randomness involved with SQSs. For instance, by increasing the SQS size, ie number of atoms in the supercell, we found again different band gaps, but still, the presence and characther of the compound was consistent. \textbf{Include this? Table?} To draw any meaningfull conclusions on the size of the band gap would requiere us to both increase the number of SQS's of the composistion due to the obseved variation in the band gap between the 5 tested supercells, and as well for different supercell sizes to obtain some sort of convergence of the band gap. On the other hand, if we were to go by the most stable configuration of this narrow study, then this alloy would be labeled as a half-metal from the results of SQS D across all three functionals.  
+\textbf{Change this to the correct figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.8\textwidth]{results/SQS_time.png}
+\caption{Something}
+\end{figure}
 
-\subsection{Probability distribution functions and charge density}
 
-In this final segment of the CFMN alloys we will look at the probability distribution functions and charge density. We only include the results of SQS B and D as an in-depth across 5 unieq structures become tedious and time-consuming, the PDFs of the remaining structures can be seen in appendix .. 
+Discuss factors concerning the calculations.blablabla \\
+
+
+
+Above we have plotted the computational cost in terms of CPU hours per CPU for the generalized gradient approximation, meta-GGA and hybrid functional. In relation to the topics covered in section 5.1 we see a clear trend in increased cost from more advanced functionals, with HSE06 taking about .. compared to PBE, while SCAN falls somewhere in-between. One of the reasons behind the large cost of HSE06 is as stated we had to perform such calculations in two subsequent iterations, firstly with Gaussian smearing and then secondly with TBC reapplying the calculated charge density. Keep in mind also that HSE06 utilized only halve the number of k-points compared to both PBE and SCAN. This could lead to artificially exaggerated band gaps from HSE06 as the low density of k-points could fail to encapsulate the exact minimum transition between the valence band and conduction band. But in most cases this does not seem to be a factor, with possibly the exception of the abnormally large band gap in SQS B. Regarding PBE and SCAN both of these have known limitations. As stated in section 5.1 PBE have difficulties for 3d elements particularly Ni, similarly SCAN is known to be limited in magnetic materials. The only functional with no known drawback is HSE06, the sole drawback of this functional is the computational demand as seen in figure 7.5.
+
+\textbf{Rewrite}
+As a conclusion the fact that all 3 functionals and five structures for the most part agree on the presence of a band gap is in itself an overwhelmingly positive result that allow us to state with high certainty that this hypothetical high-entropy silicide \ch{(CrFeMnNi)Si2} is in fact a semiconductor, or possibly a half-metal based on the results of the utmost stable SQS D. An additional point to this is that as covered in great detail in literature on first principles studies, the PBE functional underestimate the value of a band gap. For example in this project we determine the band gap of bulk $\beta-$ \ch{FeSi2}with PBE calculations to around 0.65 eV compared to the experimental value of 0.85 eV. For this reason any values of the band gap with PBE would with high probability be replicated/increased for the real material. Compared to the nonmagnetic bulk material we find these alloys to yield sensible results, here we create a random alloy that as known will introduce defect states and hence lower the band gap and further make the material magnetic. We observe that this is most apparent in spin down as the the spin up gap is more comparable to the values of the bulk material, but the down channel is metallic. In the next section we will look at the probability distribution functions before considering factors related to the special quasi-random methods in section 7.4. 
+
+
+\newpage
+\section{Probability distribution functions}
+The probability distribution functions of SQS D and E can be seen bellow in figure 7.10, the PDFs corresponding to the remaining SQSs can be found in appendix .. . We include the PDFs of SQS D and B because as stated D is the most stable atomic configuration and hence the most representative of a potential real compound, and B to investigate distinctions between the half-metallic structure D and the semiconducting B which with HSE06 yielded substantial band gaps in both spins, recalling also that this is just very slightly bellow D in terms of stability. In the analysis we will put special emphasis on the nearest neighbor interactions since these are the most crucial in deciding the functional properties of a material. 
  
 \begin{figure}[H]
 	\centering
@@ -213,117 +200,69 @@ We see that the relative positions of the PDFs remain consistent though both SQS
 
 In contrast to the TM-Si bonds, we observe several distinctions between metal bonds in SQS D and B. Covering all would be tedious and not to insightful, instead we emphasize the bonds of Mn and Cr as this is where we found the biggest discrepancy in the PDOS. From the different TM-TM bonds (middle) of figure 8.8 we observe that the Mn-Fe bonds are most occurring at short distances in D and bigger distances in B, meaning that manganese and iron atoms are placed further from each other in structure D. \textbf{correct?} Similarly the bonds between Cr and Fe   indicate that these atoms lie closer in B than D. In contrast the nickel and manganese/chromium bonds point to a closer distance in B for Ni-Mn and Ni-Cr in D, and a greater distance between Ni and Mn in D and Ni and Cr in B. \textbf{Litt kronglete kanskje?} In terms of the homogeneous bonds, the properties of both Cr-Cr bonds and Mn-Mn bonds are more or less alike in both structures besides some majority at shorter distance in D (The red Cr-Cr line at 3Å is underneath the grey Ni-Ni line in B in figure 8.8 (bottom right)). A more significant distinction is that both Ni-Ni and Fe-Fe bonds are found at 3 Å and 4 Å in B, but exclusively 4 Å in D.    
 
-Both the Fe-Fe and Ni-Ni bonds are in better agreement with the ICSD histograms, as the most occurring distance for these bonds are between 4-4.9 Å and additionally around 2.5 Å. \textbf{More comparisons to ICSD, ask O.M}. As a conclusion on the PDFs of this compound, we locate a pattern where the Si-Si bonds are identical and only very minor differences between TM-Si bonds in SQS D and B. This is a result of how the structures are generated with the SQS method. In th FeSi2 structure the silicon atoms are placed as before in the new supercells, but the TM elements are "randomly" distributed. Thus, it's reasonable that also here we would find the major differences between SQSs in the PDFs.
- 
-Bellow we show the calculated charge density (from PBE) of structure B (left) and D (rights) \textbf{What should I say about these?}
+Both the Fe-Fe and Ni-Ni bonds are in better agreement with the ICSD histograms, as the most occurring distance for these bonds are between 4-4.9 Å and additionally around 2.5 Å. \textbf{More comparisons to ICSD, ask O.M}. As a conclusion on the PDFs of this compound, we locate a pattern where the Si-Si bonds are identical and only very minor differences between TM-Si bonds in SQS D and B. This is a result of how the structures are generated with the SQS method. In th FeSi2 structure the silicon atoms are placed as before in the new supercells, but the TM elements are "randomly" distributed. Thus, it's reasonable that also here we would find the major differences between SQSs in the PDFs. 
+
+\newpage
+\section{SQS size}
+
+Lastly a precise determination of the exact value of the band gap would requiere much more effort. Recalling the concerns of the special quasi-random structures, we know that one problem is the large possible number of configurations. Here we select only a span of 5 and we find that the band gap varies greatly between all 5 but show the same characther. Thus we should have performed a larger search over more configurations. Additionly also the SQS size is relevant, here we have only tested a 48 atom model, but as section .. stated often much larger SQSs are required to reach convergence and accuratly model the disordered structure of HEA. At the same time this is not a true disordered structure, the Si atom contain some order and this is not really a typicial HEA so maybe this is not as important.
+
+In this project we have made calculations of a type of supercell and SQS model. This model consisted of 48 atoms and have a volume of $700 Å^3$ before structural relaxation. This was done for two reasons, firstly it allowed for the use of more complex XC-functionals, and secondly enabled a broad study of distinct permutations and compositions. However, as covered in section 4.2 or something the results of the SQS model is known to show a sensitivity to the size of the model. For this reason we include the results of 96 and 192 atom SQSs of \ch{CrFeMnNiSi2} with volume $1200 Å^3$ and $2400 Å^3$ respectively. Bellow in figure .. we show the increased computational burden in terms of cpu-hours from performing both structural and ionic relaxation as well as a single electronic self-consistent calculation with PBE GGA of the distinct SQSs. 
+
 \begin{figure}[H]
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/B_CHGCAR.jpg}
-		\caption{Structure B}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/D_CHGCAR.jpg}
-		\caption{Structure D}
-	\end{subfigure}
-	\caption{Charge density of SQS D and B from PBE calculations. Illustrated by VESTA}
+\centering
+\includegraphics[width=.8\textwidth]{results/SQS_time.png}
 \end{figure}
-
-\section{Permutations of the \ch{Cr4Fe4Mn4Ni4Si32} high-entropy silicide}
-
-Up until this point we have looked in detail at the high-entropy silicide \ch{(CrFeMnNi)Si2} and associated SQSs. However these structures are just the center of a larger quasi-ternary phase diagram consisting of the different possible distributions of elements Thus there exists many more permutations of this particular composition of a high-entropy silicide. In this section, we aim to expand our search of this diagram by generating SQSs slightly away from eqvimolar distribution of 3d elements. In table (bellow) we list the mean total energy and magnetic moment per atom with standard deviation and the enthalpy of formation of 4 permutations of the \ch{(CrFeMnNi)Si2} alloy. Ideally the permutations would differ only by one element, but the TDEP implementation insist in also reducing Nickel to stay consistent with the 48 atom supercell. 
 
 \begin{table}[h!]
 %\centering
-\hskip-2.5cm\begin{tabular}{@{}cccccc@{}}
+\hskip-2cm\begin{tabular}{@{}cccccc@{}}
 \toprule
        & \multicolumn{2}{c}{Total energy/atom (eV)} & Enthalpy of formation (eV) & \multicolumn{2}{c}{Final magnetic moment ($\mu_B$)} \\ \midrule
-\ch{Cr3Fe3Mn7Ni3Si32} & - 6.6947  & 0.0040 & -11.9586  & 0.1375  & 0.0186     \\
-\ch{Cr5Fe5Mn3Ni3Si32} & - 6.6705  & 0.0030 & -11.1991  & 0.1127  & 0.0223     \\
-\ch{Cr5Fe3Mn5Ni3Si32} & - 6.6852  & 0.0041 & -10.5200  & 0.1375  & 0.0456     \\
-\ch{Cr3Fe5Mn5Ni3Si32} & - 6.6801  & 0.0036 & -12.6426  & 0.0937  & 0.0209     \\
-\ch{Cr3Fe3Mn3Ni7Si32} & - 6.3921  & 0.0078 & -10.9614  & 0.0159  & 0.0101 \\ \bottomrule
+48 atoms & - 6.6105 & .. & -11.5000 & 0.0833 & 0.0000    \\
+96 atoms & - 6.6092  & 0.0021 & - 22.8752  & 0.0708  & 0.0114     \\
+192 atoms & - 6.6123  & 0.0022 & - 46.6654 & 0.0761 & 0.0171     \\ \bottomrule
 \end{tabular}
 \caption{Mean and stadard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch{FeSi2}).}
 \end{table}
 
-The first result of table .. we make notice of is that the stability, as evaluated by the enthalpy of formation can be increased beyond the eqvimolar composition. This is accomplished in two distinct permutations, one with increments to  manganese relative to the other TM, and the other by reduction of chromium. Moreover the two respective permutations lie on the opposite side of the magnetic scale. The large magnetic moment of the manganese rich permutation and the low magnetic moment in the chromium poor permutation is very much in line with the observations made in the previous section. Recalling that in the magnetic moment in the eqvimolar composition was largely attributed to manganese and chromium atoms in the lattice. Thus increments to manganese or reduction of chromium would following impact the magnetic moment as in the two permutations. For this reason, additionally the permutation \ch{Cr5Fe3Mn5Ni3Si32} where the nonmagnetic elements is reduced and the magnetic elements are increased ,is equally magnetic. We however find no direct relation between stability and magnetism as his particular permutation is the least stable. An important property of table 8.5 is that the listed values are the mean value of the observed property for 5 distinct SQSs of the same permutation. For example we notice that while the highest magnetic moment in the first permutation is associated with the most stable SQS (from total energy considerations). The least stable supercell show the highest magnetic moment in \ch{Cr5Fe3Mn5Ni3Si32}. 
 
-The respective band gap of the permutations (with PBE) can be seen in table ... Compared to the previous case, we find most SQSs of the permutations to exhibit a half-metallic character. 
+\begin{figure}[H]
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF48.png}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF96.png}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+\includegraphics[width=\textwidth]{results/PDF192.png}
+\end{subfigure}
+\end{figure}
+
 
 \begin{table}[H]
 \centering
 \begin{tabular}{@{}ccccc@{}}
 \toprule
                                                      &   & Spin up (eV) & Spin down (eV) & Total (eV) \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{\ch{Cr3Fe3Mn7Ni3Si32}}}}   & A & 0.3390                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & B & 0.4745                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & C & 0.1342                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & D & 0.1950                & 0.0063                  & 0.0063              \\
-\multicolumn{1}{c|}{}                                & E & 0.4211                & 0                       & 0                   \\ \midrule
-\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{\ch{Cr5Fe5Mn3Ni3Si32}}}}   & D & 0.0674                & 0.0413                  & 0.0372              \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{\ch{Cr5Fe3Mn5Ni3Si32}}}} & A & 0.2082                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & B & 0.4053                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & C & 0.4659                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & D & 0.0843                & 0.0121                  & 0.0121              \\
-\multicolumn{1}{c|}{}                                & E & 0.3008                & 0                       & 0                   \\ \midrule
-\multicolumn{1}{c|}{\multirow{4}{*}{\textbf{\ch{Cr3Fe5Mn5Ni3Si32}}}} & A & 0.3922                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & C & 0.1285                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & D & 0.2595                & 0.1004                  & 1.004               \\
-\multicolumn{1}{c|}{}                                & E & 0.3591                & 0.1003                  & 0.0848              \\ \midrule
-\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{\ch{Cr3Fe3Mn3Ni7Si32}}}} & - & -                & -                      & -                   \\ \bottomrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{48 atoms}}}   
+												  & A & 0.0815                & 0.0521                  & 0.0281              \\
+\multicolumn{1}{c|}{}                                & B & 0.2932                & 0.0523                  & 0.0523              \\
+\multicolumn{1}{c|}{}                                & C & 0.2355                & 0.0343                  & 0.0343              \\
+\multicolumn{1}{c|}{}                                & \textbf{D} & 0.3386                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & E & 0.3078                & 0.0495                  & 0.0495              \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{96 atoms}}}   
+                                                     & \textbf{A} & 0.1705                & 0.0442                  & 0.0367              \\ 
+\multicolumn{1}{c|}{}                                & B & 0.1386                & 0.0270                  & 0.0270                   \\
+\multicolumn{1}{c|}{}                                & C & 0.1347                & 0.0363                  & 0.0075                   \\
+\multicolumn{1}{c|}{}                                & D & 0.0892                & 0.0398                  & 0.0398                   \\
+\multicolumn{1}{c|}{}                                & E & 0.1610                & 0                       & 0                        \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{192 atoms}}}
+	 									           & A & 0.1197                & 0.0321                  & 0.0321                   \\
+\multicolumn{1}{c|}{}                                & B & 0.1444                & 0                       & 0                        \\
+\multicolumn{1}{c|}{}                                & C & 0.1867                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & D & 0                     & 0                       & 0          \\
+\multicolumn{1}{c|}{}                                & \textbf{E} & 0.0131                & 0.0184                       & 0.0131                   \\ \bottomrule
 \end{tabular}
 \caption{Total and spin dependent band gap of 4 permutations of CFMN (fesi2) with PBE GGA calculation. The structures that are excluded from this list either failed in calculations, or does not show any band gap.<}
 \end{table}
-
-From table ..  we see that likewise to the stability and magnetization also the band gap changes in the different directions. To some degree we find positive results of the band gap in each direction, but we see particularly that permutations rich in manganese provide very encouraging results. This is made clear from the fact that \ch{Cr3Fe3Mn7Ni3Si32}, \ch{Cr5Fe3Mn5Ni3Si32} and \ch{Cr3Fe5Mn5Ni3Si32} all include amounts of manganese higher than the eqvimolar composistion and all associated SQSs show at least strong half-metalic charachter or semiconducting. On the other side \ch{Cr5Fe5Mn3Ni3Si32} is the sole permutation with less manganse and correspondingly show the least sign of a band gap. Moreover the relative stability of the SQSs give further merit to the proposition. In the first permutation we find that the highest total energy is associated with SQS B, which as seen in table .. exhibit the largest spin up band gap of the particular permutation. Furthermore the two semiconducting SQSs in the last permutation is the two most stable arrangements. Reversely, in the manganese-poor permutation we find that the sole semiconducting SQS is the second least stable of that compound. Lastly, the opposite is the case is true in the third permutation. Despite the total energy not varying tremendously between SQSs of the same permutation, as seen by the standard deviation in table .., the continuing trend between stability and band gap is a promising result to report.
-
-In figure 8.12 we plot the projected density of states around $E_F$ of the 4 permutations. Note that away from the Fermi energy the projected density of states is analogous to the parent compound, see appendix ..
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{results/fesi2/permutations/perm_LDOS_crop.jpg}
-\caption{Projected density of states of (a) \ch{Cr3Fe3Mn7Ni3Si32} (SQS B), (b) \ch{Cr5Fe5Mn3Ni3Si32} (SQS C), (c) \ch{Cr5Fe3Mn5Ni3Si32} (SQS A), (d) \ch{Cr3Fe5Mn5Ni3Si32} (SQS D)}
-\end{figure}
-
-The above figures is based on the most stable SQS in each permutation, as will the analysis. Thus the features of these figures does not necessarily represent the complete set of SQSs of the permutation. As experienced in table 8.6 and previous examples in this project, the band gap and properties of each permutation can vary between SQSs. But given that the structures came out on top in terms of total energy means that they are the most probable configuration of the real alloy, hence also the features of that supercell. 
-
-With that said, the plotted PDOSs in figure 8.12 clearly illustrate the characteristics shown in table 8.6. We see clear indication of a spin up band gap in \ch{Cr3Fe3Mn7Ni3Si32} (a) and \ch{Cr5Fe3Mn5Ni3Si32} (c), and a total band gap in \ch{Cr3Fe5Mn5Ni3Si32} (d). Not so clear is that the density of states of \ch{Cr5Fe5Mn3Ni3Si32} (b) contain very small nonzero values at $E_F$ and the unoccupied states is shifted very slightly above the Fermi energy, prohibiting an otherwise clear band gap. In figure 8.13 the total density of states of SQS D and E of this permutation is shown, the above point is seen also in SQS E, where the "band gap" is shifted above $E_F$.
- 
-\begin{figure}[H]
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/permutations/mnni3_DOS.png}
-		\caption{SQS D}
-	\end{subfigure}
-	\begin{subfigure}{.5\textwidth}
-		\includegraphics[width=\textwidth]{results/fesi2/permutations/mnni3_DOS_E.png}
-		\caption{SQS E}
-	\end{subfigure}
-	\caption{Density of states around $E_F$ of SQS D and E \ch{Cr5Fe5Mn3Ni3Si32}}
-\end{figure}
-
-
-In figure 8.6 we saw that electrons from manganese atoms in particular was a key contributor as to why the spin down channel of \ch{(CrFeMnNi)Si2} was metallic in the stable supercell D. This is also largely the case in the permutations shown above in figure 8.12.    
- 
-The proportion of manganese atoms in the alloy seems to offer a very positive effect on the band gap in spin up, but is often detrimental to spin down. This is seen in figure 8.12 (a) and (c) for \ch{Cr3Fe3Mn7Ni3Si32} and \ch{Cr5Fe3Mn5Ni3Si32} respectively, that both contain increased amounts of manganese. By reducing the number of Mn as in (b) we still find that the Mn electrons plague the states at $E_F$ in spin down. In analog we see from (b) and (c) that also Cr negatively impacts to the band gap especially in spin up. The sole permutation with clear evidence of a spin down gap is from the chromium poor permutation plotted in (d). Also in this structure we see that the effects of Mn around $E_F$ is dampened in comparison to the other permutations, despite containing relatively increased amounts of Mn to the eqvimolar alloy.  
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=.6\textwidth]{results/fesi2/permutations/ni7_PDOS.png}
-	\caption{Projected density of states of \ch{Cr3Fe3Mn3Ni7Si32} around $E_F$}
-\end{figure}
-
-An important property of these results is that because each permutation alters simultaneous elements, interpreting and relating the results to a particular alteration is challenging. For example, is the result of the \ch{Cr5Fe3Mn5Ni3Si32} permutation a consequence of less Fe or increments to both Cr and Mn? Furthermore is the exaggerated band gap in spin up of \ch{Cr3Fe3Mn7Ni3Si32} a product of increasing manganese or reducing the other elements. From the comparatively large gaps in spin up of \ch{Cr3Fe3Mn7Ni3Si32} and \ch{Cr3Fe5Mn5Ni3Si32} and the more present Cr states in spin up in the Cr rich permutations we here conclude that the band gap is related to lessening of chromium, more so than other effects. Despite of this we generally find positive results regarding most of the permutations as seen in table 8.6, the exception to this \ch{Cr3Fe3Mn3Ni3si32}. This particular permutation in opposition to the others in this section increases the proportion of Ni at the cost of the other 3d elements. The projected density of states is displayed in figure [REF]. From both this structure, but also the PDOS of \ch{Cr3Fe3Mn7Ni3Si32} we see that reducing chromium does not always improve the band gap. It's clear that the \ch{Cr3Fe5Mn5Ni3Si32} alloy manage to strike a balance of distribution that results in a specific interplay between the 3d elements. For this reason we more closely investigate the properties of this structure, the probability distribution of SQS D (highest stability) is plotted bellow in figure 8.15.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{results/fesi2/permutations/_crni3_D_PDF.png}
-	\caption{Probability distribution functions to \ch{Cr3Fe5Mn5Ni3Si32} SQS D, \textbf{Maybe make larger}}
-\end{figure}
-
-\textbf{Comment figure \\}
-
-\textbf{Add some figures from HSE06?}
-In this segment of the project we scarcely applied the more advanced functionals SCAN and HSE06, in part to both the uncertainties mentioned in the previous section and the computational cost of the methods. However we did perform such calculations (HSE06) to further investigate the nature of the listed semiconducting SQSs. Both the manganese rich and poor semiconductors are validated with the HSE06 functional and find wider band gaps of 0.17 eV (0.57 and 0.26 in up and down) in \ch{Cr3Fe3Mn7Ni3Si32} SQS D, and 0.22 eV (0.77 eV in spin up) in \ch{Cr5Fe5Mn3Ni3Si32} SQS D. On the opposite side, the very narrow band gap in \ch{Cr5Fe3Mn5Ni3Si32} vanishes with HSE06 calculations. For the two stable semiconductors found in \ch{Cr3Fe5Mn5Ni3Si32}, simulations with the HSE06 functional resulted in a half-metal with a spin up of 0.53 eV for SQS D, and a total band-gap of 0.27 eV for E, where the spin-up gap is 0.73 eV wide
-. \textbf{Comparing to table 8.6 we observe that ..}. \textbf{As for the SCAN functional ...} 
-
-\textbf{Conclusion this section \\}

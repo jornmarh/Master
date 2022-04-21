@@ -33,15 +33,15 @@ def strC(file, f):
 
 def lagFigur(str, x1, x2, y1, y2):
 
-    fig, ax = plt.subplots(figsize=[10,5])
+    fig, ax = plt.subplots(figsize=[10,6])
     ax.plot(str[0], np.zeros(len(str[0])), 'C3--', lw=2)
 
     ax.plot(str[0], str[1], c='C1', lw=1.3, label='Spin up')
     ax.plot(str[0], str[2], c='C0', lw=1.3, label='spin down')
 
     ax.set_xlim(-13,3)
-    ax.set_xlabel("Energy (eV)")
-    ax.set_ylabel("Density of states")
+    ax.set_xlabel("Energy (eV)", fontweight='bold')
+    ax.set_ylabel("Density of states", fontweight='bold')
     ax.legend()
 
     axin = inset_axes(ax, width="100%", height="100%",  bbox_to_anchor=(.15, .7, .3, .4), bbox_transform=ax.transAxes, loc=2)
@@ -57,7 +57,7 @@ def lagFigur(str, x1, x2, y1, y2):
     mark_inset(ax, axin, loc1=1, loc2=3, edgecolor='black')
 
     axin.xaxis.set_major_locator(mpl.ticker.MultipleLocator(0.3)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
-    axin.xaxis.set_minor_locator(AutoMinorLocator()) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
+    axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1)) #axin.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.1))
     axin.xaxis.set_tick_params(which='major', length=6, width=1, direction='out')
     axin.xaxis.set_tick_params(which='minor', length=3, width=1, color='black', direction='out')
     axin.yaxis.set_major_locator(mpl.ticker.MultipleLocator(2)) #axin.xaxis.set_major_locator(plt.MaxNLocator(3))
@@ -74,17 +74,18 @@ data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
 composistion = 'crfemnni/equaldist/'
-structure = 'E/' # or B, C, D, E
+structure = 'D/' # or B, C, D, E
 xc = 'hse06/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
 figurepath = figures+material+composistion+structure+xc
 
 plt.style.use('ggplot')
-plt.rcParams['font.size'] = 11
+plt.rcParams['font.size'] = 14
 plt.rcParams['legend.fontsize'] = 12
+plt.rcParams['font.weight'] = 'bold'
 
 input = Tdos(datapath+"TDOS.dat")
-lagFigur(input, -0.4, 0.4, -3, 3)
+lagFigur(input, -0.3, 0.3, -3, 3)
 
 '''
 e_pbe, u_pbe, d_pbe, f_pbe = strC('DOS_c_small.txt', 3)
