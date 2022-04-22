@@ -15,15 +15,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces Total energy per atom, final magnetic moment, band gap (GGA) and formation enthalpy of $Cr_4Fe_4Mn_4Ni_4Si_{32}$ SQSs based on $FeSi_2$\relax }}{39}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Total energy per atom, final magnetic moment, band gap (GGA) and formation enthalpy of $Cr_4Fe_4Mn_4Ni_4Si_{32}$ SQSs based on $FeSi_2$\relax }}{40}%
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {7.2}{\ignorespaces Band gap (eV) with PBE in spin up and spin down channels of CFMN (fesi2) SQSs\relax }}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.3}{\ignorespaces Band gap of CFMN (\ch {FeSi2}) SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06).\relax }}{46}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Total and spin band gap (eV) for 5 SQSs of \ch {(CrFeMnSi)2} with PBE, SCAN and HSE06\relax }}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.4}{\ignorespaces Summary SQS sisze 48, 96, 192 of \ch {(CrFeMnNi)Si2}\relax }}{52}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Minimum gap between k-point in valence band (VB) and conduction band (CB) in SQS B from PBE, SCAN and HSE06\relax }}{49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.5}{\ignorespaces Total and spin dependent band gap of SQS of 48, 96 and 192 atoms each of \ch {(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or 192. The most stable SQS is highlighted in bold text.\relax }}{52}%
+\contentsline {table}{\numberline {7.5}{\ignorespaces Summary SQS sisze 48, 96, 192 of \ch {(CrFeMnNi)Si2}\relax }}{53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.6}{\ignorespaces Total and spin dependent band gap of SQS of 48, 96 and 192 atoms each of \ch {(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or 192. The most stable SQS is highlighted in bold text.\relax }}{53}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

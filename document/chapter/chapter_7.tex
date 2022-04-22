@@ -8,8 +8,8 @@ This section will be structured in the following manner, firstly we will investi
 \textbf{Add figure DOS FeSi2?}
 
 
-\chapter{The results of \ch{(CrFeMnNi)Si2} in the $\beta-$\ch{FeSi2} structure}
-\label{sec:good}
+\chapter{The results of equimolar \ch{(CrFeMnNi)Si2} in the $\beta-$\ch{FeSi2} structure}
+\label{sec:equi}
 
 $\beta-FeSi_2$ in the orthorombic cmce crystal lattice is a well known semiconductor with an experimentally measured band gap of around 0.85 ev at room temperature \cite{PhysRevB.58.10389}, the nature of the band gap is under debate, all though most ab inito studies point to an indirect gap, experimental work indicate a direct gap. From our calculations we find an indirect band gap close to 0.65 eV with PBE, compared for example materials project's listed value of 0.698 eV with the same functional. Moreover in agreement with the calculations of materials project we discover that bulk $\beta-$ \ch{FeSi2} is diamagnetic. Finally, the enthalpy of formation of this compound is calculated as $-18.6583 eV$.
 
@@ -74,7 +74,7 @@ Alike the bulk material, these gaps are indirect. It would have been instructive
  
 \textbf{ \\ Visualize the eigenvalues ??}
 
-A key point regarding the band structure of SQS D is the presence of defect states. In this structure the highest occupied conduction band is 128 for spin up states and band 124 in spin down, thus a difference of 4 bands between spins. For the spin down states we find that the highest energy conduction band, ie 124 have states with occupancy both slightly bellow 1.00 and above at several k-points. Likewise the lowest energy valence band (124) have partially filled states above 0.00 and bellow. The case of occupancy either above or bellow completely full or completely empty is simply a numerical inaccuracy well-known to calculations that apply the Tetrahedron method with Bloch corrections and have no real impact on the results. The second case where we have partially filled eigenstates in the conduction band and not completely filled states is a familiar term in random alloys \cite{PhysRevLett.104.236403} in which the forbidden energy gap is contaminated by defect states. To further study this effect we introduce $E_G ^\text{eigen}(occ)$ to represent the band gap calculated at a cut-off occupancy in the eigenvalues such that $E_G ^\text{eigen}(0.99)$ only consider eigenstates with occupancy above 0.99 as filled. Equivalently $E_G ^\text{eigen}(0.01)$ only consider eigenstates with occupancy less than 0.01 as empty. By utilizing this parameter we can effectively study the band gap in relation to the defect states. Applying this to SQS D we get the results listed below in table .., keep in mind that $E_G ^\text{up, eigen}$ is constant from that the defect states are only present in the spin down channel.
+A key point regarding the band structure of SQS D is the presence of defect states. In this structure the highest occupied conduction band is 128 for spin up states and band 124 in spin down, thus a difference of 4 bands between spins. For the spin down states we find that the highest energy conduction band, ie 124 have states with occupancy both slightly bellow 1.00 and above at several k-points. Likewise the lowest energy valence band (124) have partially filled states above 0.00 and bellow. The case of occupancy either above or bellow completely full or completely empty is simply a numerical inaccuracy well-known to calculations that apply the Tetrahedron method with Bloch corrections and have no real impact on the results. The second case where we have partially filled eigenstates in the conduction band and not completely filled states is a familiar term in random alloys \cite{PhysRevLett.104.236403} in which the forbidden energy gap is contaminated by defect states. To further study this effect we introduce $E_G ^\text{eigen}(occ)$ to represent the band gap calculated at a cut-off occupancy in the eigenvalues such that $E_G ^\text{eigen}(0.99)$ only consider eigenstates with occupancy above 0.99 as filled. Equivalently $E_G ^\text{eigen}(0.01)$ only consider eigenstates with occupancy less than 0.01 as empty. By utilizing this parameter we can effectively study the band gap in relation to the defect states. Applying this to SQS D we get the results listed below in table .., keep in mind that $E_G ^\text{up, eigen}$ is constant from that the defect states are only present in the spin down channel. Moving further results listed without specifying $occ$ is equivalent to $occ = 0.5, 0.5$.
 
 \begin{table}[H]
 \centering
@@ -90,6 +90,7 @@ Occ (full)          & Occ (empty)      & $E_G ^\text{up, eigen}$ (meV)  & $E_G ^
 \end{table}
 
 
+\newpage
 \section{Local and projected density of states}
   
 \begin{figure}[H]
@@ -132,26 +133,33 @@ Moreover the relative positions and interplay between 3d elements and silicon as
 Above we have included the PDOS of SQS D and B but focused around $E_F$, from these figures we find that the spin down channel in D contain a more dominant presence of manganese especially, and some chromium as compared to the semiconducting SQS B.  
 
 \section{Results from SCAN and HSE06 functionals}
-
-As expressed previously in this work we invoke 3 level of depths GGA (PBE), meta-GGA (SCAN) and hybrid functional (HSE06) to determine the band gap of the SQSs. In table 7.3 we list the respective band gaps of these methods for all 5 SQSs of \ch{(CrFeMnNi)Si2}.
-
+As expressed previously in this work we invoke 3 level of depths GGA (PBE), meta-GGA (SCAN) and hybrid functional (HSE06) to determine the band gap of the SQSs. These results are showcased in table 7.3 for all five SQSs. Note that the eigen/dos and $occ$ parameters mentioned previously have been neglected as we only include the band gaps from default parameters that are in agreement between the density of states and eigenvalues.
+ 
 \begin{table}[H]
 \centering
-\begin{tabular}{@{}cccc@{}}
+\begin{tabular}{@{}ccccc@{}}
 \toprule
-Structure  & PBE    & SCAN   & HSE06  \\ \midrule
-\textbf{A} & 0.0281 & 0.0000 & 0.0207 \\
-\textbf{B} & 0.0523 & 0.0890 & 0.1808 \\
-\textbf{C} & 0.0344 & 0.0690 & 0.0196 \\
-\textbf{D} & 0.0000 & 0.0000 & 0.0000 \\
-\textbf{E} & 0.0495 & 0.1048 & 0.0133 \\ \bottomrule
+SQS & XC-functional  & $E_G ^\text{up}$ (eV) & $E_G ^\text{dw}$ (eV) & $E_G ^\text{t}$ (eV) \\ \midrule
+\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{A}}}     & PBE & 0.0815                & 0.0521                  & 0.0281              \\
+\multicolumn{1}{c|}{}                                & SCAN & 0                 & 0                  & 0           \\
+\multicolumn{1}{c|}{}                                & HSE06 & 0.7084                & 0.0261                  & 0.0261                   \\ \midrule
+\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{B}}}     & PBE &  0.2932                & 0.0523                  & 0.0523              \\
+\multicolumn{1}{c|}{}                                & SCAN & 0.1470                & 0.0890                  & 0.0890                  \\
+\multicolumn{1}{c|}{}                                & HSE06 & 0.2855                & 0.1819                  & 0.1819                        \\ \midrule
+\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{C}}}     & PBE & 0.2355                & 0.0343                  & 0.0343              \\
+\multicolumn{1}{c|}{}                                & SCAN & 0.0690                & 0.1124                  & 0.1124                   \\
+\multicolumn{1}{c|}{}                                & HSE06 & 0.1744                & 0.0328                  & 0.0196                   \\ \midrule
+\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{D}}}     & PBE & 0.3386                & 0                       & 0                   \\
+\multicolumn{1}{c|}{}                                & SCAN & 0                & 0.1086                  & 0                   \\
+\multicolumn{1}{c|}{}                                & HSE06 & 0.3780                & 0                  & 0.          \\ \midrule
+\multicolumn{1}{c|}{\multirow{3}{*}{\textbf{E}}}     & PBE & 0.3078                & 0.0495                  & 0.0495              \\
+\multicolumn{1}{c|}{}                                & SCAN & 0.1540                & 0.1112                  & 0.1048                      \\
+\multicolumn{1}{c|}{}                                & HSE06 & 0.5476                & 0.0133                  & 0.0133                   \\ \bottomrule
 \end{tabular}
-\caption{Band gap of CFMN (\ch{FeSi2}) SQSs with GGA (PBE), meta-GGA (SCAN) and hybrid-functionals (HSE06).}
+\caption{Total and spin band gap (eV) for 5 SQSs of \ch{(CrFeMnSi)2} with PBE, SCAN and HSE06}
 \end{table}
 
-The most obvious result of table 7.3 is that aside from SQS A, all 3 methods agree on the presence of the band gap. On the other hand, it's clear that the actual size of the gap is under some debate. We note the largest observed band gaps is largely associated with the SCAN functional in line with what is expected by involving more complex factors in the exchange-correlation functional, as discussed in section .. In contrast, by the same argument we would not expect that par SQS B, the overall smallest band gaps is found with the well-proven hybrid functional HSE06.
- 
-On the surface the results of table 7.3 point to sensible results from applying the SCAN functional, however we do make note of certain oddities under the surface. In SQS A the SCAN functional resulted in a zero total band gap, as opposed to 0.03 eV from PBE. In SQS B and E the band gap is increased with SCAN, but the properties of the gap is reversed compared to PBE. This can be seen for SQS E in figure 7.7 (a, b). In structures C and D this is taken a step further and reverse the spin polarization of the band gap, seen in figure 7.7 (c, d) for SQS C.
+Aside SQS A, all 3 functionals agree on the presence of the band gap, but the exact size of the band gap is under debate. We report the largest total band gap to be associated with the SCAN functional, compared to PBE this is expected considering the factors mentioned in section .. about the limitations of generalized gradient approximations. In contrast, by the same argument we would not expect that par SQS B, to find the overall lowest band gaps from the well-proven hybrid functional HSE06. Nevertheless we observe generally good agreement between PBE and HSE06 calculations, with both producing large $E_G ^\text{up}$ and small or zero in the case of SQS D $E_G ^\text{dw}$. In contrast as illustrated in figure 7.7 for SQS E (a + b) and D (c + d), SCAN enlarge the spin down value and decrease the spin up band gap in E and B, and further reverse the spin polarization of the band gap in SQSs C and D. Regarding SQS A, we find that the SCAN result suffers from defect states as was described previously for D, neglecting said states yield $E_\text{G, SCAN} ^{up, eigen}(0.99, 0.01) = 0.0316$ eV and $E_\text{G, SCAN} ^{dw, eigen}(0.99, 0.01) = 0.0531$ eV resulting in a total gap of 0.0316 eV. Comparing to table 7.3 this appears to be in better agreement with particularly PBE, still however we find also here the same inverse spin polarization with SCAN.  
  
 \begin{figure}[H]
 	\begin{subfigure}{.5\textwidth}
@@ -174,33 +182,49 @@ On the surface the results of table 7.3 point to sensible results from applying 
 \end{figure}
 
 
-In SQS B we find from calculations with HSE06 an increment tot the band gap to a value of 0.18 eV. This gap can be seen in terms of the density of states in figure 7.8. Compared to the other listed values of table 7.3 this is the sole case we obtain such a result from the HSE06 functional.   
-
+As stated above, HSE06 and PBE calculations yield mostly similar characteristics of the band gap. Looking at the spin dependent band gaps however it's clear that HSE06 in show large deviation to PBE, for example enlarged values in $E_\text{G, A} ^{up}$, $E_\text{G, B} ^{dw}$, $E_\text{G, E} ^{up}$, or reduced values in $E_\text{G, A} ^{dw}$, $E_\text{G, E} ^{dw}$. And in other cases find nearly identical values to PBE as in $E_\text{G, B} ^{up}$ and $E_\text{G, C} ^{dw}$, or in SQS D that find excellent agreement in both spins. Generally we find that utilizing the HSE06 functional for these structures result in comparative or enlarged band gaps in spin up and lower values in spin down, with the exception of SQS B where HSE06 predicts a sizable band gap in both spins. Analog to the other cases, the 0 gap in D from HSE06 originates from defect states in the band structure, we get a band gap $E_\text{G, HSE06} ^{dw, eigen}(0.99, 0.01) = 0.2665$ eV from increasing the cutoff occupancy.
+   
 \begin{figure}[H]
 	\centering	
-	\includegraphics[width=.8\textwidth]{results/fesi2/B_TDOS_hse06.png}
+	\includegraphics[width=\textwidth]{results/fesi2/B_TDOS_hse06.png}
 	\caption{Density of states of SQS B with HSE06}
 \end{figure}
+ 
+The hybrid functional as expressed in section .. is computationally demanding to implement, in figure .. we show the computational cost in terms CPU-hours between PBE, SCAN and HSE06. One of the reasons behind the large cost of HSE06 is that we had to perform two subsequent calculations, firstly with Gaussian smearing and then secondly with TBC reapplying the calculated charge density. Nevertheless the CPU time of the first HSE06 calculation is still significantly greater than that of meta-GGA and GGA. Moreover the HSE06 calculations was performed with halve the number of k-points to PBE and SCAN in order to reach electronic convergence. Thus a completely justified comparison would contain even greater differences. 
 
-
-Aside SQS B, we generally see good agreement between HSE06 and PBE calculations. In A we notice that the 0.02 eV band gap stems from a 0.7 eV gap in spin up and 0.02 eV in down. Likewise SQSs C, D, and E all exhibit large band gaps in spin up, 0.17, 0.37 and 0.55 eV respectively, and correspondingly very narrow spin down gaps of 0.032, 0, and 0.013 eV. The DOS of these SQSs can be found in appenidix \textbf{?}. Compared to the values in table 7.3 the HSE06 functional either compare or exceed the PBE band gaps in spin up and lessen in spin down, with the exception of SQS B (0.29 eV and 0.18 eV) where also the spin down gap is increased. As opposed to the SCAN functional that yielded dissimilar values to PBE in most cases.
-
-\textbf{Change this to the correct figure}
 \begin{figure}[H]
 \centering
-\includegraphics[width=.8\textwidth]{results/SQS_time.png}
+\includegraphics[width=.7\textwidth]{results/SQS_time.png}
 \caption{Something}
 \end{figure}
 
+The narrow mesh of k-points in HSE06 calculations is an important factor to mention in relation to the HSE06 band gaps, that could lead to artificially exaggerated band gaps as the low density of k-points could fail to encapsulate the exact minimum transition between the valence band and conduction band. As seen in table 7.4 below the band gap is found between differing k-points from applying the 3 distinct functionals in SQS B (same in other SQSs).
 
-Discuss factors concerning the calculations.blablabla \\
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}cc@{}}
+\toprule
+XC-functional & VB $\rightarrow$ CB (k-point)                              \\ \midrule
+PBE           & (0.250,0.000,0.250) $\rightarrow$ (0.000,0.000,0.000)  \\
+SCAN          & (0.250,0.000,0.250) $\rightarrow$ (0.000,0.333,0.000)  \\
+HSE06         & (0.500,0.000,0.000) $\rightarrow$ (0.000,0.000,0.000) \\ \bottomrule
+\end{tabular}
+\caption{Minimum gap between k-point in valence band (VB) and conduction band (CB) in SQS B from PBE, SCAN and HSE06}
+\end{table}
+
+The most concerning factor is that the highest energy k-point in the valence band from PBE calculations (0.250, 0.000, 0.250) is not considered in the HSE06 calculation with the narrow grid of 2x2x2 k-points. Thus one may suspect that the HSE06 calculation fails to locate the minimum transition. With a lack of an experimental baseline this becomes an important factor to consider primarily in the cases where the HSE06 functional predicts much greater values than PBE, such as $E_\text{G, A} ^{up}$ and $E_\text{G, B} ^{dw}$. Both PBE and SCAN have known limitations for 3d magnetic systems, on the other hand the sole drawback of the HSE06 functional is the computational demand which makes for possible errors from the methods one must employ to converge the calculations, such as lesser k-points. 
+
+\textbf{Introduction smearing \\}
 
 
+Using SQS A as an example, from the first run (Gaussian), the band gap is 0.15 eV, (0.78 up and 0.15 down). However the eigenvalues contain defect states and the band gap is not observable from the density of states. Next we can reapply the charge density to perform an additional HSE06 calculation with gaussian smearing, but reducing the smearing width from 0.05 eV to 0.005 eV. Now we find a new gap of 0.1 eV (0.21 up and 0.1 down), with no defects in the eigenstates, and apperant in the density of states. In cases where we find conflicting results between the eigenvalues and density of states we rely on the script bandgap.py provided in the pymatgen package, refer to section .. for a description. With this we only report a band gap for the HSE06 calculation with TBC smearing, note that this method return the same value of the gap as well. As another example lets consider SQS B. In contrast, the nummerical smearing does not appear to impact the band gap of this structure. We find from HSE06 simulations with gaussian smearing of both 0.05 and 0.005 eV smearing width to yield results around 0.28 eV and 0.18 eV in spin up and down. But alike SQS A, the larger smearing width comes with a few defect states in the spin down channel and additionally can not be seen in the density of states. However, particular of this structure is that the bandgap.py script validate the calculated total band gap from the eigenvalues in all three calculations. Aside from this abnormalty, the other SQS similar to A find some similarities between smearings, but only TBC was validated with bandgap.py, furthermore the DOS does not with the same clarity reproduce the calculated band gap from the eigenvalues in calculations done with gaussian smearing compared to TBC. \textbf{figureof the DOS of hybrid/smear/smear5 maybe A?}
 
-Above we have plotted the computational cost in terms of CPU hours per CPU for the generalized gradient approximation, meta-GGA and hybrid functional. In relation to the topics covered in section 5.1 we see a clear trend in increased cost from more advanced functionals, with HSE06 taking about .. compared to PBE, while SCAN falls somewhere in-between. One of the reasons behind the large cost of HSE06 is as stated we had to perform such calculations in two subsequent iterations, firstly with Gaussian smearing and then secondly with TBC reapplying the calculated charge density. Keep in mind also that HSE06 utilized only halve the number of k-points compared to both PBE and SCAN. This could lead to artificially exaggerated band gaps from HSE06 as the low density of k-points could fail to encapsulate the exact minimum transition between the valence band and conduction band. But in most cases this does not seem to be a factor, with possibly the exception of the abnormally large band gap in SQS B. Regarding PBE and SCAN both of these have known limitations. As stated in section 5.1 PBE have difficulties for 3d elements particularly Ni, similarly SCAN is known to be limited in magnetic materials. The only functional with no known drawback is HSE06, the sole drawback of this functional is the computational demand as seen in figure 7.5.
+We see from the above examples that as most studies and articles state, that TBC smearing is superior in terms of accurate total energy and DOS calculations of semiconductors. Similar to how TBC produce inacurate forces of metals, in several cases in this project we relaxed the structures with gaussian to forces bellow 1E-2, but subsequent calculation with TBC in certain cases resulted in forces above 0.1, without making any geometric alteration to the previously relaxed cell \textbf{(Include examples?)}. On the grounds of these factors we can report good agreement between our own results and the theoretical advice regarding numerical smearing in DFT studies \textbf{Insert refrence vaspwiki}
+ 
+ 
+One final point we would like to cover in the discussion of HSE06 calculations of this system, and generally in this project, is the effect of smearing on the reported band gaps. From the method section, we know that the preferred choice for accurate total energies and density of states calculations is the tetrahedon method with bloch corrections. Alike we know that this method is unfitted to calculate the forces in metals.
 
-\textbf{Rewrite}
-As a conclusion the fact that all 3 functionals and five structures for the most part agree on the presence of a band gap is in itself an overwhelmingly positive result that allow us to state with high certainty that this hypothetical high-entropy silicide \ch{(CrFeMnNi)Si2} is in fact a semiconductor, or possibly a half-metal based on the results of the utmost stable SQS D. An additional point to this is that as covered in great detail in literature on first principles studies, the PBE functional underestimate the value of a band gap. For example in this project we determine the band gap of bulk $\beta-$ \ch{FeSi2}with PBE calculations to around 0.65 eV compared to the experimental value of 0.85 eV. For this reason any values of the band gap with PBE would with high probability be replicated/increased for the real material. Compared to the nonmagnetic bulk material we find these alloys to yield sensible results, here we create a random alloy that as known will introduce defect states and hence lower the band gap and further make the material magnetic. We observe that this is most apparent in spin down as the the spin up gap is more comparable to the values of the bulk material, but the down channel is metallic. In the next section we will look at the probability distribution functions before considering factors related to the special quasi-random methods in section 7.4. 
+As a conclusion on the discussion of exchange-correlation functionals and the band gap of the \ch{(CrFeMnNi)Si2} high-entropy alloy, the fact that all 3 functionals and five SQS for the most part agree on the presence of a band gap is in itself an overwhelmingly positive result that allow us to state with high certainty that this hypothetical materials is in fact a semiconductor, or possibly a half-metal based on the results of the utmost stable SQS D. An additional point to this is that as covered in great detail in literature on first principles studies, the PBE functional underestimate the value of a band gap. For example in this project we determine the band gap of bulk $\beta-$ \ch{FeSi2}with PBE calculations to around 0.65 eV compared to the experimental value of 0.85 eV. For this reason any values of the band gap with PBE would with high probability be replicated/increased for the real material. Compared to the nonmagnetic bulk material we find these alloys to yield sensible results, here we create a random alloy that as known will introduce defect states and hence lower the band gap and further make the material magnetic. We observe that this is most apparent in spin down as the the spin up gap is more comparable to the values of the parent \ch{FeSi2} structure. In the next section we will look at the probability distribution functions before considering factors related to the special quasi-random methods in section 7.4. 
 
 
 \newpage
