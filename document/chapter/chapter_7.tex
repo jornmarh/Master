@@ -249,7 +249,7 @@ As a conclusion on the discussion of exchange-correlation functionals and the ba
 
 
 \newpage
-\section{Probability distribution functions}
+\section{Pair distribution functions}
 The probability distribution functions of SQS D and E can be seen bellow in figure 7.10, the PDFs corresponding to the remaining SQSs can be found in appendix .. . We include the PDFs of SQS D and B because as stated D is the most stable atomic configuration and hence the most representative of a potential real compound, and B to investigate distinctions between the half-metallic structure D and the semiconducting B which with HSE06 yielded substantial band gaps in both spins, recalling also that this is just very slightly bellow D in terms of stability. In the analysis we will put special emphasis on the nearest neighbor interactions since these are the most crucial in deciding the functional properties of a material. 
  
 \begin{figure}[H]
@@ -276,7 +276,7 @@ Above we have presented the results of a high-entropy silicide \ch{(CrFeMnNi)Si2
 \begin{figure}[H]
 \centering
 \includegraphics[width=.8\textwidth]{results/SQS_time.png}
-\caption{CPU time}
+\caption{CPU time, \textbf{Make log plot instead}}
 \end{figure}
 
 Bellow we list the mean and standard deviation of the total energy, magnetic moment and enthalpy of formation of the 3 sizes in table 7.6, and band gaps in table 7.7. 
@@ -294,37 +294,34 @@ Bellow we list the mean and standard deviation of the total energy, magnetic mom
 \end{table}
 
 
+As seen from table 7.4 both the total energy and magnetism remain more or less consistent throughout all sizes, this is a good indication of that the 48 atom model can adequately model the alloy. \textbf{Something on the formation enthalpy.} The band gap as seen in table 7.7 is first of all evident across all 3 SQS models and show similar polarization favoring the spin up direction. In several cases, we find that the magnitude of the band gap lessen with increasing SQS size. 
+
 \begin{table}[H]
-\centering
 \begin{tabular}{@{}ccccc@{}}
 \toprule
-                                                     &   & Spin up (eV) & Spin down (eV) & Total (eV) \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{48 atoms}}}   
-												  & A & 0.0815                & 0.0521                  & 0.0281              \\
-\multicolumn{1}{c|}{}                                & B & 0.2932                & 0.0523                  & 0.0523              \\
-\multicolumn{1}{c|}{}                                & C & 0.2355                & 0.0343                  & 0.0343              \\
-\multicolumn{1}{c|}{}                                & \textbf{D} & 0.3386                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & E & 0.3078                & 0.0495                  & 0.0495              \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{96 atoms}}}   
-                                                     & \textbf{A} & 0.1705                & 0.0442                  & 0.0367              \\ 
-\multicolumn{1}{c|}{}                                & B & 0.1386                & 0.0270                  & 0.0270                   \\
-\multicolumn{1}{c|}{}                                & C & 0.1347                & 0.0363                  & 0.0075                   \\
-\multicolumn{1}{c|}{}                                & D & 0.0892                & 0.0398                  & 0.0398                   \\
-\multicolumn{1}{c|}{}                                & E & 0.1610                & 0                       & 0                        \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{\textbf{192 atoms}}}
-	 									           & A & 0.1197                & 0.0321                  & 0.0321                   \\
-\multicolumn{1}{c|}{}                                & B & 0.1444                & 0                       & 0                        \\
-\multicolumn{1}{c|}{}                                & C & 0.1867                & 0                       & 0                   \\
-\multicolumn{1}{c|}{}                                & D & 0                     & 0                       & 0          \\
-\multicolumn{1}{c|}{}                                & \textbf{E} & 0                & 0                       & 0                   \\ \bottomrule
+N atoms                                   & SQS        & $E_\text{G} ^{up, eigen}(0.5)$ (eV) & $E_\text{G} ^{dw, eigen}(0.5)$ (eV) & $E_\text{G} ^{tot, eigen}(0.5)$ (eV) \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{48}}  & A          & 0.0815       & 0.0521         & 0.0281     \\
+\multicolumn{1}{c|}{}                     & B          & 0.2932       & 0.0523         & 0.0523     \\
+\multicolumn{1}{c|}{}                     & C          & 0.2355       & 0.0343         & 0.0343     \\
+\multicolumn{1}{c|}{}                     & \textbf{D} & 0.3386       & 0              & 0          \\
+\multicolumn{1}{c|}{}                     & E          & 0.3078       & 0.0495         & 0.0495     \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{96}}  & \textbf{A} & 0.1705       & 0.0442         & 0.0367     \\
+\multicolumn{1}{c|}{}                     & B          & 0.1386       & 0.0270         & 0.0270     \\
+\multicolumn{1}{c|}{}                     & C          & 0.1347       & 0.0363         & 0.0075     \\
+\multicolumn{1}{c|}{}                     & D          & 0.0892       & 0.0398         & 0.0398     \\
+\multicolumn{1}{c|}{}                     & E          & 0.1610       & 0              & 0          \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{192}} & A          & 0.1197       & 0.0321         & 0.0321     \\
+\multicolumn{1}{c|}{}                     & B          & 0.1444       & 0              & 0          \\
+\multicolumn{1}{c|}{}                     & C          & 0.1867       & 0              & 0          \\
+\multicolumn{1}{c|}{}                     & D          & 0.0478       & 0.0339         & 0          \\
+\multicolumn{1}{c|}{}                     & \textbf{E} & 0.0131       & 0.0184         & 0.0131     \\ \bottomrule
 \end{tabular}
 \caption{Total and spin dependent band gap of SQS of 48, 96 and 192 atoms each of \ch{(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or 192. The most stable SQS is highlighted in bold text.}
 \end{table}
 
-As seen from table 7.4 both the total energy and magnetism remain more or less consistent throughout all sizes, this is a good indication of that the 48 atom model can adequately model the alloy. \textbf{Something on the formation enthalpy.} Regarding the band gap, we find that the band gap is lower in the larger cells. In the 48 atom SQSs the gap varies mostly between 0.2 - 0.3 eV. In the 96 model this is reduced to 0.10 - 0.17 eV, and alike in the 192 model. Most instances still point to a spin polarized band gap with larger values in up. A concerning result of this analysis sis that it appears that the largest SQS model, attributed by litterture reviews to be the most accurate description to favor a metal, as indicated both by the low number of band gaps in spin up and down compared to the previous cases, and the fact that the most stable configuration have no band gap, as opposed to the smaller cells where the most stable configuration is either half-metallic or semiconducting. However we do see differences between SQSs with some being half-metals and one semiconducting, to draw any real conclusion we should have studied a larger number of SQSs of each size. 
+In the above table we have specified $occ = 0.5$ to give a fair comparison as some SQSs contained defect states that impacted the eigenvalue band gaps. These values can be seen in table .. . From the figures in .. we see that the density of states band gap is not seen in the cases where the eigenvalues contain defect states. 
 
-Looking at the pair distribution functions in figure 7.11 we see that the local ordering and short-range interactions is well represented and identical across all three sizes. The distinctions of preferences is largely attributed to the uniqueness of the SQSs more so than the size. On the other hand the larger SQSs clearly provide a better description of large-range interactions, that is not nearly as present in the smaller cell. However as seen in table 7.4 and in accordance with the fundamental concept of the special quasi-random structures method is that the functional properties is mostly determined by short-range effects in the lattice. Therefore, even though the bigger SQSs is a more accurate model the improvement is not justified from the cost, as illustrated in figure 7.12. That is if we neglect the difference of the band gap, which very well could be a product of the uniqeness of the 5 SQSs used in the analysis, or if it's a rigid relevance to the SQS size. \textbf{Something on SQS applied to our case, a XSi2 structure is not really as disordered as a true HEA?}      
-
+In addition the band gaps were only calculated with the PBE functional due to the computational demand of the more advanced functionals at increased SQS sizes. Drawing any real conclusion on the band gaps is difficult seeing as we find very different results within the most sizes. Based solely on the most stable SQS it's clear that the larger cell produce a much lower and different band gaps compared to the moderate SQS sizes which are much more similar. However also here we find that the gap in the 96 cell is only abort half of the 48 atom cell. However as seen in table 7.7 we also find evidence of large band gaps in the larger cells in other atomic configurations. This goes back to section .. when we mentioned that one of the biggest drawbacks of the special quasi-random structures method is the large number of possible atomic configurations, thus in order to conclude between results in this project the most sensible point is to consider the most stable SQS, but as seen from the very varying properties between SQSs of the same model, this does not necaccarly been the most stable SQS if we trialed 20 SQSs instead of just 5. An additional point is the magnetic property, here we only applied one configuration to base the stabiliy on, thus it's very probable that fine tuning the magnetic moments could result in different properties.  
 
 \begin{figure}[H]
 \begin{subfigure}{\textwidth}
@@ -336,6 +333,7 @@ Looking at the pair distribution functions in figure 7.11 we see that the local 
 \begin{subfigure}{\textwidth}
 \includegraphics[width=\textwidth]{results/PDF192.png}
 \end{subfigure}
-\caption{Pair distribution functions of SQS sizes}
+\caption{Pair distribution functions of SQS sizes (top) 48 atoms, (middle) 96 atoms, (bottom) 192 atoms}
 \end{figure}
 
+Looking at the pair distribution functions in figure 7.11 we see that the local ordering and short-range interactions is well represented and identical across all three sizes. The distinctions of preferences could as stated above simply be a product of the uniqueness of the SQSs more so than the size. On the other hand the larger SQSs clearly provide a better description of large-range interactions, that is not nearly as present in the smaller cell. However as seen in table 7.4 and in accordance with the fundamental concept of the special quasi-random structures method is that the functional properties is mostly determined by short-range effects in the lattice. Therefore, even though the bigger SQSs is a more accurate model the improvement is not justified from the cost, as illustrated in figure 7.12. And the apparent larger concern from appling the SQS method in this project is the uniqueness of each SQS.

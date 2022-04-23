@@ -53,9 +53,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {7.10}{\ignorespaces Probability distribution function of SQS D (top) and B (bottom)\relax }}{52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.11}{\ignorespaces CPU time\relax }}{54}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces CPU time, \textbf {Make log plot instead}\relax }}{54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Pair distribution functions of SQS sizes\relax }}{56}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Pair distribution functions of SQS sizes (top) 48 atoms, (middle) 96 atoms, (bottom) 192 atoms\relax }}{56}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
