@@ -355,6 +355,18 @@
       \field{pages}{3\bibrangedash 65}
       \range{pages}{63}
     \endentry
+    \entry{ismear}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{ISMEAR - Vaspwiki}
+      \verb{urlraw}
+      \verb https://www.vasp.at/wiki/index.php/ISMEAR
+      \endverb
+      \verb{url}
+      \verb https://www.vasp.at/wiki/index.php/ISMEAR
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
