@@ -78,14 +78,16 @@ A key point regarding the band structure of SQS D is the presence of defect stat
 \begin{tabular}{@{}ccccc@{}}
 \toprule
 Occ (full)          & Occ (empty)      & $E_G ^\text{up, eigen}$ (meV)  & $E_G ^\text{dw, eigen}$ (meV) & $E_G ^\text{t, eigen}$ (meV) \\ \midrule
-0.9                 & 0.1              & 339 & 0    & 0     \\
+0.51 - 0.9          & 0.1 - 0.49              & 339 & 0    & 0     \\
 0.95                & 0.05             & 339 & 21.0 & 21.0  \\
 0.99                & 0.01             & 339 & 49.6 & 49.6  \\
 0.999               & 0.001            & 339 & 73.3 & 73.3  \\
 \textgreater 0.9999 & \textless 0.0001 & 339 & 85.7 & 85.7  \\ \bottomrule
 \end{tabular}
+\caption{Band gap in spin up and spin down of SQS D showing the impact of defect states for different occupancy cutoffs  $occ$ on the band gap}
 \end{table}
 
+By including a threshold value to the occupancy and calculate the eigenvalue band gap at certain thresholds we find that the band gap increase as we neglect more defect states. Thus we may conclude that the band gap of SQS D or lack there of is attributed to to the defects. Comparing to the density of states band gap plotted in figure 7.1, it's apparent that $E_\text{G} ^\text{dos}$ correspond to $E_\text{G} ^\text{eigen}(0.5, 0.5)$, thus the density of states show the band gap with all defect states present. 
 
 \newpage
 \section{Local and projected density of states}
@@ -319,9 +321,17 @@ N atoms                                   & SQS        & $E_\text{G} ^{up, eigen
 \caption{Total and spin dependent band gap of SQS of 48, 96 and 192 atoms each of \ch{(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or 192. The most stable SQS is highlighted in bold text.}
 \end{table}
 
-In the above table we have specified $occ = 0.5$ to give a fair comparison as some SQSs contained defect states that impacted the eigenvalue band gaps. These values can be seen in table .. . From the figures in .. we see that the density of states band gap is not seen in the cases where the eigenvalues contain defect states. 
+Similar to structure D in the 48 atom SQS we find that the 0 value in SQS E in the 48 atom model suffers from defect states and find $E_\text{G} ^{dw, eigen}(0.90, 0.10) = 0.016$ eV. The same is true for SQS B and C (192), but require $occ = 0.999, 0.001$ to locate a small nonzero spin down band gap. The band gap in SQS D and E (192) on the other hand is finite at $occ = 0.5$ but can be enlarged from increasing $occ$. In D we get $E_\text{G} ^{up, eigen}(0.99) = 0.075$ eV and $E_\text{G} ^{dw, eigen}(0.01) = 0.05$ eV and similarly $E_\text{G} ^{up, eigen}(0.99) = 0.05$ eV, and $E_\text{G} ^{dw, eigen}(0.01) = 0.048$ eV in E. In such cases where the eigenvalues inclusive of defect states return a finite band gap, the density of states does not. This is seen in figure .. for SQS E (192). 
 
-In addition the band gaps were only calculated with the PBE functional due to the computational demand of the more advanced functionals at increased SQS sizes. Drawing any real conclusion on the band gaps is difficult seeing as we find very different results within the most sizes. Based solely on the most stable SQS it's clear that the larger cell produce a much lower and different band gaps compared to the moderate SQS sizes which are much more similar. However also here we find that the gap in the 96 cell is only abort half of the 48 atom cell. However as seen in table 7.7 we also find evidence of large band gaps in the larger cells in other atomic configurations. This goes back to section .. when we mentioned that one of the biggest drawbacks of the special quasi-random structures method is the large number of possible atomic configurations, thus in order to conclude between results in this project the most sensible point is to consider the most stable SQS, but as seen from the very varying properties between SQSs of the same model, this does not necaccarly been the most stable SQS if we trialed 20 SQSs instead of just 5. An additional point is the magnetic property, here we only applied one configuration to base the stabiliy on, thus it's very probable that fine tuning the magnetic moments could result in different properties.  
+\begin{figure}
+\centering
+\includegraphics[width=.8\textwidth]{results/fesi2/192_E_DOS.png}
+\caption{Density of states of SQS E 192 atom SQS.}
+\end{figure}    
+ 
+Drawing any conclusion on the band gaps is difficult seeing as we find very different results within the all 3 sizes. Based solely on the most stable SQS it's clear that the larger cell produce a much lower and different band gaps compared to the moderate SQS sizes which are much more similar. However also here we find that the gap in the 96 cell is only abort half of the 48 atom cell. However as seen in table 7.7 we also find evidence of large band gaps in the larger cells in other atomic configurations. This goes back to section .. when we mentioned that one of the biggest drawbacks of the special quasi-random structures method is the large number of possible atomic configurations, thus in order to conclude between results in this project the most sensible point is to consider the most stable SQS, but as seen from the very varying properties between SQSs of the same model, this does not necaccarly been the most stable SQS if we trialed 20 SQSs instead of just 5. An additional point is the magnetic property, here we only applied one configuration to base the stabiliy on, thus it's very probable that fine tuning the magnetic moments could result in different properties.  
+
+Looking at the pair distribution functions in figure 7.11 we see that the local ordering and short-range interactions is well represented and identical across all three sizes. The distinctions of preferences could as stated above simply be a product of the uniqueness of the SQSs more so than the size. On the other hand the larger SQSs clearly provide a better description of large-range interactions, that is not nearly as present in the smaller cell. However as seen in table 7.4 and in accordance with the fundamental concept of the special quasi-random structures method is that the functional properties is mostly determined by short-range effects in the lattice. Therefore, even though the bigger SQSs is a more accurate model the improvement is not justified from the cost, as illustrated in figure 7.12. And the apparent larger concern from appling the SQS method in this project is the uniqueness of each SQS.
 
 \begin{figure}[H]
 \begin{subfigure}{\textwidth}
@@ -335,5 +345,3 @@ In addition the band gaps were only calculated with the PBE functional due to th
 \end{subfigure}
 \caption{Pair distribution functions of SQS sizes (top) 48 atoms, (middle) 96 atoms, (bottom) 192 atoms}
 \end{figure}
-
-Looking at the pair distribution functions in figure 7.11 we see that the local ordering and short-range interactions is well represented and identical across all three sizes. The distinctions of preferences could as stated above simply be a product of the uniqueness of the SQSs more so than the size. On the other hand the larger SQSs clearly provide a better description of large-range interactions, that is not nearly as present in the smaller cell. However as seen in table 7.4 and in accordance with the fundamental concept of the special quasi-random structures method is that the functional properties is mostly determined by short-range effects in the lattice. Therefore, even though the bigger SQSs is a more accurate model the improvement is not justified from the cost, as illustrated in figure 7.12. And the apparent larger concern from appling the SQS method in this project is the uniqueness of each SQS.
