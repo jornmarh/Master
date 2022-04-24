@@ -77,17 +77,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.5}SQS size}{54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Permutations of \ch {(CrFeMnNi)Si2}}{54}%
+\contentsline {chapter}{\numberline {8}Permutations of \ch {(CrFeMnNi)Si2}}{58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Different compositions and crystal structure}{60}%
+\contentsline {chapter}{\numberline {9}Different compositions and crystal structure}{64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}New compositions}{60}%
+\contentsline {section}{\numberline {9.1}New compositions}{64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Crystal structures}{63}%
+\contentsline {section}{\numberline {9.2}Crystal structures}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{MnSi \\}{63}%
+\contentsline {paragraph}{MnSi \\}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fe2Si \\}{64}%
+\contentsline {paragraph}{Fe2Si \\}{68}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Overview and outlook}{65}%
 \defcounter {refsection}{0}\relax 
