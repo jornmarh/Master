@@ -3,52 +3,58 @@
 
 Up until this point we have looked in detail at the high-entropy silicide \ch{(CrFeMnNi)Si2} and associated SQSs. However these structures are just the center of a larger quasi-ternary phase diagram consisting of the different possible distributions of elements Thus there exists many other compositions of this particular high-entropy silicide. In this section, we aim to expand our search of this diagram by generating SQSs of the 48 atom model slightly away from equimolar distribution of 3d elements. In table (bellow) we list the mean total energy and magnetic moment per atom with standard deviation and the enthalpy of formation of 4 compositions of the \ch{(CrFeMnNi)Si2} alloy. Ideally they would differ only by one element, but the TDEP implementation insist in also reducing Nickel to stay consistent with the 48 atom supercell. 
 
-\begin{table}[h!]
-%\centering
-\hskip-2.5cm\begin{tabular}{@{}cccccc@{}}
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}cccccc@{}}
 \toprule
-       & \multicolumn{2}{c}{Total energy/atom (eV)} & Enthalpy of formation (eV) & \multicolumn{2}{c}{Final magnetic moment ($\mu_B$)} \\ \midrule
-\ch{Cr3Fe3Mn7Ni3Si32} & - 6.6947  & 0.0040 & -11.9586  & 0.1375  & 0.0186     \\
-\ch{Cr5Fe5Mn3Ni3Si32} & - 6.6705  & 0.0030 & -11.1991  & 0.1127  & 0.0223     \\
-\ch{Cr5Fe3Mn5Ni3Si32} & - 6.6852  & 0.0041 & -10.5200  & 0.1375  & 0.0456     \\
-\ch{Cr3Fe5Mn5Ni3Si32} & - 6.6801  & 0.0036 & -12.6426  & 0.0937  & 0.0209     \\
-\ch{Cr3Fe3Mn3Ni7Si32} & - 6.3921  & 0.0078 & -10.9614  & 0.0159  & 0.0101 \\ \bottomrule
+Composition           & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Toten\\ (eV)\end{tabular}} & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Mag \\ $\mu_B$\end{tabular}} & \begin{tabular}[c]{@{}c@{}}$\Delta H$\\ (eV)\end{tabular} \\ \midrule
+                      & mean                                 & std                               & mean                                 & std                                 & mean                                                      \\ \midrule
+\ch{Cr3Fe3Mn7Ni3Si32} & - 6.6947                             & 0.0040                            & 0.1375                               & 0.0186                              & -11.9586                                                  \\
+\ch{Cr5Fe5Mn3Ni3Si32} & - 6.6705                             & 0.0030                            & 0.1127                               & 0.0223                              & -11.1991                                                  \\
+\ch{Cr5Fe3Mn5Ni3Si32} & - 6.6852                             & 0.0041                            & 0.1375                               & 0.0456                              & -10.5200                                                  \\
+\ch{Cr3Fe5Mn5Ni3Si32} & - 6.6801                             & 0.0036                            & 0.0937                               & 0.0209                              & -12.6426                                                  \\
+\ch{Cr3Fe3Mn3Ni7Si32} & - 6.3921                             & 0.0078                            & 0.0159                               & 0.0101                              & -10.9614                                                  \\ \bottomrule
 \end{tabular}
-\caption{Mean and standard deviation of the total energy and magnetic moment per atom, plus enthalpy of formation of the listed mean energies (\ch{FeSi2}).}
+\caption{Summary composition diagram}
 \end{table}
 
 The first result of table .. we make notice of is that the stability, as evaluated by the enthalpy of formation can be increased beyond the eqvimolar composition. This is accomplished in two distinct permutations, one with increments to  manganese relative to the other TM, and the other by reduction of chromium. Moreover the two respective permutations lie on the opposite side of the magnetic scale. The large magnetic moment of the manganese rich permutation and the low magnetic moment in the chromium poor permutation is very much in line with the observations made in the previous section. Recalling that in the magnetic moment in the eqvimolar composition was largely attributed to manganese and chromium atoms in the lattice. Thus increments to manganese or reduction of chromium would following impact the magnetic moment as in the two permutations. For this reason, additionally the permutation \ch{Cr5Fe3Mn5Ni3Si32} where the nonmagnetic elements is reduced and the magnetic elements are increased ,is equally magnetic. We however find no direct relation between stability and magnetism as his particular permutation is the least stable. An important property of table 8.5 is that the listed values are the mean value of the observed property for 5 distinct SQSs of the same permutation. For example we notice that while the highest magnetic moment in the first permutation is associated with the most stable SQS (from total energy considerations), and the least stable supercell show the highest magnetic moment in \ch{Cr5Fe3Mn5Ni3Si32}. Hence again we find the uniqeness problem of the special quasi-random structures troublesome in regards to making rigid conclusions of our results.  
 
 In table 8.2 we list the respective band gaps of the different compositions calculated with the PBE functional. Only the GGA functional was applied in this case because the motivation is primarily to compare the results to the parent equimolar composition and thus including 3 times as many results to calculate and analyze unnecessarily complicate the process. Thus we base this comparison between the PBE results of the new compositions to the PBE band gaps of the equimolar compound. In these compositions we find strong indication of a half-metal with less frequent SQSs with a band gap in the spin down channel than the equimolar compound. In the spin up channel on the other hand several compositions show very similar values to the equimolar composition. Between the different compositions particularly those rich in manganese provide very encouraging results and compositions poor in Mn less so. In terms of the stability we a very encouraging results of both the \ch{Cr3Fe3Mn7Ni3Si32} and \ch{Cr3Fe5Mn5Ni3Si32} compositions, where the most promising properties is attributed to the utmost stable configurations.  in \ch{Cr3Fe5Mn5Ni3Si32} the most stable SQS (D) is a semiconductor with a band gap around 0.1 eV.
+
 \newpage
-\begin{table}[H]
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
 \begin{tabular}{@{}ccccc@{}}
 \toprule
-Composition                                            & SQS        & $E_G ^\text{up, eigen}(0.5)$   & $E_G ^\text{dw, eigen}(0.5)$ & $E_G ^\text{tot, eigen}(0.5, 0.5)$ \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{\ch{Cr3Fe3Mn7Ni3Si32}}} & A          & 0.3390         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & \textbf{B} & 0.4745         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & C          & 0.1342         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & D          & 0.1950         & 0.0063         & 0.0063     \\
-\multicolumn{1}{c|}{}                                  & E          & 0.4211         & 0              & 0          \\ \midrule
-\multicolumn{1}{c|}{\multirow{4}{*}{Cr5Fe5Mn3Ni3Si32}} & A          & \textit{0.003} & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & \textbf{C} & \textit{0.21}  & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & D          & 0.0674         & 0.0413         & 0.0372     \\
-\multicolumn{1}{c|}{}                                  & E          & \textit{0.362} & 0              & 0          \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{Cr5Fe3Mn5Ni3Si32}} & \textbf{A} & 0.2082         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & B          & 0.4053         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & C          & 0.4659         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & D          & 0.0843         & 0.0121         & 0.0121     \\
-\multicolumn{1}{c|}{}                                  & E          & 0.3008         & 0              & 0          \\ \midrule
-\multicolumn{1}{c|}{\multirow{4}{*}{\ch{Cr3Fe5Mn5Ni3Si32}}} & A          & 0.3922         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & C          & 0.1285         & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & \textbf{D} & 0.2595         & 0.1004         & 0.1004      \\
-\multicolumn{1}{c|}{}                                  & E          & 0.3591         & 0.1003         & 0.0848     \\ \midrule
-\multicolumn{1}{c|}{\multirow{5}{*}{Cr3Fe3Mn3Ni7Si32}} & A          & 0              & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & B          & 0              & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & C          & 0              & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & D          & 0              & 0              & 0          \\
-\multicolumn{1}{c|}{}                                  & \textbf{E} & \textit{0.04}           & 0              & 0          \\ \bottomrule 
+Composition                                                 & SQS        & \begin{tabular}[c]{@{}c@{}}$E_G ^\text{up, eigen}(0.5)$\\ (eV)\end{tabular} & \begin{tabular}[c]{@{}c@{}}$E_G ^\text{dw, eigen}(0.5)$\\ (eV)\end{tabular} & \begin{tabular}[c]{@{}c@{}}$E_G ^\text{tot, eigen}(0.5, 0.5)$\\ (eV)\end{tabular} \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\ch{Cr3Fe3Mn7Ni3Si32}}} & A          & 0.3390                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & \textbf{B} & 0.4745                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & C          & 0.1342                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & D          & 0.1950                                                                      & 0.0063                                                                      & 0.0063                                                                            \\
+\multicolumn{1}{c|}{}                                       & E          & 0.4211                                                                      & 0                                                                           & 0                                                                                 \\ \midrule
+\multicolumn{1}{c|}{\multirow{4}{*}{\ch{Cr5Fe5Mn3Ni3Si32}}} & A          & \textit{0.003}                                                              & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & \textbf{C} & \textit{0.21}                                                               & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & D          & 0.0674                                                                      & 0.0413                                                                      & 0.0372                                                                            \\
+\multicolumn{1}{c|}{}                                       & E          & \textit{0.362}                                                              & 0                                                                           & 0                                                                                 \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{\ch{Cr5Fe3Mn5Ni3Si32}}} & \textbf{A} & 0.2082                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & B          & 0.4053                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & C          & 0.4659                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & D          & 0.0843                                                                      & 0.0121                                                                      & 0.0121                                                                            \\
+\multicolumn{1}{c|}{}                                       & E          & 0.3008                                                                      & 0                                                                           & 0                                                                                 \\ \midrule
+\multicolumn{1}{c|}{\multirow{4}{*}{\ch{Cr3Fe5Mn5Ni3Si32}}} & A          & 0.3922                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & C          & 0.1285                                                                      & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & \textbf{D} & 0.2595                                                                      & 0.1004                                                                      & 0.1004                                                                            \\
+\multicolumn{1}{c|}{}                                       & E          & 0.3591                                                                      & 0.1003                                                                      & 0.0848                                                                            \\ \midrule
+\multicolumn{1}{c|}{\multirow{5}{*}{{Cr3Fe3Mn3Ni7Si32}}}    & A          & 0                                                                           & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & B          & 0                                                                           & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & C          & 0                                                                           & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & D          & 0                                                                           & 0                                                                           & 0                                                                                 \\
+\multicolumn{1}{c|}{}                                       & \textbf{E} & \textit{0.04}                                                               & 0                                                                           & 0                                                                                 \\ \bottomrule 
 \end{tabular}
+
 \caption{Band gaps of various compositions of \ch{(CrFeMnNi)Si2}. Most stable SQS of a set is highlighted in bold text, band gap with defect states are listed in cursive. Some SQSs were excluded from the table due to unsuccessful calculations.}
 \end{table}
 \newpage
