@@ -15,35 +15,35 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces Total energy per atom, final magnetic moment and band gap of 5 unique SQS of \ch {(CrFeMnNi)Si2} based on the $\beta -$ \ch {FeSi2} unit cell.\relax }}{40}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Total energy per atom, final magnetic moment and band gap of 5 unique SQS of \ch {(CrFeMnNi)Si2} based on the $\beta -$ \ch {FeSi2} unit cell.\relax }}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.2}{\ignorespaces Band gap of the 5 SQSs of \ch {(CrFeMnNi)Si2} calculated from the eigenvalues in spin up, down and total.\relax }}{42}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Band gap of the 5 SQSs of \ch {(CrFeMnNi)Si2} calculated from the eigenvalues in spin up, down and total.\relax }}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.3}{\ignorespaces Band gap of SQS D as a function of occupancy in the eigenvalues.\relax }}{43}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Band gap of SQS D as a function of occupancy in the eigenvalues.\relax }}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.4}{\ignorespaces Band gap calculated with PBE, SCAN and HSE06 XC-functionals of \ch {(CrFeMnNi)Si2} SQSs.\relax }}{46}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Band gap calculated with PBE, SCAN and HSE06 XC-functionals of \ch {(CrFeMnNi)Si2} SQSs.\relax }}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.5}{\ignorespaces Minimum gap between k-point in valence band and conduction band in SQS B from PBE, SCAN and HSE06\relax }}{49}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Minimum gap between k-point in valence band and conduction band in SQS B from PBE, SCAN and HSE06\relax }}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.6}{\ignorespaces Band gap from HSE06 calculations with gaussian smearing and smearing width $sigma$ equal to 0.05 and 0.005, and the tetrahedron method (TBC). "-" mean unchanged values, "ND" means not done.\relax }}{50}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Band gap from HSE06 calculations with gaussian smearing and smearing width $sigma$ equal to 0.05 and 0.005, and the tetrahedron method (TBC). "-" mean unchanged values, "ND" means not done.\relax }}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.7}{\ignorespaces Overivew 48, 96 and 192 SQSs. \relax }}{54}%
+\contentsline {table}{\numberline {2.7}{\ignorespaces Overivew 48, 96 and 192 SQSs. \relax }}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.8}{\ignorespaces Band gap of SQSs of 48, 96 and 192 atoms each of \ch {(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or 192.\relax }}{55}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces Summary composition diagram\relax }}{58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.2}{\ignorespaces Band gaps of various compositions of \ch {(CrFeMnNi)Si2}. Most stable SQS of a set is highlighted in bold text, band gap with defect states are listed in cursive. Some SQSs were excluded from the table due to unsuccessful calculations.\relax }}{60}%
+\contentsline {table}{\numberline {2.8}{\ignorespaces Band gap of SQSs of 48, 96 and 192 atoms each of \ch {(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or 192.\relax }}{23}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.1}{\ignorespaces Overview new compositions\relax }}{63}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary composition diagram\relax }}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.2}{\ignorespaces Final magnetic moment of the most stable supercell of each composition.\relax }}{64}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Band gaps of various compositions of \ch {(CrFeMnNi)Si2}. Most stable SQS of a set is highlighted in bold text, band gap with defect states are listed in cursive. Some SQSs were excluded from the table due to unsuccessful calculations.\relax }}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.3}{\ignorespaces Band gaps of the most stable SQS of $\beta -$ \ch {FeSi2} high-entropy silicide compositions as a function of occupancy in the eigenvalues.\relax }}{66}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Overview new compositions\relax }}{31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Final magnetic moment of the most stable supercell of each composition.\relax }}{32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Band gaps of the most stable SQS of $\beta -$ \ch {FeSi2} high-entropy silicide compositions as a function of occupancy in the eigenvalues.\relax }}{33}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
