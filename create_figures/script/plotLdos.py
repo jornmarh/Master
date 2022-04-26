@@ -30,7 +30,7 @@ def ldos(file):
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfeconi'
+composistion = 'crfemnco'
 structure = '/B/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
@@ -47,11 +47,9 @@ plt.rcParams['font.size'] = 15
 #plt.rcParams['legend.fontsize'] = 15
 
 colors = {"Si": "#30a2da", "Cr": "#fc4f30", "Mn": "#e5ae38", "Fe": "#6d904f", "Ni": "#8b8b8b", "Co": "#dc92ff", "Ti": "#ff6ef1"}
-fig, ax = plt.subplots(figsize=[11,6])
+fig, ax = plt.subplots(figsize=[12,6])
 
-plt.style.use('default')
-
-axin = inset_axes(ax, width="100%", height="100%",  bbox_to_anchor=(.75, .8, .2, .3), bbox_transform=ax.transAxes, loc=2)
+axin = inset_axes(ax, width="100%", height="100%",  bbox_to_anchor=(.75, .6, .2, .3), bbox_transform=ax.transAxes, loc=2)
 axin.tick_params(labelleft=True, labelbottom=True)
 
 for i in range(1, N_e+1):
@@ -63,7 +61,7 @@ for i in range(1, N_e+1):
     axin.plot(ldos_up[0], ldos_up[i], c=farge, lw=2, alpha=1)
     axin.plot(ldos_dw[0], ldos_dw[i], c=farge, lw=2, alpha=1)
 
-ax.plot(ldos_up[0], np.zeros(len(ldos_up[0])), c='#000000', linestyle='dashed', lw=2, alpha=.7)
+ax.plot(ldos_up[0], np.zeros(len(ldos_up[0])), c='#000000', linestyle='dashed', lw=1, alpha=1)
 #ax.plot(np.zeros(len(ldos_up[0])),np.linspace(-20,20, len(ldos_up[0])), c='#000000', linestyle='dashed', lw=1, alpha=.7)
 
 axin.plot(ldos_up[0], np.zeros(len(ldos_up[0])), c='#000000', linestyle='dashed', lw=1, alpha=1)
@@ -71,15 +69,19 @@ axin.plot(np.zeros(len(ldos_up[0])),np.linspace(-10,10, len(ldos_up[0])), c='#00
 
 
 
-axin.set_xlim(-.3, .3)
-axin.set_ylim(-2, 2)
+axin.set_xlim(-.1, .1)
+axin.set_ylim(-0.01, 0.05)
 mark_inset(ax, axin, loc1=2, loc2=4, edgecolor='black')
+for spine in axin.spines.values():
+        spine.set_edgecolor('black')
+        spine.set_linewidth(1)
+
 
 ax.set_xlim(-6, 3)
 #ax.set_ylim(-8,8)
 ax.set_xlabel("Energy (eV)")
 ax.set_ylabel("Density of states")
-ax.legend(loc='lower right', prop={'size': 13})
-
-#plt.savefig(savepath + "_PDOS.png")
+ax.legend(loc='upper left', prop={'size': 13})
+plt.tight_layout()
+plt.savefig(savepath + "_PDOS.png")
 plt.show()

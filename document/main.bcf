@@ -2182,6 +2182,13 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="8">PhysRevB.58.10389</bcf:citekey>
+    <bcf:citekey order="9">ZUO201710</bcf:citekey>
+    <bcf:citekey order="10">PhysRevB.96.014437</bcf:citekey>
+    <bcf:citekey order="11">PhysRevLett.104.236403</bcf:citekey>
+    <bcf:citekey order="12">doi:10.1063/1.346415</bcf:citekey>
+    <bcf:citekey order="13">lange1997electronic</bcf:citekey>
+    <bcf:citekey order="14">ismear</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -65,29 +65,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Results and Discussion}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}The results of eqvimolar \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{7}%
+\contentsline {chapter}{\numberline {7}The results of eqvimolar \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The band gap}{9}%
+\contentsline {section}{\numberline {7.1}The band gap}{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Local and projected density of states}{12}%
+\contentsline {section}{\numberline {7.2}Local and projected density of states}{44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Results from SCAN and HSE06 functionals}{14}%
+\contentsline {section}{\numberline {7.3}Results from SCAN and HSE06 functionals}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Pair distribution functions}{20}%
+\contentsline {section}{\numberline {7.4}Pair distribution functions}{52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}SQS size}{22}%
+\contentsline {section}{\numberline {7.5}SQS size}{54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Permutations of \ch {(CrFeMnNi)Si2}}{26}%
+\contentsline {chapter}{\numberline {8}Permutations of \ch {(CrFeMnNi)Si2}}{58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Different compositions and crystal structure}{31}%
+\contentsline {chapter}{\numberline {9}Different compositions and crystal structure}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}New compositions}{31}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Crystal structures}{34}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{MnSi \\}{34}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fe2Si \\}{35}%
+\contentsline {section}{\numberline {9.1}New compositions}{63}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Overview and outlook}{65}%
 \defcounter {refsection}{0}\relax 

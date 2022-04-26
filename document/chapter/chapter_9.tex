@@ -36,13 +36,7 @@ From table 9.1 we see that the stability of the relative compositions vary great
 \caption{Final magnetic moment of the most stable supercell of each composition.}
 \end{table}
 
-In regards to the band gap of these compositions, the heavy majority turn out to be metals. In line with previous examples in this project, the lack of band gaps is caused by defect states. In table 4.3 we calculate the band gaps as a function of the occupancy parameter $occ$ for the most stable SQS in each composition. At $occ = 0.01$, the band gap is calculated only considering states very nearly full or empty, in this case most structures have a band gap of around 0.03 eV. 
-
-By allowing more defect states to take part ($occ = 0.1$) the band gap is lowered from structure to structure, and at $occ = 0.5$, where all defect states are present, the band gap vanishes. 
-
-in other words not considering the partially filled states when determining the band gap, results in small values around 0.3 ev . Allowing more defects to take part, the band gap is reduced and eventually vanish to yield metallic structures. 
-
-We found no evidence of a band gap in both the CrFeCoNiSi2 and CrFeMnTiSi2 alloys across all supercells. Further also the most stable SQSs of the CrFeTiNiSi alloy point to a metal. Similarly the most stable SQSs of the CoFeMnNiSi2 alloy are clearly metals. Noteworthy of this composition however is that we find clear evidence of a narrow band gap in two SQSs (A and B). In terms of stability, these lie around the mean total energy of the set. The respective band gaps are 0.033 eV in A and 0.0058 eV in B.
+In regards to the band gap of these compositions, we find most to be metals. The band gap of the most stable SQS of each composition is listed in table 4.3, where we calculate the band gap from the eigenvalues at different occupancy cutoffs. As before the 0 band-gap is caused by defect states in the band gap. By increasing the criteria, in other words only consider states with occupancy above a certain threshold, the band gap become finite at $occ = 0.1$ and converge to around $0.02 - 0.06$ eV depending on composition, when only considering full/empty states.  
 
 \begin{table}[H]
 \centering
@@ -68,30 +62,44 @@ We found no evidence of a band gap in both the CrFeCoNiSi2 and CrFeMnTiSi2 alloy
 \caption{Band gaps of the most stable SQS of $\beta-$ \ch{FeSi2} high-entropy silicide compositions as a function of occupancy in the eigenvalues.}
 \end{table}
 
+The one exception to the metallic compositions is the \ch{CrFeMnCoSi2} composition with a gap of around 0.5 eV in the spin up channel. As seen in previous cases, this structure despite of the large band gap contains also a small amount of defect states. This is seen in the projected density of states plotted in figure 4.1, where we observe small nonzero values of the density of states at the Fermi energy. The PDOSs of the other compositions is found in appendix ..  
+  
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnco_PDOS.png}
+\caption{Projected density of states of \ch{(CrFeMnCo)Si2}.}
+\end{figure}
 
-\textbf{To follow is details on the gaps in A and B, is it worth to include this?}
-In the density of states plotted in figure .., the band gap in A is clearly visible. On the other hand the very narrow gap in B is not as apparent, as the states around Ef contain very small nonzero values.  This could be related to the low resolution of 2500 points in the density of states as seen before, especially considering the size of the gap. In opposite to the CFMN calculations previous we here experience excellent cohesion between PBE and SCAN simulations on the band gap. With the meta-GGA functional the band gap of SQS A and B respective is 0.04 eV and the 0.003 eV. Moreover we find the identical gap transition with both functionals, which was not the case in previous endeavors with this functional. Additionally we also find that the HSE06 functional produce dissimilar results to previous experiences. In this scenario, the HSE06 functional fails to recognize the observed band gap of PBE and SCAN in both supercells. The greater number of k-points in the GGA and meta-GGA calculations offer more accurate band gaps, however lesser k-points will not result in a smaller gap, only bigger. Thus the uncertainties of previous calculations of the HSE06 functional does not apply in this case. For this reason in addition to the reputation of hybrid functionals and the lack of other factors to negatively affect the validity of the result, we find it challenging to conclude on the band gap of these structures between functionals.
+Contrary to the above case, inserting Co in the place of manganese clearly result in a metallic structure, as seen in the density of states in figure 9.2 a. Replacing Mn with Ti instead we recall from table 9.3 a a very small defect band gap in spin up, however from figure 9.2b we observe that $E_\text{G}^{dos}$ is equal to zero, thus $E_G ^\text{dos} \neq E_G ^{eigen}$. Comparing the density of states of \ch{(CrFeCoNi)Si2} and \ch{(CrFeTiNi)Si2} tha the latter is magnetic and the former nonmagnetic, as we discussed previously.  
 
-\section{Crystal structures}
 
-In the discussion above we have covered in great detail the possibilites of high-entropy silicides based on the $\beta-$ \ch{FeSi2} unit cell with twice as many silicon atoms to 3d elements. The primary outcome and conclsion of this research was that particularly the combination of Cr, Fe, Mn and Ni resulted in superiour properties in the light of the motivatian behind this project. The next question we wish to answer is if ihe promising results of the CFMN system be reproduced in other symetries. In this section we will implement the CFMN composistion in crystal structures based on hexagonal \ch{CrSi2} ($P6_{42\Bar{2}}$), both tetragonal and orthorombic \ch{Mn16Si28} ($P\Bar{4}c2 and$, $Pcca$), and trigonal \ch{Fe2Si} ($P\Bar{3}m1$) where we test the CFMN system to varying metal and silicon ratioes, and crystal structures. As before, the total energy, enthalpy of formation and magnetic moment per atom can be found bellow in table ..
-\begin{table}[h!]
-\begin{tabular}{@{}cccccc@{}}
-\toprule
-            & \multicolumn{2}{c}{Total energy per energy} & Enthalpy of formation & \multicolumn{2}{c}{Mag per atom} \\ \midrule
-CrSi2       & -6.4837               & 0.0087              & -8.1205             & 0.0887          & 0.0387         \\
-MnSi        & -6.6658               & 0.0071              & -9.1848             & 0.0687          & 0.0398         \\
-Fe2Si       & -7.5082               & 0.0107              & -10.2474            & 0.3848          & 0.0588         \\ \bottomrule
-\end{tabular}
-\end{table}
+\begin{figure}[H]
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/composistions/crfeconi_DOS.png}
+\caption{\ch{(CrFeCoNi)Si2}}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/composistions/crfetini_DOS.png}
+\caption{\ch{(CrFeTiNi)Si2}}
+\end{subfigure}
+\caption{Density of states of a) \ch{(CrFeCoNi)Si2} and b) \ch{(CrFeTiNi)Si2}.}
+\end{figure} 
 
-\textbf{CrSi2 \\}
-From our calculations with PBE DFT we find the bulk crsi2 material to be an indirect semiconductor with a band gap of 0.33 eV, slightly bellow the listed value of 0.36 eV in materials project \textbf{cite}, suprinsingly we find a smaller gap of 0.32 eV from the SCAN functional. The compound is also nonmagnetic in agreement with materials project. Fore the bulk material we employed a 9 atom cell, with 6 silicon and 3 cr atoms, from this we generated SQSs of 72 atoms with the same ratio.  \textbf{Include toten per atom for the unit cell? and figure of SQS + unit cell?}. For this given composistion and system we observe very similar results to that of the composistions discussed above, the eigenvalues of several SQSs report a small band gap, but its not apperant from neither the density of states or from the bandgap.py script of pymatgen. Additiontly, we can not repreoduce the gap with the SCAN functional, as was possible for the CFMN (fesi2) system.   
+Above we have looked at the band gap of the most stable SQS of each composition, but as we have experienced in other cases in this project, the properties can vary between SQSs of the same composition. In both \ch{CrFeCoNiSi2} and \ch{CrFeMnTiSi2} we found only metalic supercells with the exception of one SQS in the latter with a very small defect band gap in spin up. Similarly small defect band gaps was observed in two SQSs of \ch{CrFeTiNiSi2} and the rest as metals. In \ch{CrFeMnCoSi2} we found a large defect band gap in spin in the most stable configuration, here we find similar band gaps in two other SQSs as well, and two structures. The most interesting case was found in \ch{CoFeMnNiSi2} where we observed small total band gaps without defect states in two SQSs, these are seen in figure 9.3. In agreement with the nonmagnetic character of this composition, the DOS is symmetric with respect to spins. 
 
-\paragraph{MnSi \\}
-In the tetragonal configuration, the bulk material is a nonmagnetic indirect semiconductor with a band gap of 0.76 eV acoording to our PBE calculations,  and 0.78 eV from SCAN. Materials project find a band gap of 0.76 eV, in good agreement with our own PBE results. The unit cell consist of 44 total atoms, 16 manganese and 28 silicon. In the orthoromibic cell, with equal number of elements we find a band gap of 0.76 eV (0.77 ev SCAN) as well. In contrast, the CFMN alloy of both these cells produce metalic compounds. It should be noted that structures B and D in the tetragonal ssystem did not fully relax, same for D in the orthorombic cell, so these results could be inaccurate.   
+\begin{figure}[H]
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/composistions/cofemnni_E_DOS.png}
+\caption{SQS 1}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/composistions/cofemnni_E_DOS.png}
+\caption{SQS 2}
+\end{subfigure}
+\caption{Density of states of two SQSs of \ch{(CoFeMnNi)Si2}.}
+\end{figure} 
 
-\paragraph{Fe2Si \\}
-In this cell, we drasticly alter the metal-silicon ratio, this is seen both in the band gap and magnetic properties of the material. The magnetic moment of this cell consisting of 4 iron atoms and 2 silicon atoms is 0.67, from the iron atoms. This magnetic charachter can also be observed from the discrepency between the two spin channels. In spin down we find a band gap of 0.21 eV, while there is no gap in spin up. This gap can also be seen in the density of states \textbf{Include figure}. This however is an abnormal result in regard to other experimental work and littereature on the Fe2Si \textbf{cite $https://www.sciencedirect.com/science/article/pii/S0925838816329796?casa_token=g9DRpU9IClcAAAAA:6Gd12A4Kh9J2igUWMVwHN8OSIKzD27VACA052FNsSAWhRY6PELWdVEPbiF8OtQ3eJEAbvQ8X0g$}. Our results are subject to errors, particularly we note that the eigenvalues used to calculate the gap contain nonphysical values in the spin down channel. However, the gap is evident in the density of states thus we include the result in this report, but acknowlendge the uncertainties revolving the value. 
+Thus we find examples where the most stable SQS is representative of the set, and other cases where we observe meaningful distinctions between the most stable and other possible configurations. Because of limited time examining properties and options affecting both the magnetism and stability of the alloys and respective supercells, it's important to consider the different configurations as a a broader search would not necessarily yield the same relationship. And to show some of the limitations that apply when using the special quasi-random structures method. \textbf{Can I say this?}. It appears that we find limited success overall, but particularly when substituting either Cr or Mn as outlined in the previous section. Furthermore Ti is not as successful as Co. \textbf{Continue conclusion this and entire project}
+ 
 
-From this unit cell we generate 54 atom SQSs. From table .. we see that the magnetic nature remains, producing the overall highest magnetic moment of all studied supercells, which is not a surprising result considering the 3d metal to silicon ratio. \textbf{More on magnetic and total energy.} The magnetism can also be seen in the difference between the two spin channels, the bands where the occupancy transistion from 1 to 0, ie occupied to not occupied is very different. In the most magnetic supercell D, we saw a distance of 22 bands between the spin down transistion and spin down transistion. Most supercells are metals from our PBE calculations. B and D show a very small gap of around 0.01 eV in one spin channel.  In E we find a very narrow gap semiconductor with a total gap of 0.002 eV. This gap is surrounded by the same uncertainties as discussed previosly.
+ 
