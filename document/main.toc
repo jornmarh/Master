@@ -65,7 +65,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Results and Discussion}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}The results of eqvimolar \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{39}%
+\contentsline {chapter}{\numberline {7}The results of equimolar \ch {(CrFeMnNi)Si2} in the $\beta -$\ch {FeSi2} structure}{39}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}The band gap}{41}%
 \defcounter {refsection}{0}\relax 
