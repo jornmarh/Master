@@ -2188,7 +2188,8 @@
     <bcf:citekey order="11">PhysRevLett.104.236403</bcf:citekey>
     <bcf:citekey order="12">doi:10.1063/1.346415</bcf:citekey>
     <bcf:citekey order="13">lange1997electronic</bcf:citekey>
-    <bcf:citekey order="14">ismear</bcf:citekey>
+    <bcf:citekey order="14">smear</bcf:citekey>
+    <bcf:citekey order="15">ismear</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

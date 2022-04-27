@@ -73,9 +73,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Results from SCAN and HSE06 functionals}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Pair distribution functions}{52}%
+\contentsline {section}{\numberline {7.4}Pair distribution functions}{51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}SQS size}{54}%
+\contentsline {section}{\numberline {7.5}SQS size}{53}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Permutations of \ch {(CrFeMnNi)Si2}}{58}%
 \defcounter {refsection}{0}\relax 
