@@ -33,7 +33,7 @@ def strC(file, f):
 
 def lagFigur(str, x1, x2, y1, y2):
 
-    fig, ax = plt.subplots(figsize=[10,6])
+    fig, ax = plt.subplots(figsize=[11,6])
     ax.plot(str[0], np.zeros(len(str[0])), 'C3--', lw=2)
 
     ax.plot(str[0], str[1], c='C1', lw=1.3, label='Spin up')
@@ -67,15 +67,15 @@ def lagFigur(str, x1, x2, y1, y2):
     for spine in axin.spines.values():
             spine.set_edgecolor('black')
     #plt.tight_layout()
-    plt.savefig("/home/jrn-marcus/master/github/document/figures/results/fesi2/" +"E_TDOS_hse06.png")
+    #plt.savefig("/home/jrn-marcus/master/github/document/figures/results/fesi2/" +"E_TDOS_hse06.png")
     plt.show()
 
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfemnni/equaldist/'
-structure = 'D/' # or B, C, D, E
-xc = 'hse06/' #or scan, hse06
+composistion = 'bulk/'
+structure = 'original/' # or B, C, D, E
+xc = 'pbe/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
 figurepath = figures+material+composistion+structure+xc
 
@@ -85,7 +85,7 @@ plt.rcParams['legend.fontsize'] = 12
 plt.rcParams['font.weight'] = 'bold'
 
 input = Tdos(datapath+"TDOS.dat")
-lagFigur(input, -0.3, 0.3, -3, 3)
+lagFigur(input, -0.3, 0.8, -4, 4)
 
 '''
 e_pbe, u_pbe, d_pbe, f_pbe = strC('DOS_c_small.txt', 3)
