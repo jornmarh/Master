@@ -5,7 +5,7 @@ import itertools
 
 def calc(composistion, toten):
 
-    E_atom = {'Si': -5.421674125, 'Fe': -8.3161425, 'Cr': -9.509503, 'Mn': -9.1617,
+    E_atom = {'Si': -5.421674125, 'Fe': -8.3161425, 'Cr': -9.509503, 'Mn': -9.0338747,
                     'Ni': 5.578146, 'Ti': 7.7730337, 'Co': -7.117072}
     distributiion = {}; elements = []
     elements = re.findall('[A-Z][^A-Z]*', composistion)
