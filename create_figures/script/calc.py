@@ -5,8 +5,8 @@ import itertools
 
 def calc(composistion, toten):
 
-    E_atom = {'Si': -5.4234, 'Fe': -8.4693, 'Cr': -9.6530, 'Mn': -9.1617,
-                    'Ni': -5.7798, 'Ti': -7.8951, 'Co': -7.1083}
+    E_atom = {'Si': -5.421674125, 'Fe': -8.3161425, 'Cr': -9.509503, 'Mn': -9.1617,
+                    'Ni': 5.578146, 'Ti': 7.7730337, 'Co': -7.117072}
     distributiion = {}; elements = []
     elements = re.findall('[A-Z][^A-Z]*', composistion)
     for elm in elements:
@@ -33,6 +33,7 @@ def doCalc(dict):
         newdict[key] = list
     return newdict
 
+print(calc("Fe16Si32", -327.715929))
 
 '''
 Na_fesi2 = 48
@@ -107,8 +108,10 @@ ax.legend()
 plt.show()
 '''
 
+'''
 list = [14.0001, 18.0008, 18.0004, 12.0228, 11.0112]
 #list = [1.3272, 0.9912, 0.7146, 0.0053, 0.7799]
 for i in range(len(list)):
     list[i] = list[i]/192.0
     print(list[i])
+'''
