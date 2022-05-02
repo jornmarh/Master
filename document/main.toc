@@ -51,7 +51,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.5}Outlook}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Practical aspects}{28}%
+\contentsline {section}{\numberline {5.2}Plane waves and reciprocal space}{28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Self-consistent field calculation}{30}%
 \defcounter {refsection}{0}\relax 
@@ -59,9 +59,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Vienna Ab initio Simulation Package}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Generation of SQS}{34}%
+\contentsline {section}{\numberline {6.2}Material}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Utility scripts}{35}%
+\contentsline {section}{\numberline {6.3}Work flow and dependencies}{35}%
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Results and Discussion}{37}%
 \defcounter {refsection}{0}\relax 
