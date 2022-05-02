@@ -2182,13 +2182,24 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="8">PhysRevB.58.10389</bcf:citekey>
-    <bcf:citekey order="9">entalpi</bcf:citekey>
-    <bcf:citekey order="10">PhysRevLett.104.236403</bcf:citekey>
-    <bcf:citekey order="11">doi:10.1063/1.346415</bcf:citekey>
-    <bcf:citekey order="12">lange1997electronic</bcf:citekey>
-    <bcf:citekey order="13">smear</bcf:citekey>
-    <bcf:citekey order="14">ismear</bcf:citekey>
+    <bcf:citekey order="8">pw91</bcf:citekey>
+    <bcf:citekey order="9">pbe</bcf:citekey>
+    <bcf:citekey order="10">PBE_forum</bcf:citekey>
+    <bcf:citekey order="11">metagga</bcf:citekey>
+    <bcf:citekey order="12">xc_kineticEnergy</bcf:citekey>
+    <bcf:citekey order="13">scan</bcf:citekey>
+    <bcf:citekey order="14">scan_divbond</bcf:citekey>
+    <bcf:citekey order="15">scan_pbe</bcf:citekey>
+    <bcf:citekey order="16">mbj</bcf:citekey>
+    <bcf:citekey order="17">xc_benchmark</bcf:citekey>
+    <bcf:citekey order="18">xc_benchmark</bcf:citekey>
+    <bcf:citekey order="19">pbe0</bcf:citekey>
+    <bcf:citekey order="20">hse</bcf:citekey>
+    <bcf:citekey order="21">hse06</bcf:citekey>
+    <bcf:citekey order="22">xc_derivative</bcf:citekey>
+    <bcf:citekey order="23">xc_benchmark</bcf:citekey>
+    <bcf:citekey order="24">PAW1</bcf:citekey>
+    <bcf:citekey order="25">PAW2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

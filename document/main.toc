@@ -23,9 +23,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Review of Quantum Mechanics}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}The Shrodinger equation}{17}%
+\contentsline {subsection}{\numberline {4.1.1}The Shr\"{o}dinger equation}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Approximations to the many-body Shrodinger equation}{18}%
+\contentsline {subsection}{\numberline {4.1.2}Approximations to the many-body Shr\"{o}dinger equation}{18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Kohn-Sham density functional theory}{20}%
 \defcounter {refsection}{0}\relax 
@@ -33,11 +33,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}The Kohn-Sham Equation}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Limitations of DFT - Insert refs}{22}%
+\contentsline {section}{\numberline {4.3}Limitations of DFT}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Methodology and Implementation}{24}%
+\contentsline {part}{II\hspace {1em}Method}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Practical application of DFT}{25}%
+\contentsline {chapter}{\numberline {5}Practical aspects of DFT}{25}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}The Exchange-Correlation functional}{25}%
 \defcounter {refsection}{0}\relax 
@@ -51,7 +51,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.5}Outlook}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Fundamental aspects of practical DFT calculations}{28}%
+\contentsline {section}{\numberline {5.2}Practical aspects}{28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Self-consistent field calculation}{30}%
 \defcounter {refsection}{0}\relax 
