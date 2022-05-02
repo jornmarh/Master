@@ -65,8 +65,8 @@
       \strng{editornamehash}{bfaaf61add9a0ade52e6de6999859c68}
       \strng{editorfullhash}{4265da1cb727346967d5507a0db4a8b2}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Alloys have evolved from simple to complex compositions depending on the ability of mankind to develop the materials. The resulting improved functions and performances of alloys enable advancements in civilizations. In the last century, significant evolution and progress have led to the invention of special alloys, such as stainless steels, high-speed steels, and superalloys. Although alloys composed of multiple elements have higher mixing entropy than pure metals, the improved properties are mostly due to mixing enthalpy that allows the addition of suitable alloying elements to increase the strength and improve physical and/or chemical properties. Since the turn of the century, more complex compositions with higher mixing entropies have been introduced. Such complex compositions do not necessarily guarantee a complex structure and microstructure, or the accompanied brittleness. Conversely, significantly higher mixing entropy from complex compositions could simplify the structure and microstructure and impart attractive properties to the alloys. Jien-Wei Yeh and Brian Cantor independently announced the feasibility of high-entropy alloys and equi-atomic multicomponent alloys in reports published in 2004. This breakthrough in alloying concepts has accelerated research on these new materials throughout the world over the last decade.}
@@ -542,8 +542,8 @@
       \strng{authorbibnamehash}{f345f102223a46c407a459d97566a60b}
       \strng{authornamehash}{f345f102223a46c407a459d97566a60b}
       \strng{authorfullhash}{f345f102223a46c407a459d97566a60b}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Similar to the importance of XRD in experiments, ab initio calculations, as a powerful tool, have been applied to predict the new potential materials and investigate the intrinsic properties of materials in theory. As a typical solid-solution material, the large degree of uncertainty of high-entropy alloys (HEAs) results in the difficulty of ab initio calculations application to HEAs. The present review focuses on the available ab initio based solid-solution models (virtual lattice approximation, coherent potential approximation, special quasirandom structure, similar local atomic environment, maximum-entropy method, and hybrid Monte Carlo/molecular dynamics) and their applications and limits in single phase HEAs.}
@@ -1203,8 +1203,8 @@
       \strng{authorbibnamehash}{17e08845f65cf7341c94fe3a1301b5eb}
       \strng{authornamehash}{17e08845f65cf7341c94fe3a1301b5eb}
       \strng{authorfullhash}{17e08845f65cf7341c94fe3a1301b5eb}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{6.5 Connecting Individual Rates to Overall Dynamics Includes index. Demonstrates how anyone in math, science, and engineering can master DFT calculations Density functional theory (DFT) is one of the most frequently used computational tools for studying and predicting the properties of isolated molecules, bulk solids, and material interfaces, including surfaces. Although the theoretical underpinnings of DFT are quite complicated, this book demonstrates that the basic concepts underlying the calculations are simple enough to be understood by anyone with a background in chemistry, physics, engineering, or mathematics. The authors show how the widespread. DENSITY FUNCTIONAL THEORY; CONTENTS; Preface; 1 What Is Density Functional Theory?; 1.1 How to Approach This Book; 1.2 Examples of DFT in Action; 1.2.1 Ammonia Synthesis by Heterogeneous Catalysis; 1.2.2 Embrittlement of Metals by Trace Impurities; 1.2.3 Materials Properties for Modeling Planetary Formation; 1.3 The Schrödinger Equation; 1.4 Density Functional Theory-From Wave Functions to Electron Density; 1.5 Exchange-Correlation Functional; 1.6 The Quantum Chemistry Tourist; 1.6.1 Localized and Spatially Extended Functions; 1.6.2 Wave-Function-Based Methods; 1.6.3 Hartree-Fock Method 1.6.4 Beyond Hartree-Fock1.7 What Can DFT Not Do?; 1.8 Density Functional Theory in Other Fields; 1.9 How to Approach This Book (Revisited); References; Further Reading; 2 DFT Calculations for Simple Solids; 2.1 Periodic Structures, Supercells, and Lattice Parameters; 2.2 Face-Centered Cubic Materials; 2.3 Hexagonal Close-Packed Materials; 2.4 Crystal Structure Prediction; 2.5 Phase Transformations; Exercises; Further Reading; Appendix Calculation Details; 3 Nuts and Bolts of DFT Calculations; 3.1 Reciprocal Space and k Points; 3.1.1 Plane Waves and the Brillouin Zone 3.1.2 Integrals in k Space3.1.3 Choosing k Points in the Brillouin Zone; 3.1.4 Metals-Special Cases in k Space; 3.1.5 Summary of k Space; 3.2 Energy Cutoffs; 3.2.1 Pseudopotentials; 3.3 Numerical Optimization; 3.3.1 Optimization in One Dimension; 3.3.2 Optimization in More than One Dimension; 3.3.3 What Do I Really Need to Know about Optimization?; 3.4 DFT Total Energies-An Iterative Optimization Problem; 3.5 Geometry Optimization; 3.5.1 Internal Degrees of Freedom; 3.5.2 Geometry Optimization with Constrained Atoms; 3.5.3 Optimizing Supercell Volume and Shape; Exercises; References Further ReadingAppendix Calculation Details; 4 DFT Calculations for Surfaces of Solids; 4.1 Importance of Surfaces; 4.2 Periodic Boundary Conditions and Slab Models; 4.3 Choosing k Points for Surface Calculations; 4.4 Classification of Surfaces by Miller Indices; 4.5 Surface Relaxation; 4.6 Calculation of Surface Energies; 4.7 Symmetric and Asymmetric Slab Models; 4.8 Surface Reconstruction; 4.9 Adsorbates on Surfaces; 4.9.1 Accuracy of Adsorption Energies; 4.10 Effects of Surface Coverage; Exercises; References; Further Reading; Appendix Calculation Details 5 DFT Calculations of Vibrational Frequencies5.1 Isolated Molecules; 5.2 Vibrations of a Collection of Atoms; 5.3 Molecules on Surfaces; 5.4 Zero-Point Energies; 5.5 Phonons and Delocalized Modes; Exercises; Reference; Further Reading; Appendix Calculation Details; 6 Calculating Rates of Chemical Processes Using Transition State Theory; 6.1 One-Dimensional Example; 6.2 Multidimensional Transition State Theory; 6.3 Finding Transition States; 6.3.1 Elastic Band Method; 6.3.2 Nudged Elastic Band Method; 6.3.3 Initializing NEB Calculations; 6.4 Finding the Right Transition States}
@@ -1525,8 +1525,8 @@
       \strng{authorbibnamehash}{b3c3c73f1509234df71e2aec1eccd037}
       \strng{authornamehash}{b3c3c73f1509234df71e2aec1eccd037}
       \strng{authorfullhash}{b3c3c73f1509234df71e2aec1eccd037}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Matter Modeling Stack Exchange}
@@ -1975,8 +1975,8 @@
       \strng{authorbibnamehash}{5261813c67565009c124aff60300d056}
       \strng{authornamehash}{5261813c67565009c124aff60300d056}
       \strng{authorfullhash}{df0fefa8512cc1f78687fd1d52475d13}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Chemical Physics}
@@ -2251,76 +2251,48 @@
       \verb http://link.aip.org/link/AMPADS/v1/i1/p011002/s1%5C&Agg=doi
       \endverb
     \endentry
-    \entry{ismear5}{article}{}
-      \name{author}{3}{}{%
-        {{hash=08ee823f578e2329a8002f6ee625f363}{%
-           family={Blöchl},
-           familyi={B\bibinitperiod},
-           given={Peter\bibnamedelima E.},
-           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=c7956bf502da5762f3c19621675076a0}{%
-           family={Jepsen},
-           familyi={J\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod}}}%
-        {{hash=b16ef55dfafb0219e64dfd5b0fed3b6a}{%
-           family={Andersen},
-           familyi={A\bibinitperiod},
-           given={O.\bibnamedelimi K.},
-           giveni={O\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+    \entry{vesta}{article}{}
+      \name{author}{2}{}{%
+        {{hash=260d1646c5753a3f191964271ea119f4}{%
+           family={Momma},
+           familyi={M\bibinitperiod},
+           given={Koichi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5060be891f687b585a679fd259c120e7}{%
+           family={Izumi},
+           familyi={I\bibinitperiod},
+           given={Fujio},
+           giveni={F\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{38c499bdefc2e9814bab8a272c03d86f}
-      \strng{fullhash}{38c499bdefc2e9814bab8a272c03d86f}
-      \strng{bibnamehash}{38c499bdefc2e9814bab8a272c03d86f}
-      \strng{authorbibnamehash}{38c499bdefc2e9814bab8a272c03d86f}
-      \strng{authornamehash}{38c499bdefc2e9814bab8a272c03d86f}
-      \strng{authorfullhash}{38c499bdefc2e9814bab8a272c03d86f}
+      \strng{namehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{fullhash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{bibnamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authorbibnamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authornamehash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
+      \strng{authorfullhash}{3e6c9717306a7b1ef81c46fd31e6a9aa}
       \field{sortinit}{6}
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{23}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{6}
-      \field{title}{Improved tetrahedron method for Brillouin-zone integrations}
-      \field{volume}{49}
-      \field{year}{1994}
-      \field{pages}{16223\bibrangedash 16233}
-      \range{pages}{11}
+      \field{abstract}{{\it VESTA} is a three-dimensional visualization system for crystallographic studies and electronic state calculations. It has been upgraded to the latest version, {\it VESTA3}, implementing new features including drawing the external mor{\-}phology of crystals; superimposing multiple structural models, volumetric data and crystal faces; calculation of electron and nuclear densities from structure parameters; calculation of Patterson functions from structure parameters or volumetric data; integration of electron and nuclear densities by Voronoi tessellation; visualization of isosurfaces with multiple levels; determination of the best plane for selected atoms; an extended bond-search algorithm to enable more sophisticated searches in complex molecules and cage-like structures; undo and redo in graphical user interface operations; and significant performance improvements in rendering isosurfaces and calculating slices.}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{{{\it VESTA3} for three-dimensional visualization of crystal, volumetric and morphology data}}
+      \field{volume}{44}
+      \field{year}{2011}
+      \field{pages}{1272\bibrangedash 1276}
+      \range{pages}{5}
       \verb{doi}
-      \verb 10.1103/PhysRevB.49.16223
+      \verb 10.1107/S0021889811038970
       \endverb
       \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.49.16223
+      \verb https://doi.org/10.1107/S0021889811038970
       \endverb
       \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.49.16223
+      \verb https://doi.org/10.1107/S0021889811038970
       \endverb
-    \endentry
-    \entry{bandgap_vasp_forum}{}{}
-      \name{author}{1}{}{%
-        {{hash=a9be5acd02545c831cd13274b25caa7e}{%
-           family={Furthmüller},
-           familyi={F\bibinitperiod},
-           given={Jürgen},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a9be5acd02545c831cd13274b25caa7e}
-      \strng{fullhash}{a9be5acd02545c831cd13274b25caa7e}
-      \strng{bibnamehash}{a9be5acd02545c831cd13274b25caa7e}
-      \strng{authorbibnamehash}{a9be5acd02545c831cd13274b25caa7e}
-      \strng{authornamehash}{a9be5acd02545c831cd13274b25caa7e}
-      \strng{authorfullhash}{a9be5acd02545c831cd13274b25caa7e}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{05}
-      \field{title}{How might I calculate the exact bandgap from DOSCAR ?}
-      \field{year}{2015}
+      \keyw{VESTA 3,data visualization,electronic state calculations,Voronoi tessellation,computer programs}
     \endentry
   \enddatalist
 \endrefsection

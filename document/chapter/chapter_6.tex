@@ -1,80 +1,42 @@
 \chapter{Computational details}
 \label{sec:Computation}
 
+\section{Settings and dependencies}
 
-Materials project citation: \cite{Jain2013}
+The calculations in this project was enabled from allocated resources on the supercomputer FRAM of Uninett Sigma2 \textbf{add citation}, utilizing the Vienna Ab initio Simulation Package (VASP) \textbf{add citation}. As discussed the caluclations employed the projector-augmented-wave method and PBE GGA in addition to SCAN meta-GGA and HSE06 in relevant cases. For the structures studied in this project we found an energy cutoff of 300 eV and 400 eV suitable for electronic and geometric relaxations respectively. In regards to the number of k-points we used a gamma centered mesh with density of 4 \si{\angstrom}. The geometric relaxation of ionic positions and cell volume was carried out in two subsequent runs with convergence criterion of \num{1E-2} for the forces and \num{1E-5} for the total energy, with Gaussian smearing (ISMEAR = 0 in VASP) and smearing width $\sigma$ equal to 0.05 eV. After successful geometric relaxation the structures underwent a final electronic relaxation with the tetrahedron method with Bloch corrections (TBC, ISMEAR = -5 in VASP) and a energy criterion of \num{1E-6}. Magnetic materials was handled with the setting ISPIN = 2 in VASP which perform co-linear spin-polarized calculations, further customization of the magnetic configurations was beyond the scope of this project. 
 
-\section{Vienna Ab initio Simulation Package}
-This software, often referred to as VASP is a package for ab initio quantum mechanics calculations using the projected augmented wave method and plane wave basis set. The intended methodology is DFT, but have been extended for methods post the original DFT-formulation. Calculations with VASP was carried out on the supercomputer fram, with allocated time and resources provided by Uninett Sigma2,\textbf{add reference!}.
+The hybrid functional HSE06 proved challenging to converge, to solve the convergence problem we reduced the density of k-points from 4 \si{\angstrom} to 2 \si{\angstrom} and performed calculations first with Gaussian smearing ($\sigma = 0.05$) and reapplied the calculated charge density to perform a subsequent calculation with TBC.
 
-The structure of VASP rely on a set of input files and output files from the calculation, the input files required to perform a DFT computation in VASP are the following:
-\begin{itemize}
-    \item INCAR - this file provide the tags responsible for different methods, algorithms, parameters etc.
-    \item POSCAR - this file is related to the crystal structure of the system
-    \item POTCAR - What psudopotential that is used
-    \item KPOINTS - A file containing information on what KPOINTS will be used
-    \item jobfile - This file contains information for the supercomputer regarding resources and such.
-\end{itemize}
-The capitalization displayed above is directly related to the requirements of the file system in the VASP/fram collaboration. Some important output files are:
-\begin{itemize}
-    \item CONTCAR - The relaxed crystal structure after finalized calculation
-    \item CHGCAR - This file contains the electron density after calculation
-    \item EIGENVAL - Contains the solutions to the Kohn-Sham eigenfunctions
-    \item DOSCAR - Information on the Density of States
-    \item OUTCAR - Contains a list of all other information.
-\end{itemize}
+The special quasi-random structures method was implemented through the generate$\-$structure script in the \textit{Temperature dependent effective potential} (TDEP) package \textbf{add citation}. Cif-files for the relevant structures was obtained from Materials project \cite{Jain2013}. To simplify both the work-flow of the project and extract relevant data we utilized tools from  from the python library pymatgen, and vaspkit package \textbf{citation?} In addition to several utility scripts was both devolped during the project and provided by SINTEF, these can be found at ..\textbf{insert github address.}
 
-\textbf{Some figure or tables to make this information more presentable}
-
-In this project, we used the PAW psudopotential, and PBE GGA in favor of LDA for the reasons mentioned previously. Furthermore we readily employed meta-GGA functionals and hybrid-functionals, in particular SCAN and HSE06. We began the calculation of every individual structure by testing the convergence of total energy with respect to the number of k-points and cutoff energy. In VASP, the latter can be specified by setting the tag "ENCUT" in the INCAR file, we found 300 eV to yield productive results in terms of convergence and computation time for total energy calculations, and 400 for ionic+volume relaxations. Regarding the number of points in the reciprocal space, we carried out a great deal of simulations on numerous structures with distinct crystal structures and corresponding supercells, for this reason we employed a number of different sets of k-points depending on the structure. Typically the number of points ranged from a 2x2x2 mesh to 4x4x4 mesh. With the smaller being required for hybrid functionals to converge. 
-
-Upon realizing the convergence parameters, the structures were allowed to relax both the ionic positions, and cell volume with the quasi-newton method and a convergence criterion of $1E-2$ for the forces and $1E-5$ for the total energy. However, the symmetry of the structure was forced constant by the use of vasp-std-noshear. This process was repeated two times before performing final total energy calculation with various functionals.
-
-The specific tags, algorithms, parameters and options of VASP that was in use throughout this project can be found at our GitHub address, but in particular we would like to cover two specific parameters. The First is related to the magnetic configuration of our calculations, specified with the tag ISPIN in VASP. We used ISPIN=2 which allow for co-linear spin-polarized calculations due to the involvement of ferromagnetic elements such as iron and nickel in this study. However, there are many more magnetic orientations the system can adopt besides co-linear, therefore the final total energies we found may not be the true lowest energies. But given the allocated duration and resources of this project, this is a understood consequence. Secondly is the type of smearing that was used for the different calculations. The preferred method for accurate total energies and density of states in semiconductors is the tetrahedron method \cite{ismear5}, and for accurate forces in metals the Methfessel-Paxton method is recommended. However, our system contains both metals and a large portion of Si. For this reason we used a combination of smearing methods. For the relaxation and minimization of forces, we used gaussian smearing with smearing width $\sigma = 0.05$, as this method provide accurate forces in both metallic and semiconducting materials. And to calculate the total energy and DOS, we used the tetrahedron method, as recommended. In order to obtain converged results of the HSE06 functional, we first calculated the charge density with gaussian smearing, then apply this density to perform a second hybrid calculation with the tetrahedron method. This was necessary becouse gaussion smearing yielded inaccurate and unreliable results in terms of the density of states when comparing to the band gap from the koh-Sham eigenvalues. However, this method, in addition to the narrow k-grid of just 2x2x2 k-points does include a factor of uncertainty regarding these results from the HSE06 functional. 
-
-
-\textbf{This \cite{bandgap_vasp_forum} is a good reference for extracting the band gap of VASP jobs relating to smearing and DOSCAR vs EIGENVAL}
-
-\textbf{Band structure/DOS and band-unfolding?}
 
 \section{Material}
-\textbf{Needs work, add part on filling ratio of ideal cube}
-The generation of special quasi-random structures as described in section .., was done by utilizing the Temperature Dependent Effective Potential (TDEP) method. This package, devolved by Olle Hellman, offers a wide range of tools primary intended for studies of finite temperature lattice dynamics. In this project we utilize the program generate-structure within the TDEP package to construct SQS's. The work of TDEP is the result of an unpublished PHD thesis by Nina Shulumba \textbf{(Insert citation)}, thus the documentation on the software and generate-structure script is limited, please refer to the original author for more information. 
 
-In this project, we constructed SQS's by first transforming the cif-files of a given initial structure, for instance that of $FeSi_2$, to a primitive unit cell. The SQS's was generated by the same principles explained in section .., for each structure we created 5 distinct SQS's of an equal size under the constraint that the 3d atoms be distributed eqvimolar in the system. Precise file formats and such can be found at GitHub. Another approach could have been to construct SQS's of specific cell counts instead of total number of atoms, however this quickly lead to extremely large supercells, up to 256 atoms, that simply would not converge to our best efforts. 
-
-We began by studying high-entropy silicides by alloying 3d-metal silicides such as $Fe_2Si$ by Cr, Fe, Co, and Ni to construct a $(CoCrFeNi)_2Si$ alloys. From this point we varied the distribution and type of elements in an attempt to locate high-entropy silicides with semiconducting properties, but remained within quaternary 3d silicides. Examples of SQSs generated by TDEP, from $FeSi_2$ structure with Cr, Fe, Mn and Ni can be seen in figure \ref{sqs_FeSi2}.
-
-The $FeSi_2$ structure consisted of 48 atoms, 16 of which is iron and the remaining 32 sites occupied by silicon atoms. We filled the 16 iron sites with an even distribution of chromium, iron, manganese and nickel by the principle of the SQS method described in section .. . With this approach, there are many possible supercells one can create, we however limit our-self to 5 distinct supercells per composition, which means that we have 5 structures of the same composition and space group, but the distribution is slightly different. This allow us to both study a composition to great depth, but also to test different compositions and structures, compared to if we instead generated 10 or 15 or more supercells. But its important to be aware of this assumption, as our results may be subject to errors and result that does not match the true random alloy due to a small sample size. \\
-
-In the figure bellow this and that color represent this and that element. 
-
-\begin{figure}
+\begin{figure}[H]
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=\textwidth]{method/sqs/A.jpg}
-\caption{Structure A}
+\caption{A}
 \end{subfigure}
 \hfill
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=\textwidth]{method/sqs/B.jpg}
-\caption{Structure B}
+\caption{B}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=\textwidth]{method/sqs/C.jpg}
-\caption{Structure C}
+\caption{C}
 \end{subfigure}
 \hfill
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=\textwidth]{method/sqs/D.jpg}
-\caption{Structure D}
+\caption{D}
 \end{subfigure}
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[width=\textwidth]{method/sqs/E.jpg}
-\caption{Structure E}
+\caption{E}
 \end{subfigure}
-\caption{48 atom SQS based on eqvimolar distribution of Cr, Fe, Mn and Ni in and $FeSi_2$ cell.}
+\caption{5 distinct 48 atom SQS of \ch{Cr4Fe4Mn4Ni4Si32} based on the $\beta-$ \ch{FeSi2} crystal structure. Illustrated with VESTA \cite{vesta}}
 \label{sqs_FeSi2}
 \end{figure}
 
-\section{Work flow and dependencies}
-During the course of the projects lifetime, several shell and python scripts was developed by myself and/or provided to me by my supervisor Ole Martin Løvvik and his team of researchers at Sintef. These can be located at the GitHub address :...
+In this project we have constructed high-entropy silicides based on the $\beta-$ \ch{FeSi2} compound. The unit cell of this material is in the orthogonal cmce crystal lattice, and consists of 16 iron atoms and 32 silicon atoms. Per composition we generate 5 distinct SQSs of equivalent geometry and composition that only vary by atomic configuration. We have emphasized a particular composition of the 3d elements Cr, Fe, Mn, and Ni in a \ch{Cr4Fe4Mn4Ni4Si32} alloy where the 3d elements are distributed equimolarly and occupy the Fe-sites in the $\beta-$ \ch{FeSi2} crystal structure. These SQSs can be seen in figure 6.1 where manganese atoms are represented as purple spheres, chromium as dark blue and silicon as light blue, followed by iron and nickel presented as gold and silver spheres respectively. The respective SQSs are denoted as A, B, C, D and E. In addition to the \ch{(CrFeMnNi)Si2} composition we have trialed other compositions with varying distribution and elements generated by an identical procedure consistent with the 48 atom SQS model.

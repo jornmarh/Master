@@ -1,35 +1,20 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {UKenglish}{}
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Formation of HEA based on $\delta $ and $N$. Figures adopted from \cite {hea2016_ch2}\relax }}{6}%
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic illustration of lattice distortion in high-entropy alloys. Figure from \cite {owen_jones_2018}\relax }}{8}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces PDFs of (a) 20 and (b) 250 atom SQS models of CrFeMnNi \cite {hea2016_ch10}\relax }}{13}%
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Density of states with SQS and MC/MD of FCC CoCrFeNi, figure from \cite {hea2016_ch10}\relax }}{14}%
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Probability distribution functions with SQS and MC/MD of HCP CoOsReRu \cite {hea2016_ch10}\relax }}{14}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Number of DFT studies per year from 1980 to 2021 \cite {dimensions}.\relax }}{16}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Calculated to experimental band gap measurements of Becke-Johnsoon, modified Becke-Johnson and SCAN functionals \cite {xc_benchmark}\relax }}{27}%
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Self consistent iteration of a DFT calculation. Figure adopted from lecture notes fys-mena4111 \cite {persson2020}\relax }}{30}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 48 atom SQS based on eqvimolar distribution of Cr, Fe, Mn and Ni in and $FeSi_2$ cell.\relax }}{36}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 5 distinct 48 atom SQS of \ch {Cr4Fe4Mn4Ni4Si32} based on the $\beta -$ \ch {FeSi2} crystal structure. Illustrated with VESTA \cite {vesta}\relax }}{33}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
