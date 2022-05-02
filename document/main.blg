@@ -1,29 +1,22 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[64] biber:322> INFO - === ma. mai  2, 2022, 12:28:21
-[76] Biber.pm:415> INFO - Reading 'main.bcf'
-[134] Biber.pm:943> INFO - Found 43 citekeys in bib section 0
-[145] Biber.pm:4256> INFO - Processing section 0
-[146] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
-[146] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
-[154] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[159] bibtex.pm:1653> INFO - LaTeX decoding ...
-[266] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
-[269] Utils.pm:293> WARN - Duplicate entry key: 'hse' in file 'bibliography.bib', skipping ...
-[269] Utils.pm:293> WARN - Duplicate entry key: 'hse06' in file 'bibliography.bib', skipping ...
-[366] Utils.pm:293> WARN - month field 'Jul' in entry 'PhysRevB.96.014437' is not an integer - this will probably not sort properly.
-[375] Utils.pm:293> WARN - month field 'Nov' in entry 'sqsfull' is not an integer - this will probably not sort properly.
-[380] Utils.pm:293> WARN - month field 'May' in entry 'sqs_dos' is not an integer - this will probably not sort properly.
-[467] Utils.pm:293> WARN - month field 'Nov' in entry 'dft_bandgap' is not an integer - this will probably not sort properly.
-[493] Utils.pm:293> WARN - month field 'Sep' in entry 'metagga' is not an integer - this will probably not sort properly.
-[501] Utils.pm:293> WARN - month field 'Jul' in entry 'scan' is not an integer - this will probably not sort properly.
-[554] Utils.pm:293> WARN - month field 'Jan' in entry 'PAW1' is not an integer - this will probably not sort properly.
-[556] Utils.pm:293> WARN - month field 'Dec' in entry 'PAW2' is not an integer - this will probably not sort properly.
-[573] Utils.pm:293> WARN - month field 'Dec' in entry 'vesta' is not an integer - this will probably not sort properly.
-[610] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[610] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[610] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[610] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
-[638] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[671] bbl.pm:755> INFO - Output to main.bbl
-[672] Biber.pm:128> INFO - WARNINGS: 11
+[90] biber:322> INFO - === ma. mai  2, 2022, 18:17:31
+[102] Biber.pm:415> INFO - Reading 'main.bcf'
+[158] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[169] Biber.pm:4256> INFO - Processing section 0
+[170] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[170] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[178] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[183] bibtex.pm:1653> INFO - LaTeX decoding ...
+[291] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[294] Utils.pm:293> WARN - Duplicate entry key: 'hse' in file 'bibliography.bib', skipping ...
+[294] Utils.pm:293> WARN - Duplicate entry key: 'hse06' in file 'bibliography.bib', skipping ...
+[315] Utils.pm:293> WARN - month field 'Oct' in entry 'PhysRevB.58.10389' is not an integer - this will probably not sort properly.
+[320] Utils.pm:293> WARN - month field 'Jun' in entry 'PhysRevLett.104.236403' is not an integer - this will probably not sort properly.
+[337] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[337] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[337] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[337] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
+[344] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[346] bbl.pm:755> INFO - Output to main.bbl
+[347] Biber.pm:128> INFO - WARNINGS: 4

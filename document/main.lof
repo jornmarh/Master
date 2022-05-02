@@ -15,46 +15,26 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Self consistent iteration of a DFT calculation. Figure adopted from lecture notes fys-mena4111 \cite {persson2020}\relax }}{30}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces 5 distinct 48 atom SQS of \ch {Cr4Fe4Mn4Ni4Si32} based on the $\beta -$ \ch {FeSi2} crystal structure. Illustrated with VESTA \cite {vesta}\relax }}{33}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Density of states (PBE) $\beta -$ \ch {FeSi2}\relax }}{39}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Density of states of SQS D \ch {(CrFeMnNi)Si2} with PBE.\relax }}{42}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Density of states of SQS B \ch {(CrFeMnNi)Si2} with PBE.\relax }}{42}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Local density of states of Si (SQS D)\relax }}{45}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Local density of states of (a) Cr, (b) Mn, (c) Fe, (d) Ni in SQS D.\relax }}{45}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Projected density of states SQS D CFMN (fesi2) from PBE calculation\relax }}{46}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Projected density of states of SQS D and B around $E_F$\relax }}{46}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Density of states illustrating the band gaps from PBE and SCAN calculations for SQS E and D.\relax }}{48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Density of states of SQS B with HSE06\relax }}{48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Probability distribution function of SQS D (top) and B (bottom)\relax }}{52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.11}{\ignorespaces CPU time, \textbf {Make log plot instead}\relax }}{54}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Density of states of SQS E 192 atom SQS.\relax }}{56}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Pair distribution functions of SQS sizes (top) 48 atoms, (middle) 96 atoms, (bottom) 192 atoms\relax }}{57}%
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Density of states (PBE) $\beta -$ \ch {FeSi2}\relax }}{36}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Density of states of SQS D \ch {(CrFeMnNi)Si2} with PBE.\relax }}{39}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Density of states of SQS B \ch {(CrFeMnNi)Si2} with PBE.\relax }}{39}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Local density of states of Si (SQS D)\relax }}{42}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Local density of states of (a) Cr, (b) Mn, (c) Fe, (d) Ni in SQS D.\relax }}{42}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Projected density of states SQS D CFMN (fesi2) from PBE calculation\relax }}{43}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Projected density of states of SQS D and B around $E_F$\relax }}{43}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Density of states illustrating the band gaps from PBE and SCAN calculations for SQS E and D.\relax }}{45}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Density of states of SQS B with HSE06\relax }}{45}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Probability distribution function of SQS D (top) and B (bottom)\relax }}{49}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces CPU time, \textbf {Make log plot instead}\relax }}{51}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Density of states of SQS E 192 atom SQS.\relax }}{53}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Pair distribution functions of SQS sizes (top) 48 atoms, (middle) 96 atoms, (bottom) 192 atoms\relax }}{54}%
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Projected density of states of (a) \ch {Cr3Fe3Mn7Ni3Si32} (SQS B), (b) \ch {Cr5Fe5Mn3Ni3Si32} (SQS C), (c) \ch {Cr5Fe3Mn5Ni3Si32} (SQS A), (d) \ch {Cr3Fe5Mn5Ni3Si32} (SQS D)\relax }}{61}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Projected density of states of \ch {Cr3Fe3Mn3Ni7Si32} around $E_F$\relax }}{62}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Projected density of states of \ch {(CrFeMnCo)Si2}.\relax }}{65}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Density of states of a) \ch {(CrFeCoNi)Si2} and b) \ch {(CrFeTiNi)Si2}.\relax }}{66}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Density of states of two SQSs of \ch {(CoFeMnNi)Si2}.\relax }}{66}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Projected density of states of (a) \ch {Cr3Fe3Mn7Ni3Si32} (SQS B), (b) \ch {Cr5Fe5Mn3Ni3Si32} (SQS C), (c) \ch {Cr5Fe3Mn5Ni3Si32} (SQS A), (d) \ch {Cr3Fe5Mn5Ni3Si32} (SQS D)\relax }}{58}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Projected density of states of \ch {Cr3Fe3Mn3Ni7Si32} around $E_F$\relax }}{59}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Projected density of states of \ch {(CrFeMnCo)Si2}.\relax }}{62}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Density of states of a) \ch {(CrFeCoNi)Si2} and b) \ch {(CrFeTiNi)Si2}.\relax }}{63}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Density of states of two SQSs of \ch {(CoFeMnNi)Si2}.\relax }}{63}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

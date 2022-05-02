@@ -6,7 +6,7 @@ import itertools
 def calc(composistion, toten):
 
     E_atom = {'Si': -5.421674125, 'Fe': -8.3161425, 'Cr': -9.509503, 'Mn': -9.0338747,
-                    'Ni': 5.578146, 'Ti': 7.7730337, 'Co': -7.117072}
+                    'Ni': -5.578146, 'Ti': -7.7730337, 'Co': -7.117072}
     distributiion = {}; elements = []
     elements = re.findall('[A-Z][^A-Z]*', composistion)
     for elm in elements:
@@ -33,7 +33,9 @@ def doCalc(dict):
         newdict[key] = list
     return newdict
 
-print(calc("Fe16Si32", -327.715929))
+
+val = calc("Cr4Fe4Mn4Co4Si32", -6.7687*48)
+print(val, val/48)
 
 '''
 Na_fesi2 = 48
