@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  3 MAY 2022 10:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  3 MAY 2022 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1789,7 +1789,7 @@ File: figures/results/PDF192.png Graphic file (type png)
 <use figures/results/PDF192.png>
 Package pdftex.def Info: figures/results/PDF192.png  used on input line 338.
 (pdftex.def)             Requested size: 360.0pt x 150.00156pt.
- [53 <./figures/results/fesi2/192_E_DOS.png>]) [54 <./figures/results/PDF48.png
+) [53 <./figures/results/fesi2/192_E_DOS.png>] [54 <./figures/results/PDF48.png
 > <./figures/results/PDF96.png> <./figures/results/PDF192.png>]
 \openout2 = `chapter/chapter_8.aux'.
 
@@ -1819,82 +1819,82 @@ File: figures/results/fesi2/permutations/ni7_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/permutations/ni7_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/permutations/ni7_PDOS.png  used 
 on input line 74.
-(pdftex.def)             Requested size: 288.0011pt x 179.99637pt.
- [58 <./figures/results/fesi2/permutations/perm_LDOS_crop.jpg>]
-[59 <./figures/results/fesi2/permutations/ni7_PDOS.png>] [60] [61]
+(pdftex.def)             Requested size: 216.0022pt x 134.99864pt.
+ [58 <./figures/results/fesi2/permutations/perm_LDOS_crop.jpg> <./figures/resul
+ts/fesi2/permutations/ni7_PDOS.png>] [59] [60] [61]
 <figures/results/fesi2/composistions/crfemnco_PDOS.png, id=200, 867.24pt x 433.
 62pt>
 File: figures/results/fesi2/composistions/crfemnco_PDOS.png Graphic file (type 
 png)
 <use figures/results/fesi2/composistions/crfemnco_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/crfemnco_PDOS.png 
- used on input line 147.
+ used on input line 150.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
- [62 <./figures/results/fesi2/composistions/crfemnco_PDOS.png>]
-<figures/results/fesi2/composistions/crfeconi_DOS.png, id=205, 867.24pt x 578.1
+<figures/results/fesi2/composistions/crfeconi_DOS.png, id=201, 867.24pt x 578.1
 6pt>
 File: figures/results/fesi2/composistions/crfeconi_DOS.png Graphic file (type p
 ng)
 <use figures/results/fesi2/composistions/crfeconi_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/crfeconi_DOS.png  
-used on input line 156.
+used on input line 158.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 157.
+(Font)              scaled to size 7.91925pt on input line 159.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 157.
-<figures/results/fesi2/composistions/crfetini_DOS.png, id=206, 867.24pt x 578.1
+(Font)              scaled to size 7.91925pt on input line 159.
+<figures/results/fesi2/composistions/crfetini_DOS.png, id=202, 867.24pt x 578.1
 6pt>
 File: figures/results/fesi2/composistions/crfetini_DOS.png Graphic file (type p
 ng)
 <use figures/results/fesi2/composistions/crfetini_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/crfetini_DOS.png  
-used on input line 160.
+used on input line 162.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 155--163
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 157--165
 []$[]$ $[]$ 
  []
 
+[62 <./figures/results/fesi2/composistions/crfemnco_PDOS.png>]
 <figures/results/fesi2/composistions/cofemnni_E_DOS.png, id=207, 867.24pt x 578
 .16pt>
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 170.
+  used on input line 174.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 174.
+  used on input line 178.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 169--177
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 173--181
 []$[]$ $[]$ 
  []
 
-) [63 <./figures/results/fesi2/composistions/crfeconi_DOS.png> <./figures/resul
-ts/fesi2/composistions/crfetini_DOS.png> <./figures/results/fesi2/composistions
-/cofemnni_E_DOS.png>] [64] [76
+[63 <./figures/results/fesi2/composistions/crfeconi_DOS.png> <./figures/results
+/fesi2/composistions/crfetini_DOS.png> <./figures/results/fesi2/composistions/c
+ofemnni_E_DOS.png>] [64]) [65] [66
 
 
-
-] [77]
+] [67]
 LaTeX Font Info:    Trying to load font information for LGR+ppl on input line 1
-07.
-LaTeX Font Info:    No file LGRppl.fd. on input line 107.
+06.
+LaTeX Font Info:    No file LGRppl.fd. on input line 106.
 
 
 LaTeX Font Warning: Font shape `LGR/ppl/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 107.
+(Font)              using `LGR/cmr/m/n' instead on input line 106.
 
 
 Package biblatex Warning: No driver for entry type ''.
-(biblatex)                Using fallback driver on input line 107.
+(biblatex)                Using fallback driver on input line 106.
 
 [81
+
 
 
 
@@ -1915,11 +1915,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  31153 strings out of 481239
  642565 string characters out of 5920378
- 1258114 words of memory out of 5000000
+ 1258112 words of memory out of 5000000
  45756 multiletter control sequences out of 15000+600000
  607601 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,69p,2607b,2743s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,69p,2345b,2743s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-
 super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
@@ -1935,10 +1935,10 @@ are/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on main.pdf (49 pages, 3003411 bytes).
+Output written on main.pdf (50 pages, 3007608 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 282 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

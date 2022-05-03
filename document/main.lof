@@ -26,38 +26,27 @@
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Density of states illustrating the band gaps from PBE and SCAN calculations for SQS E and D.\relax }}{45}%
 \contentsline {figure}{\numberline {7.9}{\ignorespaces Density of states of SQS B with HSE06\relax }}{45}%
 \contentsline {figure}{\numberline {7.10}{\ignorespaces Probability distribution function of SQS D (top) and B (bottom)\relax }}{49}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces CPU time, \textbf {Make log plot instead}\relax }}{51}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces CPU time\relax }}{51}%
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Density of states of SQS E 192 atom SQS.\relax }}{53}%
 \contentsline {figure}{\numberline {7.13}{\ignorespaces Pair distribution functions of SQS sizes (top) 48 atoms, (middle) 96 atoms, (bottom) 192 atoms\relax }}{54}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Projected density of states of (a) \ch {Cr3Fe3Mn7Ni3Si32} (SQS B), (b) \ch {Cr5Fe5Mn3Ni3Si32} (SQS C), (c) \ch {Cr5Fe3Mn5Ni3Si32} (SQS A), (d) \ch {Cr3Fe5Mn5Ni3Si32} (SQS D)\relax }}{58}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Projected density of states of \ch {Cr3Fe3Mn3Ni7Si32} around $E_F$\relax }}{59}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Projected density of states of \ch {Cr3Fe3Mn3Ni7Si32} around $E_F$\relax }}{58}%
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Projected density of states of \ch {(CrFeMnCo)Si2}.\relax }}{62}%
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Density of states of a) \ch {(CrFeCoNi)Si2} and b) \ch {(CrFeTiNi)Si2}.\relax }}{63}%
 \contentsline {figure}{\numberline {8.5}{\ignorespaces Density of states of two lesser stable SQSs of \ch {(CoFeMnNi)Si2}.\relax }}{63}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces ch{Cr4Fe4Co4Ni4Si32}\relax }}{73}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces ch{Co4Fe4Mn4Ni4Si32}\relax }}{74}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces ch{Cr4Fe4Mn4Co4Si32}\relax }}{74}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces ch{Cr4Fe4Ti4Ni4Si32}\relax }}{75}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.5}{\ignorespaces ch{Cr4Fe4Mn4Ti4Si32}\relax }}{75}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Probability distribution functions of top: \ch {Co4Fe4Mn4Ni4Si32} (SQS D), middle: \ch {Cr4Fe4Co4Ni4Si32} (SQS B), bottom: \ch {Cr4Fe4Mn4Co4Si32} (SQS B)\relax }}{76}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Probability distribution function of top: \ch {Cr4Fe4Mn4Ti4Si32} (SQS B), bottom: \ch {Cr4Fe4Ti4Ni4Si32} (SQS B))\relax }}{77}%
-\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ch{Cr4Fe4Co4Ni4Si32}\relax }}{66}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces ch{Co4Fe4Mn4Ni4Si32}\relax }}{67}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces ch{Cr4Fe4Mn4Co4Si32}\relax }}{67}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces ch{Cr4Fe4Ti4Ni4Si32}\relax }}{68}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces ch{Cr4Fe4Mn4Ti4Si32}\relax }}{68}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Probability distribution functions of top: \ch {Co4Fe4Mn4Ni4Si32} (SQS D), middle: \ch {Cr4Fe4Co4Ni4Si32} (SQS B), bottom: \ch {Cr4Fe4Mn4Co4Si32} (SQS B)\relax }}{69}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Probability distribution function of top: \ch {Cr4Fe4Mn4Ti4Si32} (SQS B), bottom: \ch {Cr4Fe4Ti4Ni4Si32} (SQS B))\relax }}{70}%
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Density of states SQS A \ch {(CrFeMnNi)Si2} with PBE.\relax }}{78}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Density of states SQS E \ch {(CrFeMnNi)Si2} with PBE.\relax }}{79}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Density of states SQS A \ch {(CrFeMnNi)Si2} with PBE.\relax }}{71}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Density of states SQS E \ch {(CrFeMnNi)Si2} with PBE.\relax }}{72}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

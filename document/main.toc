@@ -39,9 +39,10 @@
 \contentsline {subsection}{\numberline {7.2.3}The band gap with SCAN and HSE06}{44}%
 \contentsline {subsection}{\numberline {7.2.4}Pair distribution functions}{49}%
 \contentsline {subsection}{\numberline {7.2.5}SQS size}{51}%
-\contentsline {chapter}{\numberline {8}Different compositions}{55}%
-\contentsline {section}{\numberline {8.1}Exploring the quaternary phasidiagram}{55}%
-\contentsline {section}{\numberline {8.2}High entropy silicides with cobalt and titanium}{60}%
+\contentsline {chapter}{\numberline {8}Other compositions}{55}%
+\contentsline {section}{\numberline {8.1}Exploring the quaternary phase-diagram}{55}%
+\contentsline {section}{\numberline {8.2}High entropy silicides with cobalt and titanium}{59}%
+\contentsline {part}{IV\hspace {1em}Conclusion}{66}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Overview and outlook}{65}%
 \defcounter {refsection}{0}\relax 
@@ -62,16 +63,10 @@
 \contentsline {paragraph}{Fe2Si \\}{74}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.5}Overview}{75}%
-\contentsline {part}{IV\hspace {1em}Conclusion}{76}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Compositions}{73}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Projected density of states}{73}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Probability distribution functions}{76}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Eqvimolar alloy}{78}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}DOS}{78}%
+\contentsline {chapter}{\numberline {A}Compositions}{66}%
+\contentsline {section}{\numberline {A.1}Projected density of states}{66}%
+\contentsline {section}{\numberline {A.2}Probability distribution functions}{69}%
+\contentsline {chapter}{\numberline {B}Eqvimolar alloy}{71}%
+\contentsline {section}{\numberline {B.1}DOS}{71}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Charge density}{80}%
