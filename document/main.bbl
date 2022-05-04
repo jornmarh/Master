@@ -117,6 +117,35 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.104.236403
       \endverb
     \endentry
+    \entry{lange1997electronic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=57937f251f3df28143ce33af3f520a22}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{fullhash}{57937f251f3df28143ce33af3f520a22}
+      \strng{bibnamehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{authorbibnamehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{authornamehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{authorfullhash}{57937f251f3df28143ce33af3f520a22}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{physica status solidi (b)}
+      \field{number}{1}
+      \field{title}{Electronic properties of semiconducting silicides}
+      \field{volume}{201}
+      \field{year}{1997}
+      \field{pages}{3\bibrangedash 65}
+      \range{pages}{63}
+    \endentry
     \entry{doi:10.1063/1.346415}{article}{}
       \name{author}{1}{}{%
         {{hash=dc181b16c066bc2f6a96e2a52b5157b9}{%
@@ -154,35 +183,6 @@
       \verb{url}
       \verb https://doi.org/10.1063/1.346415
       \endverb
-    \endentry
-    \entry{lange1997electronic}{article}{}
-      \name{author}{1}{}{%
-        {{hash=57937f251f3df28143ce33af3f520a22}{%
-           family={Lange},
-           familyi={L\bibinitperiod},
-           given={H},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{fullhash}{57937f251f3df28143ce33af3f520a22}
-      \strng{bibnamehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{authorbibnamehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{authornamehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{authorfullhash}{57937f251f3df28143ce33af3f520a22}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{physica status solidi (b)}
-      \field{number}{1}
-      \field{title}{Electronic properties of semiconducting silicides}
-      \field{volume}{201}
-      \field{year}{1997}
-      \field{pages}{3\bibrangedash 65}
-      \range{pages}{63}
     \endentry
     \entry{smear}{thesis}{}
       \name{author}{1}{}{%
