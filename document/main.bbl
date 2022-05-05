@@ -184,32 +184,6 @@
       \verb https://doi.org/10.1063/1.346415
       \endverb
     \endentry
-    \entry{smear}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=e31265051739de340f0adc485e9531dd}{%
-           family={Clark},
-           familyi={C\bibinitperiod},
-           given={Stewart},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{e31265051739de340f0adc485e9531dd}
-      \strng{fullhash}{e31265051739de340f0adc485e9531dd}
-      \strng{bibnamehash}{e31265051739de340f0adc485e9531dd}
-      \strng{authorbibnamehash}{e31265051739de340f0adc485e9531dd}
-      \strng{authornamehash}{e31265051739de340f0adc485e9531dd}
-      \strng{authorfullhash}{e31265051739de340f0adc485e9531dd}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Modelling complex structures}
-      \verb{urlraw}
-      \verb http://cmt.dur.ac.uk/sjc/thesis/thesis/node28.html
-      \endverb
-      \verb{url}
-      \verb http://cmt.dur.ac.uk/sjc/thesis/thesis/node28.html
-      \endverb
-    \endentry
     \entry{ismear}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}

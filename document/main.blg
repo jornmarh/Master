@@ -1,22 +1,22 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[63] biber:322> INFO - === on. mai  4, 2022, 18:46:17
-[75] Biber.pm:415> INFO - Reading 'main.bcf'
-[132] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
-[143] Biber.pm:4256> INFO - Processing section 0
-[143] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
-[143] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
-[152] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[157] bibtex.pm:1653> INFO - LaTeX decoding ...
-[266] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
-[269] Utils.pm:293> WARN - Duplicate entry key: 'hse' in file 'bibliography.bib', skipping ...
-[269] Utils.pm:293> WARN - Duplicate entry key: 'hse06' in file 'bibliography.bib', skipping ...
-[291] Utils.pm:293> WARN - month field 'Oct' in entry 'PhysRevB.58.10389' is not an integer - this will probably not sort properly.
-[295] Utils.pm:293> WARN - month field 'Jun' in entry 'PhysRevLett.104.236403' is not an integer - this will probably not sort properly.
-[312] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[312] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[312] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[312] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
-[319] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[321] bbl.pm:755> INFO - Output to main.bbl
-[321] Biber.pm:128> INFO - WARNINGS: 4
+[74] biber:322> INFO - === to. mai  5, 2022, 18:09:22
+[88] Biber.pm:415> INFO - Reading 'main.bcf'
+[155] Biber.pm:943> INFO - Found 5 citekeys in bib section 0
+[168] Biber.pm:4256> INFO - Processing section 0
+[168] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[168] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[177] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[183] bibtex.pm:1653> INFO - LaTeX decoding ...
+[306] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[309] Utils.pm:293> WARN - Duplicate entry key: 'hse' in file 'bibliography.bib', skipping ...
+[310] Utils.pm:293> WARN - Duplicate entry key: 'hse06' in file 'bibliography.bib', skipping ...
+[336] Utils.pm:293> WARN - month field 'Oct' in entry 'PhysRevB.58.10389' is not an integer - this will probably not sort properly.
+[340] Utils.pm:293> WARN - month field 'Jun' in entry 'PhysRevLett.104.236403' is not an integer - this will probably not sort properly.
+[357] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[357] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[357] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[357] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
+[364] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[367] bbl.pm:755> INFO - Output to main.bbl
+[367] Biber.pm:128> INFO - WARNINGS: 4
