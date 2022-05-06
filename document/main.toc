@@ -39,8 +39,8 @@
 \contentsline {subsection}{\numberline {7.2.3}The band gap with SCAN and HSE06}{45}%
 \contentsline {subsection}{\numberline {7.2.4}Pair distribution functions}{50}%
 \contentsline {subsection}{\numberline {7.2.5}SQS size}{52}%
-\contentsline {chapter}{\numberline {8}Other compositions}{56}%
-\contentsline {section}{\numberline {8.1}Exploring the quaternary phase-diagram}{56}%
+\contentsline {chapter}{\numberline {8}Alternative compositions}{56}%
+\contentsline {section}{\numberline {8.1}Exploring the quaternary phase diagram}{56}%
 \contentsline {section}{\numberline {8.2}High entropy silicides with cobalt and titanium}{60}%
 \contentsline {part}{IV\hspace {1em}Conclusion}{67}%
 \defcounter {refsection}{0}\relax 
