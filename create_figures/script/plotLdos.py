@@ -30,12 +30,12 @@ def ldos(file):
 data = '../data/'
 figures = '../figures/'
 material = 'fesi2/'
-composistion = 'crfemnco'
-structure = '/B/' # or B, C, D, E
+composistion = 'crfemnti'
+structure = '/D/' # or B, C, D, E
 xc = 'pbe/' #or scan, hse06
 datapath = data+material+composistion+structure+xc
 figurepath = figures+material+composistion+structure+xc
-path = "../../document/figures/results/fesi2/composistions/"
+path = "../../document/figures/results/fesi2/"
 savepath = path + composistion
 
 N_e = 5
@@ -49,7 +49,7 @@ plt.rcParams['font.size'] = 15
 colors = {"Si": "#30a2da", "Cr": "#fc4f30", "Mn": "#e5ae38", "Fe": "#6d904f", "Ni": "#8b8b8b", "Co": "#dc92ff", "Ti": "#ff6ef1"}
 fig, ax = plt.subplots(figsize=[12,6])
 
-axin = inset_axes(ax, width="100%", height="100%",  bbox_to_anchor=(.75, .6, .2, .3), bbox_transform=ax.transAxes, loc=2)
+axin = inset_axes(ax, width="100%", height="100%",  bbox_to_anchor=(.75, .7, .2, .3), bbox_transform=ax.transAxes, loc=2)
 axin.tick_params(labelleft=True, labelbottom=True)
 
 for i in range(1, N_e+1):
@@ -70,7 +70,7 @@ axin.plot(np.zeros(len(ldos_up[0])),np.linspace(-10,10, len(ldos_up[0])), c='#00
 
 
 axin.set_xlim(-.1, .1)
-axin.set_ylim(-0.01, 0.05)
+axin.set_ylim(-2, 2)
 mark_inset(ax, axin, loc1=2, loc2=4, edgecolor='black')
 for spine in axin.spines.values():
         spine.set_edgecolor('black')

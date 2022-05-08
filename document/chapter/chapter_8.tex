@@ -83,8 +83,7 @@ As stated before, we relied on the PBE GGA functional to determine the band gap 
 
 \section{High entropy silicides with cobalt/titanium}
 
-In similar fashion to the preceding section, we begin by presenting the new high-entropy silicides by the  
-mean and standard deviation of the total energy and magnetization of 5 unique SQSs of each alloy. The compositions we have tested are deliberate combinations intended to investigate the role elements in the \ch{(CrFeMnNi)Si2} system by introducing Co/Ti at the cost of different elements. The results of the aforementioned alloys can be seen below in table 8.3, note that the alloys contain a total of 48 atoms as before, based on the $\beta-$ \ch{FeSi2} unit cell.  
+In similar fashion to the preceding section, we begin by presenting the new high-entropy silicides by the mean and standard deviation of the total energy and magnetization of 5 unique SQSs of each alloy in table 8.3. The compositions we have tested are deliberate combinations intended to investigate the role elements in the \ch{(CrFeMnNi)Si2} system, by introducing Co/Ti at the cost of different elements. Note that the alloys contain a total of 48 atoms as before, based on the $\beta-$ \ch{FeSi2} unit cell and equimolar distribution of 3d elements.   
 
 \begin{table}[H]
 \centering
@@ -159,25 +158,25 @@ The PDOS of the other four alloys are included in figure 8.4 below. In agreement
 
 \begin{figure}[H]
 \begin{subfigure}{.5\textwidth}
-\includegraphics[width=\textwidth]{results/fesi2/composistions/crfeconi_PDOS.png}
+\includegraphics[width=\textwidth]{results/fesi2/crfeconi_PDOS.png}
 \caption{\ch{Cr4Fe4Co4Ni4Si32}}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
-\includegraphics[width=\textwidth]{results/fesi2/composistions/cofemnni_PDOS.png}
+\includegraphics[width=\textwidth]{results/fesi2/cofemnni_PDOS.png}
 \caption{\ch{Co4Fe4Mn4Ni4Si32}}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
-\includegraphics[width=\textwidth]{results/fesi2/composistions/crfetini_PDOS.png}
+\includegraphics[width=\textwidth]{results/fesi2/crfetini_PDOS.png}
 \caption{\ch{Cr4Fe4Ti4Ni4Si32}}
 \end{subfigure}
 \begin{subfigure}{.5\textwidth}
-\includegraphics[width=\textwidth]{results/fesi2/composistions/crfemnti_PDOS.png}
+\includegraphics[width=\textwidth]{results/fesi2/crfemnti_PDOS.png}
 \caption{\ch{Cr4Fe4Mn4Ti4Si32}}
 \end{subfigure}
 \caption{Projected density of states}
 \end{figure}
 
-Above we have evaluated the band gap of the different alloys based on the most stable configuration. Across all five configurations we find that the band gap is more or less consistent in \ch{(CrFeCoNi)Si2},  \ch{(CrFeMnTiSi2)}, \ch{(CrFeTiNi)Si2} and \ch{(CrFeMnCo)Si2}.  The most interesting case is the \ch{CoFeMnNiSi2} alloy, here where we observed total band gaps in two lesser stable configurations (SQS A and E) of 0.03 eV and 0.006 eV respectively. The DOS of these structures are displayed in figure 8.5. 
+Above we have evaluated the band gap of the different alloys based on the most stable configuration. Across all five configurations we find that the band gap is more or less consistent in \ch{(CrFeCoNi)Si2},  \ch{(CrFeMnTiSi2)}, \ch{(CrFeTiNi)Si2} and \ch{(CrFeMnCo)Si2}.  The most interesting case is the \ch{CoFeMnNiSi2} alloy, where we observed very narrow total band gaps in two lesser stable configurations (SQS A and E) of 0.03 eV and 0.006 eV respectively. Opposite of the impurity gaps discussed above, these are apparent in the density of states plots, as seen in figure 8.5 below. 
 
 \begin{figure}[H]
 \begin{subfigure}{.5\textwidth}
@@ -195,6 +194,3 @@ Besides the two structures above that exhibits small total band gaps in the meV 
 Further we would have liked to study the band gap by more adapt methods. As SCAN in the majority of cases proved unreliable, and HSE06 to computational demanding. A byproduct of this is that there is a possibility that several compositions have been wrongly classified as metals by exclusive use of PBE GGA. 
 
 In addition to the variation between compositions, we have observed large deviation also between configurations of the same composition. Thus, in order to qualitatively affirm the band gap of these alloys we should have first and foremost tested multiple configurations of each composition, and a larger number of SQS sizes to reduce variance and obtain a converged value of the band gap. Secondly, to decide on the most representative configuration we would have put special efforts into correctly/optimally specify the magnetic configuration of each SQS, and secondly study excited states of the alloys to account for entropic contributions to the stability that can become paramount tot the stability through Gibbs energy at elevated temperatures. Possibly, the most promising compositions should be simulated by other methods such as MC/MD and CPA. Furthermore, we should test different crystal structures in addition to the orthorombic CMCE space group, as the local minima method of DFT does not gurantee that this is the most stable conformation.  Nevertheless, based on the examples and efforts put into this project, we have found in particular one very promising high-entropy silicide with the composition \ch{Cr4Fe4Mn4Ni4Si32} with a total band gap of around 0.05 eV and $E_G ^\text{up} = 0.3$ eV. In respect to possible thermoelectric application, we stated in the introduction that based on recent findings of related thermoelectic properties and properties of HEAs, that if we could find a narrow band gap alloy this could become an efficient thermoelectric material. However, from the values we have calculated the band gap may be too small for a thermoelectric. On the other hand if we assume that the PBE functional underestimates the band gap by some $50\%$, there is a possibility of these materials becoming efficient thermoelectric materials. For example the HSE06 band of SQS B in the \ch{(CrFeMnNi)Si2} system of 0.18 eV is well suited for thermoelectric application. However future work on the specific theromelectric properties such as high-temperature stability, Seebeck coefficient, electrical and thermal conductivity. A supplementary application of these alloys could be as spintronics, from the strong spin polarization of the band gap and overall sizable values in spin up. 
-
-
- 

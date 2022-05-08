@@ -22,7 +22,7 @@ or formation energy per atom $E_{FPA} = 0.441 eV$ from $-21.16/48$. The total en
  
 
 \section{\ch{(CrFeMnNi)Si2} SQSs}
-Below in table 7.1 we list the total energy per atom (Toten), final magnetic moment per atom (Mag) and band gap ($E_G$) of five unique SQSs of the \ch{Cr4Fe4Mn4Ni4Si32} alloys based on the $\beta-$ \ch{FeSi2} structure. In addition we include the mean and standard deviation (std) between the 5 supercells and the formation energy calculated from the mean total energy. Details on the generation and general features of the alloys is provided in section 6.2. 
+Below in table 7.1 we list the total energy per atom (Toten), final magnetic moment per atom (Mag) and band gap ($E_G$) of five unique SQSs of the \ch{Cr4Fe4Mn4Ni4Si32} alloys based on the $\beta-$ \ch{FeSi2} structure. In addition we include the mean and standard deviation (std) between the 5 supercells and the formation energy calculated from the mean total energy. Details on the generation and general features of the SQSs are provided in section 6.2. 
  
 \begin{table}[H]
 \centering
@@ -49,7 +49,7 @@ In terms of the total energy the most and least stable SQSs are "D" and "A" resp
  
 \newpage
 \subsection{The band gap}
-As seen from table 7.1 the band gap of the alloy are severely reduced from the bulk material, and vary from supercell to supercell. We observed a maximum band gap of 0.05 eV in SQS B, and on the flip side a 0 band gap in the utmost stable configuration SQS D. The density of states of SQS D and B is displayed in figures 7.2 and 7.3 below, similar plots can be found in appendix [REF] for the other supercells. 
+As seen from table 7.1 the band gap of the alloy are severely reduced from the bulk material, and vary from supercell to supercell. We observed a maximum band gap of 0.05 eV in SQS B, and on the flip side a 0 band gap in the utmost stable configuration SQS D. The density of states of SQS D and B is displayed in figures 7.2 and 7.3 below, similar plots can be found in appendix A.1 of the other SQSs. 
 
 \begin{figure}[H]
 	\centering
@@ -97,7 +97,7 @@ occ              & \begin{tabular}[c]{@{}c@{}}$E_G ^\text{up, eigen}$ \\ (meV)\e
 
 From table 7.3 we find clear evidence of the defect states prohibiting the band gap in spin down in SQS D, compared to the semiconducting supercells that contain only fully occupied and unoccupied eigenstates. To investigate this effect to greater extent we compare the eigenvalues of SQS D to a pure metal, such as iron. In this case the energy bands (both spins) around the Fermi energy (5.8 eV) is populated mostly by partially filled eigenstates. Inside a single energy band we observe instances of both more than half-filled states above $E_F$, and less than half-filled states above $E_F$, thus clearly overlap between the conduction and valence band. In contrast we find no instances of partial occupants in pure Si, as in the semiconducting SQSs. Therefore we can firmly state that the "defect states" are associated with a metallic character. Compared to the pure metal however, the amount and severity of the partial occupants are very dampened in SQS D. The concept of defect or impurity states in the band gap have been found as a common feature of the band structure of random alloys \cite{PhysRevLett.104.236403}, however we have reservations about if this is a physical result or related to numerical factors. In addition to partial occupants in Fe and SQS D we observe a plural of non-naturalistic states where the occupancy exceeds 1 and 0. Recalling that the discontinues Fermi surface of metals poses several obstacles on DFT calculations with respect to the smearing and number of k-points. This result could then be imagined as a consequence of numerical methods. For instance in SQS B we conducted three separate electronic calculations, one with the tetrahedron method (value listed in tables) and two calculations with Gaussian smearing with smearing width 0.05 and 0.005 eV. With the Gaussian method and smearing width $\sigma = 0.05 eV$ we get $E_G ^\text{up, eigen} = 0.2987 eV$ and $E_G ^\text{dw, eigen} = 0.0497 eV$. Further calculations with the Gaussian method with smearing width of 0.005 eV results in $E_G ^\text{up, eigen} = 0.2932 eV$ and $E_G ^\text{dw, eigen} 0.0522 eV$. Compared to the values in table 7.3 with TBC, we observe that Gaussian (0.005 eV) and TBC are identical, while Gaussian (0.05 eV) show some deviation. Furthermore we find that the eigenvalues of Gaussian 0.05 eV contain defect states, and that the spin down band gap can thus be enlarged as in SQS D previously by $E_G ^\text{dw, eigen}(0.01) = 0.1695 eV$. However, in this case we find no instances of non-naturalistic states as we described above for SQS D with TBC.
   
-In conclusion, the defect states observed in SQS D is clearly related to metallic properties, however from the discussion above we have seen that the results could be subjected to numerical factors as well. It would have been instructive to visualize and analyze the eigenvalues by plotting the band structure. Unfortunately this is neither simple to perform or interpret in large supercells consisting of several elements and a large number of energy bands. One solution to this is to perform band-unfolding, but this did not work in conjunction with the TDEP implementation of the special quasi-random structures method. 
+In conclusion, the defect states observed in SQS D is clearly related to a metallic structure, however from the discussion above we have seen that the results could be subject to numerical factors as well. It would have been instructive to visualize and analyze the eigenvalues by plotting the band structure. Unfortunately this is neither simple to perform or interpret for large supercells consisting of several elements and a large number of energy bands. One solution could be band-unfolding, but this did not work in conjunction with the implementation of the SQS method in this project. 
 
 
 \newpage
@@ -137,7 +137,7 @@ The interplay between 3d elements and silicon as shown in the projected density 
 	\caption{Projected density of states of SQS D and B around $E_F$}
 \end{figure}
 
-Comparing the PDOS of half-metallic SQS D (figure 7.7 a) to the configuration with the largest $E_G ^\text{dw}$) SQS B (figure 7.7 b), we find distinctly a large number of Mn states in SQS D around $E_F$ most noticeably in spin down, but also in spin up. The PDOSs of the other 3 SQSs is included in appendix .. 
+Comparing the PDOS of half-metallic SQS D (figure 7.7 a) to the configuration with the largest $E_G ^\text{dw}$) SQS B (figure 7.7 b), we find distinctly a large number of Mn states in SQS D around $E_F$ most noticeably in spin down, but also in spin up. The PDOSs of SQSs A, B, and E are included in appendix A.2 (unable to plot PDOS for SQS C)
 
 \subsection{The band gap with SCAN and HSE06}
 As expressed previously, in this work we invoke 3 level of depths GGA (PBE), meta-GGA (SCAN) and hybrid functional (HSE06) to determine the band gap. The outcome of these 3 functionals are showcased in table 7.4.
@@ -248,7 +248,7 @@ From table 7.6 we observe that the presence and affect of defect states as discu
 The fact that all 3 functionals and five SQS in majority agree on the presence of a band gap is in itself an overwhelmingly positive result that allow us to state with high certainty that the potential high-entropy silicide \ch{(CrFeMnNi)Si2} is in fact a semiconductor or possibly a half-metal based on the observed spin polarization and the utmost stable configuration. Regarding the 3 functionals applied in this project, we experience best cohesion between PBE and HSE06 that both agree on a spin up polarization of the band gap, while SCAN predicts more symmetric band gaps. This can also be seen from the magnetic moment, with PBE and HSE06 the final magnetic moment (per atom) is 0.083 $\mu_B$ across all SQSs, with SCAN this is reduced to half the amount. In the nonmagnetic $\beta-$ \ch{FeSi2} structure we find better agreement between PBE and SCAN. Both correctly predict that the material is nonmagnetic, however compared to the experimental value of about 0.85 eV and the PBE band gap of 0.65 eV, we get a smaller band gap of 0.61 eV with SCAN. Thus the SCAN functional does not necessarily result in increased accuracy over PBE even in the nonmagnetic material. To conclude this section on the band gap \ch{(CrFeMnNi)Si2}, when studying the band gap with DFT, particularly PBE is well known to underestimate the band gap of the real material as in \ch{FeSi2}. Therefore a band gap found with PBE would with high probability be replicated/increased in the real material. In the following sections and cases we will heavily emphasize the PBE functional to determine the band gap from both the fast and reliable use in addition to the point mentioned above. Furthermore from our experiences in this project in conjunction with the lack of literary support the SCAN function look to be ill-equipped for accurate band gaps. While the HSE06 functional is often to computationally expensive and troublesome to converge for the structures in this project.
  
 \subsection{Pair distribution functions}
-The pair distribution functions of SQS D and B can be seen below in figure 7.10, the PDFs corresponding to SQS A, C, and E can be found in appendix .. . We include the PDFs of SQS D and B because as stated D is from the considerations made in this project the most stable atomic configuration and hence the most representative of the real random alloy. We analyze the PDF side by side to SQS B to investigate distinctions between the half-metallic configuration (D) and the semiconducting configuration (B). 
+The pair distribution functions of SQS D and B can be seen below in figure 7.10. We analyze the PDFs of the utmost stable configuration (SQS D) side by side to SQS B to investigate distinctions between the half-metallic structure and the semiconducting structure (B). 
  
 \begin{figure}[H]
 	\centering
@@ -264,6 +264,30 @@ The pair distribution functions of SQS D and B can be seen below in figure 7.10,
 With the aid of the ICSD \textbf{(insert citation)}, we can compare the PDFs in figure 7.10 to the expected PDFs based on a a large number of experimental compounds. As our compound contain a total of 15 different bonds, comparing each one to the ICSD values would be an exhaustive process. According to the ICSD   the preferred bond-length of TM-Si bonds is observed at two values, with the shorter length the most occurring. Specifically Fe-Si between 2.25-2.75 Å and 4-5 Å, Mn-Si at 2.25-2.75 Å and 3.5-5 Å, Ni-Si between 2.25-2.5 Å and 3.85-5 Å, and finally Cr-Si between 2.35-2.65 Å and 4-5 Å. Clearly, the PDFs of the SQSs are in good agreement with the listed values of TM-Si bonds. The relative occurrence of the bonds between SQS D and B are mostly consistent, other than marginally reduced Fe-Si occurrence at 2.4 Å in B.
 
 In contrast, we observe several distinctions between TM-TM bonds in SQS D and B, for example Mn-Fe, Cr-Fe, and Ni-Mn bonds. This is simply a consequence of how the SQSs are generated, the silicon atoms are placed as before in the new supercells, but the TM elements are "randomly" distributed. Thus, it's reasonable that we would find the major differences between TM-TM bonds. Recalling that Mn had a distinct presence in spin down around $E_F$ in SQS D, we observe that this structure compared to SQS B have a preference of Mn-Fe bonds at 3 Å and show larger occurance of Mn-Mn bonds at 4 Å. However the differences between PDFs are difficult to relate to the observed properties. Firstly because of the shear number of total bonds in the structures, and secondly considering the uniqueness of each SQS paired with the uncertainties regarding the stability.
+
+\subsection{Charge density}
+Below we include the calculated charge density (with PBE) of the different configurations. The half-metallic configuration (D) appear more metallic by a greater number of delocalized electronic charges compared to the semiconducting configurations A, B, and E. The charge density of SQS C is found in appendix A.3. 
+
+\begin{figure}[H]
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/A_CHGCAR.jpg}
+\caption{SQS A}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/B_CHGCAR.jpg}
+\caption{SQS B}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/D_CHGCAR.jpg}
+\caption{SQS D}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{results/fesi2/E_CHGCAR.jpg}
+\caption{SQS E}
+\end{subfigure}
+\caption{Charge density in SQS A, B, D and E of \ch{Cr4Fe4Mn4Ni4Si32}}
+\end{figure}
+
 
 \newpage
 \subsection{SQS size}
