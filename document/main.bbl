@@ -19,182 +19,78 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{PhysRevB.58.10389}{article}{}
-      \name{author}{4}{}{%
-        {{hash=2935bd93c32939b58477e4dbf45bcbb8}{%
-           family={Clark},
-           familyi={C\bibinitperiod},
-           given={S.\bibnamedelimi J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=84ed9986ee2af7b81b8936806614ed60}{%
-           family={Al-Allak},
-           familyi={A\bibinithyphendelim A\bibinitperiod},
-           given={H.\bibnamedelimi M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=89269f28b8c272f965b8c7bdd7dc9d9d}{%
-           family={Brand},
+    \entry{GILD2019337}{article}{}
+      \name{author}{8}{}{%
+        {{hash=6bd1182c4ff4e479d4c248e8540c3d8b}{%
+           family={Gild},
+           familyi={G\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=30052c81b774bea2b8c95c31261f4c95}{%
+           family={Braun},
            familyi={B\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b4b43b93cabe249ad60afa0d2a66f209}{%
-           family={Abram},
-           familyi={A\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{583cb8dd5503d9f8e6c05ff6952aca57}
-      \strng{fullhash}{808d100db00613fab7df6c5e12b1dc64}
-      \strng{bibnamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
-      \strng{authorbibnamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
-      \strng{authornamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
-      \strng{authorfullhash}{808d100db00613fab7df6c5e12b1dc64}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{16}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{10}
-      \field{title}{Structure and electronic properties of ${\mathrm{FeSi}}_2$}
-      \field{volume}{58}
-      \field{year}{1998}
-      \field{pages}{10389\bibrangedash 10393}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.58.10389
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.58.10389
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevB.58.10389
-      \endverb
-    \endentry
-    \entry{PhysRevLett.104.236403}{article}{}
-      \name{author}{2}{}{%
-        {{hash=98e7bac9d1ba9881f60aef88ce75d3d8}{%
-           family={Popescu},
-           familyi={P\bibinitperiod},
-           given={Voicu},
-           giveni={V\bibinitperiod}}}%
-        {{hash=4731eeb587695ea77704fc49ebd64436}{%
-           family={Zunger},
-           familyi={Z\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{ce37902a935ba0a7a928355df0a801df}
-      \strng{fullhash}{ce37902a935ba0a7a928355df0a801df}
-      \strng{bibnamehash}{ce37902a935ba0a7a928355df0a801df}
-      \strng{authorbibnamehash}{ce37902a935ba0a7a928355df0a801df}
-      \strng{authornamehash}{ce37902a935ba0a7a928355df0a801df}
-      \strng{authorfullhash}{ce37902a935ba0a7a928355df0a801df}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{23}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{6}
-      \field{title}{Effective Band Structure of Random Alloys}
-      \field{volume}{104}
-      \field{year}{2010}
-      \field{pages}{236403}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.104.236403
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.104.236403
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.104.236403
-      \endverb
-    \endentry
-    \entry{lange1997electronic}{article}{}
-      \name{author}{1}{}{%
-        {{hash=57937f251f3df28143ce33af3f520a22}{%
-           family={Lange},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb386945360327e22724e1a97aa57d03}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=84f1ebca03d1d5aed3ee43e10e02d1ad}{%
+           family={Marin},
+           familyi={M\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f3c8a39fdc3f10fce1bde8348de1b34c}{%
+           family={Harrington},
+           familyi={H\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+        {{hash=037467cefad6664eeadf5bf748dd2aeb}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=71e6f7549b8d7aeffc17485e6598b863}{%
+           family={Vecchio},
+           familyi={V\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a6f8d02bed11fe173993f80a365402f1}{%
+           family={Luo},
            familyi={L\bibinitperiod},
-           given={H},
-           giveni={H\bibinitperiod}}}%
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{fullhash}{57937f251f3df28143ce33af3f520a22}
-      \strng{bibnamehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{authorbibnamehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{authornamehash}{57937f251f3df28143ce33af3f520a22}
-      \strng{authorfullhash}{57937f251f3df28143ce33af3f520a22}
+      \strng{namehash}{0ea27ea81f6148bc57b63939af93a2e9}
+      \strng{fullhash}{076abe5e2a5112b59f1c40a6ca6d1dbc}
+      \strng{bibnamehash}{0ea27ea81f6148bc57b63939af93a2e9}
+      \strng{authorbibnamehash}{0ea27ea81f6148bc57b63939af93a2e9}
+      \strng{authornamehash}{0ea27ea81f6148bc57b63939af93a2e9}
+      \strng{authorfullhash}{076abe5e2a5112b59f1c40a6ca6d1dbc}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{physica status solidi (b)}
-      \field{number}{1}
-      \field{title}{Electronic properties of semiconducting silicides}
-      \field{volume}{201}
-      \field{year}{1997}
-      \field{pages}{3\bibrangedash 65}
-      \range{pages}{63}
-    \endentry
-    \entry{doi:10.1063/1.346415}{article}{}
-      \name{author}{1}{}{%
-        {{hash=dc181b16c066bc2f6a96e2a52b5157b9}{%
-           family={Eppenga},
-           familyi={E\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{dc181b16c066bc2f6a96e2a52b5157b9}
-      \strng{fullhash}{dc181b16c066bc2f6a96e2a52b5157b9}
-      \strng{bibnamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
-      \strng{authorbibnamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
-      \strng{authornamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
-      \strng{authorfullhash}{dc181b16c066bc2f6a96e2a52b5157b9}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Physics}
-      \field{number}{6}
-      \field{title}{Ab initio band‐structure calculation of the semiconductor β‐FeSi2}
-      \field{volume}{68}
-      \field{year}{1990}
-      \field{pages}{3027\bibrangedash 3029}
-      \range{pages}{3}
+      \field{abstract}{A high-entropy metal disilicide, (Mo0.2Nb0.2Ta0.2Ti0.2W0.2)Si2, has been successfully synthesized. X-ray diffraction (XRD), energy dispersive X-ray spectroscopy (EDX), and electron backscatter diffraction (EBSD) collectively show the formation of a single high-entropy silicide phase. This high-entropy (Mo0.2Nb0.2Ta0.2Ti0.2W0.2)Si2 possesses a hexagonal C40 crystal structure with ABC stacking sequence and a space group of P6222. This discovery expands the known families of high-entropy materials from metals, oxides, borides, carbides, and nitrides to a silicide, for the first time to our knowledge, as well as demonstrating that a new, non-cubic, crystal structure (with lower symmetry) can be made into high-entropy phase. This (Mo0.2Nb0.2Ta0.2Ti0.2W0.2)Si2 exhibits high nanohardness of 16.7 ± 1.9 GPa and Vickers hardness of 11.6 ± 0.5 GPa. Moreover, it has a low thermal conductivity of 6.9 ± 1.1 W m−1 K−1, which is approximately one order of magnitude lower than that of the widely-used tetragonal MoSi2 and ∼1/3 of those reported values for the hexagonal NbSi2 and TaSi2 with the same crystal structure.}
+      \field{issn}{2352-8478}
+      \field{journaltitle}{Journal of Materiomics}
+      \field{number}{3}
+      \field{title}{A high-entropy silicide: (Mo0.2Nb0.2Ta0.2Ti0.2W0.2)Si2}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{pages}{337\bibrangedash 343}
+      \range{pages}{7}
       \verb{doi}
-      \verb 10.1063/1.346415
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1063/1.346415
+      \verb https://doi.org/10.1016/j.jmat.2019.03.002
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1063/1.346415
+      \verb https://www.sciencedirect.com/science/article/pii/S2352847819300334
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1063/1.346415
+      \verb https://www.sciencedirect.com/science/article/pii/S2352847819300334
       \endverb
-    \endentry
-    \entry{ismear}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{title}{ISMEAR - Vaspwiki}
-      \verb{urlraw}
-      \verb https://www.vasp.at/wiki/index.php/ISMEAR
-      \endverb
-      \verb{url}
-      \verb https://www.vasp.at/wiki/index.php/ISMEAR
-      \endverb
+      \keyw{High-entropy ceramics,High-entropy silicide,Thermal conductivity,Hardness,C40 crystal structure}
     \endentry
   \enddatalist
 \endrefsection
