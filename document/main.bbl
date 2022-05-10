@@ -92,6 +92,30 @@
       \endverb
       \keyw{High-entropy ceramics,High-entropy silicide,Thermal conductivity,Hardness,C40 crystal structure}
     \endentry
+    \entry{mari}{}{}
+      \name{author}{1}{}{%
+        {{hash=9d70d0087e50b6534ced773253330b3f}{%
+           family={Røsvik},
+           familyi={R\bibinitperiod},
+           given={Mari\bibnamedelima Mathillas},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Oslo}%
+      }
+      \strng{namehash}{9d70d0087e50b6534ced773253330b3f}
+      \strng{fullhash}{9d70d0087e50b6534ced773253330b3f}
+      \strng{bibnamehash}{9d70d0087e50b6534ced773253330b3f}
+      \strng{authorbibnamehash}{9d70d0087e50b6534ced773253330b3f}
+      \strng{authornamehash}{9d70d0087e50b6534ced773253330b3f}
+      \strng{authorfullhash}{9d70d0087e50b6534ced773253330b3f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Structural Characterization of High Entropy Metal Silicide Alloys}
+      \field{year}{2021}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

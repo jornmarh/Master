@@ -11,10 +11,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Number of DFT studies per year from 1980 to 2021 \cite {dimensions}.\relax }}{16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Calculated to experimental band gap measurements of Becke-Johnsoon, modified Becke-Johnson and SCAN functionals \cite {xc_benchmark}\relax }}{27}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Self consistent iteration of a DFT calculation. Figure adopted from lecture notes fys-mena4111 \cite {persson2020}\relax }}{30}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Jacob's ladder \cite {jacob}.\relax }}{25}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Calculated to experimental band gap measurements of Becke-Johnsoon, modified Becke-Johnson and SCAN functionals \cite {xc_benchmark}\relax }}{27}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Self consistent iterations of a DFT calculation. Figure adopted from the lecture notes in FYS-MENA4111 \cite {persson2020}\relax }}{31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 5 distinct 48 atom SQS of \ch {Cr4Fe4Mn4Ni4Si32} based on the $\beta -$ \ch {FeSi2} crystal structure. Illustrated with VESTA \cite {vesta}\relax }}{33}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Five distinct 48-atom SQSs of \ch {Cr4Fe4Mn4Ni4Si32} based on the $\beta -$ \ch {FeSi2} crystal structure. Manganese atoms are represented as purple spheres, chromium as dark blue and silicon as light blue, followed by iron and nickel presented as gold and silver spheres respectively. The respective SQSs are denoted as A, B, C, D and E. Figures illustrated with VESTA \cite {vesta}\relax }}{34}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Density of states (PBE) $\beta -$ \ch {FeSi2}\relax }}{37}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Density of states of SQS D \ch {(CrFeMnNi)Si2} with PBE.\relax }}{39}%

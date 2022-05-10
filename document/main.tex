@@ -1,4 +1,4 @@
-\documentclass[UKenglish]{ifimaster}  %% ... or USenglish or norsk
+ \documentclass[UKenglish]{ifimaster}  %% ... or USenglish or norsk
 \usepackage[utf8]{inputenc}           %% ... or latin1
 \usepackage[T1]{fontenc,url}
 \urlstyle{sf}
@@ -24,9 +24,12 @@
 \usepackage{siunitx}
 
 \raggedbottom %%reduces the gaps between the paragraphs
-\title{Thesis Title}        %% ... or whatever
-\subtitle{A subtitle of your thesis }         %% ... if any
-\author{Author name}                      %% ... or whoever 
+\title{Potential semiconducting high-entropy silicides based on \ch{FeSi2}.}        %% ... or whatever
+\subtitle{An ab initio study with density functional theory and special quasi-random structures}         %% ... if any
+\author{Jørn-Marcus Høylo-Rosenberg}                      %% ... or whoever 
+
+\let\oldAA\AA
+\renewcommand{\AA}{\text{\normalfont\oldAA}}
 
 \addbibresource{bibliography.bib}  
 \graphicspath{{figures/}}
@@ -42,41 +45,35 @@
     %chapter/chapter_7,
     %chapter/chapter_8,
     %chapter/chapter_11,
-    %chapter/chapter_12,
 }
 
 
 \begin{document}
-\duoforside[dept={Department Name <change at main.tex>},   %% ... or your department
-  program={Master's Program Name <change at main.tex>},  %% ... or your programme
+\duoforside[dept={Department of Chemistry},   %% ... or your department
+  program={Materials Science for Energy and Nanotechnology},  %% ... or your programme
   long]                                        %% ... or long
 
 \frontmatter{}  
+
 \chapter*{Abstract}                   %% ... or Sammendrag or Samandrag
 
 \tableofcontents{}
 \listoffigures{}
 \listoftables{}
 
-\chapter*{Preface}                    %% ... or Forord
-
-Gotta give a shout out for my mans Jens
+\chapter*{Acknowledgments}                    %% ... or Forord
+In this nearly two year long journey I have been faced by many challenges, such as the covid-19 outbreak, the war in Ukraine, and personally the scare of my mother going through an operation. In many ways this master thesis have helped me through these complicated times by keeping my mind occupied at all times, perhaps too much in the final period. I would first and foremost like to express my gratitude to my supervisor Ole Martin Løvvik.   
 
 \mainmatter{}
 
 \chapter{Introduction}                  %% ... or Bakgrunn
 
-\textbf{Thermoelectricity and renewable energy introduction}
+The main objective of this thesis is to locate semiconducting high-entropy silicides. Such materials could have several promising applications, for instance the large degree of disorder in HEAs are expected to significantly lower the thermal conductivity, provided the alloys exhibits narrow band gaps these could have promise as thermoelectric materials. Additionally, all though many studies have materialized on high-entropy alloys in recent years, very few are directed at the functional properties, and even fewer on high-entropy silicides in particular. Thus, regardless of the potential application one of the primary motivations of this thesis is the scientific contribution to a rapidly growing research area and an exploration of previously unknown materials. We direct this project on silicides for two reasons, firstly silicon and various transition metal-silicides are environmentally sound and silicon in particular is heavily applied in micro-electronic devices and renewable energy sources such as solar power, thus silicon based alloys could readily be implemented into these technologies. Secondly, transition metal silicides offer a range of initial compounds with band gaps ranging from 0.1 - 2 eV as foundations for high-entropy silicides, furthermore match the band gap requirements of good thermoelectrics \textbf{cite}. 
 
-High-entropy alloys are a novel class of materials based on multiple component alloying, as opposed to the more traditional binary alloys. This results in an unprecedented opportunity for discovery of new materials with a superior degree of tuning for specific properties and applications. Recent research on high-entropy alloys have resulted in materials with exceedingly strong mechanical properties such as strength, corrosion and temperature resistance, etc \textbf{find references}. Meanwhile, the functional properties of high-entropy alloys are less elaborated. In this project, we explore the possibility of efficient thermoelectric materials from the imagined low thermal conductivity of HEAs due to the disordered structure, provided that we find HEAs with other suitable properties, most notably a small band gap \textbf{cite}. Thus, in order to locate semiconducting alloy we will have to move away from traditional high-entropy metallic alloys and instead look at high-entropy silicides. This is done for two reasons, firstly silicon and various transition metal-silicides are environmentally sound and silicon in particular is heavily applied in micro-electronic devices and renewable energy sources such as solar power, thus silicon based alloys could readily be implemented into these technologies. Secondly, transition metal silicides offer a range of initial compounds with band gaps ranging from 0.1 - 2 eV to base our high-entropy silicides on that match the band gap requirements of good thermoelectrics. This project is motivated particularly from the work of Gild. et al \cite{GILD2019337}, whom in 2019 successfully synthesized a first of its kind single-phase high-entropy disilicide \ch{(MoNbTaW)Si2}. This silicide adopted the non-cubic hexagonal C40 crystal structure and displayed reduced thermal conductivity compared to conventional disilicides in the equivalent crystal structure. Non-cubic structure was emphasized above due to the fact that most high-entropy alloys tend to adopt simple cubic structures. An other study that found phases of non-cubic high-entropy silicides is the master thesis of Rosviik (2021), that syntesized single-phases of high-entropy silicides based Si Co Cr Fe Ni in both hexagonal and orthorhombic crystal structures. In this project we will investigate candidate high-entropy disilicides based on $\beta$-\ch{FeSi2} semiconductor, where the iron sites are populated by near/exact equimolar distribution of various transition metals such as Cr, Fe, Mn, Ni, Co and Ti.  
+This project is motivated from the work of Gild. et al \cite{GILD2019337}, whom in 2019 successfully synthesized a first of its kind single-phase high-entropy disilicide \ch{(MoNbTaW)Si2}. This silicide adopted the hexagonal C40 crystal structure, and displayed low thermal conductivity compared to conventional disilicides in the equivalent crystal structure. Additionally, very recently a master thesis student at the University of Oslo managed to synthesize three phases of non-cubic high-entropy silicides based on Si, Co, Cr, Fe, and Ni in both hexagonal and orthorhombic symmetries \cite{mari}. In this project we will investigate candidate high-entropy disilicides based on the $\beta$-\ch{FeSi2} semiconductor, where the iron sites are populated by near/exact equimolar distribution of various transition metals such as Cr, Fe, Mn, Ni, Co and Ti.  
 
+A key motivation behind this thesis is to become familiar with modern computational methods that enable a broad study of complex hypothetical materials  In this project, we will perform a ab initio study backed by density functional theory. In the addition to the development in computational power, is also the progress of modeling materials, specifically we will apply a method called Special Quasi-random Structures (SQS) to model the disordered structure of  high-entropy alloys, and advances in approximations to the exchange-correlation functional to accurately determine the band gap. We begin this project by reviewing the fundamentals and properties of high-entropy alloys, thereafter we present a theoretical description of the computational methods in this project, SQS, and DFT. Next we discuss various practical aspects of DFT such as the exchange-correlation functionals and numerical convergence, in addition to numerical settings necessary to reproduce the results in this project. Finally we present and discuss the results, which begin with the high-entropy silicide \ch{(CrFeMnNi)Si2}, followed by compositionally different alloys. Special emphasis will be put on the band gap, and comparison between numerical methods and factors. In the end we give a brief conclusion on the various compounds studied and main findings, and discuss some possible future research directions.   
 
-A key motivation of this thesis is the ability to perform such a broad study of complex materials in light of the advances in material informatics and computational methods. In this project, we will perform a ab initio study backed by density functional theory. In the addition to the development in computational power, is also the progress of modeling materials, specifically we will apply a method called Special Quasi-random Structures (SQS) to model the disordered structure of  high-entropy alloys.
- 
- 
-Given a background in high-entropy alloys, one could ask if this study is truly sensible. In the later sections we will cover the details of this field, and it quickly become clear that the materials investigated in this study does not fall under the precise definition of high-entropy alloys, nor do we intend to explore the properties and factors relating to high-entropy stabilized alloys such as the configurational entropy, phase stability and finite temperature studies. However this study is motivated from the discovery of these materials and promising properties, and venture into a more hypothetical space of materials, enabled by the computational methods available to study the potential properties of such materials. On the other hand, very recent studies \textbf{Mari, and other HEA silicide study} have experimentally synthesized high-entropy disilicides, thus in some way justifying the direction of this project. 
-
-We begin this project by reviewing key concepts of solid-state physics for readers lacking a background in materials science, and an introduction to the base 3d silicides of the experimental work. Later follows a theoretic walk-through of the relevant concepts of this thesis, these topics include high-entropy alloys, special quasi-random structures, and density functional theory. Next we shine light on the implementation of DFT in this project, and other computational details required to reproduce the results in this thesis, such as the use of the Vienna Ab Initio Simulation Package (VASP) and implementation of SQS. Finally we present the results of our study, these include the band gap and electronic properties of various structures and the success and challenges of the computational methods applied throughout the study. 
 
 \part{Theory}                    %% ... or ??
 \include{chapter/chapter_2}
