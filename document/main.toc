@@ -43,9 +43,11 @@
 \contentsline {chapter}{\numberline {8}Alternative compositions}{56}%
 \contentsline {section}{\numberline {8.1}Exploring the quaternary phase diagram}{56}%
 \contentsline {section}{\numberline {8.2}High entropy silicides with cobalt/titanium}{60}%
-\contentsline {part}{IV\hspace {1em}Conclusion}{66}%
-\contentsline {chapter}{\numberline {A}\ch {Cr4Fe4Mn4Ni4Si32}}{68}%
-\contentsline {section}{\numberline {A.1}Density of states}{68}%
-\contentsline {section}{\numberline {A.2}Projected density of states}{70}%
-\contentsline {section}{\numberline {A.3}Charge density}{71}%
-\contentsline {chapter}{\numberline {B}Alternative compositions}{72}%
+\contentsline {part}{IV\hspace {1em}Conclusion and future work}{65}%
+\contentsline {chapter}{\numberline {9}Conclusion}{66}%
+\contentsline {chapter}{\numberline {10}Future work}{68}%
+\contentsline {chapter}{\numberline {A}Figures}{69}%
+\contentsline {section}{\numberline {A.1}Density of states}{69}%
+\contentsline {section}{\numberline {A.2}Projected density of states}{71}%
+\contentsline {section}{\numberline {A.3}Charge density}{72}%
+\contentsline {section}{\numberline {A.4}Other}{73}%

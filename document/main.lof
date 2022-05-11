@@ -38,12 +38,13 @@
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Projected density of states\relax }}{63}%
 \contentsline {figure}{\numberline {8.5}{\ignorespaces Density of states of two SQS A and E of \ch {(CoFeMnNi)Si2}.\relax }}{64}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Density of states SQS A \ch {(CrFeMnNi)Si2} with PBE.\relax }}{68}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Density of states SQS E \ch {(CrFeMnNi)Si2} with PBE.\relax }}{69}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Density of states SQS C \ch {(CrFeMnNi)Si2} with PBE. Nedos represent the number of points in the DOS calculation.\relax }}{69}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Projected density of states SQS A\relax }}{70}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Projected density of states SQS B\relax }}{70}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Projected density of states SQS E\relax }}{71}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Charge density of SQS C.\relax }}{71}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Density of states SQS C \ch {Cr5Fe5Mn3Ni3Si32}, illustrating the small finite DOS at $E_F$ due to the impurity gap.\relax }}{72}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Density of states SQS A \ch {(CrFeMnNi)Si2} with PBE.\relax }}{69}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Density of states SQS E \ch {(CrFeMnNi)Si2} with PBE.\relax }}{70}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Density of states SQS C \ch {(CrFeMnNi)Si2} with PBE. Nedos represent the number of points in the DOS calculation.\relax }}{70}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Projected density of states SQS A\relax }}{71}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Projected density of states SQS B\relax }}{71}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Projected density of states SQS E\relax }}{72}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Charge density of SQS C.\relax }}{72}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Density of states SQS C \ch {Cr5Fe5Mn3Ni3Si32}, illustrating the small finite DOS at $E_F$ due to the impurity gap.\relax }}{73}%

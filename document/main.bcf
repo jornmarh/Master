@@ -2184,6 +2184,12 @@
   <bcf:section number="0">
     <bcf:citekey order="11">GILD2019337</bcf:citekey>
     <bcf:citekey order="12">mari</bcf:citekey>
+    <bcf:citekey order="13">PhysRevB.58.10389</bcf:citekey>
+    <bcf:citekey order="14">PhysRevLett.104.236403</bcf:citekey>
+    <bcf:citekey order="15">lange1997electronic</bcf:citekey>
+    <bcf:citekey order="16">doi:10.1063/1.346415</bcf:citekey>
+    <bcf:citekey order="17">ismear</bcf:citekey>
+    <bcf:citekey order="18">spintronic</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

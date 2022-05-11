@@ -116,6 +116,229 @@
       \field{title}{Structural Characterization of High Entropy Metal Silicide Alloys}
       \field{year}{2021}
     \endentry
+    \entry{PhysRevB.58.10389}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2935bd93c32939b58477e4dbf45bcbb8}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=84ed9986ee2af7b81b8936806614ed60}{%
+           family={Al-Allak},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={H.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=89269f28b8c272f965b8c7bdd7dc9d9d}{%
+           family={Brand},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4b43b93cabe249ad60afa0d2a66f209}{%
+           family={Abram},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{583cb8dd5503d9f8e6c05ff6952aca57}
+      \strng{fullhash}{808d100db00613fab7df6c5e12b1dc64}
+      \strng{bibnamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
+      \strng{authorbibnamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
+      \strng{authornamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
+      \strng{authorfullhash}{808d100db00613fab7df6c5e12b1dc64}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{10}
+      \field{title}{Structure and electronic properties of ${\mathrm{FeSi}}_2$}
+      \field{volume}{58}
+      \field{year}{1998}
+      \field{pages}{10389\bibrangedash 10393}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.58.10389
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.58.10389
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.58.10389
+      \endverb
+    \endentry
+    \entry{PhysRevLett.104.236403}{article}{}
+      \name{author}{2}{}{%
+        {{hash=98e7bac9d1ba9881f60aef88ce75d3d8}{%
+           family={Popescu},
+           familyi={P\bibinitperiod},
+           given={Voicu},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4731eeb587695ea77704fc49ebd64436}{%
+           family={Zunger},
+           familyi={Z\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ce37902a935ba0a7a928355df0a801df}
+      \strng{fullhash}{ce37902a935ba0a7a928355df0a801df}
+      \strng{bibnamehash}{ce37902a935ba0a7a928355df0a801df}
+      \strng{authorbibnamehash}{ce37902a935ba0a7a928355df0a801df}
+      \strng{authornamehash}{ce37902a935ba0a7a928355df0a801df}
+      \strng{authorfullhash}{ce37902a935ba0a7a928355df0a801df}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{23}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{6}
+      \field{title}{Effective Band Structure of Random Alloys}
+      \field{volume}{104}
+      \field{year}{2010}
+      \field{pages}{236403}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.104.236403
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.104.236403
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.104.236403
+      \endverb
+    \endentry
+    \entry{lange1997electronic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=57937f251f3df28143ce33af3f520a22}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{fullhash}{57937f251f3df28143ce33af3f520a22}
+      \strng{bibnamehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{authorbibnamehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{authornamehash}{57937f251f3df28143ce33af3f520a22}
+      \strng{authorfullhash}{57937f251f3df28143ce33af3f520a22}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{physica status solidi (b)}
+      \field{number}{1}
+      \field{title}{Electronic properties of semiconducting silicides}
+      \field{volume}{201}
+      \field{year}{1997}
+      \field{pages}{3\bibrangedash 65}
+      \range{pages}{63}
+    \endentry
+    \entry{doi:10.1063/1.346415}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dc181b16c066bc2f6a96e2a52b5157b9}{%
+           family={Eppenga},
+           familyi={E\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc181b16c066bc2f6a96e2a52b5157b9}
+      \strng{fullhash}{dc181b16c066bc2f6a96e2a52b5157b9}
+      \strng{bibnamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
+      \strng{authorbibnamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
+      \strng{authornamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
+      \strng{authorfullhash}{dc181b16c066bc2f6a96e2a52b5157b9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{6}
+      \field{title}{Ab initio band‐structure calculation of the semiconductor β‐FeSi2}
+      \field{volume}{68}
+      \field{year}{1990}
+      \field{pages}{3027\bibrangedash 3029}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.346415
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.346415
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.346415
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.346415
+      \endverb
+    \endentry
+    \entry{ismear}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{ISMEAR - Vaspwiki}
+      \verb{urlraw}
+      \verb https://www.vasp.at/wiki/index.php/ISMEAR
+      \endverb
+      \verb{url}
+      \verb https://www.vasp.at/wiki/index.php/ISMEAR
+      \endverb
+    \endentry
+    \entry{spintronic}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2e95a6190f3bf4945f017349523ce16c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xingxing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f41c74f62caa4922b90ff555a61016ff}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jinlong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{58e26020d4d795805474100da68dbc51}
+      \strng{fullhash}{58e26020d4d795805474100da68dbc51}
+      \strng{bibnamehash}{58e26020d4d795805474100da68dbc51}
+      \strng{authorbibnamehash}{58e26020d4d795805474100da68dbc51}
+      \strng{authornamehash}{58e26020d4d795805474100da68dbc51}
+      \strng{authorfullhash}{58e26020d4d795805474100da68dbc51}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Spintronics is one of the most promising next generation information technology, which uses the spins of electrons as information carriers and possesses potential advantages of speeding up data processing, high circuit integration density, and low energy consumption. However, spintronics faces a number of challenges, including spin generation and injection, long distance spin transport, and manipulation and detection of spin orientation. In solving these issues, new concepts and spintronics materials were proposed one after another, such as half metals, spin gapless semiconductors, and bipolar magnetic semiconductors. Topological insulators can also be viewed as a special class of spintronics materials, with their surface states used for pure spin generation and transportation. In designing these spintronics materials, first-principles calculations play a very important role. This article attempts to give a brief review of the basic principles and theoretical design of these materials. Meanwhile, we also give some attentions to the antiferromagnetic spintronics, which is mainly based on antiferromagnets and has aroused much interest in recent years.}}
+      \field{issn}{2095-5138}
+      \field{journaltitle}{National Science Review}
+      \field{month}{04}
+      \field{number}{3}
+      \field{title}{{First-principles design of spintronics materials}}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{pages}{365\bibrangedash 381}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1093/nsr/nww026
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/nsr/article-pdf/3/3/365/31566317/nww026.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/nsr/nww026
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/nsr/nww026
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
