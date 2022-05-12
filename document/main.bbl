@@ -19,6 +19,265 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{thermo}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=216f03623d92101e9442d23a2fe6c0c5}{%
+           family={termoelektrisitet},
+           familyi={t\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {nor}%
+      }
+      \strng{namehash}{216f03623d92101e9442d23a2fe6c0c5}
+      \strng{fullhash}{216f03623d92101e9442d23a2fe6c0c5}
+      \strng{bibnamehash}{216f03623d92101e9442d23a2fe6c0c5}
+      \strng{authorbibnamehash}{216f03623d92101e9442d23a2fe6c0c5}
+      \strng{authornamehash}{216f03623d92101e9442d23a2fe6c0c5}
+      \strng{authorfullhash}{216f03623d92101e9442d23a2fe6c0c5}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{termoelektrisitet}
+      \field{month}{11}
+      \field{title}{Velkommen til en termoelektrisk verden!}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2013}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://termoelektrisitet.no/2013/11/24/velkommen-til-en-termoelektrisk-verden/
+      \endverb
+      \verb{url}
+      \verb https://termoelektrisitet.no/2013/11/24/velkommen-til-en-termoelektrisk-verden/
+      \endverb
+    \endentry
+    \entry{wikipedia_thermoelectric_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thermoelectric materials show the thermoelectric effect in a strong or convenient form. The thermoelectric effect refers to phenomena by which either a temperature difference creates an electric potential or an electric potential creates a temperature difference. These phenomena are known more specifically as the Seebeck effect (creating a voltage from temperature difference), Peltier effect (driving heat flow with an electric current), and Thomson effect (reversible heating or cooling within a conductor when there is both an electric current and a temperature gradient). While all materials have a nonzero thermoelectric effect, in most materials it is too small to be useful. However, low-cost materials that have a sufficiently strong thermoelectric effect (and other required properties) are also considered for applications including power generation and refrigeration. The most commonly used thermoelectric material is based on bismuth telluride (Bi2Te3). Thermoelectric materials are used in thermoelectric systems for cooling or heating in niche applications, and are being studied as a way to regenerate electricity from waste heat.}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{11}
+      \field{note}{Page Version ID: 989933448}
+      \field{title}{Thermoelectric materials}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Thermoelectric_materials&oldid=989933448
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Thermoelectric_materials&oldid=989933448
+      \endverb
+    \endentry
+    \entry{bandgap2Dirac}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b66893cb724ca4fc4fa681b0630a89d3}{%
+           family={Hasdeo},
+           familyi={H\bibinitperiod},
+           given={Eddwi\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ce940fce85904665eedd4ea9ea408723}{%
+           family={Krisna},
+           familyi={K\bibinitperiod},
+           given={Lukas\bibnamedelimb P.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=84d42c1d3524afcf57f0b865fcefa134}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={Muhammad\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=f0511025b82f1348c39c94a1d07b2b42}{%
+           family={Gunara},
+           familyi={G\bibinitperiod},
+           given={Bobby\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c6bed5896534f583ec93008c056a245d}{%
+           family={Hung},
+           familyi={H\bibinitperiod},
+           given={Nguyen\bibnamedelima T.},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=76b12b6bc91bf5540ea062de4fde89b6}{%
+           family={Nugraha},
+           familyi={N\bibinitperiod},
+           given={Ahmad\bibnamedelimb R.\bibnamedelimi T.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{260883605e60c3a49ab21fe428b06fad}
+      \strng{fullhash}{80ea607c4214e0a535fe45e940e35aaa}
+      \strng{bibnamehash}{260883605e60c3a49ab21fe428b06fad}
+      \strng{authorbibnamehash}{260883605e60c3a49ab21fe428b06fad}
+      \strng{authornamehash}{260883605e60c3a49ab21fe428b06fad}
+      \strng{authorfullhash}{80ea607c4214e0a535fe45e940e35aaa}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-7550}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Optimal band gap for improved thermoelectric performance of two-dimensional Dirac materials}
+      \field{volume}{126}
+      \field{year}{2019}
+      \field{pages}{035109}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5100985
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1063/1.5100985
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.5100985
+      \endverb
+    \endentry
+    \entry{SnyderG.Jeffrey2008Ctm}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15adebbab8733817b9397a2bd8eab956}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi Jeffrey},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1420b925e5758fbe63d615cf4d0b06ed}{%
+           family={Toberer},
+           familyi={T\bibinitperiod},
+           given={Eric\bibnamedelima S},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {England}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a9bdfe846a47d477430a9d6be2c93142}
+      \strng{fullhash}{a9bdfe846a47d477430a9d6be2c93142}
+      \strng{bibnamehash}{a9bdfe846a47d477430a9d6be2c93142}
+      \strng{authorbibnamehash}{a9bdfe846a47d477430a9d6be2c93142}
+      \strng{authornamehash}{a9bdfe846a47d477430a9d6be2c93142}
+      \strng{authorfullhash}{a9bdfe846a47d477430a9d6be2c93142}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thermoelectric materials, which can generate electricity from waste heat or be used as solid-state Peltier coolers, could play an important role in a global sustainable energy solution. Such a development is contingent on identifying materials with higher thermoelectric efficiency than available at present, which is a challenge owing to the conflicting combination of material traits that are required. Nevertheless, because of modern synthesis and characterization techniques, particularly for nanoscale materials, a new era of complex thermoelectric materials is approaching. We review recent advances in the field, highlighting the strategies used to improve the thermopower and reduce the thermal conductivity.}
+      \field{issn}{1476-1122}
+      \field{journaltitle}{Nature materials}
+      \field{number}{2}
+      \field{title}{Complex thermoelectric materials}
+      \field{volume}{7}
+      \field{year}{2008}
+      \field{pages}{105\bibrangedash 114}
+      \range{pages}{10}
+      \keyw{Electricity ; Materials science ; Nanotechnology ; Research ; Sustainable development ; Thermodynamics}
+    \endentry
+    \entry{TE_gap}{article}{}
+      \name{author}{2}{}{%
+        {{hash=676275830e4d90b498b9127956913518}{%
+           family={Sofo},
+           familyi={S\bibinitperiod},
+           given={Jorge\bibnamedelima Osvaldo},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=610be48164a109d801306e407fc2d226}{%
+           family={Mahan},
+           familyi={M\bibinitperiod},
+           given={GD},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{dd6a7ef9ec70b790fdce4981d21464e2}
+      \strng{fullhash}{dd6a7ef9ec70b790fdce4981d21464e2}
+      \strng{bibnamehash}{dd6a7ef9ec70b790fdce4981d21464e2}
+      \strng{authorbibnamehash}{dd6a7ef9ec70b790fdce4981d21464e2}
+      \strng{authornamehash}{dd6a7ef9ec70b790fdce4981d21464e2}
+      \strng{authorfullhash}{dd6a7ef9ec70b790fdce4981d21464e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review B}
+      \field{number}{7}
+      \field{title}{Optimum band gap of a thermoelectric material}
+      \field{volume}{49}
+      \field{year}{1994}
+      \field{pages}{4565}
+      \range{pages}{1}
+    \endentry
+    \entry{hea}{article}{}
+      \name{author}{2}{}{%
+        {{hash=11852595b176ccbd7734ceec2c7d6bb9}{%
+           family={Ming-Hung},
+           familyi={M\bibinithyphendelim H\bibinitperiod},
+           given={Tsai.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=595a4906a541f8e30fcbb4353d3da69b}{%
+           family={Jien-Wei},
+           familyi={J\bibinithyphendelim W\bibinitperiod},
+           given={Yeh.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{e96a9ed31076103c500f3e5dc876ca53}
+      \strng{fullhash}{e96a9ed31076103c500f3e5dc876ca53}
+      \strng{bibnamehash}{e96a9ed31076103c500f3e5dc876ca53}
+      \strng{authorbibnamehash}{e96a9ed31076103c500f3e5dc876ca53}
+      \strng{authornamehash}{e96a9ed31076103c500f3e5dc876ca53}
+      \strng{authorfullhash}{e96a9ed31076103c500f3e5dc876ca53}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{High-entropy alloys (HEAs) are alloys with five or more principal elements. Due to the distinct design concept, these alloys often exhibit unusual properties. Thus, there has been significant interest in these materials, leading to an emerging yet exciting new field. This paper briefly reviews some critical aspects of HEAs, including core effects, phases and crystal structures, mechanical properties, high-temperature properties, structural stabilities, and corrosion behaviors. Current challenges and important future directions are also pointed out.}
+      \field{journaltitle}{Materials Research Letters}
+      \field{number}{3}
+      \field{title}{High-Entropy Alloys: A Critical Review}
+      \field{volume}{2}
+      \field{year}{2014}
+      \field{pages}{107\bibrangedash 123}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1080/21663831.2014.912690
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/21663831.2014.912690
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/21663831.2014.912690
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/21663831.2014.912690
+      \endverb
+    \endentry
     \entry{GILD2019337}{article}{}
       \name{author}{8}{}{%
         {{hash=6bd1182c4ff4e479d4c248e8540c3d8b}{%
@@ -116,6 +375,33 @@
       \field{title}{Structural Characterization of High Entropy Metal Silicide Alloys}
       \field{year}{2021}
     \endentry
+    \entry{silicde}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7f09b201ea0676153bb74c3a0ea7ddb1}{%
+           family={A},
+           familyi={A\bibinitperiod},
+           given={Burkov.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f09b201ea0676153bb74c3a0ea7ddb1}
+      \strng{fullhash}{7f09b201ea0676153bb74c3a0ea7ddb1}
+      \strng{bibnamehash}{7f09b201ea0676153bb74c3a0ea7ddb1}
+      \strng{authorbibnamehash}{7f09b201ea0676153bb74c3a0ea7ddb1}
+      \strng{authornamehash}{7f09b201ea0676153bb74c3a0ea7ddb1}
+      \strng{authorfullhash}{7f09b201ea0676153bb74c3a0ea7ddb1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{physica status solidi (a)}
+      \field{month}{06}
+      \field{title}{Silicide Thermoelectrics: Materials for Energy Harvesting}
+      \field{volume}{215}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1002/pssa.201800105
+      \endverb
+    \endentry
     \entry{PhysRevB.58.10389}{article}{}
       \name{author}{4}{}{%
         {{hash=2935bd93c32939b58477e4dbf45bcbb8}{%
@@ -148,8 +434,8 @@
       \strng{authorbibnamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
       \strng{authornamehash}{583cb8dd5503d9f8e6c05ff6952aca57}
       \strng{authorfullhash}{808d100db00613fab7df6c5e12b1dc64}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{16}
@@ -192,8 +478,8 @@
       \strng{authorbibnamehash}{ce37902a935ba0a7a928355df0a801df}
       \strng{authornamehash}{ce37902a935ba0a7a928355df0a801df}
       \strng{authorfullhash}{ce37902a935ba0a7a928355df0a801df}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{23}
@@ -231,8 +517,8 @@
       \strng{authorbibnamehash}{57937f251f3df28143ce33af3f520a22}
       \strng{authornamehash}{57937f251f3df28143ce33af3f520a22}
       \strng{authorfullhash}{57937f251f3df28143ce33af3f520a22}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{physica status solidi (b)}
@@ -257,8 +543,8 @@
       \strng{authorbibnamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
       \strng{authornamehash}{dc181b16c066bc2f6a96e2a52b5157b9}
       \strng{authorfullhash}{dc181b16c066bc2f6a96e2a52b5157b9}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -282,8 +568,8 @@
       \endverb
     \endentry
     \entry{ismear}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{ISMEAR - Vaspwiki}
       \verb{urlraw}
@@ -312,8 +598,8 @@
       \strng{authorbibnamehash}{58e26020d4d795805474100da68dbc51}
       \strng{authornamehash}{58e26020d4d795805474100da68dbc51}
       \strng{authorfullhash}{58e26020d4d795805474100da68dbc51}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{Spintronics is one of the most promising next generation information technology, which uses the spins of electrons as information carriers and possesses potential advantages of speeding up data processing, high circuit integration density, and low energy consumption. However, spintronics faces a number of challenges, including spin generation and injection, long distance spin transport, and manipulation and detection of spin orientation. In solving these issues, new concepts and spintronics materials were proposed one after another, such as half metals, spin gapless semiconductors, and bipolar magnetic semiconductors. Topological insulators can also be viewed as a special class of spintronics materials, with their surface states used for pure spin generation and transportation. In designing these spintronics materials, first-principles calculations play a very important role. This article attempts to give a brief review of the basic principles and theoretical design of these materials. Meanwhile, we also give some attentions to the antiferromagnetic spintronics, which is mainly based on antiferromagnets and has aroused much interest in recent years.}}
