@@ -2196,7 +2196,8 @@
     <bcf:citekey order="22">lange1997electronic</bcf:citekey>
     <bcf:citekey order="23">doi:10.1063/1.346415</bcf:citekey>
     <bcf:citekey order="24">ismear</bcf:citekey>
-    <bcf:citekey order="25">spintronic</bcf:citekey>
+    <bcf:citekey order="25">icsd</bcf:citekey>
+    <bcf:citekey order="26">spintronic</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

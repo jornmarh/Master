@@ -32,8 +32,8 @@
 \contentsline {section}{\numberline {6.2}Material}{33}%
 \contentsline {part}{III\hspace {1em}Results and Discussion}{35}%
 \contentsline {chapter}{\numberline {7}The high-entropy silicide \ch {(CrFeMnNi)Si2}}{36}%
-\contentsline {section}{\numberline {7.1}Bulk $\beta -$ \ch {FeSi2}}{36}%
-\contentsline {section}{\numberline {7.2}\ch {(CrFeMnNi)Si2} SQSs}{37}%
+\contentsline {section}{\numberline {7.1}$\beta $-\ch {FeSi2}}{36}%
+\contentsline {section}{\numberline {7.2}\ch {(CrFeMnNi)Si2}}{37}%
 \contentsline {subsection}{\numberline {7.2.1}The band gap}{39}%
 \contentsline {subsection}{\numberline {7.2.2}Local and projected density of states}{43}%
 \contentsline {subsection}{\numberline {7.2.3}The band gap with SCAN and HSE06}{45}%

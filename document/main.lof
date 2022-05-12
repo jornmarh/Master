@@ -17,17 +17,17 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Five distinct 48-atom SQSs of \ch {Cr4Fe4Mn4Ni4Si32} based on the $\beta -$ \ch {FeSi2} crystal structure. Manganese atoms are represented as purple spheres, chromium as dark blue and silicon as light blue, followed by iron and nickel presented as gold and silver spheres respectively. The respective SQSs are denoted as A, B, C, D and E. Figures illustrated with VESTA \cite {vesta}\relax }}{34}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Density of states (PBE) $\beta -$ \ch {FeSi2}\relax }}{37}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Density of states of SQS D \ch {(CrFeMnNi)Si2} with PBE.\relax }}{39}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Density of states of SQS B \ch {(CrFeMnNi)Si2} with PBE.\relax }}{39}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Local density of states of Si (SQS D)\relax }}{43}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Local density of states of (a) Cr, (b) Mn, (c) Fe, (d) Ni in SQS D.\relax }}{43}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Projected density of states SQS D CFMN (fesi2) from PBE calculation\relax }}{44}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Projected density of states of SQS D and B around $E_F$\relax }}{44}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Density of states illustrating the band gaps from PBE and SCAN calculations for SQS E and D.\relax }}{46}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Density of states of SQS B with HSE06\relax }}{46}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Density of states [states/eV] of $\beta $-\ch {FeSi2}.\relax }}{37}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Density of states [states/eV] of SQS D of \ch {(CrFeMnNi)Si2}.\relax }}{39}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Density of states [states/eV] of SQS B of \ch {(CrFeMnNi)Si2}.\relax }}{39}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Local density of states [states/eV] of Si (SQS D)\relax }}{43}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Local density of states [states/eV] of (a) Cr, (b) Mn, (c) Fe, (d) Ni in SQS D.\relax }}{43}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Projected density of states [states/eV] of SQS D.\relax }}{44}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Projected density of states [states/eV] of SQS D and B around $E_F$.\relax }}{44}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Density of states [states/eV] illustrating the band gaps of SQS E and D with PBE and SCAN.\relax }}{46}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Density of states [states/eV] of SQS B with HSE06.\relax }}{46}%
 \contentsline {figure}{\numberline {7.10}{\ignorespaces Pair distribution functions of SQS D (top) and B (bottom)\relax }}{50}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Charge density in SQS A, B, D and E of \ch {Cr4Fe4Mn4Ni4Si32}\relax }}{51}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Charge density in SQS A, B, D and E of \ch {Cr4Fe4Mn4Ni4Si32}.\relax }}{51}%
 \contentsline {figure}{\numberline {7.12}{\ignorespaces CPU time of 48, 96 and 192-atom SQSs of \ch {(CrFeMnNi)Si2}\relax }}{52}%
 \contentsline {figure}{\numberline {7.13}{\ignorespaces Density of states of SQS E 192 atom SQS.\relax }}{54}%
 \contentsline {figure}{\numberline {7.14}{\ignorespaces Pair distribution functions of \ch {(CrFeMnNi)Si2} (top) 48-atom SQS, (middle) 96-atom SQS, (bottom) 192-atom SQS.\relax }}{55}%

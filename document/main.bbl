@@ -579,6 +579,37 @@
       \verb https://www.vasp.at/wiki/index.php/ISMEAR
       \endverb
     \endentry
+    \entry{icsd}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7d4bc07f5700f29a8a9726b76f928e0a}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{7d4bc07f5700f29a8a9726b76f928e0a}
+      \strng{fullhash}{7d4bc07f5700f29a8a9726b76f928e0a}
+      \strng{bibnamehash}{7d4bc07f5700f29a8a9726b76f928e0a}
+      \strng{authorbibnamehash}{7d4bc07f5700f29a8a9726b76f928e0a}
+      \strng{authornamehash}{7d4bc07f5700f29a8a9726b76f928e0a}
+      \strng{authorfullhash}{7d4bc07f5700f29a8a9726b76f928e0a}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NIST Inorganic Crystal Structure Database (ICSD)}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://doi.org/10.18434/M32147
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.18434/M32147
+      \endverb
+    \endentry
     \entry{spintronic}{article}{}
       \name{author}{2}{}{%
         {{hash=2e95a6190f3bf4945f017349523ce16c}{%

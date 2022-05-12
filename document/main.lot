@@ -7,13 +7,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Total energy per atom, final magnetic moment and band gap of 5 unique SQS of \ch {(CrFeMnNi)Si2} based on the $\beta -$ \ch {FeSi2} unit cell.\relax }}{37}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Band gap of the 5 SQSs of \ch {(CrFeMnNi)Si2} calculated from the eigenvalues in spin up, down and total.\relax }}{40}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Band gap of SQS D as a function of occupancy in the eigenvalues.\relax }}{41}%
-\contentsline {table}{\numberline {7.4}{\ignorespaces Band gap calculated with PBE, SCAN and HSE06 XC-functionals of \ch {(CrFeMnNi)Si2} SQSs.\relax }}{45}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Total energy, magnetic moment, band gap and formation energy of 5 SQS of \ch {(CrFeMnNi)Si2}.\relax }}{37}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Band gap of five SQSs of \ch {(CrFeMnNi)Si2} in spin up, down and total, calculated from the Kohn-Sham eigenvalues.\relax }}{40}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Band gap of SQS D as a function of occupancy cutoff in the eigenvalues.\relax }}{41}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Band gap of five supercells of \ch {(CrFeMnNi)Si2} calculated with PBE, SCAN and HSE06.\relax }}{45}%
 \contentsline {table}{\numberline {7.5}{\ignorespaces Minimum gap between k-point in valence band and conduction band in SQS B from PBE, SCAN and HSE06\relax }}{47}%
-\contentsline {table}{\numberline {7.6}{\ignorespaces Band gap from HSE06 calculations with Gaussian smearing and smearing width $sigma$ equal to 0.05 and 0.005, and the tetrahedron method (TBC). "-" means unchanged\relax }}{48}%
-\contentsline {table}{\numberline {7.7}{\ignorespaces Total energy, magnetic moment and formation energy of 48, 96 and 192 atom SQSs of \ch {(CrFeMnNi)Si2}\relax }}{52}%
+\contentsline {table}{\numberline {7.6}{\ignorespaces Band gap from HSE06 calculations with Gaussian smearing, with smearing width $\sigma $ equal to 0.05 eV and 0.005 eV, and the tetrahedron method (TBC). "-" means that he band gap is unchanged between occ = 0.5 and occ = 0.01.\relax }}{48}%
+\contentsline {table}{\numberline {7.7}{\ignorespaces Total energy, magnetic moment and formation energy of 48, 96 and 192 atom SQSs of \ch {(CrFeMnNi)Si2}\relax }}{53}%
 \contentsline {table}{\numberline {7.8}{\ignorespaces Band gap of SQSs of 48, 96 and 192-atoms of \ch {(CrFeMnNi)Si2}. The names are arbitrary, ie A in 48 does not equal A in 96 or A in 192. The values listed in \textit {cursive} indicate a defect band gap.\relax }}{53}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces Summary composition diagram\relax }}{56}%
