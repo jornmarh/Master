@@ -2191,13 +2191,7 @@
     <bcf:citekey order="17">GILD2019337</bcf:citekey>
     <bcf:citekey order="18">mari</bcf:citekey>
     <bcf:citekey order="19">silicde</bcf:citekey>
-    <bcf:citekey order="20">PhysRevB.58.10389</bcf:citekey>
-    <bcf:citekey order="21">PhysRevLett.104.236403</bcf:citekey>
-    <bcf:citekey order="22">lange1997electronic</bcf:citekey>
-    <bcf:citekey order="23">doi:10.1063/1.346415</bcf:citekey>
-    <bcf:citekey order="24">ismear</bcf:citekey>
-    <bcf:citekey order="25">icsd</bcf:citekey>
-    <bcf:citekey order="26">spintronic</bcf:citekey>
+    <bcf:citekey order="20">spintronic</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
