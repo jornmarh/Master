@@ -35,7 +35,7 @@
 \contentsline {section}{\numberline {7.1}$\beta $-\ch {FeSi2}}{36}%
 \contentsline {section}{\numberline {7.2}\ch {(CrFeMnNi)Si2}}{37}%
 \contentsline {subsection}{\numberline {7.2.1}The band gap}{39}%
-\contentsline {subsection}{\numberline {7.2.2}Local and projected density of states}{43}%
+\contentsline {subsection}{\numberline {7.2.2}Local and projected density of states}{42}%
 \contentsline {subsection}{\numberline {7.2.3}The band gap with SCAN and HSE06}{45}%
 \contentsline {subsection}{\numberline {7.2.4}Pair distribution functions}{50}%
 \contentsline {subsection}{\numberline {7.2.5}Charge density}{51}%
@@ -44,11 +44,12 @@
 \contentsline {section}{\numberline {8.1}Exploring the quaternary phase diagram}{56}%
 \contentsline {section}{\numberline {8.2}High entropy silicides with cobalt/titanium}{60}%
 \contentsline {section}{\numberline {8.3}Negative systems}{64}%
-\contentsline {part}{IV\hspace {1em}Conclusion and future work}{65}%
-\contentsline {chapter}{\numberline {9}Conclusion}{66}%
-\contentsline {chapter}{\numberline {10}Future work}{68}%
-\contentsline {chapter}{\numberline {A}Figures}{69}%
-\contentsline {section}{\numberline {A.1}Density of states}{69}%
-\contentsline {section}{\numberline {A.2}Projected density of states}{71}%
-\contentsline {section}{\numberline {A.3}Charge density}{72}%
-\contentsline {section}{\numberline {A.4}Other}{73}%
+\contentsline {paragraph}{MnSi \\}{64}%
+\contentsline {paragraph}{Fe2Si \\}{65}%
+\contentsline {part}{IV\hspace {1em}Conclusion and future work}{66}%
+\contentsline {chapter}{\numberline {9}Conclusion}{67}%
+\contentsline {chapter}{\numberline {10}Future work}{69}%
+\contentsline {chapter}{\numberline {A}Figures}{70}%
+\contentsline {section}{\numberline {A.1}Density of states}{70}%
+\contentsline {section}{\numberline {A.2}Projected density of states}{72}%
+\contentsline {section}{\numberline {A.3}Charge density}{73}%
