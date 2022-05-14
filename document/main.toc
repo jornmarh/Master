@@ -42,10 +42,8 @@
 \contentsline {subsection}{\numberline {7.2.6}SQS size}{52}%
 \contentsline {chapter}{\numberline {8}Alternative compositions}{56}%
 \contentsline {section}{\numberline {8.1}Exploring the quaternary phase diagram}{56}%
-\contentsline {section}{\numberline {8.2}High entropy silicides with cobalt/titanium}{60}%
-\contentsline {section}{\numberline {8.3}Negative systems}{64}%
-\contentsline {paragraph}{MnSi \\}{64}%
-\contentsline {paragraph}{Fe2Si \\}{65}%
+\contentsline {section}{\numberline {8.2}High entropy silicides with cobalt/titanium}{61}%
+\contentsline {section}{\numberline {8.3}Negative systems}{65}%
 \contentsline {part}{IV\hspace {1em}Conclusion and future work}{66}%
 \contentsline {chapter}{\numberline {9}Conclusion}{67}%
 \contentsline {chapter}{\numberline {10}Future work}{69}%

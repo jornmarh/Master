@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.30)  13 MAY 2022 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  14 MAY 2022 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -70,9 +70,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language37) on input line 105.
+(babel)             (\language15) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language37) on input line 108.
+(babel)             (\language15) on input line 108.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -1612,7 +1612,7 @@ e[]Mn[]Ni[]Si[]
 
  [6
 
-] [7
+] [7] [8
 
 ]
 Chapter 1.
@@ -1621,13 +1621,178 @@ Chapter 1.
 
 ] [2] [3
 
-] [24
+]
+\openout2 = `chapter/chapter_2.aux'.
+
+ (./chapter/chapter_2.tex
+Chapter 2.
+[4
+
+
+]
+<figures/theory/heaformation1.jpeg, id=68, 969.6225pt x 690.58pt>
+File: figures/theory/heaformation1.jpeg Graphic file (type jpg)
+<use figures/theory/heaformation1.jpeg>
+Package pdftex.def Info: figures/theory/heaformation1.jpeg  used on input line 
+33.
+(pdftex.def)             Requested size: 251.9989pt x 179.4728pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 34.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 34.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 34.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 34.
+<figures/theory/heaformation2.jpeg, id=69, 943.525pt x 705.63625pt>
+File: figures/theory/heaformation2.jpeg Graphic file (type jpg)
+<use figures/theory/heaformation2.jpeg>
+Package pdftex.def Info: figures/theory/heaformation2.jpeg  used on input line 
+37.
+(pdftex.def)             Requested size: 251.9989pt x 188.45705pt.
+ [5] [6 <./figures/theory/heaformation1.jpeg> <./figures/theory/heaformation2.j
+peg>]
+<figures/theory/latticeDistortionHEA.jpeg, id=76, 660.4675pt x 319.1925pt>
+File: figures/theory/latticeDistortionHEA.jpeg Graphic file (type jpg)
+<use figures/theory/latticeDistortionHEA.jpeg>
+Package pdftex.def Info: figures/theory/latticeDistortionHEA.jpeg  used on inpu
+t line 53.
+(pdftex.def)             Requested size: 360.0pt x 173.98811pt.
+) [7] [8 <./figures/theory/latticeDistortionHEA.jpeg>]
+\openout2 = `chapter/chapter_3.aux'.
+
+
+(./chapter/chapter_3.tex
+Chapter 3.
+[9
 
 
 
+] [10] [11] [12]
+<figures/theory/PDF_small.png, id=99, 292.09125pt x 208.78pt>
+File: figures/theory/PDF_small.png Graphic file (type png)
+<use figures/theory/PDF_small.png>
+Package pdftex.def Info: figures/theory/PDF_small.png  used on input line 65.
+(pdftex.def)             Requested size: 180.0pt x 128.66493pt.
+<figures/theory/PDF_big.png, id=100, 284.06125pt x 201.75375pt>
+File: figures/theory/PDF_big.png Graphic file (type png)
+<use figures/theory/PDF_big.png>
+Package pdftex.def Info: figures/theory/PDF_big.png  used on input line 69.
+(pdftex.def)             Requested size: 180.0pt x 127.85052pt.
 
-] [35
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 64--72
+[]$[]$ $[]$ 
+ []
 
+<figures/theory/SQS-MCMD_DOS.png, id=101, 356.33125pt x 430.60875pt>
+File: figures/theory/SQS-MCMD_DOS.png Graphic file (type png)
+<use figures/theory/SQS-MCMD_DOS.png>
+Package pdftex.def Info: figures/theory/SQS-MCMD_DOS.png  used on input line 79
+.
+(pdftex.def)             Requested size: 216.0022pt x 261.0283pt.
+[13 <./figures/theory/PDF_small.png> <./figures/theory/PDF_big.png>]
+<figures/theory/SQS-MCMD_PDF.png, id=108, 816.04875pt x 292.09125pt>
+File: figures/theory/SQS-MCMD_PDF.png Graphic file (type png)
+<use figures/theory/SQS-MCMD_PDF.png>
+Package pdftex.def Info: figures/theory/SQS-MCMD_PDF.png  used on input line 87
+.
+(pdftex.def)             Requested size: 360.0pt x 128.8548pt.
+ [14 <./figures/theory/SQS-MCMD_DOS.png> <./figures/theory/SQS-MCMD_PDF.png>]) 
+[15]
+\openout2 = `chapter/chapter_4.aux'.
+
+
+(./chapter/chapter_4.tex
+Chapter 4.
+<figures/theory/dftScope.png, id=117, 3011.25pt x 2007.5pt>
+File: figures/theory/dftScope.png Graphic file (type png)
+<use figures/theory/dftScope.png>
+Package pdftex.def Info: figures/theory/dftScope.png  used on input line 7.
+(pdftex.def)             Requested size: 360.0pt x 240.00128pt.
+[16
+
+
+
+ <./figures/theory/dftScope.png>] [17] [18] [19] [20] [21] [22]) [23]
+[24
+
+
+]
+\openout2 = `chapter/chapter_5.aux'.
+
+ (./chapter/chapter_5.tex
+Chapter 5.
+<figures/method/dft/jacob.jpeg, id=148, 250.9375pt x 245.91875pt>
+File: figures/method/dft/jacob.jpeg Graphic file (type jpg)
+<use figures/method/dft/jacob.jpeg>
+Package pdftex.def Info: figures/method/dft/jacob.jpeg  used on input line 9.
+(pdftex.def)             Requested size: 180.0pt x 176.40843pt.
+[25
+
+
+ <./figures/method/dft/jacob.jpeg>]
+<figures/method/dft/metagga.jpeg, id=153, 993.7125pt x 524.96124pt>
+File: figures/method/dft/metagga.jpeg Graphic file (type jpg)
+<use figures/method/dft/metagga.jpeg>
+Package pdftex.def Info: figures/method/dft/metagga.jpeg  used on input line 44
+.
+(pdftex.def)             Requested size: 298.11604pt x 157.48958pt.
+ [26] [27 <./figures/method/dft/metagga.jpeg>] [28] [29]
+<figures/theory/selfConsistentDFT.jpeg, id=166, 1305.87875pt x 1135.24126pt>
+File: figures/theory/selfConsistentDFT.jpeg Graphic file (type jpg)
+<use figures/theory/selfConsistentDFT.jpeg>
+Package pdftex.def Info: figures/theory/selfConsistentDFT.jpeg  used on input l
+ine 113.
+(pdftex.def)             Requested size: 360.0pt x 312.94583pt.
+ [30]) [31 <./figures/theory/selfConsistentDFT.jpeg>]
+\openout2 = `chapter/chapter_6.aux'.
+
+
+(./chapter/chapter_6.tex
+Chapter 6.
+[32
+
+
+
+]
+<figures/method/sqs/A.jpg, id=177, 663.47874pt x 569.12625pt>
+File: figures/method/sqs/A.jpg Graphic file (type jpg)
+<use figures/method/sqs/A.jpg>
+Package pdftex.def Info: figures/method/sqs/A.jpg  used on input line 42.
+(pdftex.def)             Requested size: 180.0pt x 154.4043pt.
+<figures/method/sqs/B.jpg, id=178, 663.47874pt x 569.12625pt>
+File: figures/method/sqs/B.jpg Graphic file (type jpg)
+<use figures/method/sqs/B.jpg>
+Package pdftex.def Info: figures/method/sqs/B.jpg  used on input line 47.
+(pdftex.def)             Requested size: 180.0pt x 154.4043pt.
+<figures/method/sqs/C.jpg, id=179, 663.47874pt x 569.12625pt>
+File: figures/method/sqs/C.jpg Graphic file (type jpg)
+<use figures/method/sqs/C.jpg>
+Package pdftex.def Info: figures/method/sqs/C.jpg  used on input line 51.
+(pdftex.def)             Requested size: 180.0pt x 154.4043pt.
+<figures/method/sqs/D.jpg, id=180, 663.47874pt x 569.12625pt>
+File: figures/method/sqs/D.jpg Graphic file (type jpg)
+<use figures/method/sqs/D.jpg>
+Package pdftex.def Info: figures/method/sqs/D.jpg  used on input line 56.
+(pdftex.def)             Requested size: 180.0pt x 154.4043pt.
+<figures/method/sqs/E.jpg, id=181, 663.47874pt x 569.12625pt>
+File: figures/method/sqs/E.jpg Graphic file (type jpg)
+<use figures/method/sqs/E.jpg>
+Package pdftex.def Info: figures/method/sqs/E.jpg  used on input line 60.
+(pdftex.def)             Requested size: 180.0pt x 154.4043pt.
+
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 41--63
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 41--63
+[]$  $[]$
+ []
+
+) [33] [34 <./figures/method/sqs/A.jpg> <./figures/method/sqs/B.jpg> <./figures
+/method/sqs/C.jpg> <./figures/method/sqs/D.jpg> <./figures/method/sqs/E.jpg>]
+[35
 
 
 ]
@@ -1647,11 +1812,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 21.61124pt on input line 1.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 1.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 4.
-<figures/results/fesi2/bulk_DOS.png, id=67, 794.97pt x 433.62pt>
+<figures/results/fesi2/bulk_DOS.png, id=191, 794.97pt x 433.62pt>
 File: figures/results/fesi2/bulk_DOS.png Graphic file (type png)
 <use figures/results/fesi2/bulk_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/bulk_DOS.png  used on input line
@@ -1661,34 +1822,34 @@ Package pdftex.def Info: figures/results/fesi2/bulk_DOS.png  used on input line
 
 
 ] [37 <./figures/results/fesi2/bulk_DOS.png>] [38]
-<figures/results/fesi2/D_TDOS.png, id=79, 722.7pt x 433.62pt>
+<figures/results/fesi2/D_TDOS.png, id=204, 722.7pt x 433.62pt>
 File: figures/results/fesi2/D_TDOS.png Graphic file (type png)
 <use figures/results/fesi2/D_TDOS.png>
 Package pdftex.def Info: figures/results/fesi2/D_TDOS.png  used on input line 5
 5.
 (pdftex.def)             Requested size: 360.0pt x 216.00224pt.
-<figures/results/fesi2/B_TDOS.png, id=80, 722.7pt x 433.62pt>
+<figures/results/fesi2/B_TDOS.png, id=205, 722.7pt x 433.62pt>
 File: figures/results/fesi2/B_TDOS.png Graphic file (type png)
 <use figures/results/fesi2/B_TDOS.png>
 Package pdftex.def Info: figures/results/fesi2/B_TDOS.png  used on input line 6
 1.
 (pdftex.def)             Requested size: 360.0pt x 216.00224pt.
  [39 <./figures/results/fesi2/D_TDOS.png> <./figures/results/fesi2/B_TDOS.png>]
-<figures/results/fesi2/A_TDOS.png, id=86, 722.7pt x 433.62pt>
+<figures/results/fesi2/A_TDOS.png, id=211, 722.7pt x 433.62pt>
 File: figures/results/fesi2/A_TDOS.png Graphic file (type png)
 <use figures/results/fesi2/A_TDOS.png>
 Package pdftex.def Info: figures/results/fesi2/A_TDOS.png  used on input line 8
 7.
-(pdftex.def)             Requested size: 216.0022pt x 129.59738pt.
+(pdftex.def)             Requested size: 251.9989pt x 151.20026pt.
  [40 <./figures/results/fesi2/A_TDOS.png>] [41]
-<figures/results/fesi2/D_LDOS_Si.png, id=95, 867.24pt x 578.16pt>
+<figures/results/fesi2/D_LDOS_Si.png, id=219, 867.24pt x 578.16pt>
 File: figures/results/fesi2/D_LDOS_Si.png Graphic file (type png)
 <use figures/results/fesi2/D_LDOS_Si.png>
 Package pdftex.def Info: figures/results/fesi2/D_LDOS_Si.png  used on input lin
 e 117.
 (pdftex.def)             Requested size: 251.9989pt x 167.99733pt.
  [42]
-<figures/results/fesi2/D_LDOS.jpeg, id=99, 731.73375pt x 536.0025pt>
+<figures/results/fesi2/D_LDOS.jpeg, id=223, 731.73375pt x 536.0025pt>
 File: figures/results/fesi2/D_LDOS.jpeg Graphic file (type jpg)
 <use figures/results/fesi2/D_LDOS.jpeg>
 Package pdftex.def Info: figures/results/fesi2/D_LDOS.jpeg  used on input line 
@@ -1696,19 +1857,19 @@ Package pdftex.def Info: figures/results/fesi2/D_LDOS.jpeg  used on input line
 (pdftex.def)             Requested size: 360.0pt x 263.70676pt.
  [43 <./figures/results/fesi2/D_LDOS_Si.png> <./figures/results/fesi2/D_LDOS.jp
 eg>]
-<figures/results/fesi2/D_PDOS.png, id=104, 650.43pt x 361.35pt>
+<figures/results/fesi2/D_PDOS.png, id=229, 650.43pt x 361.35pt>
 File: figures/results/fesi2/D_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/D_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/D_PDOS.png  used on input line 1
 31.
 (pdftex.def)             Requested size: 288.0011pt x 160.00351pt.
-<figures/results/fesi2/D_PDOS_Ef.png, id=105, 650.43pt x 361.35pt>
+<figures/results/fesi2/D_PDOS_Ef.png, id=230, 650.43pt x 361.35pt>
 File: figures/results/fesi2/D_PDOS_Ef.png Graphic file (type png)
 <use figures/results/fesi2/D_PDOS_Ef.png>
 Package pdftex.def Info: figures/results/fesi2/D_PDOS_Ef.png  used on input lin
 e 139.
 (pdftex.def)             Requested size: 180.0pt x 99.99736pt.
-<figures/results/fesi2/B_PDOS_Ef.png, id=106, 650.43pt x 361.35pt>
+<figures/results/fesi2/B_PDOS_Ef.png, id=231, 650.43pt x 361.35pt>
 File: figures/results/fesi2/B_PDOS_Ef.png Graphic file (type png)
 <use figures/results/fesi2/B_PDOS_Ef.png>
 Package pdftex.def Info: figures/results/fesi2/B_PDOS_Ef.png  used on input lin
@@ -1721,25 +1882,25 @@ Overfull \hbox (2.0805pt too wide) in paragraph at lines 138--146
 
 [44 <./figures/results/fesi2/D_PDOS.png> <./figures/results/fesi2/D_PDOS_Ef.png
 > <./figures/results/fesi2/B_PDOS_Ef.png>]
-<figures/results/fesi2/E_DOS_pbe.png, id=114, 867.24pt x 578.16pt>
+<figures/results/fesi2/E_DOS_pbe.png, id=238, 867.24pt x 578.16pt>
 File: figures/results/fesi2/E_DOS_pbe.png Graphic file (type png)
 <use figures/results/fesi2/E_DOS_pbe.png>
 Package pdftex.def Info: figures/results/fesi2/E_DOS_pbe.png  used on input lin
 e 181.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
-<figures/results/fesi2/E_DOS_scan.png, id=115, 867.24pt x 578.16pt>
+<figures/results/fesi2/E_DOS_scan.png, id=239, 867.24pt x 578.16pt>
 File: figures/results/fesi2/E_DOS_scan.png Graphic file (type png)
 <use figures/results/fesi2/E_DOS_scan.png>
 Package pdftex.def Info: figures/results/fesi2/E_DOS_scan.png  used on input li
 ne 185.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
-<figures/results/fesi2/C_DOS_pbe.png, id=116, 867.24pt x 578.16pt>
+<figures/results/fesi2/C_DOS_pbe.png, id=240, 867.24pt x 578.16pt>
 File: figures/results/fesi2/C_DOS_pbe.png Graphic file (type png)
 <use figures/results/fesi2/C_DOS_pbe.png>
 Package pdftex.def Info: figures/results/fesi2/C_DOS_pbe.png  used on input lin
 e 189.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
-<figures/results/fesi2/C_DOS_scan.png, id=117, 867.24pt x 578.16pt>
+<figures/results/fesi2/C_DOS_scan.png, id=241, 867.24pt x 578.16pt>
 File: figures/results/fesi2/C_DOS_scan.png Graphic file (type png)
 <use figures/results/fesi2/C_DOS_scan.png>
 Package pdftex.def Info: figures/results/fesi2/C_DOS_scan.png  used on input li
@@ -1756,7 +1917,7 @@ Overfull \hbox (2.0805pt too wide) in paragraph at lines 180--196
  []
 
 [45]
-<figures/results/fesi2/B_TDOS_hse06.png, id=121, 722.7pt x 433.62pt>
+<figures/results/fesi2/B_TDOS_hse06.png, id=245, 722.7pt x 433.62pt>
 File: figures/results/fesi2/B_TDOS_hse06.png Graphic file (type png)
 <use figures/results/fesi2/B_TDOS_hse06.png>
 Package pdftex.def Info: figures/results/fesi2/B_TDOS_hse06.png  used on input 
@@ -1776,38 +1937,38 @@ LaTeX Warning: Float too large for page by 43.63669pt on input line 250.
 
 
 ]
-<figures/results/fesi2/D_PDF2.png, id=139, 867.24pt x 433.62pt>
+<figures/results/fesi2/D_PDF2.png, id=264, 867.24pt x 433.62pt>
 File: figures/results/fesi2/D_PDF2.png Graphic file (type png)
 <use figures/results/fesi2/D_PDF2.png>
 Package pdftex.def Info: figures/results/fesi2/D_PDF2.png  used on input line 2
 65.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
-<figures/results/fesi2/B_PDF.png, id=140, 867.24pt x 433.62pt>
+<figures/results/fesi2/B_PDF.png, id=265, 867.24pt x 433.62pt>
 File: figures/results/fesi2/B_PDF.png Graphic file (type png)
 <use figures/results/fesi2/B_PDF.png>
 Package pdftex.def Info: figures/results/fesi2/B_PDF.png  used on input line 26
 8.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
  [50 <./figures/results/fesi2/D_PDF2.png> <./figures/results/fesi2/B_PDF.png>]
-<figures/results/fesi2/A_CHGCAR.jpg, id=147, 676.5275pt x 417.56pt>
+<figures/results/fesi2/A_CHGCAR.jpg, id=271, 676.5275pt x 417.56pt>
 File: figures/results/fesi2/A_CHGCAR.jpg Graphic file (type jpg)
 <use figures/results/fesi2/A_CHGCAR.jpg>
 Package pdftex.def Info: figures/results/fesi2/A_CHGCAR.jpg  used on input line
  283.
 (pdftex.def)             Requested size: 180.0pt x 111.09886pt.
-<figures/results/fesi2/B_CHGCAR.jpg, id=148, 676.5275pt x 417.56pt>
+<figures/results/fesi2/B_CHGCAR.jpg, id=272, 676.5275pt x 417.56pt>
 File: figures/results/fesi2/B_CHGCAR.jpg Graphic file (type jpg)
 <use figures/results/fesi2/B_CHGCAR.jpg>
 Package pdftex.def Info: figures/results/fesi2/B_CHGCAR.jpg  used on input line
  287.
 (pdftex.def)             Requested size: 180.0pt x 111.09886pt.
-<figures/results/fesi2/D_CHGCAR.jpg, id=149, 676.5275pt x 417.56pt>
+<figures/results/fesi2/D_CHGCAR.jpg, id=273, 676.5275pt x 417.56pt>
 File: figures/results/fesi2/D_CHGCAR.jpg Graphic file (type jpg)
 <use figures/results/fesi2/D_CHGCAR.jpg>
 Package pdftex.def Info: figures/results/fesi2/D_CHGCAR.jpg  used on input line
  291.
 (pdftex.def)             Requested size: 180.0pt x 111.09886pt.
-<figures/results/fesi2/E_CHGCAR.jpg, id=150, 676.5275pt x 417.56pt>
+<figures/results/fesi2/E_CHGCAR.jpg, id=274, 676.5275pt x 417.56pt>
 File: figures/results/fesi2/E_CHGCAR.jpg Graphic file (type jpg)
 <use figures/results/fesi2/E_CHGCAR.jpg>
 Package pdftex.def Info: figures/results/fesi2/E_CHGCAR.jpg  used on input line
@@ -1826,30 +1987,30 @@ Overfull \hbox (2.0805pt too wide) in paragraph at lines 282--298
 [51 <./figures/results/fesi2/A_CHGCAR.jpg> <./figures/results/fesi2/B_CHGCAR.jp
 g> <./figures/results/fesi2/D_CHGCAR.jpg> <./figures/results/fesi2/E_CHGCAR.jpg
 >]
-<figures/results/SQS_time.png, id=154, 462.528pt x 346.896pt>
+<figures/results/SQS_time.png, id=278, 462.528pt x 346.896pt>
 File: figures/results/SQS_time.png Graphic file (type png)
 <use figures/results/SQS_time.png>
 Package pdftex.def Info: figures/results/SQS_time.png  used on input line 308.
 (pdftex.def)             Requested size: 251.9989pt x 188.99898pt.
  [52 <./figures/results/SQS_time.png>] [53]
-<figures/results/fesi2/192_E_DOS.png, id=162, 867.24pt x 578.16pt>
+<figures/results/fesi2/192_E_DOS.png, id=286, 867.24pt x 578.16pt>
 File: figures/results/fesi2/192_E_DOS.png Graphic file (type png)
 <use figures/results/fesi2/192_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/192_E_DOS.png  used on input lin
 e 357.
 (pdftex.def)             Requested size: 288.0011pt x 192.002pt.
  [54 <./figures/results/fesi2/192_E_DOS.png>]
-<figures/results/PDF48.png, id=167, 867.24pt x 361.35pt>
+<figures/results/PDF48.png, id=291, 867.24pt x 361.35pt>
 File: figures/results/PDF48.png Graphic file (type png)
 <use figures/results/PDF48.png>
 Package pdftex.def Info: figures/results/PDF48.png  used on input line 369.
 (pdftex.def)             Requested size: 360.0pt x 150.00156pt.
-<figures/results/PDF96.png, id=168, 867.24pt x 361.35pt>
+<figures/results/PDF96.png, id=292, 867.24pt x 361.35pt>
 File: figures/results/PDF96.png Graphic file (type png)
 <use figures/results/PDF96.png>
 Package pdftex.def Info: figures/results/PDF96.png  used on input line 372.
 (pdftex.def)             Requested size: 360.0pt x 150.00156pt.
-<figures/results/PDF192.png, id=169, 867.24pt x 361.35pt>
+<figures/results/PDF192.png, id=293, 867.24pt x 361.35pt>
 File: figures/results/PDF192.png Graphic file (type png)
 <use figures/results/PDF192.png>
 Package pdftex.def Info: figures/results/PDF192.png  used on input line 375.
@@ -1865,7 +2026,7 @@ Chapter 8.
 
 
 ] [57]
-<figures/results/fesi2/permutations/perm_LDOS_crop.jpg, id=183, 805.50937pt x 5
+<figures/results/fesi2/permutations/perm_LDOS_crop.jpg, id=307, 805.50937pt x 5
 03.63156pt>
 File: figures/results/fesi2/permutations/perm_LDOS_crop.jpg Graphic file (type 
 jpg)
@@ -1874,108 +2035,80 @@ Package pdftex.def Info: figures/results/fesi2/permutations/perm_LDOS_crop.jpg
  used on input line 64.
 (pdftex.def)             Requested size: 360.0pt x 225.07977pt.
  [58 <./figures/results/fesi2/permutations/perm_LDOS_crop.jpg>]
-<figures/results/fesi2/permutations/ni7_PDOS.png, id=187, 578.16pt x 361.35pt>
+<figures/results/fesi2/permutations/ni7_PDOS.png, id=311, 578.16pt x 361.35pt>
 File: figures/results/fesi2/permutations/ni7_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/permutations/ni7_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/permutations/ni7_PDOS.png  used 
 on input line 75.
 (pdftex.def)             Requested size: 216.0022pt x 134.99864pt.
 
-[59 <./figures/results/fesi2/permutations/ni7_PDOS.png>] [60] [61]
-<figures/results/fesi2/composistions/crfemnco_PDOS.png, id=198, 867.24pt x 433.
+[59 <./figures/results/fesi2/permutations/ni7_PDOS.png>] [60] [61] [62]
+<figures/results/fesi2/composistions/crfemnco_PDOS.png, id=326, 867.24pt x 433.
 62pt>
 File: figures/results/fesi2/composistions/crfemnco_PDOS.png Graphic file (type 
 png)
 <use figures/results/fesi2/composistions/crfemnco_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/crfemnco_PDOS.png 
- used on input line 154.
+ used on input line 153.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
- [62]
-<figures/results/fesi2/crfeconi_PDOS.png, id=203, 867.24pt x 433.62pt>
+<figures/results/fesi2/crfeconi_PDOS.png, id=327, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfeconi_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfeconi_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfeconi_PDOS.png  used on input
- line 162.
+ line 161.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 163.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 163.
-<figures/results/fesi2/cofemnni_PDOS.png, id=204, 867.24pt x 433.62pt>
+<figures/results/fesi2/cofemnni_PDOS.png, id=328, 867.24pt x 433.62pt>
 File: figures/results/fesi2/cofemnni_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/cofemnni_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/cofemnni_PDOS.png  used on input
- line 166.
+ line 165.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/crfetini_PDOS.png, id=205, 867.24pt x 433.62pt>
+<figures/results/fesi2/crfetini_PDOS.png, id=329, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfetini_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfetini_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfetini_PDOS.png  used on input
- line 170.
+ line 169.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/crfemnti_PDOS.png, id=206, 867.24pt x 433.62pt>
+<figures/results/fesi2/crfemnti_PDOS.png, id=330, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfemnti_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfemnti_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfemnti_PDOS.png  used on input
- line 174.
+ line 173.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 161--177
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 160--176
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 161--177
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 160--176
 []$ $[]$ 
  []
 
-<figures/results/fesi2/composistions/cofemnni_E_DOS.png, id=207, 867.24pt x 578
+[63 <./figures/results/fesi2/composistions/crfemnco_PDOS.png>]
+<figures/results/fesi2/composistions/cofemnni_E_DOS.png, id=335, 867.24pt x 578
 .16pt>
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 184.
+  used on input line 183.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 188.
+  used on input line 187.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 183--191
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 182--190
 []$[]$ $[]$ 
  []
 
-[63 <./figures/results/fesi2/composistions/crfemnco_PDOS.png> <./figures/result
-s/fesi2/crfeconi_PDOS.png> <./figures/results/fesi2/cofemnni_PDOS.png> <./figur
-es/results/fesi2/crfetini_PDOS.png> <./figures/results/fesi2/crfemnti_PDOS.png>
-] [64 <./figures/results/fesi2/composistions/cofemnni_E_DOS.png>]
-Overfull \hbox (21.11113pt too wide) in paragraph at lines 207--208
-\OT1/zplm/m/n/10.95 //\OML/zplm/m/it/10.95 www\OT1/ppl/m/n/10.95 .\OML/zplm/m/i
-t/10.95 sciencedirect\OT1/ppl/m/n/10.95 .\OML/zplm/m/it/10.95 com\OT1/zplm/m/n/
-10.95 /\OML/zplm/m/it/10.95 science\OT1/zplm/m/n/10.95 /\OML/zplm/m/it/10.95 ar
-ticle\OT1/zplm/m/n/10.95 /\OML/zplm/m/it/10.95 pii\OT1/zplm/m/n/10.95 /\OML/zpl
-m/m/it/10.95 S\OT1/ppl/m/n/10.95 0925838816329796\OT1/zplm/m/n/10.95 ?\OML/zplm
-/m/it/10.95 casa[]oken \OT1/zplm/m/n/10.95 =
- []
-
-
-Overfull \hbox (272.28766pt too wide) in paragraph at lines 207--208
-\OML/zplm/m/it/10.95 g\OT1/ppl/m/n/10.95 9\OML/zplm/m/it/10.95 DRpU\OT1/ppl/m/n
-/10.95 9\OML/zplm/m/it/10.95 IClcAAAAA \OT1/zplm/m/n/10.95 : \OT1/ppl/m/n/10.95
- 6\OML/zplm/m/it/10.95 Gd\OT1/ppl/m/n/10.95 12\OML/zplm/m/it/10.95 A\OT1/ppl/m/
-n/10.95 4\OML/zplm/m/it/10.95 Kh\OT1/ppl/m/n/10.95 9\OML/zplm/m/it/10.95 J\OT1/
-ppl/m/n/10.95 2\OML/zplm/m/it/10.95 igUWMVwHN\OT1/ppl/m/n/10.95 8\OML/zplm/m/it
-/10.95 OSIKzD\OT1/ppl/m/n/10.95 27\OML/zplm/m/it/10.95 VACA\OT1/ppl/m/n/10.95 0
-52\OML/zplm/m/it/10.95 FNsSAWhRY\OT1/ppl/m/n/10.95 6\OML/zplm/m/it/10.95 PELWdV
-EPbiF\OT1/ppl/m/n/10.95 8\OML/zplm/m/it/10.95 OtQ\OT1/ppl/m/n/10.95 3\OML/zplm/
-m/it/10.95 eJEAbvQ\OT1/ppl/m/n/10.95 8\OML/zplm/m/it/10.95 X\OT1/ppl/m/n/10.95 
-0\OML/zplm/m/it/10.95 g$\T1/ppl/m/n/10.95 .
- []
-
-) [65] [66
+[64 <./figures/results/fesi2/crfeconi_PDOS.png> <./figures/results/fesi2/cofemn
+ni_PDOS.png> <./figures/results/fesi2/crfetini_PDOS.png> <./figures/results/fes
+i2/crfemnti_PDOS.png> <./figures/results/fesi2/composistions/cofemnni_E_DOS.png
+>]) [65] [66
 
 
 ]
@@ -1991,13 +2124,13 @@ Chapter 10.
 
  (./chapter/chapter_11.tex
 Appendix A.
-<figures/results/fesi2/E_TDOS.png, id=237, 722.7pt x 433.62pt>
+<figures/results/fesi2/E_TDOS.png, id=360, 722.7pt x 433.62pt>
 File: figures/results/fesi2/E_TDOS.png Graphic file (type png)
 <use figures/results/fesi2/E_TDOS.png>
 Package pdftex.def Info: figures/results/fesi2/E_TDOS.png  used on input line 8
 .
 (pdftex.def)             Requested size: 360.0pt x 216.00224pt.
-<figures/results/fesi2/C_DOS.png, id=238, 722.7pt x 361.35pt>
+<figures/results/fesi2/C_DOS.png, id=361, 722.7pt x 361.35pt>
 File: figures/results/fesi2/C_DOS.png Graphic file (type png)
 <use figures/results/fesi2/C_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/C_DOS.png  used on input line 14
@@ -2007,7 +2140,7 @@ Package pdftex.def Info: figures/results/fesi2/C_DOS.png  used on input line 14
 
 
  <./figures/results/fesi2/E_TDOS.png>]
-<figures/results/fesi2/permutations/mnni3_DOS_E.png, id=243, 867.24pt x 578.16p
+<figures/results/fesi2/permutations/mnni3_DOS_E.png, id=366, 867.24pt x 578.16p
 t>
 File: figures/results/fesi2/permutations/mnni3_DOS_E.png Graphic file (type png
 )
@@ -2015,7 +2148,7 @@ File: figures/results/fesi2/permutations/mnni3_DOS_E.png Graphic file (type png
 Package pdftex.def Info: figures/results/fesi2/permutations/mnni3_DOS_E.png  us
 ed on input line 19.
 (pdftex.def)             Requested size: 360.0pt x 240.0025pt.
-<figures/results/fesi2/A_PDOS.png, id=244, 867.24pt x 433.62pt>
+<figures/results/fesi2/A_PDOS.png, id=367, 867.24pt x 433.62pt>
 File: figures/results/fesi2/A_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/A_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/A_PDOS.png  used on input line 2
@@ -2023,20 +2156,20 @@ Package pdftex.def Info: figures/results/fesi2/A_PDOS.png  used on input line 2
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
  [71 <./figures/results/fesi2/C_DOS.png> <./figures/results/fesi2/permutations/
 mnni3_DOS_E.png>]
-<figures/results/fesi2/B_PDOS.png, id=250, 867.24pt x 433.62pt>
+<figures/results/fesi2/B_PDOS.png, id=373, 867.24pt x 433.62pt>
 File: figures/results/fesi2/B_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/B_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/B_PDOS.png  used on input line 3
 1.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
-<figures/results/fesi2/E_PDOS.png, id=251, 867.24pt x 433.62pt>
+<figures/results/fesi2/E_PDOS.png, id=374, 867.24pt x 433.62pt>
 File: figures/results/fesi2/E_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/E_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/E_PDOS.png  used on input line 3
 6.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
  [72 <./figures/results/fesi2/A_PDOS.png> <./figures/results/fesi2/B_PDOS.png>]
-<figures/results/fesi2/C_CHGCAR.jpg, id=257, 676.5275pt x 417.56pt>
+<figures/results/fesi2/C_CHGCAR.jpg, id=380, 676.5275pt x 417.56pt>
 File: figures/results/fesi2/C_CHGCAR.jpg Graphic file (type jpg)
 <use figures/results/fesi2/C_CHGCAR.jpg>
 Package pdftex.def Info: figures/results/fesi2/C_CHGCAR.jpg  used on input line
@@ -2057,7 +2190,19 @@ Package biblatex Warning: No driver for entry type ''.
 
 
 
-]
+] [75] [76]
+Overfull \hbox (11.34343pt too wide) in paragraph at lines 130--130
+[]\T1/ppl/m/n/10.95 Carlos Borca (https://scicomp.stackexchange.com/users/8020/
+carlos-
+ []
+
+
+Overfull \hbox (20.90231pt too wide) in paragraph at lines 130--130
+[]\T1/ppl/m/n/10.95 Fabian (ht-tps://mattermodeling.stackexchange.com/users/295
+/fabian).
+ []
+
+[77] [78] [79]
 LaTeX Font Info:    Trying to load font information for LGR+ppl on input line 1
 29.
 LaTeX Font Info:    No file LGRppl.fd. on input line 129.
@@ -2070,7 +2215,7 @@ LaTeX Font Warning: Font shape `LGR/ppl/m/n' undefined
 Package biblatex Warning: No driver for entry type ''.
 (biblatex)                Using fallback driver on input line 129.
 
-[75] (./main.aux (./chapter/chapter_2.aux) (./chapter/chapter_3.aux)
+[80] (./main.aux (./chapter/chapter_2.aux) (./chapter/chapter_3.aux)
 (./chapter/chapter_4.aux) (./chapter/chapter_5.aux) (./chapter/chapter_6.aux)
 (./chapter/chapter_7.aux) (./chapter/chapter_8.aux) (./chapter/chapter_11.aux))
 
@@ -2081,28 +2226,31 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31258 strings out of 481239
- 646375 string characters out of 5920377
- 1249736 words of memory out of 5000000
- 45870 multiletter control sequences out of 15000+600000
- 616840 words of font info for 189 fonts, out of 8000000 for 9000
+ 31584 strings out of 481239
+ 655684 string characters out of 5920378
+ 1252238 words of memory out of 5000000
+ 46134 multiletter control sequences out of 15000+600000
+ 634381 words of font info for 237 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,69p,2672b,2743s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,27n,69p,3668b,2775s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpaz
-o/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1095
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
-tino/uplri8a.pfb>
-Output written on main.pdf (56 pages, 4820641 bytes).
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplm
+b.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfss1095.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
+no/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (92 pages, 6886210 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 460 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

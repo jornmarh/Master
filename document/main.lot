@@ -6,6 +6,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Convergence with respect to the total energy of the cutoff energy and density of k-points. The test was conducted for a 48-atom supercell of \ch {Cr4Fe4Mn4Ni4Si32}.\relax }}{33}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Total energy per atom (Toten), final magnetic moment per atom (Mag), band gap ($E_G$) and formation energy ($E_\text {FPA}$) of 5 SQS of \ch {(CrFeMnNi)Si2}.\relax }}{37}%
 \contentsline {table}{\numberline {7.2}{\ignorespaces Band gap of five SQSs of \ch {(CrFeMnNi)Si2} in spin up, down and total, calculated from the Kohn-Sham eigenvalues.\relax }}{40}%
@@ -17,10 +18,10 @@
 \contentsline {table}{\numberline {7.8}{\ignorespaces Band gap of SQSs of 48, 96 and 192-atoms of \ch {(CrFeMnNi)Si2}. The names are arbitrary, A in 48 does not equal A in 96 or A in 192. The values listed in $italic$ indicate a defect band gap. Structures listed in bold text represents the most stable supercell of the set of SQSs.\relax }}{53}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces Total energy, magnetic moment and formation energy of various compositions of the Cr:Fe:Mn:Ni:Si system.\relax }}{56}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Band gaps of various compositions of \ch {(CrFeMnNi)Si2}. Most stable SQS of a set is highlighted in bold text, defect/impurity band gap are listed in cursive. Some SQSs were excluded from the table due to unsuccessful calculations.\relax }}{57}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Band gaps of various compositions of \ch {(CrFeMnNi)Si2}. Most stable SQS of a set is highlighted in bold text, defect/impurity band gaps are listed in $italic$. Some SQSs were excluded from the table due to unsuccessful calculations.\relax }}{57}%
 \contentsline {table}{\numberline {8.3}{\ignorespaces Total energy, magnetic moment and formation energy of various compositions of the \ch {(CrFeMnNi)Si2} alloy, where Cr, Mn, or Ni is replaced by Co/Ti.\relax }}{61}%
-\contentsline {table}{\numberline {8.4}{\ignorespaces Magnetic moment of the most stable SQS of different Co/Ti alloys based on the \ch {(CrFeMnNi)Si2} alloy.\relax }}{61}%
-\contentsline {table}{\numberline {8.5}{\ignorespaces The band gap in spin up/down and total of the most stable SQS of high-entropy silicides based on $\beta $-\ch {FeSi2} with cobalt/titanium.\relax }}{62}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Magnetic moment of the most stable SQS of different Co/Ti alloys based on the \ch {(CrFeMnNi)Si2} alloy.\relax }}{62}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces The band gap in spin up/down and total of the most stable SQS of high-entropy silicides with cobalt/titanium. Calculated from eigenvalues with different occupancy cutoff $occ$. \relax }}{62}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
