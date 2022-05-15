@@ -9,19 +9,19 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces Convergence with respect to the total energy of the cutoff energy and density of k-points. The test was conducted for a 48-atom supercell of \ch {Cr4Fe4Mn4Ni4Si32}.\relax }}{33}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Total energy per atom (Toten), final magnetic moment per atom (Mag), band gap ($E_G$) and formation energy ($E_\text {FPA}$) of 5 SQS of \ch {(CrFeMnNi)Si2}.\relax }}{37}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Band gap of five SQSs of \ch {(CrFeMnNi)Si2} in spin up, down and total, calculated from the Kohn-Sham eigenvalues.\relax }}{40}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Band gap of SQS D as a function of occupancy cutoff in the eigenvalues.\relax }}{41}%
-\contentsline {table}{\numberline {7.4}{\ignorespaces Band gap of five supercells of \ch {(CrFeMnNi)Si2} calculated with PBE, SCAN and HSE06.\relax }}{45}%
-\contentsline {table}{\numberline {7.5}{\ignorespaces Minimum gap between k-point in valence band and conduction band in SQS B from PBE, SCAN and HSE06\relax }}{47}%
-\contentsline {table}{\numberline {7.6}{\ignorespaces Band gap from HSE06 calculations using Gaussian smearing, with smearing width $\sigma $ equal to 0.05 eV and 0.005 eV, and the tetrahedron method (TBC). "-" means that the band gap are unchanged between occ = 0.5 and occ = 0.01.\relax }}{48}%
-\contentsline {table}{\numberline {7.7}{\ignorespaces Total energy, magnetic moment and formation energy of 48, 96 and 192 atom SQSs of \ch {(CrFeMnNi)Si2}\relax }}{53}%
-\contentsline {table}{\numberline {7.8}{\ignorespaces Band gap of SQSs of 48, 96 and 192-atoms of \ch {(CrFeMnNi)Si2}. The names are arbitrary, A in 48 does not equal A in 96 or A in 192. The values listed in $italic$ indicate a defect band gap. Structures listed in bold text represents the most stable supercell of the set of SQSs.\relax }}{53}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Band gap of five SQSs of \ch {(CrFeMnNi)Si2} in spin up, spin down and total. The band gaps are calculated from the Kohn-Sham eigenvalues of PBE simulations.\relax }}{40}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Band gap of SQS D of \ch {(CrFeMnNi)Si2} as a function of occupancy cutoff $occ$ in the eigenvalues.\relax }}{41}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces Band gaps of five supercells of \ch {(CrFeMnNi)Si2} in spin up, spin down and total, calculated with PBE, SCAN and HSE06 functionals.\relax }}{45}%
+\contentsline {table}{\numberline {7.5}{\ignorespaces Minimum gap between k-point in valence band and conduction band in SQS B of \ch {(CrFeMnNi)Si2} from PBE, SCAN and HSE06 simulations.\relax }}{47}%
+\contentsline {table}{\numberline {7.6}{\ignorespaces Band gap of five supercells of \ch {(CrFeMnNi)Si2} from HSE06 calculations using Gaussian smearing, with smearing width $\sigma $ equal to 0.05 eV and 0.005 eV, and the tetrahedron method (TBC). "-" means that the band gap are unchanged between occ = 0.5 and occ = 0.01.\relax }}{48}%
+\contentsline {table}{\numberline {7.7}{\ignorespaces Total energy (Toten), magnetic moment (Mag) and formation energy ($E_text{FPA}$) of 48, 96 and 192 atom SQSs of \ch {(CrFeMnNi)Si2}\relax }}{53}%
+\contentsline {table}{\numberline {7.8}{\ignorespaces Band gap of SQSs of 48, 96 and 192-atoms of \ch {(CrFeMnNi)Si2}. The names are arbitrary, A in 48 does not equal A in 96 or A in 192. The values listed in $italic$ relate to a defect band gap. Structures listed in bold text represents the most stable supercell of the set of SQSs.\relax }}{53}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Total energy, magnetic moment and formation energy of various compositions of the Cr:Fe:Mn:Ni:Si system.\relax }}{56}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Band gaps of various compositions of \ch {(CrFeMnNi)Si2}. Most stable SQS of a set is highlighted in bold text, defect/impurity band gaps are listed in $italic$. Some SQSs were excluded from the table due to unsuccessful calculations.\relax }}{57}%
-\contentsline {table}{\numberline {8.3}{\ignorespaces Total energy, magnetic moment and formation energy of various compositions of the \ch {(CrFeMnNi)Si2} alloy, where Cr, Mn, or Ni is replaced by Co/Ti.\relax }}{61}%
-\contentsline {table}{\numberline {8.4}{\ignorespaces Magnetic moment of the most stable SQS of different Co/Ti alloys based on the \ch {(CrFeMnNi)Si2} alloy.\relax }}{62}%
-\contentsline {table}{\numberline {8.5}{\ignorespaces The band gap in spin up/down and total of the most stable SQS of high-entropy silicides with cobalt/titanium. Calculated from eigenvalues with different occupancy cutoff $occ$. \relax }}{62}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Total energy (Toten), magnetic moment (Mag) and formation energy $E_\text {FPA}$ of various compositions of the Cr-Fe-Mn-Ni-Si system.\relax }}{56}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Band gaps of various compositions of the Cr-Fe-Mn-Ni-Si system. The most stable SQS of a set is highlighted in bold text, defect/impurity band gaps are listed in $italic$. Some SQSs were excluded from the table due to unsuccessful calculations. All band gaps calculated with PBE GGA.\relax }}{57}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Total energy (Toten), magnetic moment (Mag) and formation energy ($E_\text {FPA}$) of alloys based on combinations of Cr, Fe, Mn, Ni, Co, Ti and Si.\relax }}{61}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Magnetic moment of the most stable SQS of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si.\relax }}{62}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces The band gaps in spin up/down and total of the most stable SQS of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si. Calculated from eigenvalues with different occupancy cutoff $occ$ using PBE GGA.\relax }}{62}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

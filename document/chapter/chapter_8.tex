@@ -3,7 +3,7 @@
 
 Up until this point we have looked in detail at the high-entropy silicide \ch{(CrFeMnNi)Si2}. In this chapter we will broaden our search of compositions based on the $\beta$-\ch{FeSi2} structure. First, we will look at various compositions inside the quaternary phase diagram of Cr, Fe, Mn and Ni, then consider some compositions where chromium, manganese or nickel are replaced by cobalt or titanium. 
 
-\section{Exploring the quaternary phase diagram}
+\section{Exploring the quaternary phase diagram of Cr, Fe, Mn and Ni.}
 In this section, we aim to expand our search of this diagram by generating SQSs of the 48 atom model slightly away from equimolar distribution of 3d elements. The list of compositions are listed in table 8.1, with corresponding total energy, magnetic moment and formation energy in the familiar format. Ideally each composition would differ only by one element to provide a clear view of each direction in the phase diagram, but the TDEP implementation insisted in also reducing Nickel to stay consistent with the 48 atom supercell. 
 
 \begin{table}[H]
@@ -18,7 +18,7 @@ Composition           & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Toten\\ (e
 \ch{Cr3Fe5Mn5Ni3Si32} & - 6.680                             & 0.004                            & 0.094                               & 0.021                              & -0.315                                                  \\
 \ch{Cr3Fe3Mn3Ni7Si32} & - 6.392                             & 0.008                            & 0.016                               & 0.010                              & -0.285                                                  \\ \bottomrule
 \end{tabular}
-\caption{Total energy, magnetic moment and formation energy of various compositions of the Cr:Fe:Mn:Ni:Si system.}
+\caption{Total energy (Toten), magnetic moment (Mag) and formation energy $E_\text{FPA}$ of various compositions of the Cr-Fe-Mn-Ni-Si system.}
 \end{table}
 
 
@@ -53,7 +53,7 @@ Composition                                                 & SQS        & \begi
 \multicolumn{1}{c|}{}                                       & D          & 0                                                                           & 0                                                                           & 0                                                                                 \\
 \multicolumn{1}{c|}{}                                       & \textbf{E} & \textit{0.040}                                                               & 0                                                                           & 0                                                                                 \\ \bottomrule 
 \end{tabular}
-\caption{Band gaps of various compositions of \ch{(CrFeMnNi)Si2}. Most stable SQS of a set is highlighted in bold text, defect/impurity band gaps are listed in $italic$. Some SQSs were excluded from the table due to unsuccessful calculations.}
+\caption{Band gaps of various compositions of the Cr-Fe-Mn-Ni-Si system. The most stable SQS of a set is highlighted in bold text, defect/impurity band gaps are listed in $italic$. Some SQSs were excluded from the table due to unsuccessful calculations. All band gaps calculated with PBE GGA.}
 \end{table}
 
 From table 8.2 we observe that most compositions are half-metals like the equimolar system with a spin up polarization. Each composition shows large variation between configurations. We note $E_\text{G, max} ^\text{up} \approx 0.5$ eV and $E_\text{min} ^\text{up} \approx 0.1$ eV in both \ch{Cr3Fe3Mn7Ni3Si32} and \ch{Cr5Fe3Mn5Ni3Si32}, and further $E_\text{G, max} ^\text{up} \approx 0.4$ eV and $E_\text{min} ^\text{up} \approx 0.1$ eV in \ch{Cr3FeMn5Ni3Si32}. In all three of these compositions the proportion of manganese is increased relative to the equimolar system, and two out of the three compositions contain reduced amounts of chromium. Looking at the two compositions with the least indication of a band gap \ch{Cr5Fe5Mn3Ni3Si32} and \ch{Cr3Fe3Mn3Ni7}, these contain reduced amounts of manganese. Thus, based on the few compositions tested in this experiment we can state a relation of the band gap mainly to manganese, but also chromium.     
@@ -73,7 +73,7 @@ In figure 7.7 we observed that manganese distinctly occupied states in the spin 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.6\textwidth]{results/fesi2/permutations/ni7_PDOS.png}
-	\caption{Projected density of states [states/eV] of \ch{Cr3Fe3Mn3Ni7Si32} around $E_F$}
+	\caption{Projected density of states [states/eV] of \ch{Cr3Fe3Mn3Ni7Si32} around the Fermi energy.}
 \end{figure}
 
 An important factor of these results is that because each composition alters simultaneous elements, interpreting and relating the results to a particular alteration is challenging. For example, is the result of the \ch{Cr5Fe3Mn5Ni3Si32} permutation a consequence of less Fe or increments to both Cr and Mn? Furthermore, is the large band gap in spin up of \ch{Cr3Fe3Mn7Ni3Si32} a product of increasing manganese or reducing the other elements? From the comparatively large gaps in spin up of \ch{Cr3Fe3Mn7Ni3Si32} and \ch{Cr3Fe5Mn5Ni3Si32}, in combination with a larger presence of Cr states in spin up in the Cr rich permutations, we here ascribe the large band gaps to a reduction of chromium, more so than other effects. However, we observe from both \ch{Cr5Fe5Mn4Ni3Si32} and \ch{Cr3Fe3Mn3Ni7Si32} (figure 8.2) in addition to the manganese rich composition, that Mn plays a vital role on the band gap of these structures. It's clear that the \ch{Cr3Fe5Mn5Ni3Si32} alloy manages to strike a balance between 3d elements that results in a specific interplay and correspondingly very promising properties. It could have been instructive to look at for example the pair distribution functions and compare to the equimolar system, but from the factors discussed in section 7.2.4, we leave this to future work. 
@@ -81,9 +81,9 @@ An important factor of these results is that because each composition alters sim
 As stated previously, we have relied on the PBE GGA functional to determine the band gap, from its reliability and favorable computation cost. Nevertheless, we have conducted calculations with SCAN and HSE06 on some of the more promising structures. For instance, in SQS D of the \ch{Cr3Fe5Mn5Ni3Si32} alloy, we get lower values in both spin up and down with SCAN, specifically $E_\text{G, SCAN} ^\text{up}= 0.21$ eV and $E_\text{G, SCAN} ^\text{dw} = 0.08$ eV. On the other hand, we experience also in this case better cohesion between PBE and HSE06, with $E_\text{G, HSE06} ^\text{up} = 0.53$ eV and $E_\text{G, HSE06} ^\text{dw} = 0$ eV. In SQS B of the \ch{Cr3Fe3Mn7Ni3Si32} alloy, we found PBE band gaps equal to $E_\text{G, PBE} ^\text{up} = 0.47$ eV and $E_\text{G, PBE} ^\text{dw} = 0$ eV. Contrary, SCAN yields a small band gap in spin down of about 0.002 eV, and a 0 gap in spin up. Similarly, the HSE06 band gap of this structure is $E_\text{G, HSE06} ^\text{up} = 0.08$ eV and $E_\text{G, HSE06} ^\text{dw} = 0.11$ eV. Moreover, the HSE06 band gap of this structure is a defect band gap, thus we can get $E_\text{G, HSE06} ^\text{up, eigen}(0.01) = 0.18$ eV and $E_\text{G, HSE06} ^\text{dw, eigen}(0.01) = 0.16$ eV. 
 
 \newpage
-\section{High entropy silicides with cobalt/titanium}
+\section{High-entropy silicides with cobalt/titanium}
 
-The compositions in this section are deliberate combinations, intended to both investigate the role of individual elements in the \ch{(CrFeMnNi)Si2} system, and broaden our search of potential high-entropy silicides based on $\beta$-\ch{FeSi2}. In these alloys we replace Cr, Mn or Ni, with Co or Ti. Note that the alloys contain a total of 48 atoms as before, with equimolar distribution of 3d elements. In similar fashion to the preceding section, we begin by presenting in table 8.3, the mean and standard deviation of the total energy and magnetic moment of 5 distinct SQSs of each alloy
+The compositions in this section are deliberate combinations, intended to both investigate the role of individual elements in the \ch{(CrFeMnNi)Si2} system, and broaden our search of potential high-entropy silicides based on $\beta$-\ch{FeSi2}. In these alloys we replace Cr, Mn or Ni, with Co or Ti. Note that the alloys contains a total of 48 atoms as before, with equimolar distribution of 3d elements. In similar fashion to the preceding section, we begin by presenting in table 8.3, the mean and standard deviation of the total energy and magnetic moment of 5 distinct SQSs of each alloy
 
 \begin{table}[H]
 \centering
@@ -97,7 +97,7 @@ Composition           & \multicolumn{2}{c}{\begin{tabular}[c]{@{}c@{}}Toten \\ (
 \ch{(CrFeMnTi)Si2} & -6.699                              & 0.007                             & 0.114                               & 0.064                               & -0.199                                                  \\
 \ch{(CrFeMnCo)Si2} & -6.769                              & 0.003                             & 0.133                               & 0.033                               & -0.323                                                  \\ \bottomrule
 \end{tabular}
-\caption{Total energy, magnetic moment and formation energy of various compositions of the \ch{(CrFeMnNi)Si2} alloy, where Cr, Mn, or Ni is replaced by Co/Ti.}
+\caption{Total energy (Toten), magnetic moment (Mag) and formation energy ($E_\text{FPA}$) of alloys based on combinations of Cr, Fe, Mn, Ni, Co, Ti and Si.}
 \end{table}
 
 In terms of the formation energy, we observe that cobalt evidently yield the most stable alloys, with \ch{(CoFeMnNi)Si2} at the top and and \ch{(CrFeCoNi)Si2} at the bottom. On the other side, both \ch{(CrFeTiNi)Si2} and \ch{(CrFeMnTi)Si2} where we introduce titanium in place of manganese and nickel respectively, results in the overall least stable compositions. A precise physical interpretation of the stability between compositions is challenging from the shallow analysis in this project, but we note that the two most stable alloys consists of the most chemically similar elements, with respect to properties such as electronegativity and atomic size. Accordingly, the least stable alloys are comprised of the most chemically dissimilar elements. This is in good agreement with the discussion in section 2.2, regarding phase formation of high-entropy alloys. Additionally, in the compositions discussed in the previous section, we observed that the most stable composition was \ch{Cr3Fe5Mn5Ni3Si32}, where the Cr proportion was reduced. In conjunction with the results of the titanium alloys above, we may suspect that smaller elements are ill-suited in these alloys based on \ch{FeSi2}.   
@@ -115,7 +115,7 @@ In line with the other compositions studied in this project, the magnetization i
 \ch{(CrFeMnTi)Si2}           & 0.079                                                              \\
 \ch{(CrFeMnCo)Si2}           & 0.167                                                              \\ \bottomrule
 \end{tabular}
-\caption{Magnetic moment of the most stable SQS of different Co/Ti alloys based on the \ch{(CrFeMnNi)Si2} alloy.}
+\caption{Magnetic moment of the most stable SQS of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si.}
 \end{table}
 
 \begin{table}[H]
@@ -139,7 +139,7 @@ In line with the other compositions studied in this project, the magnetization i
 \multicolumn{1}{c|}{}                             & \multicolumn{1}{c|}{0.1}  & 0.607                                                                         & 0.022                                                                        & 0.022                                                                         \\
 \multicolumn{1}{c|}{}                             & \multicolumn{1}{c|}{0.01}                      & 0.607                                                                         & 0.025                                                                        & 0.025                                                                         \\ \bottomrule
 \end{tabular}
-\caption{The band gap in spin up/down and total of the most stable SQS of high-entropy silicides with cobalt/titanium. Calculated from eigenvalues with different occupancy cutoff $occ$. }
+\caption{The band gaps in spin up/down and total of the most stable SQS of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si. Calculated from eigenvalues with different occupancy cutoff $occ$ using PBE GGA.}
 \end{table}
 
 Thus, based on the most stable configurations of each composition, we can state that replacing either Cr or Mn (with Co), removes the magnetic moment of the alloy. Furthermore we find that the magnetic moment is reduced when Ni is substituted with Ti, and increased by Co. However, while substituting manganese with Co yields a nonmagnetic alloy, Ti for Mn only slightly reduces the magnetic moment. 
@@ -173,7 +173,7 @@ The PDOSs of the other four alloys is displayed in figure 8.4. In agreement with
 \includegraphics[width=\textwidth]{results/fesi2/crfemnti_PDOS.png}
 \caption{\ch{Cr4Fe4Mn4Ti4Si32}}
 \end{subfigure}
-\caption{Projected density of states [states/eV] of Co/Ti alloys based on the \ch{(CrFeMnNi)Si2} alloy.}
+\caption{Projected density of states [states/eV] of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si.}
 \end{figure}
 
 Above we have evaluated the band gap of the different alloys based on the most stable configuration. Considering all five configurations, we find that the band gap is more or less consistent between supercells of \ch{(CrFeCoNi)Si2},  \ch{(CrFeMnTiSi2)}, \ch{(CrFeTiNi)Si2} and \ch{(CrFeMnCo)Si2}. Contrary, in the \ch{CoFeMnNiSi2} alloy we find very narrow total band gaps in two lesser stable configurations (SQS A and E) of 0.03 eV and 0.006 eV respectively. The density of states of these structures are displayed in figure 8.5.
@@ -193,6 +193,8 @@ Above we have evaluated the band gap of the different alloys based on the most s
 \newpage
 \section{Negative systems}
 
-In the above sections we have observed that aside from the \ch{(CrFeMnNi)Si2} alloy, we have limited success in locating semiconducting alloys when moving away from the Cr:Fe:Mn:Ni:Si system. In addition to the alloys disused above, we have carried out similar simulations on other alloys not included in this report. In most of these alloys we experienced limited or no success with respect to the band gap. All five SQSs of a \ch{(ScVMnZn)Si2} alloy based on \ch{FeSi2} turned out metallic. In \ch{(VMnFeCu)Si2}, we found one supercell with a defect band gap of 0.007 eV. Furthermore, we tested various four-element compositions such as \ch{Cr6Co6Ni4Si32}, \ch{Cr6Fe6Co4Si32}, \ch{Cr6Fe6Ni4Si32} and \ch{Fe6Co6Ni4Si32}. Out of these four compositions and corresponding 20 total SQSs, noteworthy we find a defect band gap of 0.15 eV in the spin up direction in one supercell of \ch{Cr6Fe6Co4Si32}, and a spin up band gap of 0.27 eV in \ch{Cr6Fe6Ni4Si32}. In the latter, we observed smaller single spin band gaps in additional configurations as well. The other two compositions were metallic across all tested supercells.    
+In the above sections we have observed that aside from the \ch{(CrFeMnNi)Si2} alloy, we have had limited success in locating semiconducting alloys when moving away from the \ch{(CrFeMnNi)Si2} alloy, and particularly from the Cr-Fe-Mn-Ni-Si system. In addition to the alloys disused above, we have carried out similar simulations on other alloys not included in this report. In most of these alloys we experienced limited or no success with respect to the band gap. All five SQSs of a \ch{(ScVMnZn)Si2} alloy based on \ch{FeSi2} turned out metallic. In \ch{(VMnFeCu)Si2}, we found one supercell with a defect band gap of 0.007 eV. Furthermore, we tested various four-element compositions such as \ch{Cr6Co6Ni4Si32}, \ch{Cr6Fe6Co4Si32}, \ch{Cr6Fe6Ni4Si32} and \ch{Fe6Co6Ni4Si32}. Out of these four compositions and corresponding 20 total SQSs, noteworthy we found a defect band gap of 0.15 eV in the spin up direction in one supercell of \ch{Cr6Fe6Co4Si32}, and a spin up band gap of 0.27 eV in \ch{Cr6Fe6Ni4Si32}. In the latter, we observed smaller single spin band gaps in additional configurations as well. The other two compositions were metallic across all tested supercells.    
 
-Moreover, we attempted to replicate the Cr:Fe:Mn:Ni:Si system based on other silicides, such as hexagonal \ch{CrSi2}, trigonal \ch{Fe2Si}, and tetragonal and orthorombic \ch{Mn4Si7}. Unfortunately, these systems were generally much more difficult to simulate, and of the ones we managed showed very minimal indications of a band gap, compared to the \ch{FeSi2} based alloys. 
+In this project, we have based our alloys on the Semiconductor $\beta$-\ch{FeSi2}. However, we started this project by examining high-entropy silicides based on trigonal \ch{Fe2Si}. Here, we constructed similarly five distinct supercells of \ch{(CrFeCoNi)2Si} and \ch{(CrFeMnNi)2Si}. The supercells consisted of a total of 54 atoms, with 18 silicon atoms and the remaining 32 sites distributed equimolarly between 3d elements. Furthermore, we have performed simulations of the \ch{(CrFeMnNi)Si2} composition in 72-atom SQSs of hexagonal \ch{CrSi2}, and 44-atom SQSs of tetragonal and orthorombic \ch{Mn4Si7} as well. First and foremost, these systems were much more computationally demanding than the \ch{FeSi2} based alloys, thus not all five supercells of these systems succeeded. Of the structures successfully relaxed and electronically converged, we found predominantly metallic structures.
+
+  

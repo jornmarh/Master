@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {2.1}Fundamentals}{4}%
 \contentsline {section}{\numberline {2.2}Core effects and properties}{7}%
 \contentsline {chapter}{\numberline {3}Modeling of random alloys}{9}%
-\contentsline {section}{\numberline {3.1}The Special Quasi-random Structure method}{9}%
+\contentsline {section}{\numberline {3.1}The Special Quasi-random Structures method}{9}%
 \contentsline {subsection}{\numberline {3.1.1}Mathematical description}{10}%
 \contentsline {subsection}{\numberline {3.1.2}Applications to high-entropy alloys}{13}%
 \contentsline {chapter}{\numberline {4}Density Functional Theory}{16}%
@@ -24,9 +24,9 @@
 \contentsline {subsection}{\numberline {5.1.2}Generalized gradient approximation}{26}%
 \contentsline {subsection}{\numberline {5.1.3}Meta-GGA}{26}%
 \contentsline {subsection}{\numberline {5.1.4}Hybrid functionals}{27}%
-\contentsline {subsection}{\numberline {5.1.5}Outlook}{28}%
+\contentsline {subsection}{\numberline {5.1.5}Outlook}{27}%
 \contentsline {section}{\numberline {5.2}Plane waves and reciprocal space}{28}%
-\contentsline {section}{\numberline {5.3}Self-consistent field calculation}{31}%
+\contentsline {section}{\numberline {5.3}Self-consistent field calculation}{30}%
 \contentsline {chapter}{\numberline {6}Computational details}{32}%
 \contentsline {section}{\numberline {6.1}Settings and dependencies}{32}%
 \contentsline {section}{\numberline {6.2}Material}{33}%
@@ -36,13 +36,13 @@
 \contentsline {section}{\numberline {7.2}\ch {(CrFeMnNi)Si2}}{37}%
 \contentsline {subsection}{\numberline {7.2.1}The band gap}{39}%
 \contentsline {subsection}{\numberline {7.2.2}Local and projected density of states}{42}%
-\contentsline {subsection}{\numberline {7.2.3}The band gap with SCAN and HSE06}{45}%
+\contentsline {subsection}{\numberline {7.2.3}The band gap of \ch {(CrFeMnNi)Si2} with SCAN and HSE06}{45}%
 \contentsline {subsection}{\numberline {7.2.4}Pair distribution functions}{50}%
 \contentsline {subsection}{\numberline {7.2.5}Charge density}{51}%
 \contentsline {subsection}{\numberline {7.2.6}SQS size}{52}%
 \contentsline {chapter}{\numberline {8}Alternative compositions}{56}%
-\contentsline {section}{\numberline {8.1}Exploring the quaternary phase diagram}{56}%
-\contentsline {section}{\numberline {8.2}High entropy silicides with cobalt/titanium}{61}%
+\contentsline {section}{\numberline {8.1}Exploring the quaternary phase diagram of Cr, Fe, Mn and Ni.}{56}%
+\contentsline {section}{\numberline {8.2}High-entropy silicides with cobalt/titanium}{61}%
 \contentsline {section}{\numberline {8.3}Negative systems}{65}%
 \contentsline {part}{IV\hspace {1em}Conclusion and future work}{66}%
 \contentsline {chapter}{\numberline {9}Conclusion}{67}%

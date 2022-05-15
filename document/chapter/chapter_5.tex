@@ -2,13 +2,16 @@
 \label{sec:Practical DFT}
 
 \section{The Exchange-Correlation functional}
-From the topics covered in chapter 4 we know that the missing piece of the density functional theory is the complex exchange-correlation energy $E_{\text{xc}}[n]$, that must account for all the simplifications and approximations employed in Kohn-Sham DFT. In this section we will explore some of the most commonly used approximations to the exchange-correlation functional. Specifically we will look at 4 levels of complexity: first is the local density approximation (LDA), followed by the generalized gradient approximation (GGA). These two are the least complex and most computationally affordable methods. Next, are meta-GGA functionals and finally the very accurate, but equally demanding hybrid-functionals. In addition, we have methods such as DFT+U, the Minnesota functionals, double hybrids and more, but these are outside the scope of this project. The different methods mentioned above with increasing level of complexity and accuracy are often referred to as steps in Jacob's ladder, developed by Perdew \cite{jacob}. The ladder is illustrated below in figure 5.1. 
+From the topics covered in chapter 4 we know that the missing piece of the density functional theory is the complex exchange-correlation energy $E_{\text{xc}}[n]$, that must account for all the simplifications and approximations employed in Kohn-Sham DFT. In this section we will explore some of the most commonly used approximations to the exchange-correlation functional that we apply in this project. Specifically, we will look at 4 levels of complexity: first is the local density approximation (LDA), followed by the generalized gradient approximation (GGA). These two are the least complex and most computationally affordable approximations to $E_{\text{xc}}[n]$. Next, are the meta-GGA functionals and finally the very accurate, but equally demanding hybrid-functionals.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=.5\textwidth]{method/dft/jacob.jpeg}
-\caption{Jacob's ladder \cite{jacob}.}
+\caption{Jacob's ladder, developed by Perdew. Illustrating the relationship between accuracy and complexity of different exchange-correlation functionals. Figure from \cite{jacob}.}
 \end{figure}
+
+In addition, we have methods such as DFT+U, the Minnesota functionals, double hybrids and more, but these are outside the scope of this project. The different methods mentioned above of increasing complexity and accuracy, are often referred to as steps in Jacob's ladder. This illustration/analogy of the different functionals was developed by Perdew \cite{jacob}, the ladder is illustrated in figure 5.1.
+
 
 \subsection{Local density approximation}
 A homogeneous electron gas (HEG) is the sole case we know of where the exchange-correlation functional can be determined exactly, because in this simple case the electron density is constant. The LDA works by setting the exchange-correlation potential $V_\text{XC}(\boldsymbol{r})$ at every position equal to that of the homogeneous electron gas \cite{persson2020}, ie
@@ -36,15 +39,9 @@ Meta-GGA functionals are the final level of complexity of the non-empirical appr
 	\tau_\omega = \sum_i ^\text{occ}\frac{1}{2}|\nabla_{\psi_{i, \omega}}|^2.
 \end{equation}
 
-The importance of this quantity on the band gap is well described in \cite{xc_kineticEnergy}. In this project we employ a meta-GGA functional named \textit{Strongly Constrained Appropriately Normed}, or SCAN. This functional is the only known functional to satisfy all 17 known exact constraints of the XC functional \cite{scan}. The SCAN functional has found to provide superior accuracy of energies and geometries, especially in diversely bonded structures \cite{scan_divbond}, there is some indication of improved band gaps and density of states over GGA and LDA functionals \cite{scan_pbe}. However, it delivers overall less accurate band gaps compared to other meta-GGA functionals such as the \textit{modified Becke-Johnson} \cite{mbj}. Unfortunately, MBJ proved too difficult to converge for the particular materials in this project and we instead opt for SCAN. 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.3]{method/dft/metagga.jpeg}
-\caption{Calculated to experimental band gap measurements of Becke-Johnsoon, modified Becke-Johnson and SCAN functionals \cite{xc_benchmark}}
-\end{figure}
+The importance of this quantity on the band gap is well described in \cite{xc_kineticEnergy}. In this project we employ a meta-GGA functional named \textit{Strongly Constrained Appropriately Normed}, or SCAN. This functional is the only known functional to satisfy all 17 known exact constraints of the XC functional \cite{scan}. There is indication of that the SCAN functional provides superior accuracy of energies and geometries, especially in diversely bonded structures \cite{scan_divbond}, and of improved accuracy of band gaps and the electronic density of states compared GGA and LDA functionals \cite{scan_pbe}. On the other, it delivers overall less accurate band gaps compared to other meta-GGA functionals such as the \textit{modified Becke-Johnson} \cite{mbj}. Unfortunately, MBJ proved too difficult to converge for the particular materials in this project. 
 
 \subsection{Hybrid functionals}
-
 The most accurate functional we employ in this project belongs to the family of \textit{hybrid functionals}. This method consists of a hybrid between simpler functionals such as LDA, PBE or even meta-GGA and the exact treatment of exchange energy from Hartree-Fock, for example the global hybrid functional PBE0 \cite{pbe0} described as
 
 \begin{equation}
@@ -55,7 +52,7 @@ E_\text{xc} ^\text{PBE0} = (1-\alpha)E_x ^\text{PBE} + \alpha E_x ^{HF} + E_c ^{
  
 \subsection{Outlook} 
  
-In many cases LDA and GGA suffice, PBE especially is by most considered the conventional standard for DFT calculations, for its balance of accuracy, cost and wide range applicability. However, distinctly concerning the band gap of a solid, both of these fall short. This is because the band gap of DFT calculations is complicated by the fact that the derivative of the XC-functional is discontinuous with respect to the electron concentration \cite{xc_derivative}. Thus, the simpler functionals fail to recall the experimental values since the total band gap in DFT is the fundamental gap (valence - conduction) + this contribution. This is corrected in meta-GGA and hybrid functionals in the generalized Kohn-Sham scheme. Lastly, we would like to refer the reader to the work of Borlido et al. who in 2019 conducted an exhaustive investigation of the band gap of over 470 unique non-magnetic compounds in order to benchmark the relative performance of several of the available and widely used XC-functionals \cite{xc_benchmark}. In this large-scale project they found overwhelming confirmation that the HSE06 functional followed closely by Modified-Becke Johnson is the superior choice for accurate band-gap measures. Regarding the SCAN functional, in several cases this yielded outputs very comparable to MBJ, and produces much better formation energies than PBE, but tend to overestimate in magnetic alloys. On the other side, both LDA and PBE resulted in $50\%$ and $30\%$ under-estimation of the band gap or in several cases miss-classified compounds as metals. This was particularly evident in materials containing Ni and other 3d elements.  
+In many cases LDA and GGA suffice, PBE especially is by most considered the conventional standard for DFT calculations, for its balance of accuracy, cost and wide range applicability. However, distinctly concerning the band gap of solids, both of these fall short. This is because the band gap of DFT calculations is complicated by the fact that the derivative of the XC-functional is discontinuous with respect to the electron concentration \cite{xc_derivative}. Thus, the simpler functionals fails to recall the experimental values since the total band gap in DFT is the fundamental gap (valence - conduction) plus this contribution. This is corrected in meta-GGA and hybrid functionals in the generalized Kohn-Sham scheme. Lastly, we would like to refer the reader to the work of Borlido et al. who in 2019 conducted an exhaustive investigation of the band gap of over 470 unique compounds in order to benchmark the relative performance of several of the available and widely used XC-functionals \cite{xc_benchmark}. In this large-scale project they found overwhelming confirmation that the HSE06 functional followed closely by Modified-Becke Johnson are the superior functionals for accurate band-gap calculations. Regarding the SCAN functional, in several cases this yielded outputs very comparable to MBJ, and produces much better formation energies than PBE, but tends to overestimate in magnetic alloys. On the other side, both LDA and PBE resulted in $50\%$ and $30\%$ underestimation of the band gap or in several cases miss-classified compounds as metals. This was particularly evident in materials consisting of Ni and other 3d elements.  
  
 
 \section{Plane waves and reciprocal space}
@@ -106,13 +103,12 @@ A final consideration to how DFT is applied in practice is how the core electron
 
 \section{Self-consistent field calculation}
 
+Preceding this section, we have looked at the fundamental theory of DFT and its practical ability to model various materials. In Figure 5.2, we illustrate the self-consistent field calculation scheme for how DFT calculations are performed in practice. The initial problem posed by DFT is that all properties rely on the density, and are thus dependent on each other. For instance, the effective potential is dependent on the density, which again is dependent on the eigenfunctions, that rely on the effective potential again. The cleaver approach begins with an initial guess to the density from which we can solve the Kohn-Sham equations and obtain the corresponding eigenfunctions. Following is an iterative method where we apply the recently calculated eigenfunctions to determine a new density and repeat the procedure above. This is repeated until the total energy is converged, by an own-defined criterion. Equivalently, the optimal ionic positions can be found by a similar approach. This method is based on quasi-Newton algorithms to minimize the forces between ions. 
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{theory/selfConsistentDFT.jpeg}
-\caption{Self consistent iterations of a DFT calculation. Figure adopted from the lecture notes in FYS-MENA4111 \cite{persson2020}}
+\caption{Self consistent iterations of a DFT calculation. Figure adopted from the lecture notes of FYS-MENA4111 \cite{persson2020}.}
 \end{figure}
-
-Preluding this section, we have considered the fundamental theory of DFT and its practical ability to model various materials. Figure 5.2 illustrates the self-consistent field calculation scheme for how DFT calculations are performed in practice. The initial problem posed by DFT is that all properties rely on the density, and are thus dependent on each other. For instance, the effective potential is dependent on the density, which again is dependent on the eigenfunctions, that rely on the effective potential again. The cleaver approach begins with an initial guess to the density from which we can solve the Kohn-Sham equations and obtain the corresponding eigenfunctions. Following is an iterative method where we apply the recently calculated eigenfunctions to determine a new density and repeat the procedure above. This is repeated until the total energy is converged, by an own-defined criterion. Equivalently, the optimal ionic positions can be found by a similar approach. This method is based on quasi-Newton algorithms to minimize the forces between ions. 
-
 
 
