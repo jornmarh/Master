@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Density of states of FCC CoCrFeNi with MC/MD and SQS. figure adopted from \cite {hea2016_ch10}.\relax }}{14}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Pair distribution functions of HCP CoOsReRu, from MC/MD and SQS simulations. Figure adopted from \cite {hea2016_ch10}.\relax }}{14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Number of DFT studies per year from 1980 to 2021 \cite {dimensions}.\relax }}{16}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Number of DFT studies per year from 1980 to 2021. Gathered from \cite {dimensions}.\relax }}{16}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Jacob's ladder \cite {jacob}.\relax }}{25}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Calculated to experimental band gap measurements of Becke-Johnsoon, modified Becke-Johnson and SCAN functionals \cite {xc_benchmark}\relax }}{27}%
