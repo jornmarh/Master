@@ -47,7 +47,7 @@
 \contentsline {part}{IV\hspace {1em}Conclusion and future work}{66}%
 \contentsline {chapter}{\numberline {9}Conclusion}{67}%
 \contentsline {chapter}{\numberline {10}Future work}{69}%
-\contentsline {chapter}{\numberline {A}Figures}{70}%
+\contentsline {chapter}{\numberline {A}Appendix}{70}%
 \contentsline {section}{\numberline {A.1}Density of states}{70}%
 \contentsline {section}{\numberline {A.2}Projected density of states}{72}%
 \contentsline {section}{\numberline {A.3}Charge density}{73}%
