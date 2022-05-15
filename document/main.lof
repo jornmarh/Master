@@ -5,9 +5,9 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Formation of HEAs based on $\Omega = \frac {T_\text {m} \delta S_\text {mix}}{|\Delta H_\text {mix}|}.$, the atomic size effect $\delta $, and number of constituents $N$. Figures adopted from \cite {hea2016_ch2}\relax }}{6}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic illustration of lattice distortion in high-entropy alloys, compared to conventional materials. Figure from \cite {owen_jones_2018}.\relax }}{8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces PDFs of (a) 20 and (b) 250 atom SQS models of CrFeMnNi \cite {hea2016_ch10}\relax }}{13}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Density of states with SQS and MC/MD of FCC CoCrFeNi, figure from \cite {hea2016_ch10}\relax }}{14}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Probability distribution functions with SQS and MC/MD of HCP CoOsReRu \cite {hea2016_ch10}\relax }}{14}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Pair distribution functions of (a) 20-atom and (b) 250-atom SQSs of \ch {CoCrFeMnNi}. Figure adopted from \cite {hea2016_ch10}.\relax }}{13}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Density of states of FCC CoCrFeNi with MC/MD and SQS. figure adopted from \cite {hea2016_ch10}.\relax }}{14}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Pair distribution functions of HCP CoOsReRu, from MC/MD and SQS simulations. Figure adopted from \cite {hea2016_ch10}.\relax }}{14}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Number of DFT studies per year from 1980 to 2021 \cite {dimensions}.\relax }}{16}%
 \addvspace {10\p@ }

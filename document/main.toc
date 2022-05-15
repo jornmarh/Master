@@ -6,9 +6,9 @@
 \contentsline {section}{\numberline {2.1}Fundamentals}{4}%
 \contentsline {section}{\numberline {2.2}Core effects and properties}{7}%
 \contentsline {chapter}{\numberline {3}Modeling of random alloys}{9}%
-\contentsline {section}{\numberline {3.1}The Special Quasi-random Structure model}{9}%
+\contentsline {section}{\numberline {3.1}The Special Quasi-random Structure method}{9}%
 \contentsline {subsection}{\numberline {3.1.1}Mathematical description}{10}%
-\contentsline {subsection}{\numberline {3.1.2}Applications to high-entropy alloys}{12}%
+\contentsline {subsection}{\numberline {3.1.2}Applications to high-entropy alloys}{13}%
 \contentsline {chapter}{\numberline {4}Density Functional Theory}{16}%
 \contentsline {section}{\numberline {4.1}Review of Quantum Mechanics}{17}%
 \contentsline {subsection}{\numberline {4.1.1}The Shr\"{o}dinger equation}{17}%
