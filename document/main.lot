@@ -6,7 +6,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Convergence with respect to the total energy of the cutoff energy and density of k-points. The test was conducted for a 48-atom supercell of \ch {Cr4Fe4Mn4Ni4Si32}.\relax }}{33}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Convergence tests of the cutoff energy and density of k-points, with respect to the total energy. The tests were conducted for a 48-atom supercell of \ch {Cr4Fe4Mn4Ni4Si32}.\relax }}{33}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Total energy per atom (Toten), final magnetic moment per atom (Mag), band gap ($E_G$) and formation energy ($E_\text {FPA}$) of 5 SQS of \ch {(CrFeMnNi)Si2}.\relax }}{37}%
 \contentsline {table}{\numberline {7.2}{\ignorespaces Band gap of five SQSs of \ch {(CrFeMnNi)Si2} in spin up, spin down and total. The band gaps are calculated from the Kohn-Sham eigenvalues of PBE simulations.\relax }}{40}%
@@ -21,7 +21,7 @@
 \contentsline {table}{\numberline {8.2}{\ignorespaces Band gaps of various compositions of the Cr-Fe-Mn-Ni-Si system. The most stable SQS of a set is highlighted in bold text, defect/impurity band gaps are listed in $italic$. Some SQSs were excluded from the table due to unsuccessful calculations. All band gaps calculated with PBE GGA.\relax }}{57}%
 \contentsline {table}{\numberline {8.3}{\ignorespaces Total energy (Toten), magnetic moment (Mag) and formation energy ($E_\text {FPA}$) of alloys based on combinations of Cr, Fe, Mn, Ni, Co, Ti and Si.\relax }}{61}%
 \contentsline {table}{\numberline {8.4}{\ignorespaces Magnetic moment of the most stable SQS of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si.\relax }}{62}%
-\contentsline {table}{\numberline {8.5}{\ignorespaces The band gaps in spin up/down and total of the most stable SQS of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si. Calculated from eigenvalues with different occupancy cutoff $occ$ using PBE GGA.\relax }}{62}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces The band gaps in spin up/down and total of the most stable SQS of alloys comprised of combinations of Cr, Fe, Mn, Ni, Co, Ti and Si. Calculated from eigenvalues with different occupancy cutoff $occ$ using PBE GGA.\relax }}{63}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

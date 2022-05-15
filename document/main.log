@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  15 MAY 2022 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  15 MAY 2022 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2067,59 +2067,60 @@ File: figures/results/fesi2/composistions/crfemnco_PDOS.png Graphic file (type
 png)
 <use figures/results/fesi2/composistions/crfemnco_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/crfemnco_PDOS.png 
- used on input line 153.
+ used on input line 151.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
-<figures/results/fesi2/crfeconi_PDOS.png, id=326, 867.24pt x 433.62pt>
+
+[63 <./figures/results/fesi2/composistions/crfemnco_PDOS.png>]
+<figures/results/fesi2/crfeconi_PDOS.png, id=330, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfeconi_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfeconi_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfeconi_PDOS.png  used on input
- line 161.
+ line 159.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/cofemnni_PDOS.png, id=327, 867.24pt x 433.62pt>
+<figures/results/fesi2/cofemnni_PDOS.png, id=331, 867.24pt x 433.62pt>
 File: figures/results/fesi2/cofemnni_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/cofemnni_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/cofemnni_PDOS.png  used on input
- line 165.
+ line 163.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/crfetini_PDOS.png, id=328, 867.24pt x 433.62pt>
+<figures/results/fesi2/crfetini_PDOS.png, id=332, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfetini_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfetini_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfetini_PDOS.png  used on input
- line 169.
+ line 167.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/crfemnti_PDOS.png, id=329, 867.24pt x 433.62pt>
+<figures/results/fesi2/crfemnti_PDOS.png, id=333, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfemnti_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfemnti_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfemnti_PDOS.png  used on input
- line 173.
+ line 171.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 160--176
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 158--174
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 160--176
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 158--174
 []$ $[]$ 
  []
 
-[63 <./figures/results/fesi2/composistions/crfemnco_PDOS.png>]
 <figures/results/fesi2/composistions/cofemnni_E_DOS.png, id=334, 867.24pt x 578
 .16pt>
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 183.
+  used on input line 181.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 187.
+  used on input line 185.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 182--190
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 180--188
 []$[]$ $[]$ 
  []
 
@@ -2265,7 +2266,7 @@ ts/type1/public/cm-super/sfss1095.pfb></usr/share/texlive/texmf-dist/fonts/type
 no/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (92 pages, 6780610 bytes).
+Output written on main.pdf (92 pages, 6780983 bytes).
 PDF statistics:
  459 PDF objects out of 1000 (max. 8388607)
  253 compressed objects within 3 object streams
