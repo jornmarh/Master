@@ -889,8 +889,8 @@
       \strng{authorbibnamehash}{e87b11274a21972d956fa69ac91f8218}
       \strng{authornamehash}{e87b11274a21972d956fa69ac91f8218}
       \strng{authorfullhash}{12f8cdcd7f1e4e07a9d8201db3b57386}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -1517,8 +1517,8 @@
       \strng{authorbibnamehash}{24ad616325deb0e986f78305b41d3e83}
       \strng{authornamehash}{24ad616325deb0e986f78305b41d3e83}
       \strng{authorfullhash}{aa8cc9b39b77b612ef3838d4913571f8}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We extend the small set of ordered structures (SSOS) method to calculate several typical materials properties of high entropy alloys (HEAs) with short range order (SRO). Using both equimolar and non-equimolar quinary CoCuFeNiPd HEAs with SRO as an example, we calculate ground state energy, lattice constant, mass density and elastic moduli, and compare them with those obtained from the special quasi-random structure (SQS) method. The calculated properties are in good agreement with those obtained by SQS. Importantly, the computational cost of the SSOS method for achieving the same accuracy is only a small fraction of the computational cost of the SQS method. We further show that the application of machine learning methods can further reduce the computational cost of the SSOS method and maintain the same level of accuracy, making it especially suitable for high-throughput calculations of HEAs with SRO.}
@@ -1861,8 +1861,8 @@
       \strng{authorbibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
       \strng{authornamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
       \strng{authorfullhash}{ed55823cb34d779be73816840a8d727c}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Chemical Physics}
@@ -2110,8 +2110,8 @@
       \strng{authorbibnamehash}{6548fe4e129d7e99ae2a904b504c9df7}
       \strng{authornamehash}{6548fe4e129d7e99ae2a904b504c9df7}
       \strng{authorfullhash}{6548fe4e129d7e99ae2a904b504c9df7}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -2196,8 +2196,8 @@
       \strng{authorbibnamehash}{baa5532fa8b464886002373b1a6f9788}
       \strng{authornamehash}{baa5532fa8b464886002373b1a6f9788}
       \strng{authorfullhash}{b57e14a6a1f222be1cc9089363180a44}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature chemistry}
@@ -2240,8 +2240,8 @@
       \strng{authorbibnamehash}{dc215dbbe2568ca8c9022510989d74e6}
       \strng{authornamehash}{dc215dbbe2568ca8c9022510989d74e6}
       \strng{authorfullhash}{9acc1ab5dc0f97a362ae38029f347f0f}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{npj Computational Materials}
@@ -2551,8 +2551,8 @@
       \strng{authorbibnamehash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
       \strng{authornamehash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
       \strng{authorfullhash}{7aa8a53e4e85e3e3b0f9041fb6f58cd9}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -2822,8 +2822,8 @@
       \strng{authorbibnamehash}{125f8f5f407c81d886c9ca06924641da}
       \strng{authornamehash}{125f8f5f407c81d886c9ca06924641da}
       \strng{authorfullhash}{b8169ff3ba6c5d599218b6b5891c2503}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -2908,8 +2908,8 @@
       \strng{authorbibnamehash}{d8629080c79402ef687b0ad7f85bd02f}
       \strng{authornamehash}{d8629080c79402ef687b0ad7f85bd02f}
       \strng{authorfullhash}{90653775f24be979587ad4a14bffadb2}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2166532X}
@@ -2965,8 +2965,8 @@
       \strng{authornamehash}{d43b3fa278380a783360e29c1a40305d}
       \strng{authorfullhash}{ebf58dd1e600d63ab9f9d1b05ce5e2fd}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present the VASPKIT, a command-line program that aims at providing a robust and user-friendly interface to perform high-throughput analysis of a variety of material properties from the raw data produced by the VASP code. It consists of mainly the pre- and post-processing modules. The former module is designed to prepare and manipulate input files such as the necessary input files generation, symmetry analysis, supercell transformation, k-path generation for a given crystal structure. The latter module is designed to extract and analyze the raw data about elastic mechanics, electronic structure, charge density, electrostatic potential, linear optical coefficients, wave function plots in real space, etc. This program can run conveniently in either interactive user interface or command line mode. The command-line options allow the user to perform high-throughput calculations together with bash scripts. This article gives an overview of the program structure and presents illustrative examples for some of its usages. The program can run on Linux, macOS, and Windows platforms. The executable versions of VASPKIT and the related examples and tutorials are available on its official website vaspkit.com. Program summary Program title: VASPKIT CPC Library link to program files: https://doi.org/10.17632/v3bvcypg9v.1 Licensing provisions: GPLv3 Programming language: Fortran, Python Nature of problem: This program has the purpose of providing a powerful and user-friendly interface to perform high-throughput calculations together with the widely-used VASP code. Solution method: VASPKIT can extract, calculate and even plot the mechanical, electronic, optical and magnetic properties from density functional calculations together with bash and python scripts. It can run in either interactive user interface or command line mode.}
@@ -3279,8 +3279,8 @@
       \range{pages}{63}
     \endentry
     \entry{ismear}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{ISMEAR - Vaspwiki}
       \verb{urlraw}
@@ -3308,8 +3308,8 @@
       \strng{authorbibnamehash}{7d4bc07f5700f29a8a9726b76f928e0a}
       \strng{authornamehash}{7d4bc07f5700f29a8a9726b76f928e0a}
       \strng{authorfullhash}{7d4bc07f5700f29a8a9726b76f928e0a}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{NIST Inorganic Crystal Structure Database (ICSD)}
@@ -3340,8 +3340,8 @@
       \strng{authorbibnamehash}{58e26020d4d795805474100da68dbc51}
       \strng{authornamehash}{58e26020d4d795805474100da68dbc51}
       \strng{authorfullhash}{58e26020d4d795805474100da68dbc51}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{Spintronics is one of the most promising next generation information technology, which uses the spins of electrons as information carriers and possesses potential advantages of speeding up data processing, high circuit integration density, and low energy consumption. However, spintronics faces a number of challenges, including spin generation and injection, long distance spin transport, and manipulation and detection of spin orientation. In solving these issues, new concepts and spintronics materials were proposed one after another, such as half metals, spin gapless semiconductors, and bipolar magnetic semiconductors. Topological insulators can also be viewed as a special class of spintronics materials, with their surface states used for pure spin generation and transportation. In designing these spintronics materials, first-principles calculations play a very important role. This article attempts to give a brief review of the basic principles and theoretical design of these materials. Meanwhile, we also give some attentions to the antiferromagnetic spintronics, which is mainly based on antiferromagnets and has aroused much interest in recent years.}}
@@ -3368,6 +3368,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{\cite {Sholl2009}}
 \endrefsection
 \endinput
 

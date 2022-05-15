@@ -2,7 +2,7 @@
 \label{sec:Practical DFT}
 
 \section{The Exchange-Correlation functional}
-From the topics covered in chapter 4 we know that the missing piece of the density functional theory is the complex exchange-correlation energy $E_{\text{xc}}[n]$, that must account for all the simplifications and approximations employed in Kohn-Sham DFT. In this section we will explore some of the most commonly used approximations to the exchange-correlation functional. Specifically we will look at 4 levels of complexity: first is the local density approximation (LDA), followed by the generalized gradient approximation (GGA). These two are the least complex and most computationally affordable methods. Next are meta-GGA and finally the very accurate, but equally demanding hybrid-functionals. In addition, we have methods such as DFT+U, the Minnesota functionals, double hybrids and more, but these are outside the scope of this project. The different methods mentioned above with increasing level of complexity and accuracy are often referred to as steps in Jacob's ladder, developed by Perdew \cite{jacob}. The ladder is illustrated below in figure 5.1. 
+From the topics covered in chapter 4 we know that the missing piece of the density functional theory is the complex exchange-correlation energy $E_{\text{xc}}[n]$, that must account for all the simplifications and approximations employed in Kohn-Sham DFT. In this section we will explore some of the most commonly used approximations to the exchange-correlation functional. Specifically we will look at 4 levels of complexity: first is the local density approximation (LDA), followed by the generalized gradient approximation (GGA). These two are the least complex and most computationally affordable methods. Next, are meta-GGA functionals and finally the very accurate, but equally demanding hybrid-functionals. In addition, we have methods such as DFT+U, the Minnesota functionals, double hybrids and more, but these are outside the scope of this project. The different methods mentioned above with increasing level of complexity and accuracy are often referred to as steps in Jacob's ladder, developed by Perdew \cite{jacob}. The ladder is illustrated below in figure 5.1. 
 
 \begin{figure}[H]
 \centering
@@ -13,13 +13,13 @@ From the topics covered in chapter 4 we know that the missing piece of the densi
    
 
 \subsection{Local density approximation}
-A homogeneous electron gas (HEG) is the sole case we know of where the exchange-correlation functional can be determined exactly, because in this simple case the electron density is constant. The LDA works by setting the exchange-correlation potential $V_\text{XC}(\boldsymbol{r})$ at every position equal to that of the homogeneous electron gas, ie
+A homogeneous electron gas (HEG) is the sole case we know of where the exchange-correlation functional can be determined exactly, because in this simple case the electron density is constant. The LDA works by setting the exchange-correlation potential $V_\text{XC}(\boldsymbol{r})$ at every position equal to that of the homogeneous electron gas \cite{persson2020}, ie
 
 \begin{equation}
 V_\text{XC}(\boldsymbol{r}) = V_\text{XC} ^\text{HEG}[n(\boldsymbol{r})] .
 \end{equation} 
 
-Obviously the LDA is of limited use given that a large part of what makes materials interesting is the variation in the electronic density. In the case of limitations LDA is for example known to overestimate binding energies and  underestimate the band gap in semiconductors and insulators. On the other hand, LDA provides generally adequate results in bulk materials with slowly varying charge density, for example equilibrium distances and vibrational frequencies. The biggest upside of LDA however comes from the low computational cost, and was one of the first big success-stories of DFT. 
+Obviously the LDA is of limited use given that a large part of what makes materials interesting is the variation in the electronic density \cite{\cite{Sholl2009}}. For example, the LDA is well-known to both overestimate binding energies and underestimate the band gap of semiconductors and insulators. On the other hand, LDA generally provides adequate results of properties such as equilibrium distances and vibrational frequencies in bulk materials with slowly varying charge density. The biggest upside of LDA however, comes from the low computational cost, and was one of the first big success-stories with respect to practical applications of DFT. 
 
 
 \subsection{Generalized gradient approximation}

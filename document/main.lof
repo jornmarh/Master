@@ -2,8 +2,8 @@
 \babel@toc {UKenglish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Formation of HEA based on $\delta $ and $N$. Figures adopted from \cite {hea2016_ch2}\relax }}{6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic illustration of lattice distortion in high-entropy alloys. Figure from \cite {owen_jones_2018}\relax }}{8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Formation of HEAs based on $\Omega = \frac {T_\text {m} \delta S_\text {mix}}{|\Delta H_\text {mix}|}.$, the atomic size effect $\delta $, and number of constituents $N$. Figures adopted from \cite {hea2016_ch2}\relax }}{6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic illustration of lattice distortion in high-entropy alloys, compared to conventional materials. Figure from \cite {owen_jones_2018}.\relax }}{8}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces PDFs of (a) 20 and (b) 250 atom SQS models of CrFeMnNi \cite {hea2016_ch10}\relax }}{13}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Density of states with SQS and MC/MD of FCC CoCrFeNi, figure from \cite {hea2016_ch10}\relax }}{14}%
