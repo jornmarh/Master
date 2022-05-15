@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  15 MAY 2022 19:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.7)  15 MAY 2022 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1483,15 +1483,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                \cite {Sholl2009}
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 51.
 Package biblatex Info: Reference segment=0 on input line 51.
  ABD: EveryShipout initializing macros
@@ -1616,6 +1608,12 @@ m MC/MD
 Overfull \hbox (3.54463pt too wide) in paragraph at lines 35--35
  [][] []\T1/ppl/m/n/10.95 Projected dens-ity of states [states/eV] of (a) Cr[]F
 e[]Mn[]Ni[]Si[] 
+ []
+
+
+Overfull \hbox (3.7518pt too wide) in paragraph at lines 37--37
+ [][] []\T1/ppl/m/n/10.95 Density of states [states/eV] of (a) SQS B of Cr[]Fe[
+]Mn[]Ni[]Si[], 
  []
 
 )
@@ -2060,67 +2058,85 @@ Package pdftex.def Info: figures/results/fesi2/permutations/ni7_PDOS.png  used
 on input line 75.
 (pdftex.def)             Requested size: 216.0022pt x 134.99864pt.
 
-[59 <./figures/results/fesi2/permutations/ni7_PDOS.png>] [60] [61] [62]
-<figures/results/fesi2/composistions/crfemnco_PDOS.png, id=325, 867.24pt x 433.
+[59 <./figures/results/fesi2/permutations/ni7_PDOS.png>]
+<figures/results/fesi2/hse06/DOS_hse06_mn7.png, id=315, 867.24pt x 578.16pt>
+File: figures/results/fesi2/hse06/DOS_hse06_mn7.png Graphic file (type png)
+<use figures/results/fesi2/hse06/DOS_hse06_mn7.png>
+Package pdftex.def Info: figures/results/fesi2/hse06/DOS_hse06_mn7.png  used on
+ input line 85.
+(pdftex.def)             Requested size: 180.0pt x 119.99684pt.
+<figures/results/fesi2/hse06/DOS_hse06_cr3.png, id=316, 867.24pt x 578.16pt>
+File: figures/results/fesi2/hse06/DOS_hse06_cr3.png Graphic file (type png)
+<use figures/results/fesi2/hse06/DOS_hse06_cr3.png>
+Package pdftex.def Info: figures/results/fesi2/hse06/DOS_hse06_cr3.png  used on
+ input line 89.
+(pdftex.def)             Requested size: 180.0pt x 119.99684pt.
+
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 84--92
+[]$[]$ $[]$ 
+ []
+
+[60 <./figures/results/fesi2/hse06/DOS_hse06_mn7.png> <./figures/results/fesi2/
+hse06/DOS_hse06_cr3.png>] [61] [62]
+<figures/results/fesi2/composistions/crfemnco_PDOS.png, id=329, 867.24pt x 433.
 62pt>
 File: figures/results/fesi2/composistions/crfemnco_PDOS.png Graphic file (type 
 png)
 <use figures/results/fesi2/composistions/crfemnco_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/crfemnco_PDOS.png 
- used on input line 151.
+ used on input line 163.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
-
-[63 <./figures/results/fesi2/composistions/crfemnco_PDOS.png>]
-<figures/results/fesi2/crfeconi_PDOS.png, id=330, 867.24pt x 433.62pt>
+ [63 <./figures/results/fesi2/composistions/crfemnco_PDOS.png>]
+<figures/results/fesi2/crfeconi_PDOS.png, id=334, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfeconi_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfeconi_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfeconi_PDOS.png  used on input
- line 159.
+ line 171.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/cofemnni_PDOS.png, id=331, 867.24pt x 433.62pt>
+<figures/results/fesi2/cofemnni_PDOS.png, id=335, 867.24pt x 433.62pt>
 File: figures/results/fesi2/cofemnni_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/cofemnni_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/cofemnni_PDOS.png  used on input
- line 163.
+ line 175.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/crfetini_PDOS.png, id=332, 867.24pt x 433.62pt>
+<figures/results/fesi2/crfetini_PDOS.png, id=336, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfetini_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfetini_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfetini_PDOS.png  used on input
- line 167.
+ line 179.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
-<figures/results/fesi2/crfemnti_PDOS.png, id=333, 867.24pt x 433.62pt>
+<figures/results/fesi2/crfemnti_PDOS.png, id=337, 867.24pt x 433.62pt>
 File: figures/results/fesi2/crfemnti_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/crfemnti_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/crfemnti_PDOS.png  used on input
- line 171.
+ line 183.
 (pdftex.def)             Requested size: 180.0pt x 89.99762pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 158--174
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 170--186
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 158--174
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 170--186
 []$ $[]$ 
  []
 
-<figures/results/fesi2/composistions/cofemnni_E_DOS.png, id=334, 867.24pt x 578
+<figures/results/fesi2/composistions/cofemnni_E_DOS.png, id=338, 867.24pt x 578
 .16pt>
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 181.
+  used on input line 193.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 File: figures/results/fesi2/composistions/cofemnni_E_DOS.png Graphic file (type
  png)
 <use figures/results/fesi2/composistions/cofemnni_E_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/composistions/cofemnni_E_DOS.png
-  used on input line 185.
+  used on input line 197.
 (pdftex.def)             Requested size: 180.0pt x 119.99684pt.
 
-Overfull \hbox (2.0805pt too wide) in paragraph at lines 180--188
+Overfull \hbox (2.0805pt too wide) in paragraph at lines 192--200
 []$[]$ $[]$ 
  []
 
@@ -2143,13 +2159,13 @@ Chapter 10.
 
  (./chapter/chapter_11.tex
 Appendix A.
-<figures/results/fesi2/E_TDOS.png, id=359, 722.7pt x 433.62pt>
+<figures/results/fesi2/E_TDOS.png, id=363, 722.7pt x 433.62pt>
 File: figures/results/fesi2/E_TDOS.png Graphic file (type png)
 <use figures/results/fesi2/E_TDOS.png>
 Package pdftex.def Info: figures/results/fesi2/E_TDOS.png  used on input line 8
 .
 (pdftex.def)             Requested size: 360.0pt x 216.00224pt.
-<figures/results/fesi2/C_DOS.png, id=360, 722.7pt x 361.35pt>
+<figures/results/fesi2/C_DOS.png, id=364, 722.7pt x 361.35pt>
 File: figures/results/fesi2/C_DOS.png Graphic file (type png)
 <use figures/results/fesi2/C_DOS.png>
 Package pdftex.def Info: figures/results/fesi2/C_DOS.png  used on input line 14
@@ -2159,7 +2175,7 @@ Package pdftex.def Info: figures/results/fesi2/C_DOS.png  used on input line 14
 
 
  <./figures/results/fesi2/E_TDOS.png>]
-<figures/results/fesi2/permutations/mnni3_DOS_E.png, id=365, 867.24pt x 578.16p
+<figures/results/fesi2/permutations/mnni3_DOS_E.png, id=369, 867.24pt x 578.16p
 t>
 File: figures/results/fesi2/permutations/mnni3_DOS_E.png Graphic file (type png
 )
@@ -2167,7 +2183,7 @@ File: figures/results/fesi2/permutations/mnni3_DOS_E.png Graphic file (type png
 Package pdftex.def Info: figures/results/fesi2/permutations/mnni3_DOS_E.png  us
 ed on input line 19.
 (pdftex.def)             Requested size: 360.0pt x 240.0025pt.
-<figures/results/fesi2/A_PDOS.png, id=366, 867.24pt x 433.62pt>
+<figures/results/fesi2/A_PDOS.png, id=370, 867.24pt x 433.62pt>
 File: figures/results/fesi2/A_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/A_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/A_PDOS.png  used on input line 2
@@ -2175,20 +2191,20 @@ Package pdftex.def Info: figures/results/fesi2/A_PDOS.png  used on input line 2
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
  [71 <./figures/results/fesi2/C_DOS.png> <./figures/results/fesi2/permutations/
 mnni3_DOS_E.png>]
-<figures/results/fesi2/B_PDOS.png, id=372, 867.24pt x 433.62pt>
+<figures/results/fesi2/B_PDOS.png, id=376, 867.24pt x 433.62pt>
 File: figures/results/fesi2/B_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/B_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/B_PDOS.png  used on input line 3
 1.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
-<figures/results/fesi2/E_PDOS.png, id=373, 867.24pt x 433.62pt>
+<figures/results/fesi2/E_PDOS.png, id=377, 867.24pt x 433.62pt>
 File: figures/results/fesi2/E_PDOS.png Graphic file (type png)
 <use figures/results/fesi2/E_PDOS.png>
 Package pdftex.def Info: figures/results/fesi2/E_PDOS.png  used on input line 3
 6.
 (pdftex.def)             Requested size: 360.0pt x 180.00188pt.
  [72 <./figures/results/fesi2/A_PDOS.png> <./figures/results/fesi2/B_PDOS.png>]
-<figures/results/fesi2/C_CHGCAR.jpg, id=379, 676.5275pt x 417.56pt>
+<figures/results/fesi2/C_CHGCAR.jpg, id=383, 676.5275pt x 417.56pt>
 File: figures/results/fesi2/C_CHGCAR.jpg Graphic file (type jpg)
 <use figures/results/fesi2/C_CHGCAR.jpg>
 Package pdftex.def Info: figures/results/fesi2/C_CHGCAR.jpg  used on input line
@@ -2245,10 +2261,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31609 strings out of 481239
- 655907 string characters out of 5920378
- 1252233 words of memory out of 5000000
- 46157 multiletter control sequences out of 15000+600000
+ 31622 strings out of 481239
+ 656451 string characters out of 5920378
+ 1252197 words of memory out of 5000000
+ 46166 multiletter control sequences out of 15000+600000
  644981 words of font info for 267 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,27n,69p,3668b,2781s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2266,10 +2282,10 @@ ts/type1/public/cm-super/sfss1095.pfb></usr/share/texlive/texmf-dist/fonts/type
 no/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (92 pages, 6780983 bytes).
+Output written on main.pdf (92 pages, 6994401 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
+ 463 PDF objects out of 1000 (max. 8388607)
  253 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
